@@ -2,7 +2,7 @@ name: Radar Mercado Publico
 
 on:
   schedule:
-    - cron: "30 11 * * 1-5"
+    - cron: "0 9 * * 1-5"
   workflow_dispatch:
 
 permissions:
@@ -19,6 +19,13 @@ jobs:
           python-version: "3.12"
 
       - run: pip install -r requirements.txt
+
+      - name: Recuperar cache de fichas
+        uses: actions/cache@v4
+        with:
+          path: data/cache
+          key: fichas-${{ github.run_id }}
+          restore-keys: fichas-
 
       - name: Ejecutar radar
         env:
