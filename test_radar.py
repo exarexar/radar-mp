@@ -66,41 +66,147 @@ for nombre, desc, cod, item, esperado_ok in pruebas:
 assert fallos == 0, f"{fallos} casos de clasificación fallaron"
 print("OK  clasificación desarrollo vs. ruido (8 casos)")
 
-# ---------- 4. informe HTML de punta a punta ----------
+# ---------- 3b. regresión con datos REALES del 19-08-2026 ----------
+# Estas 12 son exactamente lo que el bot reportó en producción ese día. Ocho eran
+# basura que entró porque «ui» calzaba dentro de «adquisición». Sirven de ancla:
+# si una futura edición de los pesos las deja pasar de nuevo, esta prueba falla.
+REALES = [
+    # (título, código ONU del ítem, ¿es desarrollo de software?)
+    ("CONTRATACIÓN DE SISTEMA INFORMÁTICO PARA LA EMISIÓN DE LICENCIAS MÉDICAS", "81111500", True),
+    ("CONTRATACION PLATAFORMA DE GESTION DIGITAL PARA ESTABLECIMIENTOS EDUCACIONALES", "81111500", True),
+    ("SISTEMA DE GESTIÓN DOCUMENTAL Y COMPLEMENTOS", "81111500", True),
+    ("ADQ. SOPORTE Y MANTENCION DE SOFTWARE XRY LABOCAR", "81112200", True),
+    ("ADQUISICION DE LICENCIA VMWARE POR 12 MESES", "43233200", False),
+    ("“ADQUISICIÓN DEL SERVICIO DE COFFEE BREAK SALUDABLE PARA ACTIVIDADES COMUNITARIAS", "90101600", False),
+    ("Renovació de Licencia y almacenamiento en la nube sistema U+ ETA", "43233200", False),
+    ("ADQ. INST. Y MANT. DE EQUIPOS AIRE ACONDICIONADO", "40101700", False),
+    ("SUSCRIPCIÓN DE LICENCIAS DE SOFTWARE DE DISEÑO ASISTIDO POR COMPUTADOR CAD", "43232100", False),
+    ("PTR N°431. COMPRA DE SOFTWARE DE SOPORTE REMOTO TEAMVIEWER CORPORATE.", "43233200", False),
+    ("Adquisición Medicamentos Salud Sexual S.S.Coquimbo", "51101500", False),
+    ("RENOV. DE LICENCIAS SOFTWARE PARA LA OF. REVISTA", "43233200", False),
+]
+fallos_reales, falsos_pos, falsos_neg = 0, 0, 0
+for titulo, cod, es_dev in REALES:
+    pts, _ = radar.puntuar(lic(titulo, "", cod), amplio=False)
+    pasa = pts >= radar.UMBRAL
+    ok = pasa == es_dev
+    if not ok:
+        fallos_reales += 1
+        falsos_pos += pasa
+        falsos_neg += es_dev
+    print(f"    {'✓' if ok else '✗ FALLA'} [{pts:>4}] {'DEV ' if es_dev else 'ruido'} {titulo[:56]}")
+assert fallos_reales == 0, (f"{fallos_reales} fallos con datos reales "
+                            f"({falsos_pos} falsos positivos, {falsos_neg} perdidas)")
+print(f"OK  regresión con los 12 resultados reales del 19-08-2026 "
+      f"(4 desarrollo, 8 ruido, 0 errores)")
+
+# El bug original, aislado: «ui» dentro de «adquisición» no puede puntuar.
+assert not radar.contiene(radar.normaliza("Adquisición de camionetas"), "ui"), \
+    "«ui» no puede calzar dentro de «adquisición»"
+assert radar.contiene(radar.normaliza("Servicios de diseño UX y UI"), "ui"), \
+    "«ui» sí debe calzar cuando es palabra suelta"
+assert not radar.contiene(radar.normaliza("reprogramar la entrega"), "programacion")
+assert radar.contiene(radar.normaliza("servicio de PROGRAMACIÓN web"), "programacion")
+print("OK  las palabras clave calzan como palabra completa, no como trozo")
+
+# ---------- 4. clasificación: nuevas / por cerrar ----------
+HORIZONTE, RECORDAR, MINIMO = 20, 2, 0
+
+def clasifica(restantes, ya_visto):
+    """Réplica de la decisión que toma main() para cada licitación."""
+    if not ya_visto and restantes >= MINIMO:
+        return "nuevas"
+    if ya_visto and restantes <= RECORDAR:
+        return "por_cerrar"
+    return "descartada"
+
+casos_cls = [
+    (20, False, "nuevas",     "aparece con el máximo de anticipación"),
+    (14, False, "nuevas",     "licitación típica, se detecta apenas se publica"),
+    (6,  False, "nuevas",     "publicada con poco aviso, igual se reporta"),
+    (0,  False, "nuevas",     "cierra hoy y recién aparece: hay que avisar igual"),
+    (14, True,  "descartada", "ya reportada y con plazo: no repetir"),
+    (6,  True,  "descartada", "ya reportada, sigue con plazo"),
+    (3,  True,  "descartada", "ya reportada, todavía fuera del recordatorio"),
+    (2,  True,  "por_cerrar", "recordatorio: entra en la ventana de cierre"),
+    (0,  True,  "por_cerrar", "recordatorio: cierra hoy"),
+]
+for restantes, visto, esperado, motivo in casos_cls:
+    got = clasifica(restantes, visto)
+    assert got == esperado, f"{restantes}d visto={visto}: dio {got}, esperaba {esperado} ({motivo})"
+print(f"OK  clasificación con horizonte de {HORIZONTE} días hábiles ({len(casos_cls)} casos)")
+
+# Nadie puede caer en las dos listas, y nada nuevo puede perderse.
+for restantes in range(0, HORIZONTE + 1):
+    assert clasifica(restantes, False) == "nuevas", \
+        f"una licitación nueva a {restantes} días hábiles no puede descartarse"
+    assert clasifica(restantes, True) in ("por_cerrar", "descartada")
+print("OK  ninguna licitación nueva se pierde dentro del horizonte")
+
+# Simulación del ciclo de vida completo de una licitación.
+vida, registro = [], set()
+for restantes in range(14, -1, -1):          # se publica con 14 días hábiles y va bajando
+    cls = clasifica(restantes, "X" in registro)
+    registro.add("X")
+    if cls != "descartada":
+        vida.append((restantes, cls))
+assert vida[0] == (14, "nuevas"), "debe reportarse el primer día que aparece"
+assert [c for _, c in vida].count("nuevas") == 1, "no puede reportarse como nueva dos veces"
+assert vida[-1] == (0, "por_cerrar"), "debe recordarse el día que cierra"
+print(f"OK  ciclo de vida: se avisa {len(vida)} veces en 15 días ({vida})")
+
+# ---------- 5. informe HTML de punta a punta ----------
 hoy = date(2026, 8, 17)
-def op(nombre, org, horas, pts, monto):
-    cierre = datetime(2026, 8, 17, 9) + timedelta(hours=horas)
-    return {"codigo": "1509-12-LE26", "nombre": nombre, "organismo": org,
+def op(nombre, org, dias, pts, monto, nuevo=True, cod="1509-12-LE26"):
+    cierre = datetime(2026, 8, 17, 15) + timedelta(days=dias)
+    return {"codigo": cod, "nombre": nombre, "organismo": org,
             "unidad": "", "tipo": "LE", "cierre": cierre.isoformat(),
             "habiles_restantes": radar.habiles_entre(hoy, cierre.date(), FER),
+            "nuevo": nuevo, "visto_desde": "2026-08-17",
             "monto": monto, "puntaje": pts,
             "razones": ["rubro ONU 81111504", "«desarrollo de software» en el título"],
-            "url": radar.ficha_url("1509-12-LE26"), "descripcion": ""}
+            "url": radar.ficha_url(cod), "descripcion": ""}
+
+nuevas = [
+    op("Desarrollo de plataforma web de trámites en línea", "I. Municipalidad de Ñuñoa", 26, 34, "28.000.000 CLP"),
+    op("Servicio de desarrollo y mantención de sistema de gestión escolar", "Servicio Local de Educación Pública", 18, 41, "no informado", cod="2345-9-LP26"),
+    op("Implementación de sistema informático de inventario", "Hospital Regional de Talca", 11, 22, "12.500.000 CLP", cod="887-3-LE26"),
+]
+cerrando = [op("Desarrollo de aplicación móvil para inspectores", "SEREMI de Salud", 2, 29,
+               "6.800.000 CLP", nuevo=False, cod="4410-2-LE26")]
 
 res = {
-    "generado": "2026-08-17 08:30", "fecha": "2026-08-17",
-    "ventana_dias_habiles": 2, "ventana_hasta": "2026-08-19",
+    "generado": "2026-08-17 07:30", "fecha": "2026-08-17",
+    "horizonte": HORIZONTE, "fecha_hasta": "2026-09-14", "primera_corrida": False,
     "modo": "solo desarrollo",
-    "resumen": {"activas_revisadas": 1842, "detalles_consultados": 96,
-                "oportunidades": 3, "cierran_hoy": 1, "cierran_manana": 1,
-                "llamadas_api": 97},
-    "oportunidades": [
-        op("Desarrollo de plataforma web de trámites en línea", "I. Municipalidad de Ñuñoa", 6, 34, "28.000.000 CLP"),
-        op("Servicio de desarrollo y mantención de sistema de gestión escolar", "Servicio Local de Educación Pública", 30, 41, "no informado"),
-        op("Implementación de sistema informático de inventario", "Hospital Regional de Talca", 52, 22, "12.500.000 CLP"),
-    ],
+    "resumen": {"activas_revisadas": 4312, "detalles_consultados": 386,
+                "nuevas": len(nuevas), "por_cerrar": len(cerrando),
+                "llamadas_api": 387},
+    "nuevas": nuevas, "por_cerrar": cerrando, "oportunidades": nuevas,
 }
 out = Path(__file__).parent / "data" / "informe_demo.html"
 out.parent.mkdir(parents=True, exist_ok=True)
 out.write_text(radar.html(res), encoding="utf-8")
-assert "Radar Mercado Público" in out.read_text(encoding="utf-8")
-assert "plataforma web de trámites" in out.read_text(encoding="utf-8")
-print(f"OK  informe HTML generado ({out.stat().st_size} bytes) -> {out}")
+txt = out.read_text(encoding="utf-8")
+for esperado in ["Radar Mercado Público", "plataforma web de trámites",
+                 "Nuevas oportunidades", "Cierran pronto",
+                 "aplicación móvil para inspectores", ">nueva<"]:
+    assert esperado in txt, f"falta «{esperado}» en el informe"
+assert txt.count(">nueva<") == 3, "el badge «nueva» no coincide con las 3 nuevas"
 
-# informe vacío
-vacio = dict(res, oportunidades=[], resumen=dict(res["resumen"], oportunidades=0,
-                                                 cierran_hoy=0, cierran_manana=0))
-assert "Nada que hacer hoy" in radar.html(vacio)
+# Los dos enlaces por licitación, y que el código vaya escapado en la URL.
+assert txt.count("DetailsAcquisition.aspx?idlicitacion=") == 8, "faltan enlaces a la ficha"
+assert txt.count("buscador.mercadopublico.cl/licitaciones?texto=") == 4, "falta el enlace de respaldo"
+assert "idlicitacion=2345-9-LP26" in txt
+assert 'class="cod">887-3-LE26<' in txt, "el código debe verse para copiar"
+print(f"OK  informe HTML con secciones y doble enlace ({out.stat().st_size} bytes) -> {out}")
+
+# informe sin nada nuevo y sin cierres: no debe aparecer la 2ª sección
+vacio = dict(res, nuevas=[], por_cerrar=[], oportunidades=[],
+             resumen=dict(res["resumen"], nuevas=0, por_cerrar=0))
+htm = radar.html(vacio)
+assert "Ninguna licitación de desarrollo nueva hoy" in htm
+assert "Cierran pronto" not in htm
 print("OK  informe HTML sin resultados")
 
 print("\nTodas las pruebas pasaron.")

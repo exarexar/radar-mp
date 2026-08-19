@@ -1,18 +1,26 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Radar Mercado Público — alerta diaria de licitaciones de desarrollo de software
-que cierran dentro de los próximos N días hábiles (Chile).
+Radar Mercado Público — alerta diaria de licitaciones de desarrollo de software,
+pensada para tener tiempo real de preparar la propuesta.
+
+Dos listas:
+  · PARA PREPARAR   cierran entre 5 y 7 días hábiles (ventana por defecto).
+                    Es la lista de trabajo: hay plazo para armar la oferta.
+  · APARECIÓ TARDE  cierran en menos de 5 días hábiles Y es la primera vez que
+                    se ven. Cubre las licitaciones que se publican con poco
+                    aviso y que de otra forma nunca pasarían por la ventana.
 
 Uso:
     export MP_TICKET="tu-ticket-de-api"
-    python radar.py                 # ventana por defecto: 2 días hábiles
-    python radar.py --dias 3        # otra ventana
-    python radar.py --amplio        # incluye TI en general, no solo desarrollo
+    python radar.py                       # ventana 5 a 7 días hábiles
+    python radar.py --desde 4 --hasta 10  # otra ventana
+    python radar.py --amplio              # incluye TI en general
 
 Salidas (carpeta ./data):
     latest.json          resultado estructurado del último run
     informe.html         informe legible para abrir/compartir
+    vistos.json          registro de códigos ya reportados
     historial/AAAA-MM-DD.json
 """
 
@@ -28,6 +36,7 @@ import unicodedata
 from concurrent.futures import ThreadPoolExecutor
 from datetime import date, datetime, timedelta
 from pathlib import Path
+from urllib.parse import quote
 
 import requests
 
@@ -90,12 +99,22 @@ CLAVES_FUERTES = {
     "transformacion digital": 6, "transformación digital": 6, "erp": 6,
     "business intelligence": 6, "inteligencia de negocio": 6, "power bi": 5,
     "data warehouse": 6, "automatizacion de proceso": 6, "automatización de proceso": 6,
-    "sistema de gestion": 5, "sistema de gestión": 5, "software": 6,
+    "sistema de gestion": 5, "sistema de gestión": 5,
     "modulo informatico": 7, "módulo informático": 7, "aplicativo": 6,
     "levantamiento de requerimientos": 6, "analista programador": 10,
     "ingeniero de software": 10, "qa de software": 7, "testing de software": 7,
-    "ux": 4, "ui": 3, "ciberseguridad": 5, "hosting": 3, "cloud": 3,
+    "diseño ux": 4, "experiencia de usuario": 4, "ciberseguridad": 5,
 }
+
+# La palabra "software" sola vale poco: aparece igual en "compra de licencias de
+# software". Suma solo cuando viene acompañada de un verbo de construcción.
+CLAVES_FUERTES.update({
+    "software": 3,
+    "desarrollo de un software": 12, "construccion de software": 11,
+    "construcción de software": 11, "sistema de informacion": 8,
+    "sistema de información": 8, "gestion digital": 6, "gestión digital": 6,
+    "gestion documental": 6, "gestión documental": 6,
+})
 
 # Cosas que se ven "TI" pero NO son desarrollo. Restan puntos.
 CLAVES_RUIDO = {
@@ -109,11 +128,31 @@ CLAVES_RUIDO = {
     "licencias microsoft": -9, "licencia office": -9, "adobe": -6, "antivirus": -5,
     "insumos computacionales": -12, "equipamiento computacional": -9,
     "aseo": -15, "alimentacion": -15, "alimentación": -15, "vehiculo": -15,
-    "vehículo": -15, "construccion": -15, "construcción": -15, "obras": -12,
+    "vehículo": -15, "obras": -12,
     "capacitacion": -3, "capacitación": -3, "mobiliario": -15, "combustible": -15,
+    # Compra de producto de estante, no desarrollo. Detectado con datos reales.
+    "adquisicion de licencia": -14, "adquisición de licencia": -14,
+    "adquisicion de licencias": -14, "adquisición de licencias": -14,
+    "renovacion de licencia": -14, "renovación de licencia": -14,
+    "renovacion de licencias": -14, "renovación de licencias": -14,
+    "suscripcion de licencias": -14, "suscripción de licencias": -14,
+    "compra de software": -12, "adquisicion de software": -12,
+    "adquisición de software": -12, "licencia de software": -12,
+    "licencias de software": -12, "licenciamiento": -10,
+    "vmware": -14, "teamviewer": -14, "autocad": -14, "oracle": -6,
+    "diseño asistido por computador": -14, "almacenamiento en la nube": -10,
+    "soporte remoto": -8,
+    # Rubros que no tienen nada que ver y colaban por palabras sueltas.
+    "coffee break": -20, "medicamento": -20, "insumos medicos": -20,
+    "insumos médicos": -20, "aire acondicionado": -20, "climatizacion": -20,
+    "climatización": -20, "señaletica": -15, "señalética": -15,
+    "vestuario": -20, "utiles de oficina": -20, "útiles de oficina": -20,
 }
 
-UMBRAL = 8   # puntaje mínimo para entrar al informe
+UMBRAL = 12      # puntaje mínimo para entrar al informe
+HORIZONTE = 20   # días hábiles hacia adelante que se escanean
+RECORDAR = 2     # días hábiles: recordatorio de cierre de algo ya reportado
+MINIMO = 0       # días hábiles mínimos para reportar algo como oportunidad nueva
 
 FERIADOS_FALLBACK = {
     # 2026
@@ -140,6 +179,23 @@ def ahora_cl() -> datetime:
         return datetime.now(ZoneInfo("America/Santiago")).replace(tzinfo=None)
     except Exception:
         return datetime.utcnow() + TZ_OFFSET
+
+
+_RX_CACHE: dict[str, re.Pattern] = {}
+
+
+def contiene(texto: str, frase: str) -> bool:
+    """Busca `frase` como palabra completa, no como trozo de otra palabra.
+
+    Sin esto, «ui» calzaba dentro de «adqUIsición» y hacía que cualquier compra
+    pública puntuara. Es el bug que metía coffee breaks en el informe.
+    """
+    rx = _RX_CACHE.get(frase)
+    if rx is None:
+        cuerpo = r"\s+".join(re.escape(p) for p in frase.split())
+        rx = re.compile(rf"(?<![0-9a-z]){cuerpo}(?![0-9a-z])")
+        _RX_CACHE[frase] = rx
+    return rx.search(texto) is not None
 
 
 def normaliza(txt: str) -> str:
@@ -311,18 +367,21 @@ def puntuar(det: dict, amplio: bool) -> tuple[int, list[str]]:
 
     for kw, pts in CLAVES_FUERTES.items():
         k = normaliza(kw)
-        if k in nombre:
+        if contiene(nombre, k):
             puntos += pts
             razones.append(f"«{kw}» en el título")
-        elif k in desc or k in items_txt:
+        elif contiene(desc, k) or contiene(items_txt, k):
             puntos += max(1, pts // 2)
             razones.append(f"«{kw}» en el detalle")
 
     for kw, pts in CLAVES_RUIDO.items():
         k = normaliza(kw)
-        if k in nombre or k in items_txt:
+        if contiene(nombre, k) or contiene(items_txt, k):
             puntos += pts
             razones.append(f"ruido: «{kw}»")
+        elif contiene(desc, k):
+            puntos += pts // 2
+            razones.append(f"ruido: «{kw}» en el detalle")
 
     # dedup conservando orden
     vistos, limpias = set(), []
@@ -349,32 +408,53 @@ def monto(det: dict) -> str:
 # --------------------------------------------------------------------------
 
 def ficha_url(codigo: str) -> str:
+    """Enlace directo a la ficha. Es el formato que usa Mercado Público, pero
+    el sitio a veces exige sesión; por eso el informe ofrece también buscar_url."""
     return ("https://www.mercadopublico.cl/Procurement/Modules/RFB/"
-            f"DetailsAcquisition.aspx?idlicitacion={codigo}")
+            f"DetailsAcquisition.aspx?idlicitacion={quote(codigo)}")
 
 
-def html(res: dict) -> str:
+def buscar_url(codigo: str) -> str:
+    """Plan B: el buscador público, que no pide sesión."""
+    return f"https://buscador.mercadopublico.cl/licitaciones?texto={quote(codigo)}"
+
+
+def _filas(lista: list[dict], vacio: str) -> str:
     filas = []
-    for r in res["oportunidades"]:
-        urg = ("hoy" if r["habiles_restantes"] == 0
-               else "1 día hábil" if r["habiles_restantes"] == 1
-               else f"{r['habiles_restantes']} días hábiles")
-        cls = ("crit" if r["habiles_restantes"] <= 0
-               else "alto" if r["habiles_restantes"] == 1 else "medio")
+    for r in lista:
+        n = r["habiles_restantes"]
+        urg = ("hoy" if n <= 0 else "1 día hábil" if n == 1
+               else f"{n} días hábiles")
+        cls = "crit" if n <= 1 else "alto" if n <= 4 else "medio"
+        nueva = ' <span class="nueva">nueva</span>' if r.get("nuevo") else ""
+        cod = r["codigo"]
         filas.append(f"""
       <tr>
         <td><span class="chip {cls}">{urg}</span><br><small>{r['cierre'][:16].replace('T',' ')}</small></td>
-        <td><a href="{ficha_url(r['codigo'])}" target="_blank"><strong>{r['nombre']}</strong></a>
-            <br><small>{r['codigo']} &middot; {r['tipo']}</small>
+        <td><a href="{ficha_url(cod)}" target="_blank"><strong>{r['nombre']}</strong></a>{nueva}
+            <br><small><code class="cod">{cod}</code> &middot; {r['tipo']} &middot;
+             <a href="{ficha_url(cod)}" target="_blank">ficha</a> &middot;
+             <a href="{buscar_url(cod)}" target="_blank">buscar en el portal</a></small>
             <div class="raz">{' &middot; '.join(r['razones'])}</div></td>
         <td>{r['organismo']}</td>
         <td class="num">{r['monto']}</td>
         <td class="num"><span class="pts">{r['puntaje']}</span></td>
       </tr>""")
+    return "".join(filas) or f'<tr><td colspan="5" class="vacio">{vacio}</td></tr>'
 
-    cuerpo = "".join(filas) or (
-        '<tr><td colspan="5" class="vacio">Sin licitaciones de desarrollo '
-        'cerrando en la ventana. Nada que hacer hoy.</td></tr>')
+
+def html(res: dict) -> str:
+    cuerpo = _filas(res["nuevas"],
+                    "Ninguna licitación de desarrollo nueva hoy dentro del horizonte.")
+
+    recordatorios = res.get("por_cerrar") or []
+    seccion_tarde = ""
+    if recordatorios:
+        seccion_tarde = f"""
+<h2 class="sec">Cierran pronto <span>ya te las reportamos antes — última pasada antes de que se cierren</span></h2>
+<table><thead><tr>
+ <th>Cierre</th><th>Licitación</th><th>Organismo</th><th>Monto est.</th><th>Fit</th>
+</tr></thead><tbody>{_filas(recordatorios, "")}</tbody></table>"""
 
     return f"""<!DOCTYPE html>
 <html lang="es"><head><meta charset="utf-8">
@@ -413,20 +493,30 @@ def html(res: dict) -> str:
  .pts {{ color:var(--mut); font-size:12.5px }}
  .raz {{ color:var(--mut); font-size:12px; margin-top:5px }}
  .vacio {{ text-align:center; color:var(--mut); padding:44px 14px }}
+ .sec {{ font-size:15px; margin:30px 0 11px; display:flex; align-items:baseline;
+   gap:11px; flex-wrap:wrap; letter-spacing:-.01em }}
+ .sec span {{ font-weight:400; font-size:12.5px; color:var(--mut) }}
+ .nueva {{ display:inline-block; vertical-align:1px; margin-left:6px; padding:1px 7px;
+   border-radius:99px; font-size:10.5px; font-weight:700; text-transform:uppercase;
+   letter-spacing:.06em; background:var(--medio); color:var(--card) }}
+ .cod {{ font:12px ui-monospace,SFMono-Regular,Menlo,monospace; background:var(--bg);
+   border:1px solid var(--line); border-radius:4px; padding:1px 5px; user-select:all }}
  footer {{ color:var(--mut); font-size:12px; margin-top:22px }}
 </style></head><body><div class="wrap">
 <h1>Radar Mercado Público — desarrollo de software</h1>
-<div class="sub">Cierres dentro de {res['ventana_dias_habiles']} días hábiles &middot;
- generado el {res['generado']} &middot; ventana hasta el {res['ventana_hasta']}</div>
+<div class="sub">Horizonte: {res['horizonte']} días hábiles (cierres hasta el
+ {res['fecha_hasta']}) &middot; generado el {res['generado']}</div>
 <div class="kpis">
- <div class="kpi"><b>{res['resumen']['oportunidades']}</b><span>oportunidades</span></div>
- <div class="kpi"><b>{res['resumen']['cierran_hoy']}</b><span>cierran hoy</span></div>
- <div class="kpi"><b>{res['resumen']['cierran_manana']}</b><span>cierran mañana</span></div>
+ <div class="kpi"><b>{res['resumen']['nuevas']}</b><span>nuevas hoy</span></div>
+ <div class="kpi"><b>{res['resumen']['por_cerrar']}</b><span>cierran pronto</span></div>
  <div class="kpi"><b>{res['resumen']['activas_revisadas']}</b><span>activas revisadas</span></div>
+ <div class="kpi"><b>{res['resumen']['detalles_consultados']}</b><span>fichas leídas</span></div>
 </div>
+<h2 class="sec">Nuevas oportunidades <span>primera vez que aparecen en el radar</span></h2>
 <table><thead><tr>
  <th>Cierre</th><th>Licitación</th><th>Organismo</th><th>Monto est.</th><th>Fit</th>
 </tr></thead><tbody>{cuerpo}</tbody></table>
+{seccion_tarde}
 <footer>Fuente: API de Mercado Público (ChileCompra). El puntaje «fit» es heurístico
  (rubro ONU + palabras clave); revisa siempre las bases antes de postular.</footer>
 </div></body></html>"""
@@ -438,7 +528,12 @@ def html(res: dict) -> str:
 
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--dias", type=int, default=2, help="ventana en días hábiles")
+    ap.add_argument("--horizonte", type=int, default=HORIZONTE,
+                    help="días hábiles hacia adelante que se escanean")
+    ap.add_argument("--recordar", type=int, default=RECORDAR,
+                    help="recordar las ya reportadas cuando les queden N días hábiles")
+    ap.add_argument("--minimo", type=int, default=MINIMO,
+                    help="no reportar como nueva si le quedan menos de N días hábiles")
     ap.add_argument("--amplio", action="store_true", help="incluir TI en general")
     ap.add_argument("--umbral", type=int, default=UMBRAL)
     args = ap.parse_args()
@@ -454,11 +549,21 @@ def main() -> int:
     hoy_dt = ahora_cl()
     hoy = hoy_dt.date()
     fer = feriados([hoy.year, hoy.year + 1])
-    limite = dias_habiles_adelante(hoy, args.dias, fer)
-    limite_dt = datetime.combine(limite, datetime.max.time())
+    techo = dias_habiles_adelante(hoy, args.horizonte, fer)
+    techo_dt = datetime.combine(techo, datetime.max.time())
 
-    print(f"[{hoy_dt:%Y-%m-%d %H:%M}] ventana: hasta {limite} "
-          f"({args.dias} días hábiles)")
+    # Registro de códigos ya reportados, para distinguir lo que recién apareció.
+    f_vistos = DATA / "vistos.json"
+    primera_corrida = not f_vistos.exists()
+    try:
+        vistos = json.loads(f_vistos.read_text(encoding="utf-8"))
+    except Exception:
+        vistos, primera_corrida = {}, True
+
+    print(f"[{hoy_dt:%Y-%m-%d %H:%M}] horizonte: {args.horizonte} días hábiles "
+          f"(cierres hasta el {techo})")
+    if primera_corrida:
+        print("  (primera corrida: se reporta todo lo vigente y se siembra el registro)")
 
     mp = MP(ticket)
     activas = mp.activas()
@@ -474,17 +579,21 @@ def main() -> int:
         if not cod:
             continue
         # Si la lista no trae FechaCierre confiable, dejamos pasar al detalle.
-        if fc is None or (hoy_dt - timedelta(hours=12)) <= fc <= limite_dt:
+        # Escaneamos 0..hasta: lo de la ventana, más lo que cierra antes (por si
+        # recién apareció y nunca alcanzó a pasar por la ventana).
+        if fc is None or (hoy_dt - timedelta(hours=12)) <= fc <= techo_dt:
             candidatos.append((cod, lic.get("Nombre", ""), fc))
 
     # Prefiltro barato por título para no gastar el cupo diario en ruido evidente.
     def vale_la_pena(nombre: str) -> bool:
         n = normaliza(nombre)
-        if any(normaliza(k) in n for k in CLAVES_FUERTES):
+        if any(contiene(n, normaliza(k)) for k in CLAVES_FUERTES):
             return True
+        # Raíces sueltas: aquí sí sirve la subcadena, porque son fragmentos de
+        # palabra a propósito («informatic» cubre informático/informática).
         return any(t in n for t in ("informatic", "tecnolog", "digital", "sistema",
-                                    "software", "web", "datos", "ti ", " ti",
-                                    "plataforma", "app", "computa"))
+                                    "software", "aplicacion", "plataforma",
+                                    "programa", "portal", "datos", "computa"))
 
     filtrados = [c for c in candidatos if c[2] is None or vale_la_pena(c[1])]
     print(f"  candidatos por fecha: {len(candidatos)} → a revisar en detalle: {len(filtrados)}")
@@ -496,47 +605,68 @@ def main() -> int:
                 detalles.append(d)
     print(f"  detalles obtenidos: {len(detalles)} ({mp.llamadas} llamadas a la API)")
 
-    oportunidades = []
+    nuevas, por_cerrar = [], []
     for det in detalles:
         fc = parse_fecha(det.get("Fechas", {}).get("FechaCierre")
                          or det.get("FechaCierre"))
-        if fc is None or not (hoy_dt - timedelta(hours=12)) <= fc <= limite_dt:
+        if fc is None or not (hoy_dt - timedelta(hours=12)) <= fc <= techo_dt:
             continue
         pts, razones = puntuar(det, args.amplio)
         if pts < args.umbral:
             continue
-        oportunidades.append({
-            "codigo": det.get("CodigoExterno", ""),
+
+        codigo = det.get("CodigoExterno", "")
+        restantes = habiles_entre(hoy, fc.date(), fer)
+        ya_visto = codigo in vistos
+        vistos.setdefault(codigo, hoy.isoformat())
+
+        # Cada licitación se reporta UNA vez, apenas aparece. Después solo vuelve
+        # como recordatorio cuando está por cerrarse.
+        if not ya_visto and restantes >= args.minimo:
+            destino = nuevas
+        elif ya_visto and restantes <= args.recordar:
+            destino = por_cerrar
+        else:
+            continue        # ya reportada y todavía con plazo: no repetir
+
+        destino.append({
+            "codigo": codigo,
             "nombre": (det.get("Nombre") or "").strip(),
             "organismo": (det.get("Comprador") or {}).get("NombreOrganismo", ""),
             "unidad": (det.get("Comprador") or {}).get("NombreUnidad", ""),
             "tipo": det.get("Tipo", ""),
             "cierre": fc.isoformat(),
-            "habiles_restantes": habiles_entre(hoy, fc.date(), fer),
+            "habiles_restantes": restantes,
+            "nuevo": not ya_visto,
+            "visto_desde": vistos.get(codigo, hoy.isoformat()),
             "monto": monto(det),
             "puntaje": pts,
             "razones": razones,
-            "url": ficha_url(det.get("CodigoExterno", "")),
+            "url": ficha_url(codigo),
             "descripcion": (det.get("Descripcion") or "")[:900],
         })
 
-    oportunidades.sort(key=lambda r: (r["habiles_restantes"], -r["puntaje"]))
+    for lista in (nuevas, por_cerrar):
+        lista.sort(key=lambda r: (r["habiles_restantes"], -r["puntaje"]))
 
     res = {
         "generado": hoy_dt.strftime("%Y-%m-%d %H:%M"),
         "fecha": hoy.isoformat(),
-        "ventana_dias_habiles": args.dias,
-        "ventana_hasta": limite.isoformat(),
+        "horizonte": args.horizonte,
+        "fecha_hasta": techo.isoformat(),
+        "primera_corrida": primera_corrida,
         "modo": "amplio" if args.amplio else "solo desarrollo",
         "resumen": {
             "activas_revisadas": len(activas),
             "detalles_consultados": len(detalles),
-            "oportunidades": len(oportunidades),
-            "cierran_hoy": sum(1 for r in oportunidades if r["habiles_restantes"] <= 0),
-            "cierran_manana": sum(1 for r in oportunidades if r["habiles_restantes"] == 1),
+            "nuevas": len(nuevas),
+            "por_cerrar": len(por_cerrar),
             "llamadas_api": mp.llamadas,
         },
-        "oportunidades": oportunidades,
+        "nuevas": nuevas,
+        "por_cerrar": por_cerrar,
+        # Alias para compatibilidad: la lista principal de trabajo.
+        "oportunidades": nuevas,
     }
 
     (DATA / "latest.json").write_text(
@@ -545,9 +675,17 @@ def main() -> int:
         json.dumps(res, ensure_ascii=False, indent=2), encoding="utf-8")
     (DATA / "informe.html").write_text(html(res), encoding="utf-8")
 
-    print(f"  → {len(oportunidades)} oportunidades. data/latest.json y data/informe.html listos.")
-    for r in oportunidades[:12]:
-        print(f"     [{r['puntaje']:>3}] {r['cierre'][:16]}  {r['nombre'][:78]}")
+    # El registro se poda para que no crezca sin control (90 días).
+    corte = (hoy - timedelta(days=90)).isoformat()
+    vistos = {k: v for k, v in vistos.items() if v >= corte}
+    f_vistos.write_text(json.dumps(vistos, ensure_ascii=False, indent=1),
+                        encoding="utf-8")
+
+    print(f"  → {len(nuevas)} nuevas, {len(por_cerrar)} por cerrar. "
+          f"data/latest.json y data/informe.html listos.")
+    for r in nuevas[:12]:
+        print(f"     [{r['puntaje']:>3}] cierra en {r['habiles_restantes']}d  "
+              f"{r['nombre'][:70]}")
     return 0
 
 

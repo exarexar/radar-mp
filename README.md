@@ -1,8 +1,33 @@
 # Radar Mercado Público — desarrollo de software
 
-Bot que cada día hábil revisa **todas las licitaciones activas** de Mercado Público,
-se queda con las que **cierran dentro de 2 días hábiles** y son de **desarrollo de
-software / programación**, y te deja un informe listo para decidir a qué postular.
+Bot que cada día hábil revisa **todas las licitaciones activas** de Mercado Público
+(hoy son ~4.300), se queda con las de **desarrollo de software / programación**, y te
+deja un informe listo para decidir a qué postular.
+
+El principio es: **cada licitación se te avisa una sola vez, apenas aparece**, con todo
+el plazo por delante. Nada de repetir la misma oferta cinco mañanas seguidas.
+
+El informe trae dos listas:
+
+- **Nuevas oportunidades** — primera vez que la licitación entra al radar, dentro de
+  un horizonte de **20 días hábiles**. Es tu lista de trabajo del día.
+- **Cierran pronto** — las que ya te reportamos y que cierran en 2 días hábiles o
+  menos. Es el último recordatorio antes de que se te pase el plazo.
+
+Entre medio no aparece nada: si ya la viste y decidiste, no te vuelve a molestar.
+
+### Por qué un horizonte y no una ventana
+
+La tentación es pedir «muéstrame las que cierran entre 15 y 20 días hábiles» para
+tener harto tiempo de preparación. El problema es que en Chile la mayoría de las
+licitaciones vive menos que eso: una LE tiene un mínimo legal de 10 días corridos
+(≈7 hábiles) y una LP, 20 días corridos (≈14 hábiles). Una ventana de 15 a 20 días
+hábiles dejaría fuera a casi todas y el informe llegaría vacío casi siempre.
+
+Por eso el radar **escanea hasta 20 días hábiles y te avisa apenas detecta algo**.
+En la práctica te llega con toda la anticipación que la licitación permite: 14 días
+si es una LP grande, 7 si es una LE chica. Es el máximo de plazo posible, no un
+tramo arbitrario.
 
 ---
 
@@ -41,10 +66,17 @@ Opciones:
 
 | Comando | Qué hace |
 |---|---|
-| `python radar.py` | Ventana de 2 días hábiles, solo desarrollo |
-| `python radar.py --dias 3` | Amplía la ventana a 3 días hábiles |
+| `python radar.py` | Horizonte de 20 días hábiles, solo desarrollo |
+| `python radar.py --horizonte 30` | Mira aún más lejos (más consultas a la API) |
+| `python radar.py --recordar 5` | Recordatorio de cierre desde 5 días hábiles antes |
+| `python radar.py --minimo 5` | Ignora lo que llegue con menos de 5 días hábiles |
 | `python radar.py --amplio` | Incluye TI en general (soporte, datos, infra) |
 | `python radar.py --umbral 5` | Baja el filtro: más resultados, más ruido |
+
+> `--minimo` es el que usas si te cansa ver licitaciones imposibles de alcanzar.
+> Con `--minimo 5` el radar calla todo lo que se publique con menos de una semana
+> hábil de plazo. Ojo: eso también te deja fuera de las compras chicas y urgentes,
+> que suelen tener menos competencia.
 
 ### Opción B — Automático con GitHub Actions (recomendado, gratis, sin servidor)
 
@@ -94,6 +126,13 @@ python radar.py --umbral 3   # ver qué se está quedando fuera
   reintenta 6 veces con espera creciente. Si un día devuelve 0 activas, es la API, no tú.
 - **Caché**: los detalles se guardan en `data/cache/` por día, así no se gastan
   consultas repetidas si corres el script varias veces.
+- **Registro de vistos**: `data/vistos.json` guarda qué códigos ya se reportaron y
+  desde cuándo. Es la memoria del bot: sin él te repetiría las mismas licitaciones
+  todos los días. Se poda solo a los 90 días. **Tiene que estar versionado en el
+  repo** — si el workflow no lo hace `git add`, el bot amanece amnésico.
+- **Enlaces**: cada licitación trae dos, «ficha» (enlace directo) y «buscar en el
+  portal» (respaldo por si el directo pide sesión), más el código a la vista para
+  copiarlo y pegarlo en el buscador.
 - **Historial**: cada corrida queda en `data/historial/AAAA-MM-DD.json`. Sirve para,
   en un par de meses, ver qué organismos licitan más y qué montos se manejan.
 
