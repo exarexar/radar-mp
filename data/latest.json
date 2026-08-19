@@ -1,0 +1,243 @@
+{
+  "generado": "2026-08-19 09:21",
+  "fecha": "2026-08-19",
+  "ventana_dias_habiles": 2,
+  "ventana_hasta": "2026-08-21",
+  "modo": "solo desarrollo",
+  "resumen": {
+    "activas_revisadas": 4385,
+    "detalles_consultados": 334,
+    "oportunidades": 12,
+    "cierran_hoy": 2,
+    "cierran_manana": 5,
+    "llamadas_api": 686
+  },
+  "oportunidades": [
+    {
+      "codigo": "1111089-13-LP26",
+      "nombre": "ADQUISICION DE LICENCIA VMWARE POR 12 MESES",
+      "organismo": "Comisión Nacional de Investigación Científica y Tecnológicas - CONICYT",
+      "unidad": "Agencia Nacional de Investigación y Desarrollo",
+      "tipo": "LP",
+      "cierre": "2026-08-19T15:00:00",
+      "habiles_restantes": 0,
+      "monto": "no informado",
+      "puntaje": 12,
+      "razones": [
+        "rubro ONU 43231512",
+        "«software» en el detalle",
+        "«ui» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1111089-13-LP26",
+      "descripcion": "La Agencia Nacional de Investigación y Desarrollo, ANID, requiere contar con LICENCIA VMWARE, durante 12 meses, para la continuidad operativa de sus sistemas Informáticos."
+    },
+    {
+      "codigo": "2292-52-L126",
+      "nombre": "“ADQUISICIÓN DEL SERVICIO DE COFFEE BREAK SALUDABLE PARA ACTIVIDADES COMUNITARIAS, DEL AÑO 2026”",
+      "organismo": "I MUNICIPALIDAD DE TALCA",
+      "unidad": "DIR. COMUNAL DE SALUD",
+      "tipo": "L1",
+      "cierre": "2026-08-19T15:00:00",
+      "habiles_restantes": 0,
+      "monto": "3.150.000 CLP",
+      "puntaje": 11,
+      "razones": [
+        "«programacion» en el detalle",
+        "«programación» en el detalle",
+        "«ui» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2292-52-L126",
+      "descripcion": "SE SOLICITA LA ADQUISICIÓN DEL SERVICIO DE COFFEE BREAK PARA UN MÁXIMO DE 18 ACTIVIDADES DESTINADAS A LOS CECOSF DE LA COMUNA DE TALCA, ABARCANDO UN TOTAL DE HASTA 630 PERSONAS ENTRE SEPTIEMBRE A DICIEMBRE DE 2026. FECHA, LUGAR Y HORARIO DE CADA ACTIVIDAD SEGÚN PROGRAMACIÓN ESPECÍFICA COORDINADA POR ASESORA DE GESTIÓN CLÍNICA PAULA SALAZAR, QUIEN AVISARA FORMALMENTE AL PROVEEDOR.\n"
+    },
+    {
+      "codigo": "1079486-18-LE26",
+      "nombre": "ADQ. SOPORTE Y MANTENCION DE SOFTWARE XRY LABOCAR",
+      "organismo": "DIRECCION DE LOGISTICA DE CARABINEROS",
+      "unidad": "SECCIÓN COMPRAS ZONA DE CARABINEROS ATACAMA",
+      "tipo": "LE",
+      "cierre": "2026-08-20T18:00:00",
+      "habiles_restantes": 1,
+      "monto": "no informado",
+      "puntaje": 31,
+      "razones": [
+        "rubro ONU 43231512",
+        "«mantencion de software» en el título",
+        "«mantención de software» en el título",
+        "«software» en el título",
+        "«ui» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1079486-18-LE26",
+      "descripcion": "DE ADQUISICIÓN DE SOPORTE Y MANTENCION DE SOFTWARE PARA EQUIPO DE EXTRACCION FORENSE POR 12 MESES PARA LA SECCIÓN CRIMINALÍSTICA COPIAPO."
+    },
+    {
+      "codigo": "3928-58-LE26",
+      "nombre": "CONTRATACION PLATAFORMA DE GESTION DIGITAL PARA ESTABLECIMIENTOS EDUCACIONALES MUNICIPALES",
+      "organismo": "ILUSTRE MUNICIPALIDAD DE PICHILEMU",
+      "unidad": "Educación Municipal",
+      "tipo": "LE",
+      "cierre": "2026-08-20T15:00:00",
+      "habiles_restantes": 1,
+      "monto": "68.700.000 CLP",
+      "puntaje": 13,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el detalle",
+        "«software» en el detalle",
+        "«ui» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3928-58-LE26",
+      "descripcion": "CONTRATACION PLATAFORMA DE GESTION DIGITAL PARA ESTABLECIMIENTOS EDUCACIONALES MUNICIPALES\r\nDECRETO N° 2086\r\nFONDOS LEY SEP DE CADA ESTABLECIMIENTO EDUCACIONAL"
+    },
+    {
+      "codigo": "2251-9-LE26",
+      "nombre": "Renovació de Licencia y almacenamiento en la nube sistema U+ ETA",
+      "organismo": "DIRECCION GENERAL DE AERONAUTICA CIVIL",
+      "unidad": "UNIDAD DE COMPRA ESCUELA TECNICA DE AERONAUTICA",
+      "tipo": "LE",
+      "cierre": "2026-08-20T15:30:00",
+      "habiles_restantes": 1,
+      "monto": "22.500.000 CLP",
+      "puntaje": 11,
+      "razones": [
+        "rubro ONU 43232804",
+        "«sistema de gestion» en el detalle",
+        "«sistema de gestión» en el detalle",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2251-9-LE26",
+      "descripcion": "La necesidad de la Escuela Técnica Aeronáutica de contratar servicio de renovación de licencia y almacenamiento en la nube del sistema de gestión académica U+ que utiliza nuestra institución. Para mas detalles, favor de revisar Bases Administrativas, Bases Técnicas, Pauta de Evaluación así como todo anexo y documentación disponible como anexo en adjuntos de licitación. E102RT9"
+    },
+    {
+      "codigo": "3447-135-E226",
+      "nombre": "ADQ. INST. Y MANT. DE EQUIPOS AIRE ACONDICIONADO",
+      "organismo": "MUNICIPALIDAD DE ALTO HOSPICIO",
+      "unidad": "Direccion de Administracion y Finanzas",
+      "tipo": "E2",
+      "cierre": "2026-08-20T10:00:00",
+      "habiles_restantes": 1,
+      "monto": "no informado",
+      "puntaje": 11,
+      "razones": [
+        "«mantencion de sistema» en el detalle",
+        "«mantención de sistema» en el detalle",
+        "«ui» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3447-135-E226",
+      "descripcion": "Adquisición, instalación y mantención de sistemas de climatización y puntos eléctricos dedicados para diversas instalaciones de la Red APS. \r\n\r\nEl propósito de esta adquisición es garantizar las condiciones ambientales necesarias para el estricto control sanitario, la prevención de infecciones y el adecuado funcionamiento clínico y administrativo de las dependencias."
+    },
+    {
+      "codigo": "3929-53-LP26",
+      "nombre": "SUSCRIPCIÓN DE LICENCIAS DE SOFTWARE DE DISEÑO ASISTIDO POR COMPUTADOR CAD",
+      "organismo": "I MUNICIPALIDAD DE VINA DEL MAR",
+      "unidad": "Secpla",
+      "tipo": "LP",
+      "cierre": "2026-08-20T09:00:00",
+      "habiles_restantes": 1,
+      "monto": "310.000.000 CLP",
+      "puntaje": 9,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el detalle",
+        "«software» en el título",
+        "«ui» en el detalle",
+        "ruido: «computador»"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3929-53-LP26",
+      "descripcion": "Las presentes bases norman el proceso de la propuesta pública que efectúa el llamado para la licitación denominada “Suscripción de licencias de software de diseño asistido por computador CAD”. \r\n\r\nLa licitación tiene por objeto proveer al Municipio de las herramientas tecnológicas necesarias para el desarrollo de proyectos de arquitectura, ingeniería y construcción.\r\n\r\nTodo lo anterior, en conformidad a las características indicadas en las bases administrativas, bases técnicas y demás antecedentes de esta licitación.\r\n"
+    },
+    {
+      "codigo": "1057428-29-L126",
+      "nombre": "CONTRATACIÓN DE SISTEMA INFORMÁTICO PARA LA EMISIÓN DE LICENCIAS MÉDICAS ELECTRÓNICAS PARA HOSPITAL DE FLORIDA",
+      "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE FLORIDA",
+      "unidad": "Bienes y Servicios",
+      "tipo": "L1",
+      "cierre": "2026-08-21T13:55:00",
+      "habiles_restantes": 2,
+      "monto": "1.190.000 CLP",
+      "puntaje": 30,
+      "razones": [
+        "rubro ONU 43231512",
+        "«sistema informatico» en el título",
+        "«sistema informático» en el título",
+        "«software» en el detalle",
+        "«ui» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057428-29-L126",
+      "descripcion": "Las presentes especificaciones técnicas tienen por objetivo establecer las condiciones y requisitos mínimos que regirán el contrato de suministro de un sistema informático para la emisión de Licencias Médicas Electrónicas (LME) para el Hospital de Florida, destinado a habilitar a los profesionales de salud del establecimiento para el otorgamiento, emisión y tramitación de LME conforme al marco reglamentario vigente."
+    },
+    {
+      "codigo": "4174-29-LE26",
+      "nombre": "SISTEMA DE GESTIÓN DOCUMENTAL Y COMPLEMENTOS",
+      "organismo": "Ilustre Municipalidad de Quirihue",
+      "unidad": "Secplan",
+      "tipo": "LE",
+      "cierre": "2026-08-21T15:00:00",
+      "habiles_restantes": 2,
+      "monto": "10.000.000 CLP",
+      "puntaje": 15,
+      "razones": [
+        "rubro ONU 43232202",
+        "«sistema de gestion» en el título",
+        "«sistema de gestión» en el título",
+        "«ui» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4174-29-LE26",
+      "descripcion": "La presente licitación tiene por objeto la contratación de una persona natural o jurídica que provea el servicio que permita dar una solución integral de Gestión Documental Electrónica para la Ilustre Municipalidad de Quirihue, incluyendo el suministro de licencias, implementación, configuración, parametrización, puesta en marcha, capacitación de usuarios, soporte técnico y acompañamiento inicial, de conformidad con las condiciones establecidas en las presentes Bases Administrativas, Especificaciones Técnicas y demás antecedentes que integran el proceso licitatorio."
+    },
+    {
+      "codigo": "1480134-2-L126",
+      "nombre": "PTR N°431. COMPRA DE SOFTWARE DE SOPORTE REMOTO TEAMVIEWER CORPORATE.",
+      "organismo": "I MUNICIPALIDAD DE VITACURA",
+      "unidad": "DIRECCION DE INFORMATICA 134",
+      "tipo": "L1",
+      "cierre": "2026-08-21T11:30:00",
+      "habiles_restantes": 2,
+      "monto": "7.000.000 CLP",
+      "puntaje": 12,
+      "razones": [
+        "rubro ONU 43231512",
+        "«software» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1480134-2-L126",
+      "descripcion": "COMPRA DE SOFTWARE DE SOPORTE REMOTO TEAMVIEWER CORPORATE.. POR 3 AÑOS. 4 CANALES O USUARIOS (SIMULTANEOS). VER MAS DETALLES DE LO REQUERIDO EN BASES DE LICITACION (PTR N°431) EN ARCHIVOS ADJUNTO."
+    },
+    {
+      "codigo": "1395-59-LE26",
+      "nombre": "Adquisición Medicamentos Salud Sexual S.S.Coquimbo",
+      "organismo": "SERVICIO DE SALUD COQUIMBO",
+      "unidad": "Servicio de Salud Coquimbo",
+      "tipo": "LE",
+      "cierre": "2026-08-21T15:00:00",
+      "habiles_restantes": 2,
+      "monto": "no informado",
+      "puntaje": 11,
+      "razones": [
+        "«programacion» en el detalle",
+        "«programación» en el detalle",
+        "«ui» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1395-59-LE26",
+      "descripcion": "El Servicio de Salud Coquimbo llama a Licitación Pública, a través del Portal Mercado Público, para la adquisición de medicamentos asociados al Programa de Salud Sexual Reproductiva y Climaterio de la Mujer, garantizados para la población de la Red Asistencial de APS que se encuentra faltante de la programación de CENABAST y faltante en Convenios de Suministro.\r\nEl presente proceso licitatorio es de ejecución inmediata, por lo tanto, se requiere el despacho íntegro de las unidades adjudicadas de acuerdo a los plazos ofertados.\r\nMayores especificaciones, descripciones, requisitos y demás características de la materia de encargo en el Artículo N°2 de las Bases Técnicas del proceso licitatorio."
+    },
+    {
+      "codigo": "3849-3-LE26",
+      "nombre": "RENOV. DE LICENCIAS SOFTWARE PARA LA OF. REVISTA",
+      "organismo": "DIRECCION DE LOGISTICA DE CARABINEROS",
+      "unidad": "Depto. Comunicaciones Sociales",
+      "tipo": "LE",
+      "cierre": "2026-08-21T17:00:00",
+      "habiles_restantes": 2,
+      "monto": "23.031.656 CLP",
+      "puntaje": 8,
+      "razones": [
+        "rubro ONU 43231512",
+        "«software» en el título",
+        "«ui» en el detalle",
+        "«cloud» en el detalle",
+        "ruido: «adobe»"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3849-3-LE26",
+      "descripcion": "Renovar las licencias de software Adobe requeridas para los equipos computacionales de la Oficina Revista Carabineros, de acuerdo a la función propia de esta, asegurando la continuidad operativa de los sistemas de apoyo."
+    }
+  ]
+}
