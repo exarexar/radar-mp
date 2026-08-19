@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Radar Mercado Público — guía de instalación</title>
+<style>
+ :root { color-scheme: light dark;
+   --bg:#fbfaf9; --fg:#1c1a17; --mut:#6b6560; --line:#e6e2dd; --card:#fff;
+   --acc:#3f6f5c; --warn:#a86718; --code:#f4f1ed; }
+ @media (prefers-color-scheme: dark) { :root {
+   --bg:#171614; --fg:#eceae7; --mut:#9c958e; --line:#302d29; --card:#1f1e1b;
+   --acc:#7fbfa5; --warn:#e0aa5f; --code:#26241f; } }
+ * { box-sizing:border-box }
+ body { margin:0; padding:32px 20px 80px; background:var(--bg); color:var(--fg);
+   font:16px/1.6 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif; }
+ .wrap { max-width:760px; margin:0 auto }
+ h1 { font-size:26px; margin:0 0 6px; letter-spacing:-.015em }
+ .sub { color:var(--mut); font-size:14.5px; margin-bottom:30px }
+ .paso { background:var(--card); border:1px solid var(--line); border-radius:12px;
+   padding:20px 22px; margin-bottom:14px; position:relative }
+ .paso h2 { font-size:17px; margin:0 0 10px; display:flex; align-items:center; gap:11px;
+   letter-spacing:-.01em }
+ .n { flex:none; width:27px; height:27px; border-radius:50%; background:var(--acc);
+   color:var(--bg); font-size:14px; font-weight:700; display:grid; place-items:center }
+ .paso p { margin:0 0 10px }
+ .paso p:last-child { margin-bottom:0 }
+ .paso ol, .paso ul { margin:0 0 10px; padding-left:22px }
+ .paso li { margin-bottom:6px }
+ code { background:var(--code); padding:2px 7px; border-radius:5px;
+   font:13.5px ui-monospace,SFMono-Regular,Menlo,monospace; word-break:break-all }
+ .tick { background:var(--code); border:1px dashed var(--acc); border-radius:9px;
+   padding:14px 16px; margin:12px 0; text-align:center }
+ .tick b { display:block; font:17px ui-monospace,SFMono-Regular,Menlo,monospace;
+   letter-spacing:.02em; margin-top:5px; word-break:break-all }
+ .tick span { font-size:12px; color:var(--mut); text-transform:uppercase; letter-spacing:.06em }
+ a { color:var(--acc); font-weight:500 }
+ .nota { border-left:3px solid var(--warn); padding:2px 0 2px 14px; color:var(--mut);
+   font-size:14.5px; margin:12px 0 }
+ .min { position:absolute; top:20px; right:22px; font-size:12px; color:var(--mut);
+   text-transform:uppercase; letter-spacing:.05em }
+ footer { color:var(--mut); font-size:13.5px; margin-top:26px; border-top:1px solid var(--line);
+   padding-top:18px }
+ h3 { font-size:15px; margin:20px 0 8px }
+</style></head><body><div class="wrap">
+
+<h1>Radar Mercado Público — instalación</h1>
+<div class="sub">Seis pasos, ~15 minutos, una sola vez. Después funciona solo todos los días hábiles.</div>
+
+<div class="paso">
+ <span class="min">ya está</span>
+ <h2><span class="n">0</span>Tu ticket de la API</h2>
+ <p>Ya lo tienes, llegó a tu correo. Lo vas a necesitar en el paso 4:</p>
+ <div class="tick"><span>MP_TICKET</span><b>21B47C7F-B406-4217-8CAF-5E2EAE2D5D10</b></div>
+ <div class="nota">Esto es una llave de acceso: no la publiques ni la subas a un repositorio
+  público. En el paso 4 va en un campo de GitHub que la guarda encriptada.</div>
+</div>
+
+<div class="paso">
+ <span class="min">3 min</span>
+ <h2><span class="n">1</span>Cuenta en GitHub</h2>
+ <p>Si no tienes, créala gratis en <a href="https://github.com/signup" target="_blank">github.com/signup</a>.
+  Con el correo y una contraseña basta; el plan gratis alcanza y sobra para esto.</p>
+ <p>Si ya tienes cuenta, solo inicia sesión.</p>
+</div>
+
+<div class="paso">
+ <span class="min">2 min</span>
+ <h2><span class="n">2</span>Crear el repositorio</h2>
+ <ol>
+  <li>Anda a <a href="https://github.com/new" target="_blank">github.com/new</a></li>
+  <li><b>Repository name:</b> <code>radar-mp</code></li>
+  <li>Marca <b>Private</b> (importante: ahí va tu ticket)</li>
+  <li>No marques nada más. Clic en <b>Create repository</b></li>
+ </ol>
+</div>
+
+<div class="paso">
+ <span class="min">4 min</span>
+ <h2><span class="n">3</span>Subir los archivos</h2>
+ <ol>
+  <li>Descomprime el archivo <code>radar-mercadopublico.zip</code> que te envié. Queda
+   una carpeta <code>radar-mp</code> adentro.</li>
+  <li>En tu repositorio recién creado, clic en <b>uploading an existing file</b>
+   (el enlace azul en medio de la página).</li>
+  <li>Abre la carpeta <code>radar-mp</code>, selecciona <b>todo lo que hay adentro</b>
+   (Ctrl+A) y arrástralo a la zona de subida del navegador.</li>
+  <li>Abajo, clic en <b>Commit changes</b>.</li>
+ </ol>
+ <div class="nota">Fíjate que arriba, en la lista de archivos, aparezca la carpeta
+  <code>.github</code>. Si no aparece, tu explorador está ocultando las carpetas que
+  empiezan con punto: actívalas en Ver → Elementos ocultos (Windows) o Cmd+Shift+. (Mac)
+  y vuelve a arrastrar. Sin esa carpeta el bot no se programa solo.</div>
+</div>
+
+<div class="paso">
+ <span class="min">2 min</span>
+ <h2><span class="n">4</span>Guardar el ticket como secreto</h2>
+ <ol>
+  <li>En tu repositorio: pestaña <b>Settings</b> (arriba a la derecha).</li>
+  <li>Menú izquierdo: <b>Secrets and variables</b> → <b>Actions</b>.</li>
+  <li>Botón verde <b>New repository secret</b>.</li>
+  <li><b>Name:</b> <code>MP_TICKET</code> — escríbelo exactamente así, en mayúsculas.</li>
+  <li><b>Secret:</b> pega el ticket del paso 0.</li>
+  <li><b>Add secret</b>.</li>
+ </ol>
+ <div class="nota">GitHub lo encripta y nunca más lo muestra. Si te equivocas, lo borras
+  y lo creas de nuevo.</div>
+</div>
+
+<div class="paso">
+ <span class="min">2 min</span>
+ <h2><span class="n">5</span>Encender el bot y probarlo</h2>
+ <ol>
+  <li>Pestaña <b>Actions</b>. Si sale un aviso, clic en
+   <b>I understand my workflows, go ahead and enable them</b>.</li>
+  <li>En la lista de la izquierda, clic en <b>Radar Mercado Publico</b>.</li>
+  <li>A la derecha: <b>Run workflow</b> → botón verde <b>Run workflow</b>.</li>
+  <li>Espera 2 a 4 minutos y recarga. Un ✅ verde significa que corrió bien.</li>
+ </ol>
+ <p>Desde ahí en adelante corre solo, de lunes a viernes en la mañana.</p>
+</div>
+
+<div class="paso">
+ <span class="min">1 min</span>
+ <h2><span class="n">6</span>Ver el informe</h2>
+ <p>Vuelve a la pestaña <b>Code</b> del repositorio y entra a la carpeta
+  <code>data</code>. Ahí van a estar:</p>
+ <ul>
+  <li><code>informe.html</code> — el listado del día, para abrir en el navegador</li>
+  <li><code>latest.json</code> — los mismos datos, para que yo los lea</li>
+  <li><code>historial/</code> — una copia por cada día, se va acumulando</li>
+ </ul>
+ <p><b>Después pásame la dirección de tu repositorio</b> (algo como
+  <code>github.com/tunombre/radar-mp</code>) y dejo programado el resumen diario:
+  cada mañana leo el resultado, reviso las bases de cada licitación y te digo cuáles
+  vale la pena postular y cuáles no.</p>
+</div>
+
+<h3>Si algo se rompe</h3>
+<p style="color:var(--mut);font-size:15px">
+ <b>El paso 5 sale con ✗ rojo:</b> entra a la corrida, abre el paso «Ejecutar radar» y
+ mira el mensaje. Si dice <i>Ticket no válido</i>, el secreto quedó mal escrito o con
+ espacios: bórralo y créalo de nuevo. Si dice que no devolvió activas, la API de
+ Mercado Público estaba caída — pasa seguido, se arregla sola al día siguiente.<br><br>
+ <b>Te llega un correo de GitHub diciendo que deshabilitó el workflow por inactividad:</b>
+ GitHub apaga las tareas programadas en repositorios sin actividad por 60 días. Entra a
+ Actions y clic en <b>Enable workflow</b>. Se vuelve a activar al toque.<br><br>
+ <b>Llegan muchas licitaciones que no sirven, o muy pocas:</b> avísame y ajustamos los
+ pesos del filtro. Es un archivo de texto, se cambia en un minuto.
+</p>
+
+<footer>
+ El bot no gasta nada: GitHub Actions es gratis en este volumen y la API de Mercado
+ Público también. Tu ticket permite 10.000 consultas al día y el radar usa entre 50 y 150.
+</footer>
+</div></body></html>
