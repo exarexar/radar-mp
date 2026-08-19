@@ -1,54 +1,18 @@
 {
-  "generado": "2026-08-19 09:21",
+  "generado": "2026-08-19 17:52",
   "fecha": "2026-08-19",
-  "ventana_dias_habiles": 2,
-  "ventana_hasta": "2026-08-21",
+  "horizonte": 20,
+  "fecha_hasta": "2026-09-16",
+  "primera_corrida": true,
   "modo": "solo desarrollo",
   "resumen": {
-    "activas_revisadas": 4385,
-    "detalles_consultados": 334,
-    "oportunidades": 12,
-    "cierran_hoy": 2,
-    "cierran_manana": 5,
-    "llamadas_api": 686
+    "activas_revisadas": 4531,
+    "detalles_consultados": 394,
+    "nuevas": 22,
+    "por_cerrar": 0,
+    "llamadas_api": 800
   },
-  "oportunidades": [
-    {
-      "codigo": "1111089-13-LP26",
-      "nombre": "ADQUISICION DE LICENCIA VMWARE POR 12 MESES",
-      "organismo": "Comisión Nacional de Investigación Científica y Tecnológicas - CONICYT",
-      "unidad": "Agencia Nacional de Investigación y Desarrollo",
-      "tipo": "LP",
-      "cierre": "2026-08-19T15:00:00",
-      "habiles_restantes": 0,
-      "monto": "no informado",
-      "puntaje": 12,
-      "razones": [
-        "rubro ONU 43231512",
-        "«software» en el detalle",
-        "«ui» en el título"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1111089-13-LP26",
-      "descripcion": "La Agencia Nacional de Investigación y Desarrollo, ANID, requiere contar con LICENCIA VMWARE, durante 12 meses, para la continuidad operativa de sus sistemas Informáticos."
-    },
-    {
-      "codigo": "2292-52-L126",
-      "nombre": "“ADQUISICIÓN DEL SERVICIO DE COFFEE BREAK SALUDABLE PARA ACTIVIDADES COMUNITARIAS, DEL AÑO 2026”",
-      "organismo": "I MUNICIPALIDAD DE TALCA",
-      "unidad": "DIR. COMUNAL DE SALUD",
-      "tipo": "L1",
-      "cierre": "2026-08-19T15:00:00",
-      "habiles_restantes": 0,
-      "monto": "3.150.000 CLP",
-      "puntaje": 11,
-      "razones": [
-        "«programacion» en el detalle",
-        "«programación» en el detalle",
-        "«ui» en el título"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2292-52-L126",
-      "descripcion": "SE SOLICITA LA ADQUISICIÓN DEL SERVICIO DE COFFEE BREAK PARA UN MÁXIMO DE 18 ACTIVIDADES DESTINADAS A LOS CECOSF DE LA COMUNA DE TALCA, ABARCANDO UN TOTAL DE HASTA 630 PERSONAS ENTRE SEPTIEMBRE A DICIEMBRE DE 2026. FECHA, LUGAR Y HORARIO DE CADA ACTIVIDAD SEGÚN PROGRAMACIÓN ESPECÍFICA COORDINADA POR ASESORA DE GESTIÓN CLÍNICA PAULA SALAZAR, QUIEN AVISARA FORMALMENTE AL PROVEEDOR.\n"
-    },
+  "nuevas": [
     {
       "codigo": "1079486-18-LE26",
       "nombre": "ADQ. SOPORTE Y MANTENCION DE SOFTWARE XRY LABOCAR",
@@ -57,14 +21,15 @@
       "tipo": "LE",
       "cierre": "2026-08-20T18:00:00",
       "habiles_restantes": 1,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
       "monto": "no informado",
-      "puntaje": 31,
+      "puntaje": 27,
       "razones": [
         "rubro ONU 43231512",
         "«mantencion de software» en el título",
         "«mantención de software» en el título",
-        "«software» en el título",
-        "«ui» en el detalle"
+        "«software» en el título"
       ],
       "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1079486-18-LE26",
       "descripcion": "DE ADQUISICIÓN DE SOPORTE Y MANTENCION DE SOFTWARE PARA EQUIPO DE EXTRACCION FORENSE POR 12 MESES PARA LA SECCIÓN CRIMINALÍSTICA COPIAPO."
@@ -77,73 +42,19 @@
       "tipo": "LE",
       "cierre": "2026-08-20T15:00:00",
       "habiles_restantes": 1,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
       "monto": "68.700.000 CLP",
-      "puntaje": 13,
+      "puntaje": 22,
       "razones": [
         "rubro ONU 43232408",
         "«plataforma web» en el detalle",
         "«software» en el detalle",
-        "«ui» en el detalle"
+        "«gestion digital» en el título",
+        "«gestión digital» en el título"
       ],
       "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3928-58-LE26",
       "descripcion": "CONTRATACION PLATAFORMA DE GESTION DIGITAL PARA ESTABLECIMIENTOS EDUCACIONALES MUNICIPALES\r\nDECRETO N° 2086\r\nFONDOS LEY SEP DE CADA ESTABLECIMIENTO EDUCACIONAL"
-    },
-    {
-      "codigo": "2251-9-LE26",
-      "nombre": "Renovació de Licencia y almacenamiento en la nube sistema U+ ETA",
-      "organismo": "DIRECCION GENERAL DE AERONAUTICA CIVIL",
-      "unidad": "UNIDAD DE COMPRA ESCUELA TECNICA DE AERONAUTICA",
-      "tipo": "LE",
-      "cierre": "2026-08-20T15:30:00",
-      "habiles_restantes": 1,
-      "monto": "22.500.000 CLP",
-      "puntaje": 11,
-      "razones": [
-        "rubro ONU 43232804",
-        "«sistema de gestion» en el detalle",
-        "«sistema de gestión» en el detalle",
-        "«software» en el detalle"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2251-9-LE26",
-      "descripcion": "La necesidad de la Escuela Técnica Aeronáutica de contratar servicio de renovación de licencia y almacenamiento en la nube del sistema de gestión académica U+ que utiliza nuestra institución. Para mas detalles, favor de revisar Bases Administrativas, Bases Técnicas, Pauta de Evaluación así como todo anexo y documentación disponible como anexo en adjuntos de licitación. E102RT9"
-    },
-    {
-      "codigo": "3447-135-E226",
-      "nombre": "ADQ. INST. Y MANT. DE EQUIPOS AIRE ACONDICIONADO",
-      "organismo": "MUNICIPALIDAD DE ALTO HOSPICIO",
-      "unidad": "Direccion de Administracion y Finanzas",
-      "tipo": "E2",
-      "cierre": "2026-08-20T10:00:00",
-      "habiles_restantes": 1,
-      "monto": "no informado",
-      "puntaje": 11,
-      "razones": [
-        "«mantencion de sistema» en el detalle",
-        "«mantención de sistema» en el detalle",
-        "«ui» en el título"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3447-135-E226",
-      "descripcion": "Adquisición, instalación y mantención de sistemas de climatización y puntos eléctricos dedicados para diversas instalaciones de la Red APS. \r\n\r\nEl propósito de esta adquisición es garantizar las condiciones ambientales necesarias para el estricto control sanitario, la prevención de infecciones y el adecuado funcionamiento clínico y administrativo de las dependencias."
-    },
-    {
-      "codigo": "3929-53-LP26",
-      "nombre": "SUSCRIPCIÓN DE LICENCIAS DE SOFTWARE DE DISEÑO ASISTIDO POR COMPUTADOR CAD",
-      "organismo": "I MUNICIPALIDAD DE VINA DEL MAR",
-      "unidad": "Secpla",
-      "tipo": "LP",
-      "cierre": "2026-08-20T09:00:00",
-      "habiles_restantes": 1,
-      "monto": "310.000.000 CLP",
-      "puntaje": 9,
-      "razones": [
-        "rubro ONU 43232408",
-        "«plataforma web» en el detalle",
-        "«software» en el título",
-        "«ui» en el detalle",
-        "ruido: «computador»"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3929-53-LP26",
-      "descripcion": "Las presentes bases norman el proceso de la propuesta pública que efectúa el llamado para la licitación denominada “Suscripción de licencias de software de diseño asistido por computador CAD”. \r\n\r\nLa licitación tiene por objeto proveer al Municipio de las herramientas tecnológicas necesarias para el desarrollo de proyectos de arquitectura, ingeniería y construcción.\r\n\r\nTodo lo anterior, en conformidad a las características indicadas en las bases administrativas, bases técnicas y demás antecedentes de esta licitación.\r\n"
     },
     {
       "codigo": "1057428-29-L126",
@@ -153,14 +64,15 @@
       "tipo": "L1",
       "cierre": "2026-08-21T13:55:00",
       "habiles_restantes": 2,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
       "monto": "1.190.000 CLP",
-      "puntaje": 30,
+      "puntaje": 27,
       "razones": [
         "rubro ONU 43231512",
         "«sistema informatico» en el título",
         "«sistema informático» en el título",
-        "«software» en el detalle",
-        "«ui» en el detalle"
+        "«software» en el detalle"
       ],
       "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057428-29-L126",
       "descripcion": "Las presentes especificaciones técnicas tienen por objetivo establecer las condiciones y requisitos mínimos que regirán el contrato de suministro de un sistema informático para la emisión de Licencias Médicas Electrónicas (LME) para el Hospital de Florida, destinado a habilitar a los profesionales de salud del establecimiento para el otorgamiento, emisión y tramitación de LME conforme al marco reglamentario vigente."
@@ -173,71 +85,856 @@
       "tipo": "LE",
       "cierre": "2026-08-21T15:00:00",
       "habiles_restantes": 2,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
       "monto": "10.000.000 CLP",
-      "puntaje": 15,
+      "puntaje": 22,
       "razones": [
         "rubro ONU 43232202",
         "«sistema de gestion» en el título",
         "«sistema de gestión» en el título",
-        "«ui» en el detalle"
+        "«gestion documental» en el título",
+        "«gestión documental» en el título",
+        "ruido: «capacitacion» en el detalle"
       ],
       "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4174-29-LE26",
       "descripcion": "La presente licitación tiene por objeto la contratación de una persona natural o jurídica que provea el servicio que permita dar una solución integral de Gestión Documental Electrónica para la Ilustre Municipalidad de Quirihue, incluyendo el suministro de licencias, implementación, configuración, parametrización, puesta en marcha, capacitación de usuarios, soporte técnico y acompañamiento inicial, de conformidad con las condiciones establecidas en las presentes Bases Administrativas, Especificaciones Técnicas y demás antecedentes que integran el proceso licitatorio."
     },
     {
-      "codigo": "1480134-2-L126",
-      "nombre": "PTR N°431. COMPRA DE SOFTWARE DE SOPORTE REMOTO TEAMVIEWER CORPORATE.",
-      "organismo": "I MUNICIPALIDAD DE VITACURA",
-      "unidad": "DIRECCION DE INFORMATICA 134",
+      "codigo": "5855-13-LE26",
+      "nombre": "Serv SaaS plataforma sistema gestion municipal",
+      "organismo": "Ilustre Municipalidad de Camarones",
+      "unidad": "Unidad de Adquisiciones",
+      "tipo": "LE",
+      "cierre": "2026-08-24T15:01:00",
+      "habiles_restantes": 3,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
+      "monto": "no informado",
+      "puntaje": 30,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el detalle",
+        "«sistema informatico» en el detalle",
+        "«sistema informático» en el detalle",
+        "«sistema de gestion» en el detalle",
+        "«sistema de gestión» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5855-13-LE26",
+      "descripcion": "SERVICIO DE PLATAFORMA  SISTEMA INFORMATICO DE GESTION MUNICIPAL , CON SERVICIO DE MANAGED EN SAAS SOFTWARE AS A SERVICE CON PROVISION, MANTENCION Y SOPORTE TECNICO PERMANENTE"
+    },
+    {
+      "codigo": "1421874-14-LE26",
+      "nombre": "MANT. WEB Y DESARROLLO DE PLATAFORMA TICKETERA",
+      "organismo": "FUNDACION CENTRO CULTURAL DE LO PRADO",
+      "unidad": "FUNDACION CENTRO CULTURAL DE LO PRADO",
+      "tipo": "LE",
+      "cierre": "2026-08-24T15:01:00",
+      "habiles_restantes": 3,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
+      "monto": "2.500.000 CLP",
+      "puntaje": 14,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el detalle",
+        "«sitio web» en el detalle",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1421874-14-LE26",
+      "descripcion": "La Fundación Centro Cultural de Lo Prado, persona jurídica de derecho privado sin fines de lucro, llama a Licitación Pública para Contratar el Servicio de Mantención del Sitio Web Institucional y Desarrollo de una Plataforma de Registro y Control de Acceso para Actividades Culturales de la Fundación Centro Cultural de Lo Prado"
+    },
+    {
+      "codigo": "1237404-21-L126",
+      "nombre": "PROGRAMACIÓN ARTÍSTICA CIERRE ESCUELA DE FOLCLORE",
+      "organismo": "CORPORACION CULTURAL MUNICIPAL DE ANCUD",
+      "unidad": "Administración y finanzas",
       "tipo": "L1",
-      "cierre": "2026-08-21T11:30:00",
-      "habiles_restantes": 2,
-      "monto": "7.000.000 CLP",
+      "cierre": "2026-08-25T16:01:00",
+      "habiles_restantes": 4,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
+      "monto": "no informado",
+      "puntaje": 18,
+      "razones": [
+        "«programacion» en el título",
+        "«programación» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1237404-21-L126",
+      "descripcion": "La Corporación Cultural de la Ilustre Municipalidad de Ancud requiere la contratación de un proveedor encargado de prestar los Servicios de Coordinación, Organización y Gestión necesarios para la contratación y presentación de una agrupación folclórica en el marco del “Cierre de la Escuela de Folclore Tradicional Chilote”, actividad organizada por esta Corporación, que se realizará el día 29 de agosto de 2026 en el Teatro Municipal de Ancud."
+    },
+    {
+      "codigo": "316-49-LE26",
+      "nombre": "“SERVICIO DE DIGITALIZACÓN DE FICHAS DE LICENCIAS DE CONDUCIR DE LA DIRECCION DE TRANSITO”",
+      "organismo": "I MUNICIPALIDAD DE VILLA ALEMANA",
+      "unidad": "ADQUISICIONES",
+      "tipo": "LE",
+      "cierre": "2026-08-25T11:00:00",
+      "habiles_restantes": 4,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
+      "monto": "43.500.000 CLP",
+      "puntaje": 15,
+      "razones": [
+        "«plataforma web» en el detalle",
+        "«transformacion digital» en el detalle",
+        "«transformación digital» en el detalle",
+        "«sistema de gestion» en el detalle",
+        "«sistema de gestión» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=316-49-LE26",
+      "descripcion": "La I. Municipalidad de Villa Alemana, en el marco de la emisión de Licencias de Conducir Digital y las recomendaciones mínimas para garantizar el correcto funcionamiento del Sistema de Gestión de Licencias (SGL), disponible a través de la plataforma web sgl.mtt.gob.cl, se requiere digitalizar para así acceder a los antecedentes contenidos en los expedientes de Licencias de Conducir de la Dirección de Tránsito del Municipio de Villa Alemana, de manera expedita y ordenada. Para ello se necesita digitalizar los documentos de cada carpeta de conductor y disponerlos en carpetas digitales recuperables y con ello cumplir con el objetivo de la ley de transformación digital del estado.\r\n\r\nVolumen de trabajo:\r\nEl servicio comprende la digitalización de 1.100.000 (un millón cien mil) imágenes, equivalentes a aproximadamente 35.000 fichas de licencias de conducir.\r\n\r\nLugar de ejecución:\r\nLos trabajo"
+    },
+    {
+      "codigo": "5038-3-LE26",
+      "nombre": "CONTRATACIÓN DE SERVICIO DE SISTEMA DE GESTIÓN DOCUMENTAL ATENCIÓN CIUDADANA FIRMA ELECTRÓNICA",
+      "organismo": "I MUNICIPALIDAD RIO IBANEZ",
+      "unidad": "Administración Municipal",
+      "tipo": "LE",
+      "cierre": "2026-08-26T11:00:00",
+      "habiles_restantes": 5,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
+      "monto": "20.000.000 CLP",
+      "puntaje": 46,
+      "razones": [
+        "rubro ONU 81111503",
+        "«integracion de sistemas» en el detalle",
+        "«integración de sistemas» en el detalle",
+        "«transformacion digital» en el detalle",
+        "«transformación digital» en el detalle",
+        "«sistema de gestion» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5038-3-LE26",
+      "descripcion": "Esta adquisición tiene como propósito dar cumplimiento a la Ley N° 21.180 sobre Transformación Digital del Estado, optimizando los tiempos de respuesta, eliminando el uso del papel, garantizando la trazabilidad de los expedientes y mejorando significativamente la interacción del municipio con sus habitantes y el ecosistema regulatorio nacional."
+    },
+    {
+      "codigo": "3588-36-LP26",
+      "nombre": "ARRIENDO SISTEMA GESTIÓN MUNICIPALIDAD YUNGAY",
+      "organismo": "I MUNICIPALIDAD DE YUNGAY",
+      "unidad": "Direccion Administración y Finanzas",
+      "tipo": "LP",
+      "cierre": "2026-08-26T11:07:00",
+      "habiles_restantes": 5,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
+      "monto": "290.000.000 CLP",
+      "puntaje": 13,
+      "razones": [
+        "rubro ONU 43231512",
+        "«transformacion digital» en el detalle",
+        "«transformación digital» en el detalle",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3588-36-LP26",
+      "descripcion": "La presente licitación pública tiene como objetivo el arriendo, implementación y soporte técnico de una serie de sistemas computacionales integrados que permitan optimizar la gestión administrativa, operativa, control y de atención al usuario dentro de la municipalidad de Yungay. Estos sistemas deben abarcan diversas áreas críticas para el funcionamiento municipal Municipalidad, Departamento de Salud y Departamento de Cementerio, tales como contabilidad gubernamental, tesorería, órdenes de ingresos, Juzgado de policía local, permisos de circulación y otros servicios esenciales para el buen desempeño de la administración local.\r\nCon esta licitación, la municipalidad de Yungay y sus servicios incorporados a la gestión municipal buscan automatizar procesos clave, mejorar la toma de decisiones basado en datos y asegurar un servicio ágil y eficiente hacia la ciudadanía, favoreciendo el desarr"
+    },
+    {
+      "codigo": "813-90-LE26",
+      "nombre": "Consultoría en desarrollo de software. E1O2RT9.",
+      "organismo": "INSTITUTO DE SALUD PUBLICA DE CHILE",
+      "unidad": "Cotizaciones - ISP",
+      "tipo": "LE",
+      "cierre": "2026-08-28T15:00:00",
+      "habiles_restantes": 7,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
+      "monto": "55.000.000 CLP",
+      "puntaje": 19,
+      "razones": [
+        "rubro ONU 43232402",
+        "«desarrollo de software» en el título",
+        "«software» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=813-90-LE26",
+      "descripcion": "Servicio de consultoría en desarrollo de software, garantizando con ello, a) automatizar los procesos de la transformación de datos de la información de registros y b) desarrollar un piloto de herramienta basada en inteligencia artificial."
+    },
+    {
+      "codigo": "1113265-12-LE26",
+      "nombre": "ADQUISICIÓN E IMPLEMENTACIÓN DE PLATAFORMA",
+      "organismo": "CENTRO DE FORMACION TECNICA DE LA REGION DE ANTOFAGASTA",
+      "unidad": "UNIDAD DE COMPRAS",
+      "tipo": "LE",
+      "cierre": "2026-08-28T16:37:00",
+      "habiles_restantes": 7,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
+      "monto": "no informado",
       "puntaje": 12,
       "razones": [
         "rubro ONU 43231512",
-        "«software» en el título"
+        "«plataforma web» en el detalle",
+        "«software» en el detalle"
       ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1480134-2-L126",
-      "descripcion": "COMPRA DE SOFTWARE DE SOPORTE REMOTO TEAMVIEWER CORPORATE.. POR 3 AÑOS. 4 CANALES O USUARIOS (SIMULTANEOS). VER MAS DETALLES DE LO REQUERIDO EN BASES DE LICITACION (PTR N°431) EN ARCHIVOS ADJUNTO."
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1113265-12-LE26",
+      "descripcion": "ha requerido contratar el servicio de provisión, implementación, integración, soporte y mantención de una plataforma web tecnológica, en modalidad SaaS Software como Servicio, para la gestión estratégica de la permanencia y trayectoria estudiantil, que permita gestionar la retención, el seguimiento a la progresión y la trayectoria académica, como apoyo a los procesos asociados al Modelo de Acompañamiento a la Trayectoria del Estudiante MAPE del CFTE de la Región de Antofagasta."
     },
     {
-      "codigo": "1395-59-LE26",
-      "nombre": "Adquisición Medicamentos Salud Sexual S.S.Coquimbo",
-      "organismo": "SERVICIO DE SALUD COQUIMBO",
-      "unidad": "Servicio de Salud Coquimbo",
+      "codigo": "3134-72-LR26",
+      "nombre": "CONTRATAR EL DESARROLLO DE UN SISTEMA INFORMÁTICO DE EMISIÓN DE DOCUMENTOS DE COBRO Y GESTIÓN DE COBRANZA Y POSTERIOR SOPORTE POR UN PERIODO DE 48 MESES.",
+      "organismo": "DIRECCION DE ABASTECIMIENTO DE LA ARMADA",
+      "unidad": "DIRECCION GENERAL DEL TERRITORIO MARITIMO Y M.M.",
+      "tipo": "LR",
+      "cierre": "2026-08-31T17:00:00",
+      "habiles_restantes": 8,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
+      "monto": "434.042.600 CLP",
+      "puntaje": 25,
+      "razones": [
+        "rubro ONU 43232402",
+        "«sistema informatico» en el título",
+        "«sistema informático» en el título",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3134-72-LR26",
+      "descripcion": "La Dirección General del Territorio Marítimo y de Marina Mercante, llama a licitación pública para contratar el desarrollo de un sistema informático de emisión de documentos de cobro llamados Órdenes de Ingresos y la gestión de cobranza de estos, los cuales deben ser emitidos por la Autoridad Marítima a través de plataformas en línea y de forma presencial.\r\nb.-\tEl objetivo principal de esta licitación, es contar con un contrato para el desarrollo de un Sistema que permita generar órdenes de ingreso y egreso, realizar el seguimiento y cobro, para finalmente efectuar la recaudación. Para la emisión, el Sistema debe obtener datos desde bases de datos y otros sistemas propios, con los cuales debe tener una integración y donde cada uno de los hechos económicos queden registrados en línea, mediante una integración con el sistema contable externo. \r\nc.-\tEsta Dirección General, al tener la neces"
+    },
+    {
+      "codigo": "948354-128-LP26",
+      "nombre": "CONTRATACIÓN DEL SERVICIO DE SISTEMA INFORMÁTICO PARA GESTIÓN DE DATOS DE BANCO DE SANGRE DEL HOSPITAL DIPRECA",
+      "organismo": "FONDO HOSPITAL DE LA DIRECCION DE PREVISION DE CARABINEROS DE CHILE",
+      "unidad": "Unidad de Compra de Bienes y Servicios",
+      "tipo": "LP",
+      "cierre": "2026-08-31T16:00:00",
+      "habiles_restantes": 8,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
+      "monto": "175.000.000 CLP",
+      "puntaje": 25,
+      "razones": [
+        "rubro ONU 43232405",
+        "«sistema informatico» en el título",
+        "«sistema informático» en el título",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=948354-128-LP26",
+      "descripcion": "El Hospital de la Dirección de Previsión de Carabineros de Chile, ubicado en Vital Apoquindo N°1.200, Comuna de Las Condes, Región Metropolitana, en adelante “EL HOSPITAL”, llama a Licitación Pública para la Contratación del Servicio de Sistema Informático para Gestión de Datos de Banco de Sangre, en adelante “EL SERVICIO”, por un periodo de 24 meses, cuyas características y requisitos técnicos constan en las Bases Administrativas y Técnicas de esta Licitación con sus respectivos anexos."
+    },
+    {
+      "codigo": "599-28-LP26",
+      "nombre": "CONSULTORÍA Y SOPORTE SISTEMA RRHH",
+      "organismo": "JUNTA NACIONAL DE JARDINES         INFANTILES",
+      "unidad": "JUNTA NACIONAL DE JARDINES         INFANTILES",
+      "tipo": "LP",
+      "cierre": "2026-08-31T18:00:00",
+      "habiles_restantes": 8,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
+      "monto": "no informado",
+      "puntaje": 14,
+      "razones": [
+        "rubro ONU 81111805",
+        "«sistema de gestion» en el detalle",
+        "«sistema de gestión» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=599-28-LP26",
+      "descripcion": "La Junta Nacional de Jardines Infantiles, JUNJI, llama a Licitación Pública para la “CONTRATACIÓN DEL SERVICIO DE CONSULTORÍA Y SOPORTE PARA EL ACTUAL SISTEMA DE GESTIÓN Y DESARROLLO DE PERSONAS”."
+    },
+    {
+      "codigo": "1514-101-LP26",
+      "nombre": "Convenio de suministro de insumos y reactivos para análisis de exámenes de hematología incluyendo la entrega de analizadores en comodato conectados al sistema informático de laboratorio SIL",
+      "organismo": "SERVICIO DE SALUD CHILOE",
+      "unidad": "Hospital de Castro",
+      "tipo": "LP",
+      "cierre": "2026-09-04T15:00:00",
+      "habiles_restantes": 12,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
+      "monto": "no informado",
+      "puntaje": 20,
+      "razones": [
+        "«sistema informatico» en el título",
+        "«sistema informático» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1514-101-LP26",
+      "descripcion": "Convenio de suministro de insumos y reactivos para análisis de exámenes de hematología, incluyendo la entrega de analizadores en comodato conectados al sistema informático de laboratorio (SIL)"
+    },
+    {
+      "codigo": "3378-51-LP26",
+      "nombre": "SERVICIO DE SOPORTE Y MANTENCIÓN DE SISTEMA Y BASE DE DATOS SAP-HANA BUSINESS ONE PARA EL HMS POR 36 MESES",
+      "organismo": "DIVISION LOGISTICA DEL EJERCITO",
+      "unidad": "Hospital Militar de Santiago- HMS",
+      "tipo": "LP",
+      "cierre": "2026-09-07T16:00:00",
+      "habiles_restantes": 13,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
+      "monto": "272.160.000 CLP",
+      "puntaje": 31,
+      "razones": [
+        "rubro ONU 81111805",
+        "«mantencion de sistema» en el título",
+        "«mantención de sistema» en el título",
+        "«base de datos» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3378-51-LP26",
+      "descripcion": "Que, el Hospital Militar de Santiago debe contar para su correcto y normal funcionamiento, con un adecuado y oportuno servicio de soporte de la plataforma de hardware, solo de la base de datos y las posibles injerencias paramétricas al sistema operativo si se amerita o se requiere cambios como parte del soporte solicitado y/o requerimientos de aplicaciones foráneas autorizadas."
+    },
+    {
+      "codigo": "608897-52-LP26",
+      "nombre": "MESA DE SERVICIOS DE TECNOLOGÍAS DE INFORMACIÓN",
+      "organismo": "SUBSECRETARIA DEL MEDIO AMBIENTE",
+      "unidad": "Subsecretaría del Medio Ambiente",
+      "tipo": "LP",
+      "cierre": "2026-09-07T16:00:00",
+      "habiles_restantes": 13,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
+      "monto": "306.000.000 CLP",
+      "puntaje": 18,
+      "razones": [
+        "rubro ONU 81111811",
+        "«transformacion digital» en el detalle",
+        "«transformación digital» en el detalle",
+        "«ciberseguridad» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=608897-52-LP26",
+      "descripcion": "asegurar la continuidad operativa de los servicios tecnológicos institucionales, brindar soporte técnico oportuno a los usuarios y garantizar la adecuada operación de las plataformas tecnológicas de la Subsecretaría del Medio Ambiente; a través de la contratación de una empresa especializada en tecnologías de la información que provea y gestione los recursos humanos y técnicos necesarios para la prestación del servicio, considerando una dotación de cinco profesionales o técnicos destinados a la gestión de incidentes, requerimientos de servicio, soporte técnico y operación de plataformas tecnológicas, tanto para el nivel central como para las secretarías regionales ministeriales. Esta mesa operará bajo los principios de la Ley N°21.180 sobre “Transformación digital del Estado” y la Ley N°21.663 sobre “Ley marco de ciberseguridad”"
+    },
+    {
+      "codigo": "1422824-1-LR26",
+      "nombre": "CONTRATO DE SUMINISTRO DE REACTIVOS PARA EXÁMENES BIOQUÍMICOS INMUNOENDOCRINOLÓGICOS Y SEROLOGICOS CON EQUIPAMIENTO Y SISTEMA INFORMÁTICO DE LABORATORIO EN COMODATO PARA EL HOSPITAL CARLOS VAN BUREN",
+      "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUREN",
+      "unidad": "Insumos y Reactivos",
+      "tipo": "LR",
+      "cierre": "2026-09-09T16:00:00",
+      "habiles_restantes": 15,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
+      "monto": "no informado",
+      "puntaje": 20,
+      "razones": [
+        "«sistema informatico» en el título",
+        "«sistema informático» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1422824-1-LR26",
+      "descripcion": "CONTRATO DE SUMINISTRO DE REACTIVOS PARA EXÁMENES BIOQUÍMICOS, INMUNOENDOCRINOLÓGICOS Y SEROLOGICOS CON EQUIPAMIENTO Y SISTEMA INFORMÁTICO DE LABORATORIO EN COMODATO PARA EL HOSPITAL CARLOS VAN BUREN"
+    },
+    {
+      "codigo": "2239-2-LR26",
+      "nombre": "Convenio Marco Desarrollo de software",
+      "organismo": "DIRECCION DE COMPRAS Y CONTRATACION PUBLICA",
+      "unidad": "División de Convenio Marco",
+      "tipo": "LR",
+      "cierre": "2026-09-10T15:00:00",
+      "habiles_restantes": 16,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
+      "monto": "no informado",
+      "puntaje": 28,
+      "razones": [
+        "«desarrollo de software» en el título",
+        "«servicios de desarrollo» en el detalle",
+        "«mantencion de software» en el detalle",
+        "«mantención de software» en el detalle",
+        "«software» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2239-2-LR26",
+      "descripcion": "Convenio Marco para la adquisición de los Servicios de Desarrollo y Mantención de Software, Servicios Profesionales TI y Cloud Computing"
+    },
+    {
+      "codigo": "2770-120-LR26",
+      "nombre": "SISTEMA DE GESTIÓN INTEGRADO SMAPA",
+      "organismo": "I MUNICIPALIDAD DE MAIPU",
+      "unidad": "I MUNICIPALIDAD DE MAIPU",
+      "tipo": "LR",
+      "cierre": "2026-09-10T14:00:00",
+      "habiles_restantes": 16,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
+      "monto": "54.018 CLF",
+      "puntaje": 15,
+      "razones": [
+        "rubro ONU 43233001",
+        "«sistema de gestion» en el título",
+        "«sistema de gestión» en el título",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2770-120-LR26",
+      "descripcion": "La presenta licitación tiene por finalidad la adquisición, implementación y ejecución de un sistema TI (tecnología de la información) enfocado en unificar e integrar todas las tareas de las diferentes unidades de SMAPA en una sola plataforma, de manera de tener una sola fuente de información, sin necesidad de traspasos manuales, para así prestar un mejor servicio a los usuarios, así como también el facturador electrónico de la Municipalidad de Maipú. \r\nTodo lo anterior en virtud de lo dispuesto en las presentes Bases Administrativas, las Bases Técnicas y todos sus anexos."
+    },
+    {
+      "codigo": "1057489-239-LR26",
+      "nombre": "Convenio de Suministro de reactivos insumos equipamiento completo y sistema informático para análisis y procesamiento de muestras para Laboratorio de Hematología y Citometría de Flujo por 12 meses para el Hospital del Salvador",
+      "organismo": "SERVICIO DE SALUD ORIENTE HOSPITAL DEL SALVADOR",
+      "unidad": "Bienes y Servicios",
+      "tipo": "LR",
+      "cierre": "2026-09-14T16:00:00",
+      "habiles_restantes": 18,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
+      "monto": "571.853.624 CLP",
+      "puntaje": 20,
+      "razones": [
+        "«sistema informatico» en el título",
+        "«sistema informático» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057489-239-LR26",
+      "descripcion": "Que, el Hospital del Salvador necesita contar con el Convenio de Suministro de\r\nreactivos, insumos, equipamiento completo y sistema informático para análisis y\r\nprocesamiento de muestras para Laboratorio de Hematología y Citometría de\r\nFlujo por 12 meses para el Hospital del Salvador, en adelante también “HdS” o\r\n“Hospital”, con la finalidad de satisfacer de manera adecuada y eficiente la labor\r\nasistencial;\r\nQue, por la cuantía determinada, la presente licitación se ubica en el tramo para\r\ncontrataciones iguales o superiores a 5.000 UTM, en conformidad al Artículo 36º del\r\nReglamento de la Ley Nº19.886;\r\n"
+    }
+  ],
+  "por_cerrar": [],
+  "oportunidades": [
+    {
+      "codigo": "1079486-18-LE26",
+      "nombre": "ADQ. SOPORTE Y MANTENCION DE SOFTWARE XRY LABOCAR",
+      "organismo": "DIRECCION DE LOGISTICA DE CARABINEROS",
+      "unidad": "SECCIÓN COMPRAS ZONA DE CARABINEROS ATACAMA",
+      "tipo": "LE",
+      "cierre": "2026-08-20T18:00:00",
+      "habiles_restantes": 1,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
+      "monto": "no informado",
+      "puntaje": 27,
+      "razones": [
+        "rubro ONU 43231512",
+        "«mantencion de software» en el título",
+        "«mantención de software» en el título",
+        "«software» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1079486-18-LE26",
+      "descripcion": "DE ADQUISICIÓN DE SOPORTE Y MANTENCION DE SOFTWARE PARA EQUIPO DE EXTRACCION FORENSE POR 12 MESES PARA LA SECCIÓN CRIMINALÍSTICA COPIAPO."
+    },
+    {
+      "codigo": "3928-58-LE26",
+      "nombre": "CONTRATACION PLATAFORMA DE GESTION DIGITAL PARA ESTABLECIMIENTOS EDUCACIONALES MUNICIPALES",
+      "organismo": "ILUSTRE MUNICIPALIDAD DE PICHILEMU",
+      "unidad": "Educación Municipal",
+      "tipo": "LE",
+      "cierre": "2026-08-20T15:00:00",
+      "habiles_restantes": 1,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
+      "monto": "68.700.000 CLP",
+      "puntaje": 22,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el detalle",
+        "«software» en el detalle",
+        "«gestion digital» en el título",
+        "«gestión digital» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3928-58-LE26",
+      "descripcion": "CONTRATACION PLATAFORMA DE GESTION DIGITAL PARA ESTABLECIMIENTOS EDUCACIONALES MUNICIPALES\r\nDECRETO N° 2086\r\nFONDOS LEY SEP DE CADA ESTABLECIMIENTO EDUCACIONAL"
+    },
+    {
+      "codigo": "1057428-29-L126",
+      "nombre": "CONTRATACIÓN DE SISTEMA INFORMÁTICO PARA LA EMISIÓN DE LICENCIAS MÉDICAS ELECTRÓNICAS PARA HOSPITAL DE FLORIDA",
+      "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE FLORIDA",
+      "unidad": "Bienes y Servicios",
+      "tipo": "L1",
+      "cierre": "2026-08-21T13:55:00",
+      "habiles_restantes": 2,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
+      "monto": "1.190.000 CLP",
+      "puntaje": 27,
+      "razones": [
+        "rubro ONU 43231512",
+        "«sistema informatico» en el título",
+        "«sistema informático» en el título",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057428-29-L126",
+      "descripcion": "Las presentes especificaciones técnicas tienen por objetivo establecer las condiciones y requisitos mínimos que regirán el contrato de suministro de un sistema informático para la emisión de Licencias Médicas Electrónicas (LME) para el Hospital de Florida, destinado a habilitar a los profesionales de salud del establecimiento para el otorgamiento, emisión y tramitación de LME conforme al marco reglamentario vigente."
+    },
+    {
+      "codigo": "4174-29-LE26",
+      "nombre": "SISTEMA DE GESTIÓN DOCUMENTAL Y COMPLEMENTOS",
+      "organismo": "Ilustre Municipalidad de Quirihue",
+      "unidad": "Secplan",
       "tipo": "LE",
       "cierre": "2026-08-21T15:00:00",
       "habiles_restantes": 2,
-      "monto": "no informado",
-      "puntaje": 11,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
+      "monto": "10.000.000 CLP",
+      "puntaje": 22,
       "razones": [
-        "«programacion» en el detalle",
-        "«programación» en el detalle",
-        "«ui» en el título"
+        "rubro ONU 43232202",
+        "«sistema de gestion» en el título",
+        "«sistema de gestión» en el título",
+        "«gestion documental» en el título",
+        "«gestión documental» en el título",
+        "ruido: «capacitacion» en el detalle"
       ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1395-59-LE26",
-      "descripcion": "El Servicio de Salud Coquimbo llama a Licitación Pública, a través del Portal Mercado Público, para la adquisición de medicamentos asociados al Programa de Salud Sexual Reproductiva y Climaterio de la Mujer, garantizados para la población de la Red Asistencial de APS que se encuentra faltante de la programación de CENABAST y faltante en Convenios de Suministro.\r\nEl presente proceso licitatorio es de ejecución inmediata, por lo tanto, se requiere el despacho íntegro de las unidades adjudicadas de acuerdo a los plazos ofertados.\r\nMayores especificaciones, descripciones, requisitos y demás características de la materia de encargo en el Artículo N°2 de las Bases Técnicas del proceso licitatorio."
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4174-29-LE26",
+      "descripcion": "La presente licitación tiene por objeto la contratación de una persona natural o jurídica que provea el servicio que permita dar una solución integral de Gestión Documental Electrónica para la Ilustre Municipalidad de Quirihue, incluyendo el suministro de licencias, implementación, configuración, parametrización, puesta en marcha, capacitación de usuarios, soporte técnico y acompañamiento inicial, de conformidad con las condiciones establecidas en las presentes Bases Administrativas, Especificaciones Técnicas y demás antecedentes que integran el proceso licitatorio."
     },
     {
-      "codigo": "3849-3-LE26",
-      "nombre": "RENOV. DE LICENCIAS SOFTWARE PARA LA OF. REVISTA",
-      "organismo": "DIRECCION DE LOGISTICA DE CARABINEROS",
-      "unidad": "Depto. Comunicaciones Sociales",
+      "codigo": "5855-13-LE26",
+      "nombre": "Serv SaaS plataforma sistema gestion municipal",
+      "organismo": "Ilustre Municipalidad de Camarones",
+      "unidad": "Unidad de Adquisiciones",
       "tipo": "LE",
-      "cierre": "2026-08-21T17:00:00",
-      "habiles_restantes": 2,
-      "monto": "23.031.656 CLP",
-      "puntaje": 8,
+      "cierre": "2026-08-24T15:01:00",
+      "habiles_restantes": 3,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
+      "monto": "no informado",
+      "puntaje": 30,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el detalle",
+        "«sistema informatico» en el detalle",
+        "«sistema informático» en el detalle",
+        "«sistema de gestion» en el detalle",
+        "«sistema de gestión» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5855-13-LE26",
+      "descripcion": "SERVICIO DE PLATAFORMA  SISTEMA INFORMATICO DE GESTION MUNICIPAL , CON SERVICIO DE MANAGED EN SAAS SOFTWARE AS A SERVICE CON PROVISION, MANTENCION Y SOPORTE TECNICO PERMANENTE"
+    },
+    {
+      "codigo": "1421874-14-LE26",
+      "nombre": "MANT. WEB Y DESARROLLO DE PLATAFORMA TICKETERA",
+      "organismo": "FUNDACION CENTRO CULTURAL DE LO PRADO",
+      "unidad": "FUNDACION CENTRO CULTURAL DE LO PRADO",
+      "tipo": "LE",
+      "cierre": "2026-08-24T15:01:00",
+      "habiles_restantes": 3,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
+      "monto": "2.500.000 CLP",
+      "puntaje": 14,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el detalle",
+        "«sitio web» en el detalle",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1421874-14-LE26",
+      "descripcion": "La Fundación Centro Cultural de Lo Prado, persona jurídica de derecho privado sin fines de lucro, llama a Licitación Pública para Contratar el Servicio de Mantención del Sitio Web Institucional y Desarrollo de una Plataforma de Registro y Control de Acceso para Actividades Culturales de la Fundación Centro Cultural de Lo Prado"
+    },
+    {
+      "codigo": "1237404-21-L126",
+      "nombre": "PROGRAMACIÓN ARTÍSTICA CIERRE ESCUELA DE FOLCLORE",
+      "organismo": "CORPORACION CULTURAL MUNICIPAL DE ANCUD",
+      "unidad": "Administración y finanzas",
+      "tipo": "L1",
+      "cierre": "2026-08-25T16:01:00",
+      "habiles_restantes": 4,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
+      "monto": "no informado",
+      "puntaje": 18,
+      "razones": [
+        "«programacion» en el título",
+        "«programación» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1237404-21-L126",
+      "descripcion": "La Corporación Cultural de la Ilustre Municipalidad de Ancud requiere la contratación de un proveedor encargado de prestar los Servicios de Coordinación, Organización y Gestión necesarios para la contratación y presentación de una agrupación folclórica en el marco del “Cierre de la Escuela de Folclore Tradicional Chilote”, actividad organizada por esta Corporación, que se realizará el día 29 de agosto de 2026 en el Teatro Municipal de Ancud."
+    },
+    {
+      "codigo": "316-49-LE26",
+      "nombre": "“SERVICIO DE DIGITALIZACÓN DE FICHAS DE LICENCIAS DE CONDUCIR DE LA DIRECCION DE TRANSITO”",
+      "organismo": "I MUNICIPALIDAD DE VILLA ALEMANA",
+      "unidad": "ADQUISICIONES",
+      "tipo": "LE",
+      "cierre": "2026-08-25T11:00:00",
+      "habiles_restantes": 4,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
+      "monto": "43.500.000 CLP",
+      "puntaje": 15,
+      "razones": [
+        "«plataforma web» en el detalle",
+        "«transformacion digital» en el detalle",
+        "«transformación digital» en el detalle",
+        "«sistema de gestion» en el detalle",
+        "«sistema de gestión» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=316-49-LE26",
+      "descripcion": "La I. Municipalidad de Villa Alemana, en el marco de la emisión de Licencias de Conducir Digital y las recomendaciones mínimas para garantizar el correcto funcionamiento del Sistema de Gestión de Licencias (SGL), disponible a través de la plataforma web sgl.mtt.gob.cl, se requiere digitalizar para así acceder a los antecedentes contenidos en los expedientes de Licencias de Conducir de la Dirección de Tránsito del Municipio de Villa Alemana, de manera expedita y ordenada. Para ello se necesita digitalizar los documentos de cada carpeta de conductor y disponerlos en carpetas digitales recuperables y con ello cumplir con el objetivo de la ley de transformación digital del estado.\r\n\r\nVolumen de trabajo:\r\nEl servicio comprende la digitalización de 1.100.000 (un millón cien mil) imágenes, equivalentes a aproximadamente 35.000 fichas de licencias de conducir.\r\n\r\nLugar de ejecución:\r\nLos trabajo"
+    },
+    {
+      "codigo": "5038-3-LE26",
+      "nombre": "CONTRATACIÓN DE SERVICIO DE SISTEMA DE GESTIÓN DOCUMENTAL ATENCIÓN CIUDADANA FIRMA ELECTRÓNICA",
+      "organismo": "I MUNICIPALIDAD RIO IBANEZ",
+      "unidad": "Administración Municipal",
+      "tipo": "LE",
+      "cierre": "2026-08-26T11:00:00",
+      "habiles_restantes": 5,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
+      "monto": "20.000.000 CLP",
+      "puntaje": 46,
+      "razones": [
+        "rubro ONU 81111503",
+        "«integracion de sistemas» en el detalle",
+        "«integración de sistemas» en el detalle",
+        "«transformacion digital» en el detalle",
+        "«transformación digital» en el detalle",
+        "«sistema de gestion» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5038-3-LE26",
+      "descripcion": "Esta adquisición tiene como propósito dar cumplimiento a la Ley N° 21.180 sobre Transformación Digital del Estado, optimizando los tiempos de respuesta, eliminando el uso del papel, garantizando la trazabilidad de los expedientes y mejorando significativamente la interacción del municipio con sus habitantes y el ecosistema regulatorio nacional."
+    },
+    {
+      "codigo": "3588-36-LP26",
+      "nombre": "ARRIENDO SISTEMA GESTIÓN MUNICIPALIDAD YUNGAY",
+      "organismo": "I MUNICIPALIDAD DE YUNGAY",
+      "unidad": "Direccion Administración y Finanzas",
+      "tipo": "LP",
+      "cierre": "2026-08-26T11:07:00",
+      "habiles_restantes": 5,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
+      "monto": "290.000.000 CLP",
+      "puntaje": 13,
       "razones": [
         "rubro ONU 43231512",
-        "«software» en el título",
-        "«ui» en el detalle",
-        "«cloud» en el detalle",
-        "ruido: «adobe»"
+        "«transformacion digital» en el detalle",
+        "«transformación digital» en el detalle",
+        "«software» en el detalle"
       ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3849-3-LE26",
-      "descripcion": "Renovar las licencias de software Adobe requeridas para los equipos computacionales de la Oficina Revista Carabineros, de acuerdo a la función propia de esta, asegurando la continuidad operativa de los sistemas de apoyo."
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3588-36-LP26",
+      "descripcion": "La presente licitación pública tiene como objetivo el arriendo, implementación y soporte técnico de una serie de sistemas computacionales integrados que permitan optimizar la gestión administrativa, operativa, control y de atención al usuario dentro de la municipalidad de Yungay. Estos sistemas deben abarcan diversas áreas críticas para el funcionamiento municipal Municipalidad, Departamento de Salud y Departamento de Cementerio, tales como contabilidad gubernamental, tesorería, órdenes de ingresos, Juzgado de policía local, permisos de circulación y otros servicios esenciales para el buen desempeño de la administración local.\r\nCon esta licitación, la municipalidad de Yungay y sus servicios incorporados a la gestión municipal buscan automatizar procesos clave, mejorar la toma de decisiones basado en datos y asegurar un servicio ágil y eficiente hacia la ciudadanía, favoreciendo el desarr"
+    },
+    {
+      "codigo": "813-90-LE26",
+      "nombre": "Consultoría en desarrollo de software. E1O2RT9.",
+      "organismo": "INSTITUTO DE SALUD PUBLICA DE CHILE",
+      "unidad": "Cotizaciones - ISP",
+      "tipo": "LE",
+      "cierre": "2026-08-28T15:00:00",
+      "habiles_restantes": 7,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
+      "monto": "55.000.000 CLP",
+      "puntaje": 19,
+      "razones": [
+        "rubro ONU 43232402",
+        "«desarrollo de software» en el título",
+        "«software» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=813-90-LE26",
+      "descripcion": "Servicio de consultoría en desarrollo de software, garantizando con ello, a) automatizar los procesos de la transformación de datos de la información de registros y b) desarrollar un piloto de herramienta basada en inteligencia artificial."
+    },
+    {
+      "codigo": "1113265-12-LE26",
+      "nombre": "ADQUISICIÓN E IMPLEMENTACIÓN DE PLATAFORMA",
+      "organismo": "CENTRO DE FORMACION TECNICA DE LA REGION DE ANTOFAGASTA",
+      "unidad": "UNIDAD DE COMPRAS",
+      "tipo": "LE",
+      "cierre": "2026-08-28T16:37:00",
+      "habiles_restantes": 7,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
+      "monto": "no informado",
+      "puntaje": 12,
+      "razones": [
+        "rubro ONU 43231512",
+        "«plataforma web» en el detalle",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1113265-12-LE26",
+      "descripcion": "ha requerido contratar el servicio de provisión, implementación, integración, soporte y mantención de una plataforma web tecnológica, en modalidad SaaS Software como Servicio, para la gestión estratégica de la permanencia y trayectoria estudiantil, que permita gestionar la retención, el seguimiento a la progresión y la trayectoria académica, como apoyo a los procesos asociados al Modelo de Acompañamiento a la Trayectoria del Estudiante MAPE del CFTE de la Región de Antofagasta."
+    },
+    {
+      "codigo": "3134-72-LR26",
+      "nombre": "CONTRATAR EL DESARROLLO DE UN SISTEMA INFORMÁTICO DE EMISIÓN DE DOCUMENTOS DE COBRO Y GESTIÓN DE COBRANZA Y POSTERIOR SOPORTE POR UN PERIODO DE 48 MESES.",
+      "organismo": "DIRECCION DE ABASTECIMIENTO DE LA ARMADA",
+      "unidad": "DIRECCION GENERAL DEL TERRITORIO MARITIMO Y M.M.",
+      "tipo": "LR",
+      "cierre": "2026-08-31T17:00:00",
+      "habiles_restantes": 8,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
+      "monto": "434.042.600 CLP",
+      "puntaje": 25,
+      "razones": [
+        "rubro ONU 43232402",
+        "«sistema informatico» en el título",
+        "«sistema informático» en el título",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3134-72-LR26",
+      "descripcion": "La Dirección General del Territorio Marítimo y de Marina Mercante, llama a licitación pública para contratar el desarrollo de un sistema informático de emisión de documentos de cobro llamados Órdenes de Ingresos y la gestión de cobranza de estos, los cuales deben ser emitidos por la Autoridad Marítima a través de plataformas en línea y de forma presencial.\r\nb.-\tEl objetivo principal de esta licitación, es contar con un contrato para el desarrollo de un Sistema que permita generar órdenes de ingreso y egreso, realizar el seguimiento y cobro, para finalmente efectuar la recaudación. Para la emisión, el Sistema debe obtener datos desde bases de datos y otros sistemas propios, con los cuales debe tener una integración y donde cada uno de los hechos económicos queden registrados en línea, mediante una integración con el sistema contable externo. \r\nc.-\tEsta Dirección General, al tener la neces"
+    },
+    {
+      "codigo": "948354-128-LP26",
+      "nombre": "CONTRATACIÓN DEL SERVICIO DE SISTEMA INFORMÁTICO PARA GESTIÓN DE DATOS DE BANCO DE SANGRE DEL HOSPITAL DIPRECA",
+      "organismo": "FONDO HOSPITAL DE LA DIRECCION DE PREVISION DE CARABINEROS DE CHILE",
+      "unidad": "Unidad de Compra de Bienes y Servicios",
+      "tipo": "LP",
+      "cierre": "2026-08-31T16:00:00",
+      "habiles_restantes": 8,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
+      "monto": "175.000.000 CLP",
+      "puntaje": 25,
+      "razones": [
+        "rubro ONU 43232405",
+        "«sistema informatico» en el título",
+        "«sistema informático» en el título",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=948354-128-LP26",
+      "descripcion": "El Hospital de la Dirección de Previsión de Carabineros de Chile, ubicado en Vital Apoquindo N°1.200, Comuna de Las Condes, Región Metropolitana, en adelante “EL HOSPITAL”, llama a Licitación Pública para la Contratación del Servicio de Sistema Informático para Gestión de Datos de Banco de Sangre, en adelante “EL SERVICIO”, por un periodo de 24 meses, cuyas características y requisitos técnicos constan en las Bases Administrativas y Técnicas de esta Licitación con sus respectivos anexos."
+    },
+    {
+      "codigo": "599-28-LP26",
+      "nombre": "CONSULTORÍA Y SOPORTE SISTEMA RRHH",
+      "organismo": "JUNTA NACIONAL DE JARDINES         INFANTILES",
+      "unidad": "JUNTA NACIONAL DE JARDINES         INFANTILES",
+      "tipo": "LP",
+      "cierre": "2026-08-31T18:00:00",
+      "habiles_restantes": 8,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
+      "monto": "no informado",
+      "puntaje": 14,
+      "razones": [
+        "rubro ONU 81111805",
+        "«sistema de gestion» en el detalle",
+        "«sistema de gestión» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=599-28-LP26",
+      "descripcion": "La Junta Nacional de Jardines Infantiles, JUNJI, llama a Licitación Pública para la “CONTRATACIÓN DEL SERVICIO DE CONSULTORÍA Y SOPORTE PARA EL ACTUAL SISTEMA DE GESTIÓN Y DESARROLLO DE PERSONAS”."
+    },
+    {
+      "codigo": "1514-101-LP26",
+      "nombre": "Convenio de suministro de insumos y reactivos para análisis de exámenes de hematología incluyendo la entrega de analizadores en comodato conectados al sistema informático de laboratorio SIL",
+      "organismo": "SERVICIO DE SALUD CHILOE",
+      "unidad": "Hospital de Castro",
+      "tipo": "LP",
+      "cierre": "2026-09-04T15:00:00",
+      "habiles_restantes": 12,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
+      "monto": "no informado",
+      "puntaje": 20,
+      "razones": [
+        "«sistema informatico» en el título",
+        "«sistema informático» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1514-101-LP26",
+      "descripcion": "Convenio de suministro de insumos y reactivos para análisis de exámenes de hematología, incluyendo la entrega de analizadores en comodato conectados al sistema informático de laboratorio (SIL)"
+    },
+    {
+      "codigo": "3378-51-LP26",
+      "nombre": "SERVICIO DE SOPORTE Y MANTENCIÓN DE SISTEMA Y BASE DE DATOS SAP-HANA BUSINESS ONE PARA EL HMS POR 36 MESES",
+      "organismo": "DIVISION LOGISTICA DEL EJERCITO",
+      "unidad": "Hospital Militar de Santiago- HMS",
+      "tipo": "LP",
+      "cierre": "2026-09-07T16:00:00",
+      "habiles_restantes": 13,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
+      "monto": "272.160.000 CLP",
+      "puntaje": 31,
+      "razones": [
+        "rubro ONU 81111805",
+        "«mantencion de sistema» en el título",
+        "«mantención de sistema» en el título",
+        "«base de datos» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3378-51-LP26",
+      "descripcion": "Que, el Hospital Militar de Santiago debe contar para su correcto y normal funcionamiento, con un adecuado y oportuno servicio de soporte de la plataforma de hardware, solo de la base de datos y las posibles injerencias paramétricas al sistema operativo si se amerita o se requiere cambios como parte del soporte solicitado y/o requerimientos de aplicaciones foráneas autorizadas."
+    },
+    {
+      "codigo": "608897-52-LP26",
+      "nombre": "MESA DE SERVICIOS DE TECNOLOGÍAS DE INFORMACIÓN",
+      "organismo": "SUBSECRETARIA DEL MEDIO AMBIENTE",
+      "unidad": "Subsecretaría del Medio Ambiente",
+      "tipo": "LP",
+      "cierre": "2026-09-07T16:00:00",
+      "habiles_restantes": 13,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
+      "monto": "306.000.000 CLP",
+      "puntaje": 18,
+      "razones": [
+        "rubro ONU 81111811",
+        "«transformacion digital» en el detalle",
+        "«transformación digital» en el detalle",
+        "«ciberseguridad» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=608897-52-LP26",
+      "descripcion": "asegurar la continuidad operativa de los servicios tecnológicos institucionales, brindar soporte técnico oportuno a los usuarios y garantizar la adecuada operación de las plataformas tecnológicas de la Subsecretaría del Medio Ambiente; a través de la contratación de una empresa especializada en tecnologías de la información que provea y gestione los recursos humanos y técnicos necesarios para la prestación del servicio, considerando una dotación de cinco profesionales o técnicos destinados a la gestión de incidentes, requerimientos de servicio, soporte técnico y operación de plataformas tecnológicas, tanto para el nivel central como para las secretarías regionales ministeriales. Esta mesa operará bajo los principios de la Ley N°21.180 sobre “Transformación digital del Estado” y la Ley N°21.663 sobre “Ley marco de ciberseguridad”"
+    },
+    {
+      "codigo": "1422824-1-LR26",
+      "nombre": "CONTRATO DE SUMINISTRO DE REACTIVOS PARA EXÁMENES BIOQUÍMICOS INMUNOENDOCRINOLÓGICOS Y SEROLOGICOS CON EQUIPAMIENTO Y SISTEMA INFORMÁTICO DE LABORATORIO EN COMODATO PARA EL HOSPITAL CARLOS VAN BUREN",
+      "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUREN",
+      "unidad": "Insumos y Reactivos",
+      "tipo": "LR",
+      "cierre": "2026-09-09T16:00:00",
+      "habiles_restantes": 15,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
+      "monto": "no informado",
+      "puntaje": 20,
+      "razones": [
+        "«sistema informatico» en el título",
+        "«sistema informático» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1422824-1-LR26",
+      "descripcion": "CONTRATO DE SUMINISTRO DE REACTIVOS PARA EXÁMENES BIOQUÍMICOS, INMUNOENDOCRINOLÓGICOS Y SEROLOGICOS CON EQUIPAMIENTO Y SISTEMA INFORMÁTICO DE LABORATORIO EN COMODATO PARA EL HOSPITAL CARLOS VAN BUREN"
+    },
+    {
+      "codigo": "2239-2-LR26",
+      "nombre": "Convenio Marco Desarrollo de software",
+      "organismo": "DIRECCION DE COMPRAS Y CONTRATACION PUBLICA",
+      "unidad": "División de Convenio Marco",
+      "tipo": "LR",
+      "cierre": "2026-09-10T15:00:00",
+      "habiles_restantes": 16,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
+      "monto": "no informado",
+      "puntaje": 28,
+      "razones": [
+        "«desarrollo de software» en el título",
+        "«servicios de desarrollo» en el detalle",
+        "«mantencion de software» en el detalle",
+        "«mantención de software» en el detalle",
+        "«software» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2239-2-LR26",
+      "descripcion": "Convenio Marco para la adquisición de los Servicios de Desarrollo y Mantención de Software, Servicios Profesionales TI y Cloud Computing"
+    },
+    {
+      "codigo": "2770-120-LR26",
+      "nombre": "SISTEMA DE GESTIÓN INTEGRADO SMAPA",
+      "organismo": "I MUNICIPALIDAD DE MAIPU",
+      "unidad": "I MUNICIPALIDAD DE MAIPU",
+      "tipo": "LR",
+      "cierre": "2026-09-10T14:00:00",
+      "habiles_restantes": 16,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
+      "monto": "54.018 CLF",
+      "puntaje": 15,
+      "razones": [
+        "rubro ONU 43233001",
+        "«sistema de gestion» en el título",
+        "«sistema de gestión» en el título",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2770-120-LR26",
+      "descripcion": "La presenta licitación tiene por finalidad la adquisición, implementación y ejecución de un sistema TI (tecnología de la información) enfocado en unificar e integrar todas las tareas de las diferentes unidades de SMAPA en una sola plataforma, de manera de tener una sola fuente de información, sin necesidad de traspasos manuales, para así prestar un mejor servicio a los usuarios, así como también el facturador electrónico de la Municipalidad de Maipú. \r\nTodo lo anterior en virtud de lo dispuesto en las presentes Bases Administrativas, las Bases Técnicas y todos sus anexos."
+    },
+    {
+      "codigo": "1057489-239-LR26",
+      "nombre": "Convenio de Suministro de reactivos insumos equipamiento completo y sistema informático para análisis y procesamiento de muestras para Laboratorio de Hematología y Citometría de Flujo por 12 meses para el Hospital del Salvador",
+      "organismo": "SERVICIO DE SALUD ORIENTE HOSPITAL DEL SALVADOR",
+      "unidad": "Bienes y Servicios",
+      "tipo": "LR",
+      "cierre": "2026-09-14T16:00:00",
+      "habiles_restantes": 18,
+      "nuevo": true,
+      "visto_desde": "2026-08-19",
+      "monto": "571.853.624 CLP",
+      "puntaje": 20,
+      "razones": [
+        "«sistema informatico» en el título",
+        "«sistema informático» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057489-239-LR26",
+      "descripcion": "Que, el Hospital del Salvador necesita contar con el Convenio de Suministro de\r\nreactivos, insumos, equipamiento completo y sistema informático para análisis y\r\nprocesamiento de muestras para Laboratorio de Hematología y Citometría de\r\nFlujo por 12 meses para el Hospital del Salvador, en adelante también “HdS” o\r\n“Hospital”, con la finalidad de satisfacer de manera adecuada y eficiente la labor\r\nasistencial;\r\nQue, por la cuantía determinada, la presente licitación se ubica en el tramo para\r\ncontrataciones iguales o superiores a 5.000 UTM, en conformidad al Artículo 36º del\r\nReglamento de la Ley Nº19.886;\r\n"
     }
   ]
 }
