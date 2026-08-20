@@ -114,6 +114,15 @@ CLAVES_FUERTES.update({
     "construcción de software": 11, "sistema de informacion": 8,
     "sistema de información": 8, "gestion digital": 6, "gestión digital": 6,
     "gestion documental": 6, "gestión documental": 6,
+    # Formas de decir «constrúyeme algo» que faltaban. Detectadas con datos reales.
+    "desarrollo de plataforma": 12, "desarrollo de portal": 11,
+    "desarrollo de sitio": 10, "desarrollo e implementacion": 10,
+    "desarrollo e implementación": 10, "diseño y desarrollo": 11,
+    "mantencion web": 8, "mantención web": 8, "mant. web": 8,
+    "desarrollo y mantencion": 11, "desarrollo y mantención": 11,
+    "plataforma informatica": 9, "plataforma informática": 9,
+    "portal de tramites": 9, "portal de trámites": 9,
+    "sistema web": 10, "software de gestion": 7, "software de gestión": 7,
 })
 
 # Cosas que se ven "TI" pero NO son desarrollo. Restan puntos.
@@ -147,9 +156,45 @@ CLAVES_RUIDO = {
     "insumos médicos": -20, "aire acondicionado": -20, "climatizacion": -20,
     "climatización": -20, "señaletica": -15, "señalética": -15,
     "vestuario": -20, "utiles de oficina": -20, "útiles de oficina": -20,
+    # Homónimos: «programación» también es la cartelera de un teatro.
+    "programacion artistica": -25, "programación artística": -25,
+    "programacion cultural": -25, "programación cultural": -25,
+    "programacion musical": -25, "programación musical": -25,
+    "programacion de actividades": -22, "programación de actividades": -22,
+    "escuela de folclore": -25, "espectaculo": -20, "espectáculo": -20,
+    # Equipamiento de laboratorio que viene «con sistema informático en comodato».
+    "reactivo": -22, "reactivos": -22, "comodato": -14, "analizador": -18,
+    "hematologia": -22, "hematología": -22, "laboratorio clinico": -18,
+    "laboratorio clínico": -18, "examenes bioquimicos": -22,
+    "exámenes bioquímicos": -22, "serologicos": -22, "serológicos": -22,
+    # Mesa de ayuda: es TI, pero no es construir software.
+    "mesa de ayuda": -14, "mesa de servicios": -14, "help desk": -14,
+    "soporte a usuarios": -10, "mesa de servicio": -14,
+    # Digitalizar papeles es escanear, no programar.
+    "digitalizacion de fichas": -16, "digitalización de fichas": -16,
+    "digitalizacion de documentos": -14, "digitalización de documentos": -14,
+    "escaneo": -12,
 }
 
-UMBRAL = 12      # puntaje mínimo para entrar al informe
+
+def _compacta(pesos: dict[str, int]) -> dict[str, int]:
+    """Normaliza las claves y funde los duplicados con/sin tilde.
+
+    Sin esto «programación» y «programacion» quedaban como dos entradas distintas
+    que colapsaban al mismo texto normalizado, así que cada una sumaba por
+    separado y el peso real era el doble del declarado.
+    """
+    out: dict[str, int] = {}
+    for k, v in pesos.items():
+        nk = normaliza(k)
+        if nk not in out or abs(v) > abs(out[nk]):
+            out[nk] = v
+    return out
+
+
+# Las tablas se compactan más abajo, apenas normaliza() está disponible.
+
+UMBRAL = 9       # puntaje mínimo para entrar al informe
 HORIZONTE = 20   # días hábiles hacia adelante que se escanean
 RECORDAR = 2     # días hábiles: recordatorio de cierre de algo ya reportado
 MINIMO = 0       # días hábiles mínimos para reportar algo como oportunidad nueva
@@ -204,6 +249,10 @@ def normaliza(txt: str) -> str:
     t = unicodedata.normalize("NFKD", str(txt).lower())
     t = "".join(c for c in t if not unicodedata.combining(c))
     return re.sub(r"\s+", " ", t)
+
+
+CLAVES_FUERTES = _compacta(CLAVES_FUERTES)
+CLAVES_RUIDO = _compacta(CLAVES_RUIDO)
 
 
 def feriados(anios: list[int]) -> set[str]:
@@ -266,10 +315,14 @@ def parse_fecha(v) -> datetime | None:
 # Cliente API
 # --------------------------------------------------------------------------
 
+CACHE_DIAS = 10   # cuántos días se reutiliza la ficha ya descargada
+
+
 class MP:
     def __init__(self, ticket: str, pausa: float = 0.35):
         self.ticket = ticket
         self.pausa = pausa
+        self.desde_cache = 0
         self.s = requests.Session()
         self.s.headers["User-Agent"] = "radar-mp/1.0 (monitoreo de licitaciones)"
         self.llamadas = 0
@@ -309,11 +362,19 @@ class MP:
         return (js or {}).get("Listado", []) or []
 
     def detalle(self, codigo: str) -> dict | None:
+        """Ficha completa. Se reutiliza la copia local mientras sea reciente.
+
+        Los datos que dependen del tiempo (la fecha de cierre) NO se leen de aquí:
+        main() usa siempre la fecha del listado de activas, que se baja fresca cada
+        día. Lo cacheado es rubro, monto y descripción, que no cambian.
+        """
         f = CACHE / f"{re.sub(r'[^A-Za-z0-9_-]', '_', codigo)}.json"
         if f.exists():
             try:
                 d = json.loads(f.read_text(encoding="utf-8"))
-                if d.get("_cached_at", "")[:10] == date.today().isoformat():
+                cuando = parse_fecha(d.get("_cached_at"))
+                if cuando and (datetime.now() - cuando).days < CACHE_DIAS:
+                    self.desde_cache += 1
                     return d
             except Exception:
                 pass
@@ -365,23 +426,22 @@ def puntuar(det: dict, amplio: bool) -> tuple[int, list[str]]:
         puntos += mejor_pts
         razones.append(f"rubro ONU {mejor_cod}")
 
-    for kw, pts in CLAVES_FUERTES.items():
-        k = normaliza(kw)
+    # Las claves ya vienen normalizadas y sin duplicados desde _compacta().
+    for k, pts in CLAVES_FUERTES.items():
         if contiene(nombre, k):
             puntos += pts
-            razones.append(f"«{kw}» en el título")
+            razones.append(f"«{k}» en el título")
         elif contiene(desc, k) or contiene(items_txt, k):
             puntos += max(1, pts // 2)
-            razones.append(f"«{kw}» en el detalle")
+            razones.append(f"«{k}» en el detalle")
 
-    for kw, pts in CLAVES_RUIDO.items():
-        k = normaliza(kw)
+    for k, pts in CLAVES_RUIDO.items():
         if contiene(nombre, k) or contiene(items_txt, k):
             puntos += pts
-            razones.append(f"ruido: «{kw}»")
+            razones.append(f"ruido: «{k}»")
         elif contiene(desc, k):
             puntos += pts // 2
-            razones.append(f"ruido: «{kw}» en el detalle")
+            razones.append(f"ruido: «{k}» en el detalle")
 
     # dedup conservando orden
     vistos, limpias = set(), []
@@ -598,24 +658,29 @@ def main() -> int:
     filtrados = [c for c in candidatos if c[2] is None or vale_la_pena(c[1])]
     print(f"  candidatos por fecha: {len(candidatos)} → a revisar en detalle: {len(filtrados)}")
 
+    # La fecha de cierre viene del listado de activas, que se baja fresco cada día.
+    # Si un organismo prorroga el plazo, esto lo refleja aunque la ficha esté en caché.
+    cierres = {c[0]: c[2] for c in filtrados if c[2] is not None}
+
     detalles = []
     with ThreadPoolExecutor(max_workers=4) as ex:
         for d in ex.map(lambda c: mp.detalle(c[0]), filtrados):
             if d:
                 detalles.append(d)
-    print(f"  detalles obtenidos: {len(detalles)} ({mp.llamadas} llamadas a la API)")
+    print(f"  detalles obtenidos: {len(detalles)} "
+          f"({mp.llamadas} llamadas a la API, {mp.desde_cache} desde caché)")
 
     nuevas, por_cerrar = [], []
     for det in detalles:
-        fc = parse_fecha(det.get("Fechas", {}).get("FechaCierre")
-                         or det.get("FechaCierre"))
+        codigo = det.get("CodigoExterno", "")
+        fc = cierres.get(codigo) or parse_fecha(
+            det.get("Fechas", {}).get("FechaCierre") or det.get("FechaCierre"))
         if fc is None or not (hoy_dt - timedelta(hours=12)) <= fc <= techo_dt:
             continue
         pts, razones = puntuar(det, args.amplio)
         if pts < args.umbral:
             continue
 
-        codigo = det.get("CodigoExterno", "")
         restantes = habiles_entre(hoy, fc.date(), fer)
         ya_visto = codigo in vistos
         vistos.setdefault(codigo, hoy.isoformat())

@@ -100,6 +100,44 @@ assert fallos_reales == 0, (f"{fallos_reales} fallos con datos reales "
 print(f"OK  regresión con los 12 resultados reales del 19-08-2026 "
       f"(4 desarrollo, 8 ruido, 0 errores)")
 
+# ---------- 3c. corpus real: las 22 del 19-08-2026 en producción ----------
+fx = json.loads((Path(__file__).parent / "fixtures" / "reales-2026-08-19.json")
+                .read_text(encoding="utf-8"))
+fp, fn, detalle = [], [], []
+for c in fx["casos"]:
+    det = {"Nombre": c["nombre"], "Descripcion": c["descripcion"],
+           "Items": {"Listado": [{"CodigoProducto": o, "NombreProducto": "",
+                                  "Descripcion": ""} for o in c["onu"]]}}
+    pts, _ = radar.puntuar(det, amplio=False)
+    pasa, debe = pts >= radar.UMBRAL, c["es_desarrollo"]
+    if pasa and not debe:
+        fp.append((c["nombre"][:50], pts, c["nota"]))
+    if debe and not pasa:
+        fn.append((c["nombre"][:50], pts))
+    detalle.append((debe, pts, pasa, c["nombre"][:56]))
+
+for debe, pts, pasa, n in sorted(detalle, key=lambda r: -r[1]):
+    marca = ("✓" if pasa else "·") if debe else ("✗" if pasa else "✓")
+    print(f"    {marca} [{pts:>4}] {'DEV  ' if debe else 'ruido'} {n}")
+
+# Tolerancia: los casos límite documentados pueden fallar, el resto no.
+LIMITE = {"escanear fichas en papel, no desarrollo (caso límite)"}
+fp_graves = [f for f in fp if f[2] not in LIMITE]
+assert not fp_graves, f"falsos positivos no tolerados: {fp_graves}"
+assert len(fp) <= 1, f"demasiados falsos positivos: {fp}"
+assert len(fn) <= 1, f"se están perdiendo licitaciones reales: {fn}"
+print(f"OK  corpus real de {len(fx['casos'])} licitaciones del {fx['fecha']}: "
+      f"{len(fp)} falso positivo, {len(fn)} perdida "
+      f"(de {fx['activas_ese_dia']} activas ese día)")
+
+# El bug del doble conteo por tildes no puede volver.
+assert len(radar.CLAVES_FUERTES) == len({radar.normaliza(k) for k in radar.CLAVES_FUERTES})
+assert len(radar.CLAVES_RUIDO) == len({radar.normaliza(k) for k in radar.CLAVES_RUIDO})
+_r = radar.puntuar(lic("Servicio de programación de sistemas"), amplio=False)[1]
+assert len([x for x in _r if "programacion" in x]) == 1, \
+    "«programación» y «programacion» no pueden sumar dos veces"
+print("OK  sin doble conteo entre variantes con y sin tilde")
+
 # El bug original, aislado: «ui» dentro de «adquisición» no puede puntuar.
 assert not radar.contiene(radar.normaliza("Adquisición de camionetas"), "ui"), \
     "«ui» no puede calzar dentro de «adquisición»"
