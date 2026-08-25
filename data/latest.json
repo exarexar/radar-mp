@@ -1,158 +1,19 @@
 {
-  "generado": "2026-08-25 05:42",
+  "generado": "2026-08-25 13:14",
   "fecha": "2026-08-25",
   "horizonte": 20,
   "fecha_hasta": "2026-09-23",
   "primera_corrida": false,
   "modo": "solo desarrollo",
   "resumen": {
-    "activas_revisadas": 4408,
-    "detalles_consultados": 405,
-    "nuevas": 6,
-    "por_cerrar": 5,
-    "llamadas_api": 96
+    "activas_revisadas": 4501,
+    "detalles_consultados": 414,
+    "nuevas": 0,
+    "por_cerrar": 4,
+    "llamadas_api": 49
   },
-  "nuevas": [
-    {
-      "codigo": "4429-96-LE26",
-      "nombre": "SISTEMA INFORMATICO WEB PARA CENTROS DE SALUD",
-      "organismo": "MUNICIPALIDAD DE HUALPEN",
-      "unidad": "Dirección de Salud",
-      "tipo": "LE",
-      "cierre": "2026-09-03T14:25:00",
-      "habiles_restantes": 7,
-      "nuevo": true,
-      "visto_desde": "2026-08-25",
-      "monto": "32.500.000 CLP",
-      "puntaje": 17,
-      "razones": [
-        "rubro ONU 43231513",
-        "«sistema informatico» en el título",
-        "«software» en el detalle"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4429-96-LE26",
-      "descripcion": "Servicio de Sistema Informático Web para la Gestión de Calidad, Seguridad del Paciente, Acreditación y Autorización Sanitaria de los Establecimientos dependientes de la Dirección de Salud Municipal de Hualpén"
-    },
-    {
-      "codigo": "3945-20-LE26",
-      "nombre": "ADQUISICION SERVICIO DE SISTEMA INFORMATIVO DE GESTION DOCUMENTAL - MUNICIPALIDAD LOS ALAMOS",
-      "organismo": "I MUNICIPALIDAD DE LOS ALAMOS DEPTO COMUNAL",
-      "unidad": "Administración y Finanzas",
-      "tipo": "LE",
-      "cierre": "2026-09-03T12:01:00",
-      "habiles_restantes": 7,
-      "nuevo": true,
-      "visto_desde": "2026-08-25",
-      "monto": "70.000.000 CLP",
-      "puntaje": 16,
-      "razones": [
-        "rubro ONU 43233004",
-        "«sistema informatico» en el detalle",
-        "«software» en el detalle",
-        "«gestion documental» en el título"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3945-20-LE26",
-      "descripcion": "La   necesidad      de      contratar    “ADQUISICION SERVICIO   DE \tSISTEMA     INFORMATIVO    DE     GESTION   DOCUMENTAL – MUNICIPALIDAD   LOS     ALAMOS”, conforme     a           Bases  \r\n\t\t\tAdministrativas, Técnicas y Anexos adjuntos. \r\n"
-    },
-    {
-      "codigo": "4429-95-LE26",
-      "nombre": "ARRIENDO SOFTWARE FARMACIA Y OPTICA MUNICIPAL",
-      "organismo": "MUNICIPALIDAD DE HUALPEN",
-      "unidad": "Dirección de Salud",
-      "tipo": "LE",
-      "cierre": "2026-09-03T14:25:00",
-      "habiles_restantes": 7,
-      "nuevo": true,
-      "visto_desde": "2026-08-25",
-      "monto": "10.000.000 CLP",
-      "puntaje": 12,
-      "razones": [
-        "rubro ONU 43231503",
-        "«software» en el título",
-        "«software de gestion» en el detalle"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4429-95-LE26",
-      "descripcion": "SERVICIO DE ARRIENDO, IMPLEMENTACION, PUESTA EN MARCHA Y MANTENCION SOFTWARE EN GESTION FARMACIA Y OPTICA COMUNAL DE LA MUNICIPALIDAD DE HUALPEN"
-    },
-    {
-      "codigo": "1057544-283-LP26",
-      "nombre": "Servicio de Arriendo Microsoft Office para nuevo parque computacional",
-      "organismo": "SERVICIO DE SALUD DE TALCAHUANO HOSPITAL",
-      "unidad": "Bienes y Servicios",
-      "tipo": "LP",
-      "cierre": "2026-09-03T15:00:00",
-      "habiles_restantes": 7,
-      "nuevo": true,
-      "visto_desde": "2026-08-25",
-      "monto": "no informado",
-      "puntaje": 10,
-      "razones": [
-        "rubro ONU 43231512",
-        "«software» en el detalle",
-        "«software de gestion» en el detalle"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057544-283-LP26",
-      "descripcion": "La presente licitación tiene por objetivo el Servicio de Arriendo de Licencia Microsoft Office para nuevo parque computacional, con vigencia de 36 meses, según Especificación Técnica, para un total de 400 equipos, cuyo plazo de entrega de licencias, no podrá ser superior a 15 días hábiles a contar de la notificación del acto administrativo que aprueba el contrato."
-    },
-    {
-      "codigo": "2387-73-LP26",
-      "nombre": "Contratación de licencia de uso y mantención de programas computacionales",
-      "organismo": "I MUNICIPALIDAD DE PUCON",
-      "unidad": "Municipalidad de Pucon",
-      "tipo": "LP",
-      "cierre": "2026-09-04T15:00:00",
-      "habiles_restantes": 8,
-      "nuevo": true,
-      "visto_desde": "2026-08-25",
-      "monto": "no informado",
-      "puntaje": 10,
-      "razones": [
-        "rubro ONU 43231512",
-        "«software» en el detalle",
-        "«software de gestion» en el detalle"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2387-73-LP26",
-      "descripcion": "Solución informática a nivel de software, que considere los sistemas de información de gestión y planificación comunal."
-    },
-    {
-      "codigo": "1979-185-LP26",
-      "nombre": "185.26 “SERVICIO DE MANTENCION PREVENTIVA Y CORRECTIVA PARA SISTEMA CORREO NEUMATICO PARA NODO COSTERO: HOSPITAL DE NUEVA IMPERIAL.”",
-      "organismo": "SERVICIO DE SALUD ARAUCANIA SUR HOSPITAL DE NUEVA IMPERIAL",
-      "unidad": "Hospital Nueva Imperial",
-      "tipo": "LP",
-      "cierre": "2026-09-14T15:00:00",
-      "habiles_restantes": 14,
-      "nuevo": true,
-      "visto_desde": "2026-08-25",
-      "monto": "no informado",
-      "puntaje": 10,
-      "razones": [
-        "rubro ONU 81111812"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1979-185-LP26",
-      "descripcion": "Se requiere licitar en el marco del mantenimiento de los equipos industrial del Hospital de Nueva Imperial, la realización de la Mantención Preventiva y Correctiva al equipamiento descrito en las presentes bases; donde la mantención preventiva deberá tener una frecuencia semestral según lo indicado en tabla y la mantención correctiva se deberá realizar toda vez que el equipo quede fuera de servicio, sin poder prestar la utilidad para lo cual fue adquirido; situación que el mandante informará de inmediato al adjudicatario, mediante una llamada telefónica y a través de un e-mail; a este tipo de comunicaciones se le denominarán \"llamados de emergencia\"."
-    }
-  ],
+  "nuevas": [],
   "por_cerrar": [
-    {
-      "codigo": "2741-55-LE26",
-      "nombre": "ALARMAS COMUNITARIAS CON SOFTWARE DE GESTION MUNIC",
-      "organismo": "I MUNICIPALIDAD DE SAN FELIPE",
-      "unidad": "SECPLA - MUNISANFE",
-      "tipo": "LE",
-      "cierre": "2026-08-25T12:00:00",
-      "habiles_restantes": 0,
-      "nuevo": false,
-      "visto_desde": "2026-08-21",
-      "monto": "46.500.000 CLP",
-      "puntaje": 10,
-      "razones": [
-        "«software» en el título",
-        "«software de gestion» en el título"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2741-55-LE26",
-      "descripcion": "ALARMAS COMUNIATARIAS CON SOFTWARE DE GESTIÓN MUNICIPAL 2026"
-    },
     {
       "codigo": "5038-3-LE26",
       "nombre": "CONTRATACIÓN DE SERVICIO DE SISTEMA DE GESTIÓN DOCUMENTAL ATENCIÓN CIUDADANA FIRMA ELECTRÓNICA",
@@ -164,6 +25,15 @@
       "nuevo": false,
       "visto_desde": "2026-08-19",
       "monto": "20.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$20.0M contra ~$11M de costo estimado (5.5 meses-persona), $1.7M al mes por 12 meses.",
+        "monto_clp": 20000000,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 5.5,
+        "mensual": 1666667
+      },
       "puntaje": 28,
       "razones": [
         "rubro ONU 81111503",
@@ -186,6 +56,15 @@
       "nuevo": false,
       "visto_desde": "2026-08-19",
       "monto": "290.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$290.0M contra ~$15M de costo estimado (7.7 meses-persona), $8.1M al mes por 36 meses.",
+        "monto_clp": 290000000,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 7.7,
+        "mensual": 8055556
+      },
       "puntaje": 13,
       "razones": [
         "rubro ONU 43231512",
@@ -207,6 +86,15 @@
       "nuevo": false,
       "visto_desde": "2026-08-21",
       "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~7.7 meses-persona, o sea del orden de $15M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 7.7,
+        "mensual": null
+      },
       "puntaje": 10,
       "razones": [
         "rubro ONU 81111807"
@@ -225,6 +113,15 @@
       "nuevo": false,
       "visto_desde": "2026-08-21",
       "monto": "7.291.725 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$7.3M contra ~$3M de costo estimado (1.7 meses-persona).",
+        "monto_clp": 7291725,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
       "puntaje": 10,
       "razones": [
         "rubro ONU 43232408",
@@ -237,125 +134,5 @@
       "descripcion": "La necesidad de la Escuela Técnica Aeronáutica de contratar el servicio de arriendo de la plataforma Adobe Connect bajo la nomenclatura E102RT9. Para más detalles de lo requerido, favor de revisar Bases de Licitación, Bases Administrativas, Bases Técnicas, Pauta de Evaluación, así como todo documento disponible como anexo en adjuntos de la presente licitación.\r\n\r\nPAC: 3245-32-PC26"
     }
   ],
-  "oportunidades": [
-    {
-      "codigo": "4429-96-LE26",
-      "nombre": "SISTEMA INFORMATICO WEB PARA CENTROS DE SALUD",
-      "organismo": "MUNICIPALIDAD DE HUALPEN",
-      "unidad": "Dirección de Salud",
-      "tipo": "LE",
-      "cierre": "2026-09-03T14:25:00",
-      "habiles_restantes": 7,
-      "nuevo": true,
-      "visto_desde": "2026-08-25",
-      "monto": "32.500.000 CLP",
-      "puntaje": 17,
-      "razones": [
-        "rubro ONU 43231513",
-        "«sistema informatico» en el título",
-        "«software» en el detalle"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4429-96-LE26",
-      "descripcion": "Servicio de Sistema Informático Web para la Gestión de Calidad, Seguridad del Paciente, Acreditación y Autorización Sanitaria de los Establecimientos dependientes de la Dirección de Salud Municipal de Hualpén"
-    },
-    {
-      "codigo": "3945-20-LE26",
-      "nombre": "ADQUISICION SERVICIO DE SISTEMA INFORMATIVO DE GESTION DOCUMENTAL - MUNICIPALIDAD LOS ALAMOS",
-      "organismo": "I MUNICIPALIDAD DE LOS ALAMOS DEPTO COMUNAL",
-      "unidad": "Administración y Finanzas",
-      "tipo": "LE",
-      "cierre": "2026-09-03T12:01:00",
-      "habiles_restantes": 7,
-      "nuevo": true,
-      "visto_desde": "2026-08-25",
-      "monto": "70.000.000 CLP",
-      "puntaje": 16,
-      "razones": [
-        "rubro ONU 43233004",
-        "«sistema informatico» en el detalle",
-        "«software» en el detalle",
-        "«gestion documental» en el título"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3945-20-LE26",
-      "descripcion": "La   necesidad      de      contratar    “ADQUISICION SERVICIO   DE \tSISTEMA     INFORMATIVO    DE     GESTION   DOCUMENTAL – MUNICIPALIDAD   LOS     ALAMOS”, conforme     a           Bases  \r\n\t\t\tAdministrativas, Técnicas y Anexos adjuntos. \r\n"
-    },
-    {
-      "codigo": "4429-95-LE26",
-      "nombre": "ARRIENDO SOFTWARE FARMACIA Y OPTICA MUNICIPAL",
-      "organismo": "MUNICIPALIDAD DE HUALPEN",
-      "unidad": "Dirección de Salud",
-      "tipo": "LE",
-      "cierre": "2026-09-03T14:25:00",
-      "habiles_restantes": 7,
-      "nuevo": true,
-      "visto_desde": "2026-08-25",
-      "monto": "10.000.000 CLP",
-      "puntaje": 12,
-      "razones": [
-        "rubro ONU 43231503",
-        "«software» en el título",
-        "«software de gestion» en el detalle"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4429-95-LE26",
-      "descripcion": "SERVICIO DE ARRIENDO, IMPLEMENTACION, PUESTA EN MARCHA Y MANTENCION SOFTWARE EN GESTION FARMACIA Y OPTICA COMUNAL DE LA MUNICIPALIDAD DE HUALPEN"
-    },
-    {
-      "codigo": "1057544-283-LP26",
-      "nombre": "Servicio de Arriendo Microsoft Office para nuevo parque computacional",
-      "organismo": "SERVICIO DE SALUD DE TALCAHUANO HOSPITAL",
-      "unidad": "Bienes y Servicios",
-      "tipo": "LP",
-      "cierre": "2026-09-03T15:00:00",
-      "habiles_restantes": 7,
-      "nuevo": true,
-      "visto_desde": "2026-08-25",
-      "monto": "no informado",
-      "puntaje": 10,
-      "razones": [
-        "rubro ONU 43231512",
-        "«software» en el detalle",
-        "«software de gestion» en el detalle"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057544-283-LP26",
-      "descripcion": "La presente licitación tiene por objetivo el Servicio de Arriendo de Licencia Microsoft Office para nuevo parque computacional, con vigencia de 36 meses, según Especificación Técnica, para un total de 400 equipos, cuyo plazo de entrega de licencias, no podrá ser superior a 15 días hábiles a contar de la notificación del acto administrativo que aprueba el contrato."
-    },
-    {
-      "codigo": "2387-73-LP26",
-      "nombre": "Contratación de licencia de uso y mantención de programas computacionales",
-      "organismo": "I MUNICIPALIDAD DE PUCON",
-      "unidad": "Municipalidad de Pucon",
-      "tipo": "LP",
-      "cierre": "2026-09-04T15:00:00",
-      "habiles_restantes": 8,
-      "nuevo": true,
-      "visto_desde": "2026-08-25",
-      "monto": "no informado",
-      "puntaje": 10,
-      "razones": [
-        "rubro ONU 43231512",
-        "«software» en el detalle",
-        "«software de gestion» en el detalle"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2387-73-LP26",
-      "descripcion": "Solución informática a nivel de software, que considere los sistemas de información de gestión y planificación comunal."
-    },
-    {
-      "codigo": "1979-185-LP26",
-      "nombre": "185.26 “SERVICIO DE MANTENCION PREVENTIVA Y CORRECTIVA PARA SISTEMA CORREO NEUMATICO PARA NODO COSTERO: HOSPITAL DE NUEVA IMPERIAL.”",
-      "organismo": "SERVICIO DE SALUD ARAUCANIA SUR HOSPITAL DE NUEVA IMPERIAL",
-      "unidad": "Hospital Nueva Imperial",
-      "tipo": "LP",
-      "cierre": "2026-09-14T15:00:00",
-      "habiles_restantes": 14,
-      "nuevo": true,
-      "visto_desde": "2026-08-25",
-      "monto": "no informado",
-      "puntaje": 10,
-      "razones": [
-        "rubro ONU 81111812"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1979-185-LP26",
-      "descripcion": "Se requiere licitar en el marco del mantenimiento de los equipos industrial del Hospital de Nueva Imperial, la realización de la Mantención Preventiva y Correctiva al equipamiento descrito en las presentes bases; donde la mantención preventiva deberá tener una frecuencia semestral según lo indicado en tabla y la mantención correctiva se deberá realizar toda vez que el equipo quede fuera de servicio, sin poder prestar la utilidad para lo cual fue adquirido; situación que el mandante informará de inmediato al adjudicatario, mediante una llamada telefónica y a través de un e-mail; a este tipo de comunicaciones se le denominarán \"llamados de emergencia\"."
-    }
-  ]
+  "oportunidades": []
 }
