@@ -1,1 +1,216 @@
-
+{
+ "fuente": "salida real del radar en produccion",
+ "fecha": "2026-08-19",
+ "activas_ese_dia": 4531,
+ "criterio": "es_desarrollo lo fijo un humano revisando cada ficha: True si un equipo pequeno de desarrollo puede efectivamente hacer el trabajo",
+ "casos": [
+  {
+   "codigo": "1079486-18-LE26",
+   "nombre": "ADQ. SOPORTE Y MANTENCION DE SOFTWARE XRY LABOCAR",
+   "descripcion": "DE ADQUISICIÓN DE SOPORTE Y MANTENCION DE SOFTWARE PARA EQUIPO DE EXTRACCION FORENSE POR 12 MESES PARA LA SECCIÓN CRIMINALÍSTICA COPIAPO.",
+   "onu": [
+    "43231512"
+   ],
+   "es_desarrollo": true,
+   "nota": ""
+  },
+  {
+   "codigo": "3928-58-LE26",
+   "nombre": "CONTRATACION PLATAFORMA DE GESTION DIGITAL PARA ESTABLECIMIENTOS EDUCACIONALES MUNICIPALES",
+   "descripcion": "CONTRATACION PLATAFORMA DE GESTION DIGITAL PARA ESTABLECIMIENTOS EDUCACIONALES MUNICIPALES\r\nDECRETO N° 2086\r\nFONDOS LEY SEP DE CADA ESTABLECIMIENTO EDUCACIONAL",
+   "onu": [
+    "43232408"
+   ],
+   "es_desarrollo": true,
+   "nota": ""
+  },
+  {
+   "codigo": "1057428-29-L126",
+   "nombre": "CONTRATACIÓN DE SISTEMA INFORMÁTICO PARA LA EMISIÓN DE LICENCIAS MÉDICAS ELECTRÓNICAS PARA HOSPITAL DE FLORIDA",
+   "descripcion": "Las presentes especificaciones técnicas tienen por objetivo establecer las condiciones y requisitos mínimos que regirán el contrato de suministro de un sistema informático para la emisión de Licencias Médicas Electrónicas (LME) para el Hospital de Florida, destinado a habilitar a los profesionales de salud del establecimiento para el otorgamiento, emisión y tramitación de LME conforme al marco reg",
+   "onu": [
+    "43231512"
+   ],
+   "es_desarrollo": true,
+   "nota": ""
+  },
+  {
+   "codigo": "4174-29-LE26",
+   "nombre": "SISTEMA DE GESTIÓN DOCUMENTAL Y COMPLEMENTOS",
+   "descripcion": "La presente licitación tiene por objeto la contratación de una persona natural o jurídica que provea el servicio que permita dar una solución integral de Gestión Documental Electrónica para la Ilustre Municipalidad de Quirihue, incluyendo el suministro de licencias, implementación, configuración, parametrización, puesta en marcha, capacitación de usuarios, soporte técnico y acompañamiento inicial,",
+   "onu": [
+    "43232202"
+   ],
+   "es_desarrollo": true,
+   "nota": ""
+  },
+  {
+   "codigo": "5855-13-LE26",
+   "nombre": "Serv SaaS plataforma sistema gestion municipal",
+   "descripcion": "SERVICIO DE PLATAFORMA  SISTEMA INFORMATICO DE GESTION MUNICIPAL , CON SERVICIO DE MANAGED EN SAAS SOFTWARE AS A SERVICE CON PROVISION, MANTENCION Y SOPORTE TECNICO PERMANENTE",
+   "onu": [
+    "43232408"
+   ],
+   "es_desarrollo": true,
+   "nota": ""
+  },
+  {
+   "codigo": "1421874-14-LE26",
+   "nombre": "MANT. WEB Y DESARROLLO DE PLATAFORMA TICKETERA",
+   "descripcion": "La Fundación Centro Cultural de Lo Prado, persona jurídica de derecho privado sin fines de lucro, llama a Licitación Pública para Contratar el Servicio de Mantención del Sitio Web Institucional y Desarrollo de una Plataforma de Registro y Control de Acceso para Actividades Culturales de la Fundación Centro Cultural de Lo Prado",
+   "onu": [
+    "43232408"
+   ],
+   "es_desarrollo": true,
+   "nota": ""
+  },
+  {
+   "codigo": "1237404-21-L126",
+   "nombre": "PROGRAMACIÓN ARTÍSTICA CIERRE ESCUELA DE FOLCLORE",
+   "descripcion": "La Corporación Cultural de la Ilustre Municipalidad de Ancud requiere la contratación de un proveedor encargado de prestar los Servicios de Coordinación, Organización y Gestión necesarios para la contratación y presentación de una agrupación folclórica en el marco del “Cierre de la Escuela de Folclore Tradicional Chilote”, actividad organizada por esta Corporación, que se realizará el día 29 de ag",
+   "onu": [],
+   "es_desarrollo": false,
+   "nota": "«programación» en sentido artístico, no informático"
+  },
+  {
+   "codigo": "316-49-LE26",
+   "nombre": "“SERVICIO DE DIGITALIZACÓN DE FICHAS DE LICENCIAS DE CONDUCIR DE LA DIRECCION DE TRANSITO”",
+   "descripcion": "La I. Municipalidad de Villa Alemana, en el marco de la emisión de Licencias de Conducir Digital y las recomendaciones mínimas para garantizar el correcto funcionamiento del Sistema de Gestión de Licencias (SGL), disponible a través de la plataforma web sgl.mtt.gob.cl, se requiere digitalizar para así acceder a los antecedentes contenidos en los expedientes de Licencias de Conducir de la Dirección",
+   "onu": [],
+   "es_desarrollo": false,
+   "nota": "escanear fichas en papel, no desarrollo (caso límite)"
+  },
+  {
+   "codigo": "5038-3-LE26",
+   "nombre": "CONTRATACIÓN DE SERVICIO DE SISTEMA DE GESTIÓN DOCUMENTAL ATENCIÓN CIUDADANA FIRMA ELECTRÓNICA",
+   "descripcion": "Esta adquisición tiene como propósito dar cumplimiento a la Ley N° 21.180 sobre Transformación Digital del Estado, optimizando los tiempos de respuesta, eliminando el uso del papel, garantizando la trazabilidad de los expedientes y mejorando significativamente la interacción del municipio con sus habitantes y el ecosistema regulatorio nacional.",
+   "onu": [
+    "81111503"
+   ],
+   "es_desarrollo": true,
+   "nota": ""
+  },
+  {
+   "codigo": "3588-36-LP26",
+   "nombre": "ARRIENDO SISTEMA GESTIÓN MUNICIPALIDAD YUNGAY",
+   "descripcion": "La presente licitación pública tiene como objetivo el arriendo, implementación y soporte técnico de una serie de sistemas computacionales integrados que permitan optimizar la gestión administrativa, operativa, control y de atención al usuario dentro de la municipalidad de Yungay. Estos sistemas deben abarcan diversas áreas críticas para el funcionamiento municipal Municipalidad, Departamento de Sa",
+   "onu": [
+    "43231512"
+   ],
+   "es_desarrollo": true,
+   "nota": ""
+  },
+  {
+   "codigo": "813-90-LE26",
+   "nombre": "Consultoría en desarrollo de software. E1O2RT9.",
+   "descripcion": "Servicio de consultoría en desarrollo de software, garantizando con ello, a) automatizar los procesos de la transformación de datos de la información de registros y b) desarrollar un piloto de herramienta basada en inteligencia artificial.",
+   "onu": [
+    "43232402"
+   ],
+   "es_desarrollo": true,
+   "nota": ""
+  },
+  {
+   "codigo": "1113265-12-LE26",
+   "nombre": "ADQUISICIÓN E IMPLEMENTACIÓN DE PLATAFORMA",
+   "descripcion": "ha requerido contratar el servicio de provisión, implementación, integración, soporte y mantención de una plataforma web tecnológica, en modalidad SaaS Software como Servicio, para la gestión estratégica de la permanencia y trayectoria estudiantil, que permita gestionar la retención, el seguimiento a la progresión y la trayectoria académica, como apoyo a los procesos asociados al Modelo de Acompañ",
+   "onu": [
+    "43231512"
+   ],
+   "es_desarrollo": true,
+   "nota": ""
+  },
+  {
+   "codigo": "3134-72-LR26",
+   "nombre": "CONTRATAR EL DESARROLLO DE UN SISTEMA INFORMÁTICO DE EMISIÓN DE DOCUMENTOS DE COBRO Y GESTIÓN DE COBRANZA Y POSTERIOR SOPORTE POR UN PERIODO DE 48 MESES.",
+   "descripcion": "La Dirección General del Territorio Marítimo y de Marina Mercante, llama a licitación pública para contratar el desarrollo de un sistema informático de emisión de documentos de cobro llamados Órdenes de Ingresos y la gestión de cobranza de estos, los cuales deben ser emitidos por la Autoridad Marítima a través de plataformas en línea y de forma presencial.\r\nb.-\tEl objetivo principal de esta licita",
+   "onu": [
+    "43232402"
+   ],
+   "es_desarrollo": true,
+   "nota": ""
+  },
+  {
+   "codigo": "948354-128-LP26",
+   "nombre": "CONTRATACIÓN DEL SERVICIO DE SISTEMA INFORMÁTICO PARA GESTIÓN DE DATOS DE BANCO DE SANGRE DEL HOSPITAL DIPRECA",
+   "descripcion": "El Hospital de la Dirección de Previsión de Carabineros de Chile, ubicado en Vital Apoquindo N°1.200, Comuna de Las Condes, Región Metropolitana, en adelante “EL HOSPITAL”, llama a Licitación Pública para la Contratación del Servicio de Sistema Informático para Gestión de Datos de Banco de Sangre, en adelante “EL SERVICIO”, por un periodo de 24 meses, cuyas características y requisitos técnicos co",
+   "onu": [
+    "43232405"
+   ],
+   "es_desarrollo": true,
+   "nota": ""
+  },
+  {
+   "codigo": "599-28-LP26",
+   "nombre": "CONSULTORÍA Y SOPORTE SISTEMA RRHH",
+   "descripcion": "La Junta Nacional de Jardines Infantiles, JUNJI, llama a Licitación Pública para la “CONTRATACIÓN DEL SERVICIO DE CONSULTORÍA Y SOPORTE PARA EL ACTUAL SISTEMA DE GESTIÓN Y DESARROLLO DE PERSONAS”.",
+   "onu": [
+    "81111805"
+   ],
+   "es_desarrollo": true,
+   "nota": ""
+  },
+  {
+   "codigo": "1514-101-LP26",
+   "nombre": "Convenio de suministro de insumos y reactivos para análisis de exámenes de hematología incluyendo la entrega de analizadores en comodato conectados al sistema informático de laboratorio SIL",
+   "descripcion": "Convenio de suministro de insumos y reactivos para análisis de exámenes de hematología, incluyendo la entrega de analizadores en comodato conectados al sistema informático de laboratorio (SIL)",
+   "onu": [],
+   "es_desarrollo": false,
+   "nota": "reactivos de laboratorio «con sistema informático en comodato»"
+  },
+  {
+   "codigo": "3378-51-LP26",
+   "nombre": "SERVICIO DE SOPORTE Y MANTENCIÓN DE SISTEMA Y BASE DE DATOS SAP-HANA BUSINESS ONE PARA EL HMS POR 36 MESES",
+   "descripcion": "Que, el Hospital Militar de Santiago debe contar para su correcto y normal funcionamiento, con un adecuado y oportuno servicio de soporte de la plataforma de hardware, solo de la base de datos y las posibles injerencias paramétricas al sistema operativo si se amerita o se requiere cambios como parte del soporte solicitado y/o requerimientos de aplicaciones foráneas autorizadas.",
+   "onu": [
+    "81111805"
+   ],
+   "es_desarrollo": true,
+   "nota": ""
+  },
+  {
+   "codigo": "608897-52-LP26",
+   "nombre": "MESA DE SERVICIOS DE TECNOLOGÍAS DE INFORMACIÓN",
+   "descripcion": "asegurar la continuidad operativa de los servicios tecnológicos institucionales, brindar soporte técnico oportuno a los usuarios y garantizar la adecuada operación de las plataformas tecnológicas de la Subsecretaría del Medio Ambiente; a través de la contratación de una empresa especializada en tecnologías de la información que provea y gestione los recursos humanos y técnicos necesarios para la p",
+   "onu": [
+    "81111811"
+   ],
+   "es_desarrollo": false,
+   "nota": "mesa de ayuda, no construcción de software"
+  },
+  {
+   "codigo": "1422824-1-LR26",
+   "nombre": "CONTRATO DE SUMINISTRO DE REACTIVOS PARA EXÁMENES BIOQUÍMICOS INMUNOENDOCRINOLÓGICOS Y SEROLOGICOS CON EQUIPAMIENTO Y SISTEMA INFORMÁTICO DE LABORATORIO EN COMODATO PARA EL HOSPITAL CARLOS VAN BUREN",
+   "descripcion": "CONTRATO DE SUMINISTRO DE REACTIVOS PARA EXÁMENES BIOQUÍMICOS, INMUNOENDOCRINOLÓGICOS Y SEROLOGICOS CON EQUIPAMIENTO Y SISTEMA INFORMÁTICO DE LABORATORIO EN COMODATO PARA EL HOSPITAL CARLOS VAN BUREN",
+   "onu": [],
+   "es_desarrollo": false,
+   "nota": "idem: suministro de reactivos con sistema en comodato"
+  },
+  {
+   "codigo": "2239-2-LR26",
+   "nombre": "Convenio Marco Desarrollo de software",
+   "descripcion": "Convenio Marco para la adquisición de los Servicios de Desarrollo y Mantención de Software, Servicios Profesionales TI y Cloud Computing",
+   "onu": [],
+   "es_desarrollo": true,
+   "nota": ""
+  },
+  {
+   "codigo": "2770-120-LR26",
+   "nombre": "SISTEMA DE GESTIÓN INTEGRADO SMAPA",
+   "descripcion": "La presenta licitación tiene por finalidad la adquisición, implementación y ejecución de un sistema TI (tecnología de la información) enfocado en unificar e integrar todas las tareas de las diferentes unidades de SMAPA en una sola plataforma, de manera de tener una sola fuente de información, sin necesidad de traspasos manuales, para así prestar un mejor servicio a los usuarios, así como también e",
+   "onu": [
+    "43233001"
+   ],
+   "es_desarrollo": true,
+   "nota": ""
+  },
+  {
+   "codigo": "1057489-239-LR26",
+   "nombre": "Convenio de Suministro de reactivos insumos equipamiento completo y sistema informático para análisis y procesamiento de muestras para Laboratorio de Hematología y Citometría de Flujo por 12 meses para el Hospital del Salvador",
+   "descripcion": "Que, el Hospital del Salvador necesita contar con el Convenio de Suministro de\r\nreactivos, insumos, equipamiento completo y sistema informático para análisis y\r\nprocesamiento de muestras para Laboratorio de Hematología y Citometría de\r\nFlujo por 12 meses para el Hospital del Salvador, en adelante también “HdS” o\r\n“Hospital”, con la finalidad de satisfacer de manera adecuada y eficiente la labor\r\na",
+   "onu": [],
+   "es_desarrollo": false,
+   "nota": "idem: convenio de suministro de reactivos"
+  }
+ ]
+}
