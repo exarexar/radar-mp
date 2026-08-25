@@ -598,6 +598,24 @@ def evaluar_precio(det: dict, uf: float, usd: float) -> dict:
             "esfuerzo_mp": esfuerzo, "mensual": round(mensual) if mensual else None}
 
 
+def veredicto(puntaje: int, precio: dict) -> str:
+    """Clasifica en go / revisar / nogo con lo que el bot puede saber solo.
+
+    Es un veredicto mecánico: cruza qué tan claramente es desarrollo (puntaje)
+    con si la plata calza con el alcance (precio). No reemplaza leer las bases,
+    pero ordena el informe para que lo accionable quede arriba.
+    """
+    nivel = (precio or {}).get("nivel", "sin_monto")
+    if nivel == "roja":
+        return "nogo"
+    if nivel == "verde" and puntaje >= 18:
+        return "go"
+    return "revisar"
+
+
+ETIQUETA_VEREDICTO = {"go": "GO", "revisar": "REVISAR", "nogo": "NO GO"}
+
+
 def monto(det: dict) -> str:
     m = det.get("MontoEstimado") or (det.get("Adjudicacion") or {}).get("Monto")
     mon = det.get("Moneda") or "CLP"
@@ -644,11 +662,13 @@ def _filas(lista: list[dict], vacio: str) -> str:
                else f"{n} días hábiles")
         cls = "crit" if n <= 1 else "alto" if n <= 4 else "medio"
         nueva = ' <span class="nueva">nueva</span>' if r.get("nuevo") else ""
+        v = r.get("veredicto")
+        sello = (f'<span class="ver {v}">{ETIQUETA_VEREDICTO[v]}</span> ' if v else "")
         cod = r["codigo"]
         filas.append(f"""
       <tr>
         <td><span class="chip {cls}">{urg}</span><br><small>{r['cierre'][:16].replace('T',' ')}</small></td>
-        <td><a href="{ficha_url(cod)}" target="_blank"><strong>{r['nombre']}</strong></a>{nueva}
+        <td>{sello}<a href="{ficha_url(cod)}" target="_blank"><strong>{r['nombre']}</strong></a>{nueva}
             <br><small><code class="cod">{cod}</code> &middot; {r['tipo']} &middot;
              <a href="{ficha_url(cod)}" target="_blank">ficha</a> &middot;
              <a href="{buscar_url(cod)}" target="_blank">buscar en el portal</a></small>
@@ -660,18 +680,31 @@ def _filas(lista: list[dict], vacio: str) -> str:
     return "".join(filas) or f'<tr><td colspan="5" class="vacio">{vacio}</td></tr>'
 
 
-def html(res: dict) -> str:
-    cuerpo = _filas(res["nuevas"],
-                    "Ninguna licitación de desarrollo nueva hoy dentro del horizonte.")
+def _tabla(lista: list[dict], vacio: str = "") -> str:
+    return (f'<table><thead><tr><th>Cierre</th><th>Licitación</th><th>Organismo</th>'
+            f'<th>Monto est.</th><th>Fit</th></tr></thead>'
+            f'<tbody>{_filas(lista, vacio)}</tbody></table>')
 
+
+def html(res: dict) -> str:
+    nuevas = res.get("nuevas") or []
+    # Orden pedido: primero lo accionable, después lo urgente, al final lo descartado.
+    vale = [r for r in nuevas if r.get("veredicto") != "nogo"]
+    nogo = [r for r in nuevas if r.get("veredicto") == "nogo"]
     recordatorios = res.get("por_cerrar") or []
+
+    cuerpo = _tabla(vale, "Ninguna licitación de desarrollo nueva hoy dentro del horizonte.")
+
     seccion_tarde = ""
     if recordatorios:
         seccion_tarde = f"""
-<h2 class="sec">Cierran pronto <span>ya te las reportamos antes — última pasada antes de que se cierren</span></h2>
-<table><thead><tr>
- <th>Cierre</th><th>Licitación</th><th>Organismo</th><th>Monto est.</th><th>Fit</th>
-</tr></thead><tbody>{_filas(recordatorios, "")}</tbody></table>"""
+<h2 class="sec">Cierran pronto <span>ya reportadas antes — última pasada antes de que se cierren</span></h2>
+{_tabla(recordatorios)}"""
+
+    if nogo:
+        seccion_tarde += f"""
+<h2 class="sec">Descartadas <span>el presupuesto no calza con el trabajo que piden — revísalas solo si el alcance real es menor</span></h2>
+<div class="apagado">{_tabla(nogo)}</div>"""
 
     return f"""<!DOCTYPE html>
 <html lang="es"><head><meta charset="utf-8">
@@ -720,6 +753,13 @@ def html(res: dict) -> str:
    text-align:right; cursor:help }}
  .pr.roja {{ color:var(--crit) }} .pr.amarilla {{ color:var(--alto) }}
  .pr.verde {{ color:var(--medio) }} .pr.sin_monto {{ color:var(--mut); font-weight:400 }}
+ .ver {{ display:inline-block; padding:1px 7px; border-radius:4px; font-size:10.5px;
+   font-weight:700; letter-spacing:.06em; border:1px solid currentColor;
+   vertical-align:2px; margin-right:5px }}
+ .ver.go {{ color:var(--medio) }} .ver.revisar {{ color:var(--alto) }}
+ .ver.nogo {{ color:var(--crit) }}
+ .apagado {{ opacity:.62 }}
+ .apagado:hover {{ opacity:1 }}
  .cod {{ font:12px ui-monospace,SFMono-Regular,Menlo,monospace; background:var(--bg);
    border:1px solid var(--line); border-radius:4px; padding:1px 5px; user-select:all }}
  footer {{ color:var(--mut); font-size:12px; margin-top:22px }}
@@ -728,12 +768,12 @@ def html(res: dict) -> str:
 <div class="sub">Horizonte: {res['horizonte']} días hábiles (cierres hasta el
  {res['fecha_hasta']}) &middot; generado el {res['generado']}</div>
 <div class="kpis">
- <div class="kpi"><b>{res['resumen']['nuevas']}</b><span>nuevas hoy</span></div>
- <div class="kpi"><b>{res['resumen']['por_cerrar']}</b><span>cierran pronto</span></div>
+ <div class="kpi"><b>{len(vale)}</b><span>vale la pena</span></div>
+ <div class="kpi"><b>{len(recordatorios)}</b><span>cierran pronto</span></div>
+ <div class="kpi"><b>{len(nogo)}</b><span>descartadas</span></div>
  <div class="kpi"><b>{res['resumen']['activas_revisadas']}</b><span>activas revisadas</span></div>
- <div class="kpi"><b>{res['resumen']['detalles_consultados']}</b><span>fichas leídas</span></div>
 </div>
-<h2 class="sec">Nuevas oportunidades <span>primera vez que aparecen en el radar</span></h2>
+<h2 class="sec">Vale la pena <span>GO y REVISAR — lo accionable de hoy</span></h2>
 <table><thead><tr>
  <th>Cierre</th><th>Licitación</th><th>Organismo</th><th>Monto est.</th><th>Fit</th>
 </tr></thead><tbody>{cuerpo}</tbody></table>
@@ -869,7 +909,8 @@ def main() -> int:
             "nuevo": not ya_visto,
             "visto_desde": vistos.get(codigo, hoy.isoformat()),
             "monto": monto(det),
-            "precio": evaluar_precio(det, uf, usd),
+            "precio": (_pr := evaluar_precio(det, uf, usd)),
+            "veredicto": veredicto(pts, _pr),
             "puntaje": pts,
             "razones": razones,
             "url": ficha_url(codigo),

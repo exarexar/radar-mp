@@ -199,6 +199,26 @@ assert "plata chica" in radar._precio(_r)
 assert radar._precio({}) == "", "sin datos de precio no debe dibujar nada"
 print("OK  la alerta de precio se dibuja en el informe")
 
+# ---------- 3e. veredicto y orden de las secciones ----------
+casos_ver = [
+    (25, "verde",     "go",      "claramente desarrollo y la plata calza"),
+    (18, "verde",     "go",      "justo en el límite del puntaje"),
+    (17, "verde",     "revisar", "presupuesto bien, pero el rubro no es tan claro"),
+    (30, "amarilla",  "revisar", "buen calce, margen apretado"),
+    (30, "sin_monto", "revisar", "no publicaron monto: hay que preguntar"),
+    (40, "roja",      "nogo",    "por muy buena que se vea, no paga"),
+    (12, "roja",      "nogo",    ""),
+]
+for pts, nivel, esperado, motivo in casos_ver:
+    got = radar.veredicto(pts, {"nivel": nivel})
+    assert got == esperado, f"puntaje {pts} + {nivel}: dio {got}, esperaba {esperado} ({motivo})"
+print(f"OK  veredicto go/revisar/nogo ({len(casos_ver)} casos)")
+
+# Una alerta roja de presupuesto manda siempre, sin importar el puntaje.
+assert all(radar.veredicto(p, {"nivel": "roja"}) == "nogo" for p in range(0, 60, 5)), \
+    "el presupuesto insuficiente tiene que ganarle al puntaje siempre"
+print("OK  la alerta roja de presupuesto siempre gana")
+
 # ---------- 4. clasificación: nuevas / por cerrar ----------
 HORIZONTE, RECORDAR, MINIMO = 20, 2, 0
 
@@ -247,9 +267,12 @@ print(f"OK  ciclo de vida: se avisa {len(vida)} veces en 15 días ({vida})")
 
 # ---------- 5. informe HTML de punta a punta ----------
 hoy = date(2026, 8, 17)
-def op(nombre, org, dias, pts, monto, nuevo=True, cod="1509-12-LE26"):
+def op(nombre, org, dias, pts, monto, nuevo=True, cod="1509-12-LE26",
+       nivel="verde"):
     cierre = datetime(2026, 8, 17, 15) + timedelta(days=dias)
     return {"codigo": cod, "nombre": nombre, "organismo": org,
+            "precio": {"nivel": nivel, "etiqueta": "x", "detalle": "x"},
+            "veredicto": radar.veredicto(pts, {"nivel": nivel}),
             "unidad": "", "tipo": "LE", "cierre": cierre.isoformat(),
             "habiles_restantes": radar.habiles_entre(hoy, cierre.date(), FER),
             "nuevo": nuevo, "visto_desde": "2026-08-17",
@@ -260,7 +283,7 @@ def op(nombre, org, dias, pts, monto, nuevo=True, cod="1509-12-LE26"):
 nuevas = [
     op("Desarrollo de plataforma web de trámites en línea", "I. Municipalidad de Ñuñoa", 26, 34, "28.000.000 CLP"),
     op("Servicio de desarrollo y mantención de sistema de gestión escolar", "Servicio Local de Educación Pública", 18, 41, "no informado", cod="2345-9-LP26"),
-    op("Implementación de sistema informático de inventario", "Hospital Regional de Talca", 11, 22, "12.500.000 CLP", cod="887-3-LE26"),
+    op("Implementación de sistema informático de inventario", "Hospital Regional de Talca", 11, 22, "1.200.000 CLP", cod="887-3-LE26", nivel="roja"),
 ]
 cerrando = [op("Desarrollo de aplicación móvil para inspectores", "SEREMI de Salud", 2, 29,
                "6.800.000 CLP", nuevo=False, cod="4410-2-LE26")]
@@ -279,9 +302,17 @@ out.parent.mkdir(parents=True, exist_ok=True)
 out.write_text(radar.html(res), encoding="utf-8")
 txt = out.read_text(encoding="utf-8")
 for esperado in ["Radar Mercado Público", "plataforma web de trámites",
-                 "Nuevas oportunidades", "Cierran pronto",
+                 "Vale la pena", "Cierran pronto", "Descartadas",
                  "aplicación móvil para inspectores", ">nueva<"]:
     assert esperado in txt, f"falta «{esperado}» en el informe"
+
+# El orden que pidieron: accionable → urgente → descartado.
+pos = [txt.index("Vale la pena"), txt.index("Cierran pronto"), txt.index("Descartadas")]
+assert pos == sorted(pos), f"las secciones quedaron desordenadas: {pos}"
+# Y cada licitación en la sección que le toca.
+assert txt.index("NO GO") > txt.index("Cierran pronto"), \
+    "una NO GO no puede aparecer antes de «Cierran pronto»"
+print("OK  orden de secciones: Vale la pena → Cierran pronto → Descartadas")
 assert txt.count(">nueva<") == 3, "el badge «nueva» no coincide con las 3 nuevas"
 
 # Los dos enlaces por licitación, y que el código vaya escapado en la URL.
