@@ -147,6 +147,58 @@ assert not radar.contiene(radar.normaliza("reprogramar la entrega"), "programaci
 assert radar.contiene(radar.normaliza("servicio de PROGRAMACIÓN web"), "programacion")
 print("OK  las palabras clave calzan como palabra completa, no como trozo")
 
+# ---------- 3d. ponderación de plata contra alcance ----------
+UF, USD = radar.UF_CLP_FALLBACK, radar.USD_CLP_FALLBACK
+
+def precio(nombre, monto=None, moneda="CLP", meses=None, desc=""):
+    return radar.evaluar_precio(
+        {"Nombre": nombre, "Descripcion": desc, "MontoEstimado": monto,
+         "Moneda": moneda, "TiempoDuracionContrato": meses,
+         "UnidadTiempoContratoLicitacion": "meses" if meses else None}, UF, USD)
+
+casos_precio = [
+    # La regla que pidió César: trabajo grande por menos de dos millones = red flag.
+    ("Desarrollo de sistema informático a medida", 1_800_000, "CLP", 6, "roja"),
+    ("Desarrollo de software de gestión escolar", 1_500_000, "CLP", None, "roja"),
+    ("Desarrollo de plataforma web de trámites", 900_000, "CLP", 24, "roja"),
+    ("Mantención de sitio web institucional", 1_200_000, "CLP", 12, "roja"),
+    # Contratos largos: la plata tiene que dar para todos los meses.
+    ("Servicio de soporte y mantención de sistema SAP", 272_160_000, "CLP", 36, "verde"),
+    ("Contratar el desarrollo de un sistema informático de cobro", 434_042_600, "CLP", 48, "verde"),
+    ("Consultoría en desarrollo de software", 55_000_000, "CLP", 12, "verde"),
+    ("Sistema de gestión documental con firma electrónica", 20_000_000, "CLP", 12, "verde"),
+    ("Convenio Marco Desarrollo de software", None, "CLP", None, "sin_monto"),
+]
+for nombre, m, mon, meses, esperado in casos_precio:
+    p = precio(nombre, m, mon, meses)
+    assert p["nivel"] == esperado, \
+        f"{nombre[:40]}: dio «{p['nivel']}», esperaba «{esperado}» — {p['detalle']}"
+print(f"OK  ponderación plata/alcance ({len(casos_precio)} casos, incluida la regla de los $2M)")
+
+# Un contrato largo tiene que costar más esfuerzo que uno corto, con el mismo texto.
+corto = precio("Desarrollo de sistema informático", 50_000_000, "CLP", 3)
+largo = precio("Desarrollo de sistema informático", 50_000_000, "CLP", 48)
+assert largo["esfuerzo_mp"] > corto["esfuerzo_mp"] * 2, \
+    "48 meses de contrato no pueden costar casi lo mismo que 3"
+print(f"OK  el esfuerzo escala con la duración "
+      f"({corto['esfuerzo_mp']} mp a 3 meses vs {largo['esfuerzo_mp']} mp a 48)")
+
+# Monedas: UF y dólar tienen que convertirse antes de comparar.
+uf = precio("Desarrollo de sistema informático", 500, "CLF", 12)
+assert uf["monto_clp"] == round(500 * UF), "500 UF mal convertidas"
+assert precio("Desarrollo de sistema", 500, "CLF", 12)["nivel"] != "roja", \
+    "500 UF (~$20M) no puede leerse como monto chico"
+assert precio("Desarrollo de sistema", 500, "CLP", 12)["nivel"] == "roja", \
+    "$500 pesos sí es red flag"
+print(f"OK  conversión de moneda: 500 UF = ${uf['monto_clp']:,} CLP".replace(",", "."))
+
+# El informe tiene que mostrar la alerta.
+_r = {"precio": precio("Desarrollo de sistema informático a medida", 1_500_000, "CLP", 6)}
+assert 'class="pr roja"' in radar._precio(_r)
+assert "plata chica" in radar._precio(_r)
+assert radar._precio({}) == "", "sin datos de precio no debe dibujar nada"
+print("OK  la alerta de precio se dibuja en el informe")
+
 # ---------- 4. clasificación: nuevas / por cerrar ----------
 HORIZONTE, RECORDAR, MINIMO = 20, 2, 0
 

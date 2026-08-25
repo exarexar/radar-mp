@@ -452,6 +452,152 @@ def puntuar(det: dict, amplio: bool) -> tuple[int, list[str]]:
     return puntos, limpias[:6]
 
 
+# --------------------------------------------------------------------------
+# Ponderación de plata contra alcance
+# --------------------------------------------------------------------------
+
+# Costo mensual cargado de un desarrollador en Chile (sueldo + leyes sociales +
+# overhead). Ajústalo a tu realidad: es el número que decide qué es red flag.
+COSTO_DEV_MES = 2_000_000
+# Respaldos por si mindicador.cl no responde. Referencia: agosto 2026.
+UF_CLP_FALLBACK = 40_850
+USD_CLP_FALLBACK = 950
+
+# Cuánto trabajo hay detrás. Dos partes: lo que cuesta construirlo una vez, y
+# la gente que consume mes a mes mientras dure el contrato.
+#   (meses-persona de construcción, dedicación continua por mes de contrato, señales)
+COMPLEJIDAD = (
+    (5.0, 0.40, ("desarrollo de software", "desarrollo de sistema", "sistema informatico",
+                 "desarrollo de plataforma", "software a medida", "fabrica de software",
+                 "integracion de sistemas", "migracion de sistema", "erp",
+                 "desarrollo de aplicacion", "convenio marco")),
+    (2.5, 0.25, ("plataforma web", "aplicacion web", "sistema web", "portal de tramites",
+                 "gestion documental", "sistema de gestion", "consultoria",
+                 "desarrollo e implementacion", "business intelligence", "data warehouse")),
+    (0.5, 0.20, ("mantencion web", "sitio web", "pagina web", "soporte", "mantencion",
+                 "capacitacion")),
+)
+DEDICACION_DEFECTO = (1.5, 0.20)
+
+
+def valor_uf_usd() -> tuple[float, float]:
+    """Valores del día. Si no hay red o el servicio falla, usa los de respaldo."""
+    uf, usd = UF_CLP_FALLBACK, USD_CLP_FALLBACK
+    try:
+        r = requests.get("https://mindicador.cl/api", timeout=10)
+        if r.status_code == 200:
+            js = r.json()
+            uf = float(js["uf"]["valor"]) or uf
+            usd = float(js["dolar"]["valor"]) or usd
+    except Exception:
+        pass
+    return uf, usd
+
+
+def monto_clp(det: dict, uf: float, usd: float) -> float | None:
+    """Monto estimado llevado a pesos. None si el organismo no lo publicó."""
+    m = det.get("MontoEstimado")
+    try:
+        m = float(m)
+    except (TypeError, ValueError):
+        return None
+    if m <= 0:
+        return None
+    mon = (det.get("Moneda") or "CLP").upper()
+    if mon in ("CLF", "UF"):
+        return m * uf
+    if mon in ("USD", "DOLAR"):
+        return m * usd
+    if mon in ("UTM",):
+        return m * 70_000          # UTM aproximada; sirve para el orden de magnitud
+    return m
+
+
+def duracion_meses(det: dict) -> float | None:
+    """Duración del contrato en meses, según lo que declara la ficha."""
+    try:
+        t = float(det.get("TiempoDuracionContrato") or 0)
+    except (TypeError, ValueError):
+        return None
+    if t <= 0:
+        return None
+    unidad = normaliza(det.get("UnidadTiempoContratoLicitacion")
+                       or det.get("UnidadTiempoDuracionContrato") or "meses")
+    if "dia" in unidad:
+        return t / 30
+    if "seman" in unidad:
+        return t / 4.3
+    if "año" in unidad or "anio" in unidad or "ano" in unidad:
+        return t * 12
+    return t                      # meses por defecto
+
+
+def esfuerzo_meses_persona(det: dict, meses: float | None) -> float:
+    """Meses-persona estimados: construir una vez + sostenerlo durante el contrato.
+
+    Sin la segunda parte, un soporte de 36 meses parecía costar lo mismo que uno
+    de 3, y contratos plurianuales enormes salían siempre «baratos».
+    """
+    texto = normaliza(f"{det.get('Nombre','')} {det.get('Descripcion','')}")
+    base, dedicacion = DEDICACION_DEFECTO
+    for b, d, claves in COMPLEJIDAD:
+        if any(contiene(texto, k) for k in claves):
+            base, dedicacion = b, d
+            break
+    return round(base + (meses or 1) * dedicacion, 1)
+
+
+def evaluar_precio(det: dict, uf: float, usd: float) -> dict:
+    """Compara la plata ofrecida contra el trabajo que se ve venir.
+
+    La regla que importa: un trabajo largo o difícil por menos de dos millones
+    es una red flag, no una oportunidad.
+    """
+    clp = monto_clp(det, uf, usd)
+    meses = duracion_meses(det)
+    esfuerzo = esfuerzo_meses_persona(det, meses)
+    costo_estimado = esfuerzo * COSTO_DEV_MES
+
+    if clp is None:
+        return {"nivel": "sin_monto", "etiqueta": "monto no publicado",
+                "detalle": (f"El organismo no informó presupuesto. Estimo "
+                            f"~{esfuerzo:g} meses-persona, o sea del orden de "
+                            f"${costo_estimado/1e6:.0f}M solo en costo tuyo. "
+                            f"Pregunta por el monto antes de invertir tiempo."),
+                "monto_clp": None, "meses_contrato": meses,
+                "esfuerzo_mp": esfuerzo, "mensual": None}
+
+    mensual = clp / meses if meses and meses >= 1 else None
+    margen = clp / costo_estimado if costo_estimado else 0
+
+    if esfuerzo >= 2.5 and clp < 2_000_000:
+        nivel, etiqueta = "roja", "trabajo grande, plata chica"
+        detalle = (f"${clp/1e6:.1f}M por algo que estimo en {esfuerzo:g} "
+                   f"meses-persona (~${costo_estimado/1e6:.0f}M de costo). "
+                   f"Es la red flag clásica: alcance de proyecto con presupuesto "
+                   f"de parche.")
+    elif mensual is not None and mensual < COSTO_DEV_MES * 0.45:
+        nivel, etiqueta = "roja", "no paga ni una persona"
+        detalle = (f"${clp/1e6:.1f}M repartidos en {meses:.0f} meses son "
+                   f"${mensual/1e6:.1f}M al mes. No alcanza ni para tener a una "
+                   f"persona dedicada.")
+    elif margen < 1.3:
+        nivel, etiqueta = "amarilla", "margen apretado"
+        detalle = (f"${clp/1e6:.1f}M contra ~${costo_estimado/1e6:.0f}M de costo "
+                   f"estimado ({esfuerzo:g} meses-persona). Se puede, pero sin "
+                   f"espacio para imprevistos.")
+    else:
+        nivel, etiqueta = "verde", "presupuesto razonable"
+        detalle = (f"${clp/1e6:.1f}M contra ~${costo_estimado/1e6:.0f}M de costo "
+                   f"estimado ({esfuerzo:g} meses-persona)"
+                   + (f", ${mensual/1e6:.1f}M al mes por {meses:.0f} meses." if mensual
+                      else "."))
+
+    return {"nivel": nivel, "etiqueta": etiqueta, "detalle": detalle,
+            "monto_clp": round(clp), "meses_contrato": meses,
+            "esfuerzo_mp": esfuerzo, "mensual": round(mensual) if mensual else None}
+
+
 def monto(det: dict) -> str:
     m = det.get("MontoEstimado") or (det.get("Adjudicacion") or {}).get("Monto")
     mon = det.get("Moneda") or "CLP"
@@ -479,6 +625,17 @@ def buscar_url(codigo: str) -> str:
     return f"https://buscador.mercadopublico.cl/licitaciones?texto={quote(codigo)}"
 
 
+_ICONO_PRECIO = {"roja": "▲", "amarilla": "▲", "verde": "●", "sin_monto": "?"}
+
+
+def _precio(r: dict) -> str:
+    p = r.get("precio")
+    if not p:
+        return ""
+    return (f'<div class="pr {p["nivel"]}" title="{p["detalle"]}">'
+            f'{_ICONO_PRECIO.get(p["nivel"], "")} {p["etiqueta"]}</div>')
+
+
 def _filas(lista: list[dict], vacio: str) -> str:
     filas = []
     for r in lista:
@@ -497,7 +654,7 @@ def _filas(lista: list[dict], vacio: str) -> str:
              <a href="{buscar_url(cod)}" target="_blank">buscar en el portal</a></small>
             <div class="raz">{' &middot; '.join(r['razones'])}</div></td>
         <td>{r['organismo']}</td>
-        <td class="num">{r['monto']}</td>
+        <td class="num">{r['monto']}{_precio(r)}</td>
         <td class="num"><span class="pts">{r['puntaje']}</span></td>
       </tr>""")
     return "".join(filas) or f'<tr><td colspan="5" class="vacio">{vacio}</td></tr>'
@@ -559,6 +716,10 @@ def html(res: dict) -> str:
  .nueva {{ display:inline-block; vertical-align:1px; margin-left:6px; padding:1px 7px;
    border-radius:99px; font-size:10.5px; font-weight:700; text-transform:uppercase;
    letter-spacing:.06em; background:var(--medio); color:var(--card) }}
+ .pr {{ font-size:11.5px; font-weight:600; margin-top:5px; white-space:normal;
+   text-align:right; cursor:help }}
+ .pr.roja {{ color:var(--crit) }} .pr.amarilla {{ color:var(--alto) }}
+ .pr.verde {{ color:var(--medio) }} .pr.sin_monto {{ color:var(--mut); font-weight:400 }}
  .cod {{ font:12px ui-monospace,SFMono-Regular,Menlo,monospace; background:var(--bg);
    border:1px solid var(--line); border-radius:4px; padding:1px 5px; user-select:all }}
  footer {{ color:var(--mut); font-size:12px; margin-top:22px }}
@@ -624,6 +785,9 @@ def main() -> int:
           f"(cierres hasta el {techo})")
     if primera_corrida:
         print("  (primera corrida: se reporta todo lo vigente y se siembra el registro)")
+
+    uf, usd = valor_uf_usd()
+    print(f"  UF ${uf:,.0f} · USD ${usd:,.0f}".replace(",", "."))
 
     mp = MP(ticket)
     activas = mp.activas()
@@ -705,6 +869,7 @@ def main() -> int:
             "nuevo": not ya_visto,
             "visto_desde": vistos.get(codigo, hoy.isoformat()),
             "monto": monto(det),
+            "precio": evaluar_precio(det, uf, usd),
             "puntaje": pts,
             "razones": razones,
             "url": ficha_url(codigo),
