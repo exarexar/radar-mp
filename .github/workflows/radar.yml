@@ -11,6 +11,8 @@ permissions:
 jobs:
   radar:
     runs-on: ubuntu-latest
+    env:
+      MAIL_TO: ${{ secrets.MAIL_TO }}
     steps:
       - uses: actions/checkout@v4
 
@@ -46,3 +48,24 @@ jobs:
           name: informe-${{ github.run_id }}
           path: data/informe.html
           retention-days: 30
+
+      - name: Preparar correo
+        if: env.MAIL_TO != ''
+        run: python armar_correo.py
+
+      - name: Enviar informe por correo
+        if: env.MAIL_TO != '' && hashFiles('correo.html') != ''
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 587
+          secure: false
+          username: ${{ secrets.MAIL_USER }}
+          password: ${{ secrets.MAIL_PASS }}
+          from: Radar Mercado Publico
+          to: ${{ secrets.MAIL_TO }}
+          cc: ${{ secrets.MAIL_CC }}
+          subject: ${{ env.ASUNTO }}
+          html_body: file://correo.html
+          attachments: data/informe.html
+          convert_markdown: false
