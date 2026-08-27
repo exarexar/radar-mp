@@ -1,112 +1,48 @@
 {
-  "generado": "2026-08-27 09:45",
+  "generado": "2026-08-27 15:45",
   "fecha": "2026-08-27",
   "horizonte": 20,
   "fecha_hasta": "2026-09-25",
   "primera_corrida": false,
   "modo": "solo desarrollo",
   "resumen": {
-    "activas_revisadas": 4597,
-    "detalles_consultados": 410,
-    "nuevas": 2,
-    "por_cerrar": 9,
-    "llamadas_api": 68
+    "activas_revisadas": 4610,
+    "detalles_consultados": 404,
+    "nuevas": 1,
+    "por_cerrar": 8,
+    "llamadas_api": 32
   },
   "nuevas": [
     {
-      "codigo": "1469-176-L126",
-      "nombre": "SERVICIO DE SUSCRIPCIÓN DE SISTEMA DE  ASIGNACIÓN Y ADMINISTRACION DE SALAS DE  CLASES Y AUDITORIOS UNIVERSIDAD DE TALCA",
-      "organismo": "UNIVERSIDAD DE TALCA",
-      "unidad": "Universidad de Talca",
-      "tipo": "L1",
-      "cierre": "2026-09-03T15:00:00",
-      "habiles_restantes": 5,
-      "nuevo": true,
-      "visto_desde": "2026-08-27",
-      "monto": "2.528.131 CLP",
-      "precio": {
-        "nivel": "amarilla",
-        "etiqueta": "margen apretado",
-        "detalle": "$2.5M contra ~$3M de costo estimado (1.7 meses-persona). Se puede, pero sin espacio para imprevistos.",
-        "monto_clp": 2528131,
-        "meses_contrato": null,
-        "esfuerzo_mp": 1.7,
-        "mensual": null
-      },
-      "veredicto": "revisar",
-      "puntaje": 10,
-      "razones": [
-        "rubro ONU 43231512",
-        "«software» en el detalle",
-        "«software de gestion» en el detalle"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1469-176-L126",
-      "descripcion": "La Universidad de Talca requiere la contratación de servicio de \nsuscripción de sistema de asignación de salas y auditorios para las \nactividades académicas de la institución. "
-    },
-    {
-      "codigo": "2445-109-LP26",
-      "nombre": "SERVICIO SOFTWARE GESTIÓN  ASISTENCIA DEPTO. SALUD",
-      "organismo": "I MUNICIPALIDAD DE CURICO",
-      "unidad": "Salud - Adquisiciones",
+      "codigo": "2345-138-LP26",
+      "nombre": "SERVICIO DE DESARROLLO E IMPLEMENTACIÓN DE LA SEGUNDA ENCUESTA DE VICTIMIZACIÓN Y PERCEPCIÓN DE SEGURIDAD PARA VECINOS DE LA COMUNA DE LAS CONDES",
+      "organismo": "I MUNICIPALIDAD DE LAS CONDES",
+      "unidad": "I MUNICIPALIDAD DE LAS CONDES",
       "tipo": "LP",
-      "cierre": "2026-09-15T12:00:00",
+      "cierre": "2026-09-15T15:01:00",
       "habiles_restantes": 13,
       "nuevo": true,
       "visto_desde": "2026-08-27",
-      "monto": "132.232.000 CLP",
+      "monto": "200.000.000 CLP",
       "precio": {
         "nivel": "verde",
         "etiqueta": "presupuesto razonable",
-        "detalle": "$132.2M contra ~$15M de costo estimado (7.7 meses-persona), $3.7M al mes por 36 meses.",
-        "monto_clp": 132232000,
-        "meses_contrato": 36.0,
-        "esfuerzo_mp": 7.7,
-        "mensual": 3673111
-      },
-      "veredicto": "revisar",
-      "puntaje": 12,
-      "razones": [
-        "rubro ONU 43231505",
-        "«software» en el título",
-        "«software de gestion» en el detalle"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2445-109-LP26",
-      "descripcion": "SERVICIO DE ARRIENDO, IMPLEMENTACIÓN, MANTENCIÓN Y SOPORTE DE SOFTWARE CLOUD PARA GESTIÓN DE ASISTENCIA Y TERMINALES BIOMÉTRICOS PARA EL  DEPARTAMENTO DE SALUD DE CURICO, SP  0815, Contacto Encargado de Informática Enrique Ibarra fono 75-2-289153"
-    }
-  ],
-  "por_cerrar": [
-    {
-      "codigo": "2251-11-LE26",
-      "nombre": "Servicio de arriendo de plataforma Adobe Connect",
-      "organismo": "DIRECCION GENERAL DE AERONAUTICA CIVIL",
-      "unidad": "UNIDAD DE COMPRA ESCUELA TECNICA DE AERONAUTICA",
-      "tipo": "LE",
-      "cierre": "2026-08-27T15:30:00",
-      "habiles_restantes": 0,
-      "nuevo": false,
-      "visto_desde": "2026-08-21",
-      "monto": "7.291.725 CLP",
-      "precio": {
-        "nivel": "verde",
-        "etiqueta": "presupuesto razonable",
-        "detalle": "$7.3M contra ~$3M de costo estimado (1.7 meses-persona).",
-        "monto_clp": 7291725,
-        "meses_contrato": null,
-        "esfuerzo_mp": 1.7,
-        "mensual": null
+        "detalle": "$200.0M contra ~$65M de costo estimado (32.5 meses-persona), $1.7M al mes por 120 meses.",
+        "monto_clp": 200000000,
+        "meses_contrato": 120.0,
+        "esfuerzo_mp": 32.5,
+        "mensual": 1666667
       },
       "veredicto": "revisar",
       "puntaje": 10,
       "razones": [
-        "rubro ONU 43232408",
-        "«plataforma web» en el detalle",
-        "«software» en el detalle",
-        "«desarrollo de plataforma» en el detalle",
-        "ruido: «adobe»"
+        "«desarrollo e implementacion» en el título"
       ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2251-11-LE26",
-      "descripcion": "La necesidad de la Escuela Técnica Aeronáutica de contratar el servicio de arriendo de la plataforma Adobe Connect bajo la nomenclatura E102RT9. Para más detalles de lo requerido, favor de revisar Bases de Licitación, Bases Administrativas, Bases Técnicas, Pauta de Evaluación, así como todo documento disponible como anexo en adjuntos de la presente licitación.\r\n\r\nPAC: 3245-32-PC26"
-    },
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2345-138-LP26",
+      "descripcion": "El objetivo de este proceso de licitación es proveer a la Municipalidad de Las Condes la contratación del servicio de diseño muestral, aplicación y entrega de resultados de la segunda Encuesta de Victimización y Percepción de Seguridad para vecinos residentes de la comuna de Las Condes, que permita obtener información sobre la percepción de inseguridad, la reacción frente al delito, los recursos preventivos y la victimización de personas y hogares, a partir de una muestra representativa a nivel comunal y a nivel de cada una de las 5 macrozonas que la componen."
+    }
+  ],
+  "por_cerrar": [
     {
       "codigo": "813-90-LE26",
       "nombre": "Consultoría en desarrollo de software. E1O2RT9.",
@@ -351,64 +287,32 @@
   ],
   "oportunidades": [
     {
-      "codigo": "1469-176-L126",
-      "nombre": "SERVICIO DE SUSCRIPCIÓN DE SISTEMA DE  ASIGNACIÓN Y ADMINISTRACION DE SALAS DE  CLASES Y AUDITORIOS UNIVERSIDAD DE TALCA",
-      "organismo": "UNIVERSIDAD DE TALCA",
-      "unidad": "Universidad de Talca",
-      "tipo": "L1",
-      "cierre": "2026-09-03T15:00:00",
-      "habiles_restantes": 5,
+      "codigo": "2345-138-LP26",
+      "nombre": "SERVICIO DE DESARROLLO E IMPLEMENTACIÓN DE LA SEGUNDA ENCUESTA DE VICTIMIZACIÓN Y PERCEPCIÓN DE SEGURIDAD PARA VECINOS DE LA COMUNA DE LAS CONDES",
+      "organismo": "I MUNICIPALIDAD DE LAS CONDES",
+      "unidad": "I MUNICIPALIDAD DE LAS CONDES",
+      "tipo": "LP",
+      "cierre": "2026-09-15T15:01:00",
+      "habiles_restantes": 13,
       "nuevo": true,
       "visto_desde": "2026-08-27",
-      "monto": "2.528.131 CLP",
+      "monto": "200.000.000 CLP",
       "precio": {
-        "nivel": "amarilla",
-        "etiqueta": "margen apretado",
-        "detalle": "$2.5M contra ~$3M de costo estimado (1.7 meses-persona). Se puede, pero sin espacio para imprevistos.",
-        "monto_clp": 2528131,
-        "meses_contrato": null,
-        "esfuerzo_mp": 1.7,
-        "mensual": null
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$200.0M contra ~$65M de costo estimado (32.5 meses-persona), $1.7M al mes por 120 meses.",
+        "monto_clp": 200000000,
+        "meses_contrato": 120.0,
+        "esfuerzo_mp": 32.5,
+        "mensual": 1666667
       },
       "veredicto": "revisar",
       "puntaje": 10,
       "razones": [
-        "rubro ONU 43231512",
-        "«software» en el detalle",
-        "«software de gestion» en el detalle"
+        "«desarrollo e implementacion» en el título"
       ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1469-176-L126",
-      "descripcion": "La Universidad de Talca requiere la contratación de servicio de \nsuscripción de sistema de asignación de salas y auditorios para las \nactividades académicas de la institución. "
-    },
-    {
-      "codigo": "2445-109-LP26",
-      "nombre": "SERVICIO SOFTWARE GESTIÓN  ASISTENCIA DEPTO. SALUD",
-      "organismo": "I MUNICIPALIDAD DE CURICO",
-      "unidad": "Salud - Adquisiciones",
-      "tipo": "LP",
-      "cierre": "2026-09-15T12:00:00",
-      "habiles_restantes": 13,
-      "nuevo": true,
-      "visto_desde": "2026-08-27",
-      "monto": "132.232.000 CLP",
-      "precio": {
-        "nivel": "verde",
-        "etiqueta": "presupuesto razonable",
-        "detalle": "$132.2M contra ~$15M de costo estimado (7.7 meses-persona), $3.7M al mes por 36 meses.",
-        "monto_clp": 132232000,
-        "meses_contrato": 36.0,
-        "esfuerzo_mp": 7.7,
-        "mensual": 3673111
-      },
-      "veredicto": "revisar",
-      "puntaje": 12,
-      "razones": [
-        "rubro ONU 43231505",
-        "«software» en el título",
-        "«software de gestion» en el detalle"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2445-109-LP26",
-      "descripcion": "SERVICIO DE ARRIENDO, IMPLEMENTACIÓN, MANTENCIÓN Y SOPORTE DE SOFTWARE CLOUD PARA GESTIÓN DE ASISTENCIA Y TERMINALES BIOMÉTRICOS PARA EL  DEPARTAMENTO DE SALUD DE CURICO, SP  0815, Contacto Encargado de Informática Enrique Ibarra fono 75-2-289153"
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2345-138-LP26",
+      "descripcion": "El objetivo de este proceso de licitación es proveer a la Municipalidad de Las Condes la contratación del servicio de diseño muestral, aplicación y entrega de resultados de la segunda Encuesta de Victimización y Percepción de Seguridad para vecinos residentes de la comuna de Las Condes, que permita obtener información sobre la percepción de inseguridad, la reacción frente al delito, los recursos preventivos y la victimización de personas y hogares, a partir de una muestra representativa a nivel comunal y a nivel de cada una de las 5 macrozonas que la componen."
     }
   ]
 }
