@@ -1,51 +1,51 @@
 {
-  "generado": "2026-10-09 13:03",
-  "fecha": "2026-10-09",
+  "generado": "2026-10-12 15:51",
+  "fecha": "2026-10-12",
   "horizonte": 20,
   "fecha_hasta": "2026-11-09",
   "primera_corrida": false,
   "modo": "solo desarrollo",
   "resumen": {
-    "activas_revisadas": 5005,
-    "detalles_consultados": 466,
-    "nuevas": 0,
-    "por_cerrar": 11,
-    "llamadas_api": 200
+    "activas_revisadas": 5065,
+    "detalles_consultados": 473,
+    "nuevas": 1,
+    "por_cerrar": 9,
+    "llamadas_api": 306
   },
-  "nuevas": [],
-  "por_cerrar": [
+  "nuevas": [
     {
-      "codigo": "2239-2-LR26",
-      "nombre": "Convenio Marco Desarrollo de software",
-      "organismo": "DIRECCION DE COMPRAS Y CONTRATACION PUBLICA",
-      "unidad": "División de Convenio Marco",
+      "codigo": "1057390-21-LR26",
+      "nombre": "PLATAFORMA CLOUD COMPUTING Y SERVICIOS ASOCIADOS ESISSAN",
+      "organismo": "SERVICIO DE SALUD ARAUCANIA NORTE",
+      "unidad": "Bienes y Servicios",
       "tipo": "LR",
-      "cierre": "2026-10-09T15:00:00",
-      "habiles_restantes": 0,
-      "nuevo": false,
-      "visto_desde": "2026-08-19",
-      "monto": "no informado",
+      "cierre": "2026-11-09T15:30:00",
+      "habiles_restantes": 20,
+      "nuevo": true,
+      "visto_desde": "2026-10-12",
+      "monto": "487.000.000 CLP",
       "precio": {
-        "nivel": "sin_monto",
-        "etiqueta": "monto no publicado",
-        "detalle": "El organismo no informó presupuesto. Estimo ~5.4 meses-persona, o sea del orden de $11M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
-        "monto_clp": null,
-        "meses_contrato": null,
-        "esfuerzo_mp": 5.4,
-        "mensual": null
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$487.0M contra ~$17M de costo estimado (8.7 meses-persona), $13.5M al mes por 36 meses.",
+        "monto_clp": 487000000,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 8.7,
+        "mensual": 13527778
       },
       "veredicto": "revisar",
-      "puntaje": 29,
+      "puntaje": 12,
       "razones": [
-        "«desarrollo de software» en el título",
-        "«servicios de desarrollo» en el detalle",
-        "«mantencion de software» en el detalle",
-        "«software» en el título",
-        "«desarrollo y mantencion» en el detalle"
+        "rubro ONU 43232915",
+        "«programacion» en el detalle",
+        "«aplicativo» en el detalle",
+        "«software» en el detalle"
       ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2239-2-LR26",
-      "descripcion": "Convenio Marco para la adquisición de los Servicios de Desarrollo y Mantención de Software, Servicios Profesionales TI y Cloud Computing"
-    },
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057390-21-LR26",
+      "descripcion": "La presente licitación tiene como contratación de Servicios Plataforma Cloud Computing y Servicios Asociados Aplicativo ESISSAN del Servicio De Salud Araucanía Norte a 36 meses, todo ello según especificaciones técnicas (Formulario No 5). "
+    }
+  ],
+  "por_cerrar": [
     {
       "codigo": "889473-54-LP26",
       "nombre": "SC 6506 - 8599 Levan. Inventario y Sistema de Gest",
@@ -173,36 +173,6 @@
       "descripcion": "Art. 9º\tLa Municipalidad de Alto Hospicio llama a Licitación Pública denominada Adquisición e Implementación de Plataforma Integral de Gestión Municipal y Servicios Traspasados para la Municipalidad de Alto Hospicio, cuyo objeto es la adquisición, implementación, parametrización, integración, migración de datos, capacitación, puesta en marcha, soporte y mantenimiento de una Plataforma Integral de Gestión Municipal y de Servicios Traspasados, destinada a modernizar, digitalizar y automatizar los procesos institucionales, optimizando la gestión administrativa y operativa, fortaleciendo la interoperabilidad con los sistemas de los organismos de la Administración del Estado, mejorando la atención de los usuarios y asegurando el cumplimiento de la normativa vigente en materia de transformación digital, ciberseguridad y protección de datos personales. Lo anterior, de acuerdo con las caracterís"
     },
     {
-      "codigo": "1057415-60-LE26",
-      "nombre": "SOFTWARE DE GESTIÓN TRIBUTARIA E INVENTARIO",
-      "organismo": "SERVICIO SALUD BIO BIO HOSPITAL NACIMIENTO",
-      "unidad": "Bienes y Servicios",
-      "tipo": "LE",
-      "cierre": "2026-10-13T15:30:00",
-      "habiles_restantes": 1,
-      "nuevo": false,
-      "visto_desde": "2026-10-02",
-      "monto": "9.000.000 CLP",
-      "precio": {
-        "nivel": "verde",
-        "etiqueta": "presupuesto razonable",
-        "detalle": "$9.0M contra ~$3M de costo estimado (1.7 meses-persona).",
-        "monto_clp": 9000000,
-        "meses_contrato": null,
-        "esfuerzo_mp": 1.7,
-        "mensual": null
-      },
-      "veredicto": "revisar",
-      "puntaje": 16,
-      "razones": [
-        "rubro ONU 43232304",
-        "«software» en el título",
-        "«software de gestion» en el título"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057415-60-LE26",
-      "descripcion": "Disponer del servicio de software de gestión tributaria, retenciones e inventario farmacéutico para las unidades de Recaudación, Finanzas y Farmacia para el Hospital Familiar y Comunitario de Nacimiento, acorde a las condiciones requeridas por la Unidad de Contabilidad, que serán reguladas por el pliego de condiciones establecidas en las presentes bases."
-    },
-    {
       "codigo": "606-26-LE26",
       "nombre": "Adquisición e implementación de plataforma APIs",
       "organismo": "SUBSECRETARIA DE TELECOMUNICACIONES",
@@ -275,11 +245,11 @@
       "precio": {
         "nivel": "verde",
         "etiqueta": "presupuesto razonable",
-        "detalle": "$2221.8M contra ~$32M de costo estimado (16 meses-persona), $41.1M al mes por 54 meses.",
-        "monto_clp": 2221797544,
+        "detalle": "$2206.6M contra ~$32M de costo estimado (16 meses-persona), $40.9M al mes por 54 meses.",
+        "monto_clp": 2206621820,
         "meses_contrato": 54.0,
         "esfuerzo_mp": 16.0,
-        "mensual": 41144399
+        "mensual": 40863367
       },
       "veredicto": "revisar",
       "puntaje": 10,
@@ -351,5 +321,37 @@
       "descripcion": "El Hospital Villarrica, a través de su subdepartamento de abastecimiento, requiere la adquisición de “SERVICIO DE MANTENIMIENTO PARA SISTEMA GESTION LLAMADO DE ENFERMERIA DEL HOSPITAL VILLARRICA”, el contrato se cursará por un periodo de 24 meses, pudiendo ser renovado hasta por 12 meses más, por razones fundadas, en la medida que existan disponibilidad financiera y los resultados de los informes de evaluación, mínimo un al año, así lo amerite"
     }
   ],
-  "oportunidades": []
+  "oportunidades": [
+    {
+      "codigo": "1057390-21-LR26",
+      "nombre": "PLATAFORMA CLOUD COMPUTING Y SERVICIOS ASOCIADOS ESISSAN",
+      "organismo": "SERVICIO DE SALUD ARAUCANIA NORTE",
+      "unidad": "Bienes y Servicios",
+      "tipo": "LR",
+      "cierre": "2026-11-09T15:30:00",
+      "habiles_restantes": 20,
+      "nuevo": true,
+      "visto_desde": "2026-10-12",
+      "monto": "487.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$487.0M contra ~$17M de costo estimado (8.7 meses-persona), $13.5M al mes por 36 meses.",
+        "monto_clp": 487000000,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 8.7,
+        "mensual": 13527778
+      },
+      "veredicto": "revisar",
+      "puntaje": 12,
+      "razones": [
+        "rubro ONU 43232915",
+        "«programacion» en el detalle",
+        "«aplicativo» en el detalle",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057390-21-LR26",
+      "descripcion": "La presente licitación tiene como contratación de Servicios Plataforma Cloud Computing y Servicios Asociados Aplicativo ESISSAN del Servicio De Salud Araucanía Norte a 36 meses, todo ello según especificaciones técnicas (Formulario No 5). "
+    }
+  ]
 }

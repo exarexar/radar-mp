@@ -1,0 +1,357 @@
+{
+  "generado": "2026-10-12 15:51",
+  "fecha": "2026-10-12",
+  "horizonte": 20,
+  "fecha_hasta": "2026-11-09",
+  "primera_corrida": false,
+  "modo": "solo desarrollo",
+  "resumen": {
+    "activas_revisadas": 5065,
+    "detalles_consultados": 473,
+    "nuevas": 1,
+    "por_cerrar": 9,
+    "llamadas_api": 306
+  },
+  "nuevas": [
+    {
+      "codigo": "1057390-21-LR26",
+      "nombre": "PLATAFORMA CLOUD COMPUTING Y SERVICIOS ASOCIADOS ESISSAN",
+      "organismo": "SERVICIO DE SALUD ARAUCANIA NORTE",
+      "unidad": "Bienes y Servicios",
+      "tipo": "LR",
+      "cierre": "2026-11-09T15:30:00",
+      "habiles_restantes": 20,
+      "nuevo": true,
+      "visto_desde": "2026-10-12",
+      "monto": "487.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$487.0M contra ~$17M de costo estimado (8.7 meses-persona), $13.5M al mes por 36 meses.",
+        "monto_clp": 487000000,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 8.7,
+        "mensual": 13527778
+      },
+      "veredicto": "revisar",
+      "puntaje": 12,
+      "razones": [
+        "rubro ONU 43232915",
+        "«programacion» en el detalle",
+        "«aplicativo» en el detalle",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057390-21-LR26",
+      "descripcion": "La presente licitación tiene como contratación de Servicios Plataforma Cloud Computing y Servicios Asociados Aplicativo ESISSAN del Servicio De Salud Araucanía Norte a 36 meses, todo ello según especificaciones técnicas (Formulario No 5). "
+    }
+  ],
+  "por_cerrar": [
+    {
+      "codigo": "889473-54-LP26",
+      "nombre": "SC 6506 - 8599 Levan. Inventario y Sistema de Gest",
+      "organismo": "UNIVERSIDAD DE O'HIGGINS",
+      "unidad": "UNIVERSIDAD DE O'HIGGINS",
+      "tipo": "LP",
+      "cierre": "2026-10-13T15:01:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-09-24",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~21 meses-persona, o sea del orden de $42M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 40.0,
+        "esfuerzo_mp": 21.0,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 24,
+      "razones": [
+        "rubro ONU 43231508",
+        "«aplicacion movil» en el detalle",
+        "«implementacion de sistema» en el detalle",
+        "«erp» en el detalle",
+        "«sistema de gestion» en el detalle",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=889473-54-LP26",
+      "descripcion": "La Universidad de O’Higgins convoca a licitación pública para la contratación de un servicio integral que contemple el levantamiento de inventario de los bienes institucionales existentes en sus distintas dependencias, así como la implementación de un software de gestión patrimonial que permita registrar, administrar y controlar dichos activos de manera eficiente y trazable. Este servicio considera la identificación, registro y etiquetado de los bienes, la carga de la información en una plataforma tecnológica de acceso web y aplicación móvil, la gestión de movimientos como altas, asignaciones, traspasos y bajas, y la integración de la información con el sistema contable institucional ERP SAP, con el fin de fortalecer el control y la administración del patrimonio institucional de la Universidad."
+    },
+    {
+      "codigo": "1126922-40-L126",
+      "nombre": "PLATAFORMA WEB PARA GESTION DE DOTACION",
+      "organismo": "SERVICIO LOCAL DE EDUCACION PUBLICA DE LLANQUIHUE",
+      "unidad": "SERVICIO LOCAL DE EDUCACION PUBLICA DE LLANQUIHUE",
+      "tipo": "L1",
+      "cierre": "2026-10-13T15:01:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-10-02",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~2.8 meses-persona, o sea del orden de $6M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": null,
+        "esfuerzo_mp": 2.8,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 21,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el título",
+        "«software» en el detalle",
+        "«desarrollo de plataforma» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1126922-40-L126",
+      "descripcion": "CONTRATACIÓN DEL SERVICIO DE GESTIÓN DE DOTACIÓN DOCENTE Y ASISTENTES DE LA EDUCACIÓN MEDIANTE PLATAFORMA WEB PARA LOS ESTABLECIMIENTOS\r\nEDUCACIONALES DEL SERVICIO LOCAL DE EDUCACIÓN PÚBLICA LLANQUIHUE"
+    },
+    {
+      "codigo": "2432-31-LE26",
+      "nombre": "SERVICIO INTEGRAL DE CONTINUIDAD PAGINA WEB",
+      "organismo": "I MUNICIPALIDAD ESTACION CENTRAL",
+      "unidad": "IMUNI_ESTCENTRAL ADQUISICIONES",
+      "tipo": "LE",
+      "cierre": "2026-10-13T15:20:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-10-07",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~2.9 meses-persona, o sea del orden de $6M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 2.9,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 18,
+      "razones": [
+        "rubro ONU 81112103",
+        "«sitio web» en el detalle",
+        "«pagina web» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2432-31-LE26",
+      "descripcion": "El objetivo general de la presente contratación es disponer de un servicio integral de continuidad operacional, mantención, soporte técnico, alojamiento, seguridad y evolución del sitio web municipal de la Municipalidad de Estación Central, con el propósito de asegurar su funcionamiento permanente, disponibilidad, estabilidad y adecuado desempeño durante toda la vigencia del contrato."
+    },
+    {
+      "codigo": "3447-145-LR26",
+      "nombre": "Adquisición e Implementación Plataforma Integral",
+      "organismo": "MUNICIPALIDAD DE ALTO HOSPICIO",
+      "unidad": "Direccion de Administracion y Finanzas",
+      "tipo": "LR",
+      "cierre": "2026-10-13T15:01:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-09-14",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~5.3 meses-persona, o sea del orden de $11M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 5.3,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 17,
+      "razones": [
+        "rubro ONU 81111505",
+        "«programacion» en el detalle",
+        "«transformacion digital» en el detalle",
+        "«ciberseguridad» en el detalle",
+        "ruido: «capacitacion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3447-145-LR26",
+      "descripcion": "Art. 9º\tLa Municipalidad de Alto Hospicio llama a Licitación Pública denominada Adquisición e Implementación de Plataforma Integral de Gestión Municipal y Servicios Traspasados para la Municipalidad de Alto Hospicio, cuyo objeto es la adquisición, implementación, parametrización, integración, migración de datos, capacitación, puesta en marcha, soporte y mantenimiento de una Plataforma Integral de Gestión Municipal y de Servicios Traspasados, destinada a modernizar, digitalizar y automatizar los procesos institucionales, optimizando la gestión administrativa y operativa, fortaleciendo la interoperabilidad con los sistemas de los organismos de la Administración del Estado, mejorando la atención de los usuarios y asegurando el cumplimiento de la normativa vigente en materia de transformación digital, ciberseguridad y protección de datos personales. Lo anterior, de acuerdo con las caracterís"
+    },
+    {
+      "codigo": "606-26-LE26",
+      "nombre": "Adquisición e implementación de plataforma APIs",
+      "organismo": "SUBSECRETARIA DE TELECOMUNICACIONES",
+      "unidad": "Subsecretaría de Telecomunicaciones",
+      "tipo": "LE",
+      "cierre": "2026-10-13T15:01:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-10-02",
+      "monto": "70.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$70.0M contra ~$3M de costo estimado (1.7 meses-persona).",
+        "monto_clp": 70000000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 14,
+      "razones": [
+        "rubro ONU 81111504",
+        "«programacion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=606-26-LE26",
+      "descripcion": "Contratar, implementar y poner en operación una plataforma empresarial que\r\npermita diseñar, construir, publicar, proteger, administrar, observar, gobernar y\r\nevolucionar APIs e integraciones en una arquitectura híbrida entre el CPD\r\ninstitucional y Google Cloud, manteniendo interoperabilidad con PISEE, sistemas\r\nlegados y servicios institucionales."
+    },
+    {
+      "codigo": "885-94-LE26",
+      "nombre": "Renovación soporte y mantención de licencias software SAP Sybase IQ Enterprise",
+      "organismo": "CONTRALORIA GENERAL DE LA REPUBLICA",
+      "unidad": "Contraloría General de la República",
+      "tipo": "LE",
+      "cierre": "2026-10-13T16:00:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-10-02",
+      "monto": "54.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$54.0M contra ~$6M de costo estimado (2.9 meses-persona), $4.5M al mes por 12 meses.",
+        "monto_clp": 54000000,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 2.9,
+        "mensual": 4500000
+      },
+      "veredicto": "revisar",
+      "puntaje": 12,
+      "razones": [
+        "rubro ONU 43231512",
+        "«software» en el título",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=885-94-LE26",
+      "descripcion": "La Contraloría General de la República requiere la renovación, soporte y mantención de licencias, cuatro (4) de core productivo y dos (2) de core de desarrollo, del software Sybase IQ Enterprise, por un periodo de 12 meses."
+    },
+    {
+      "codigo": "2770-120-LR26",
+      "nombre": "SISTEMA DE GESTIÓN INTEGRADO SMAPA",
+      "organismo": "I MUNICIPALIDAD DE MAIPU",
+      "unidad": "I MUNICIPALIDAD DE MAIPU",
+      "tipo": "LR",
+      "cierre": "2026-10-13T15:01:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-08-19",
+      "monto": "54.018 CLF",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$2206.6M contra ~$32M de costo estimado (16 meses-persona), $40.9M al mes por 54 meses.",
+        "monto_clp": 2206621820,
+        "meses_contrato": 54.0,
+        "esfuerzo_mp": 16.0,
+        "mensual": 40863367
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43233001",
+        "«sistema de gestion» en el título",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2770-120-LR26",
+      "descripcion": "La presenta licitación tiene por finalidad la adquisición, implementación y ejecución de un sistema TI (tecnología de la información) enfocado en unificar e integrar todas las tareas de las diferentes unidades de SMAPA en una sola plataforma, de manera de tener una sola fuente de información, sin necesidad de traspasos manuales, para así prestar un mejor servicio a los usuarios, así como también el facturador electrónico de la Municipalidad de Maipú. \r\nTodo lo anterior en virtud de lo dispuesto en las presentes Bases Administrativas, las Bases Técnicas y todos sus anexos."
+    },
+    {
+      "codigo": "568658-71-LE26",
+      "nombre": "SOFTWARE DE GESTIÓN PARA FARMACIAS Y OPTICAS",
+      "organismo": "CORPORACION MUNICIPAL VINA DEL MAR PARA EL DESARROLLO SOCIAL",
+      "unidad": "CORPORACION MUNICIPAL VINA DEL MAR PARA EL DESARRO",
+      "tipo": "LE",
+      "cierre": "2026-10-14T09:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-09-29",
+      "monto": "35.112.264 CLP",
+      "precio": {
+        "nivel": "amarilla",
+        "etiqueta": "margen apretado",
+        "detalle": "$35.1M contra ~$39M de costo estimado (19.4 meses-persona). Se puede, pero sin espacio para imprevistos.",
+        "monto_clp": 35112264,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 19.4,
+        "mensual": 975341
+      },
+      "veredicto": "revisar",
+      "puntaje": 21,
+      "razones": [
+        "rubro ONU 43232310",
+        "«sistema informatico» en el detalle",
+        "«software» en el título",
+        "«software de gestion» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=568658-71-LE26",
+      "descripcion": "Las presentes Bases Administrativas tienen por objeto regular el llamado a propuesta pública denominada “CONTRATACIÓN DE UNA SOLUCIÓN INTEGRAL DE SOFTWARE DE GESTIÓN PARA FARMACIAS MUNICIPALES Y ÓPTICA MUNICIPAL” Esta licitación es de carácter público y tiene por objeto la contratación de un sistema informático para gestionar Farmacias Municipales y la Óptica Municipal. "
+    },
+    {
+      "codigo": "1952-84-LE26",
+      "nombre": "SERVICIO DE MANTENIMIENTO PARA SISTEMA GESTION LLAMADO DE ENFERMERIA DEL HOSPITAL VILLARRICA",
+      "organismo": "Hospital Villarrica",
+      "unidad": "Hospital Villarrica",
+      "tipo": "LE",
+      "cierre": "2026-10-14T15:30:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-10-02",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~6.3 meses-persona, o sea del orden de $13M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 6.3,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 81111812"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1952-84-LE26",
+      "descripcion": "El Hospital Villarrica, a través de su subdepartamento de abastecimiento, requiere la adquisición de “SERVICIO DE MANTENIMIENTO PARA SISTEMA GESTION LLAMADO DE ENFERMERIA DEL HOSPITAL VILLARRICA”, el contrato se cursará por un periodo de 24 meses, pudiendo ser renovado hasta por 12 meses más, por razones fundadas, en la medida que existan disponibilidad financiera y los resultados de los informes de evaluación, mínimo un al año, así lo amerite"
+    }
+  ],
+  "oportunidades": [
+    {
+      "codigo": "1057390-21-LR26",
+      "nombre": "PLATAFORMA CLOUD COMPUTING Y SERVICIOS ASOCIADOS ESISSAN",
+      "organismo": "SERVICIO DE SALUD ARAUCANIA NORTE",
+      "unidad": "Bienes y Servicios",
+      "tipo": "LR",
+      "cierre": "2026-11-09T15:30:00",
+      "habiles_restantes": 20,
+      "nuevo": true,
+      "visto_desde": "2026-10-12",
+      "monto": "487.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$487.0M contra ~$17M de costo estimado (8.7 meses-persona), $13.5M al mes por 36 meses.",
+        "monto_clp": 487000000,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 8.7,
+        "mensual": 13527778
+      },
+      "veredicto": "revisar",
+      "puntaje": 12,
+      "razones": [
+        "rubro ONU 43232915",
+        "«programacion» en el detalle",
+        "«aplicativo» en el detalle",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057390-21-LR26",
+      "descripcion": "La presente licitación tiene como contratación de Servicios Plataforma Cloud Computing y Servicios Asociados Aplicativo ESISSAN del Servicio De Salud Araucanía Norte a 36 meses, todo ello según especificaciones técnicas (Formulario No 5). "
+    }
+  ]
+}
