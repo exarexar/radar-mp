@@ -1,48 +1,77 @@
 {
-  "generado": "2026-10-12 15:51",
-  "fecha": "2026-10-12",
+  "generado": "2026-10-13 13:51",
+  "fecha": "2026-10-13",
   "horizonte": 20,
-  "fecha_hasta": "2026-11-09",
+  "fecha_hasta": "2026-11-10",
   "primera_corrida": false,
   "modo": "solo desarrollo",
   "resumen": {
-    "activas_revisadas": 5065,
-    "detalles_consultados": 473,
-    "nuevas": 1,
-    "por_cerrar": 9,
-    "llamadas_api": 306
+    "activas_revisadas": 5294,
+    "detalles_consultados": 489,
+    "nuevas": 2,
+    "por_cerrar": 12,
+    "llamadas_api": 27
   },
   "nuevas": [
     {
-      "codigo": "1057390-21-LR26",
-      "nombre": "PLATAFORMA CLOUD COMPUTING Y SERVICIOS ASOCIADOS ESISSAN",
-      "organismo": "SERVICIO DE SALUD ARAUCANIA NORTE",
-      "unidad": "Bienes y Servicios",
-      "tipo": "LR",
-      "cierre": "2026-11-09T15:30:00",
-      "habiles_restantes": 20,
+      "codigo": "765-25-L126",
+      "nombre": "Desarrollo de soluciones informáticas para la implementación del plan de transformación digital de la CONADI 2026-2029",
+      "organismo": "CORP NACIONAL DE DESARROLLO INDIGENA",
+      "unidad": "CORP NACIONAL DE DESARROLLO INDIGENA",
+      "tipo": "L1",
+      "cierre": "2026-10-26T16:49:00",
+      "habiles_restantes": 9,
       "nuevo": true,
-      "visto_desde": "2026-10-12",
-      "monto": "487.000.000 CLP",
+      "visto_desde": "2026-10-13",
+      "monto": "6.000.000 CLP",
       "precio": {
         "nivel": "verde",
         "etiqueta": "presupuesto razonable",
-        "detalle": "$487.0M contra ~$17M de costo estimado (8.7 meses-persona), $13.5M al mes por 36 meses.",
-        "monto_clp": 487000000,
-        "meses_contrato": 36.0,
-        "esfuerzo_mp": 8.7,
-        "mensual": 13527778
+        "detalle": "$6.0M contra ~$3M de costo estimado (1.7 meses-persona).",
+        "monto_clp": 6000000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 11,
+      "razones": [
+        "rubro ONU 43232909",
+        "«transformacion digital» en el título",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=765-25-L126",
+      "descripcion": "Plan de Transformación Digital institucional período 2026-2029 establece las siguientes iniciativas para el 2026:\nPTD-D1-01. Implementación de autenticación oficial en procedimientos\nadministrativos priorizados\nPTD-D1-02. Integración a la red de interoperabilidad del estado\nPTD-D1-04. Digitalización del ingreso de solicitudes, formularios y documentos"
+    },
+    {
+      "codigo": "1020-55-LE26",
+      "nombre": "Adq. Sopor. y Actual. Software ServiceTonic MOP.",
+      "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+      "unidad": "MOP Subsecretaría ",
+      "tipo": "LE",
+      "cierre": "2026-10-29T15:00:00",
+      "habiles_restantes": 12,
+      "nuevo": true,
+      "visto_desde": "2026-10-13",
+      "monto": "22.500.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$22.5M contra ~$1M de costo estimado (0.7 meses-persona).",
+        "monto_clp": 22500000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 0.7,
+        "mensual": null
       },
       "veredicto": "revisar",
       "puntaje": 12,
       "razones": [
-        "rubro ONU 43232915",
-        "«programacion» en el detalle",
-        "«aplicativo» en el detalle",
-        "«software» en el detalle"
+        "rubro ONU 43231512",
+        "«software» en el título",
+        "«software de gestion» en el detalle"
       ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057390-21-LR26",
-      "descripcion": "La presente licitación tiene como contratación de Servicios Plataforma Cloud Computing y Servicios Asociados Aplicativo ESISSAN del Servicio De Salud Araucanía Norte a 36 meses, todo ello según especificaciones técnicas (Formulario No 5). "
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1020-55-LE26",
+      "descripcion": "Que, el objetivo es la Adquisición de Soporte y Actualizaciones Software ServiceTonic Licencias en modalidad On-Premise, usuarios nombrados, por 12 meses."
     }
   ],
   "por_cerrar": [
@@ -53,7 +82,7 @@
       "unidad": "UNIVERSIDAD DE O'HIGGINS",
       "tipo": "LP",
       "cierre": "2026-10-13T15:01:00",
-      "habiles_restantes": 1,
+      "habiles_restantes": 0,
       "nuevo": false,
       "visto_desde": "2026-09-24",
       "monto": "no informado",
@@ -80,44 +109,13 @@
       "descripcion": "La Universidad de O’Higgins convoca a licitación pública para la contratación de un servicio integral que contemple el levantamiento de inventario de los bienes institucionales existentes en sus distintas dependencias, así como la implementación de un software de gestión patrimonial que permita registrar, administrar y controlar dichos activos de manera eficiente y trazable. Este servicio considera la identificación, registro y etiquetado de los bienes, la carga de la información en una plataforma tecnológica de acceso web y aplicación móvil, la gestión de movimientos como altas, asignaciones, traspasos y bajas, y la integración de la información con el sistema contable institucional ERP SAP, con el fin de fortalecer el control y la administración del patrimonio institucional de la Universidad."
     },
     {
-      "codigo": "1126922-40-L126",
-      "nombre": "PLATAFORMA WEB PARA GESTION DE DOTACION",
-      "organismo": "SERVICIO LOCAL DE EDUCACION PUBLICA DE LLANQUIHUE",
-      "unidad": "SERVICIO LOCAL DE EDUCACION PUBLICA DE LLANQUIHUE",
-      "tipo": "L1",
-      "cierre": "2026-10-13T15:01:00",
-      "habiles_restantes": 1,
-      "nuevo": false,
-      "visto_desde": "2026-10-02",
-      "monto": "no informado",
-      "precio": {
-        "nivel": "sin_monto",
-        "etiqueta": "monto no publicado",
-        "detalle": "El organismo no informó presupuesto. Estimo ~2.8 meses-persona, o sea del orden de $6M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
-        "monto_clp": null,
-        "meses_contrato": null,
-        "esfuerzo_mp": 2.8,
-        "mensual": null
-      },
-      "veredicto": "revisar",
-      "puntaje": 21,
-      "razones": [
-        "rubro ONU 43232408",
-        "«plataforma web» en el título",
-        "«software» en el detalle",
-        "«desarrollo de plataforma» en el detalle"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1126922-40-L126",
-      "descripcion": "CONTRATACIÓN DEL SERVICIO DE GESTIÓN DE DOTACIÓN DOCENTE Y ASISTENTES DE LA EDUCACIÓN MEDIANTE PLATAFORMA WEB PARA LOS ESTABLECIMIENTOS\r\nEDUCACIONALES DEL SERVICIO LOCAL DE EDUCACIÓN PÚBLICA LLANQUIHUE"
-    },
-    {
       "codigo": "2432-31-LE26",
       "nombre": "SERVICIO INTEGRAL DE CONTINUIDAD PAGINA WEB",
       "organismo": "I MUNICIPALIDAD ESTACION CENTRAL",
       "unidad": "IMUNI_ESTCENTRAL ADQUISICIONES",
       "tipo": "LE",
       "cierre": "2026-10-13T15:20:00",
-      "habiles_restantes": 1,
+      "habiles_restantes": 0,
       "nuevo": false,
       "visto_desde": "2026-10-07",
       "monto": "no informado",
@@ -147,7 +145,7 @@
       "unidad": "Direccion de Administracion y Finanzas",
       "tipo": "LR",
       "cierre": "2026-10-13T15:01:00",
-      "habiles_restantes": 1,
+      "habiles_restantes": 0,
       "nuevo": false,
       "visto_desde": "2026-09-14",
       "monto": "no informado",
@@ -179,7 +177,7 @@
       "unidad": "Subsecretaría de Telecomunicaciones",
       "tipo": "LE",
       "cierre": "2026-10-13T15:01:00",
-      "habiles_restantes": 1,
+      "habiles_restantes": 0,
       "nuevo": false,
       "visto_desde": "2026-10-02",
       "monto": "70.000.000 CLP",
@@ -208,7 +206,7 @@
       "unidad": "Contraloría General de la República",
       "tipo": "LE",
       "cierre": "2026-10-13T16:00:00",
-      "habiles_restantes": 1,
+      "habiles_restantes": 0,
       "nuevo": false,
       "visto_desde": "2026-10-02",
       "monto": "54.000.000 CLP",
@@ -238,7 +236,7 @@
       "unidad": "I MUNICIPALIDAD DE MAIPU",
       "tipo": "LR",
       "cierre": "2026-10-13T15:01:00",
-      "habiles_restantes": 1,
+      "habiles_restantes": 0,
       "nuevo": false,
       "visto_desde": "2026-08-19",
       "monto": "54.018 CLF",
@@ -268,7 +266,7 @@
       "unidad": "CORPORACION MUNICIPAL VINA DEL MAR PARA EL DESARRO",
       "tipo": "LE",
       "cierre": "2026-10-14T09:00:00",
-      "habiles_restantes": 2,
+      "habiles_restantes": 1,
       "nuevo": false,
       "visto_desde": "2026-09-29",
       "monto": "35.112.264 CLP",
@@ -299,7 +297,7 @@
       "unidad": "Hospital Villarrica",
       "tipo": "LE",
       "cierre": "2026-10-14T15:30:00",
-      "habiles_restantes": 2,
+      "habiles_restantes": 1,
       "nuevo": false,
       "visto_desde": "2026-10-02",
       "monto": "no informado",
@@ -319,39 +317,187 @@
       ],
       "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1952-84-LE26",
       "descripcion": "El Hospital Villarrica, a través de su subdepartamento de abastecimiento, requiere la adquisición de “SERVICIO DE MANTENIMIENTO PARA SISTEMA GESTION LLAMADO DE ENFERMERIA DEL HOSPITAL VILLARRICA”, el contrato se cursará por un periodo de 24 meses, pudiendo ser renovado hasta por 12 meses más, por razones fundadas, en la medida que existan disponibilidad financiera y los resultados de los informes de evaluación, mínimo un al año, así lo amerite"
+    },
+    {
+      "codigo": "1057415-60-LE26",
+      "nombre": "SOFTWARE DE GESTIÓN TRIBUTARIA E INVENTARIO",
+      "organismo": "SERVICIO SALUD BIO BIO HOSPITAL NACIMIENTO",
+      "unidad": "Bienes y Servicios",
+      "tipo": "LE",
+      "cierre": "2026-10-15T15:30:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-10-02",
+      "monto": "9.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$9.0M contra ~$3M de costo estimado (1.7 meses-persona).",
+        "monto_clp": 9000000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 16,
+      "razones": [
+        "rubro ONU 43232304",
+        "«software» en el título",
+        "«software de gestion» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057415-60-LE26",
+      "descripcion": "Disponer del servicio de software de gestión tributaria, retenciones e inventario farmacéutico para las unidades de Recaudación, Finanzas y Farmacia para el Hospital Familiar y Comunitario de Nacimiento, acorde a las condiciones requeridas por la Unidad de Contabilidad, que serán reguladas por el pliego de condiciones establecidas en las presentes bases."
+    },
+    {
+      "codigo": "1191688-76-LE26",
+      "nombre": "Sistema de Reserva y Pago Online de Campos Dep.",
+      "organismo": "I MUNICIPALIDAD DE LA COMUNA DE EL BOSQUE",
+      "unidad": "Secretaria de Planificación",
+      "tipo": "LE",
+      "cierre": "2026-10-15T15:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-10-02",
+      "monto": "14.000.000 CLP",
+      "precio": {
+        "nivel": "roja",
+        "etiqueta": "no paga ni una persona",
+        "detalle": "$14.0M repartidos en 24 meses son $0.6M al mes. No alcanza ni para tener a una persona dedicada.",
+        "monto_clp": 14000000,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 6.3,
+        "mensual": 583333
+      },
+      "veredicto": "nogo",
+      "puntaje": 16,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el detalle",
+        "«software» en el detalle",
+        "«desarrollo de plataforma» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1191688-76-LE26",
+      "descripcion": "Contratar el sistema de reservas y pago online de campos deportivos e inscripción de talleres deportivos que permita una comunicación directa con la comunidad para entregar un servicio oportuno y amigable y en tiempo real de los servicios municipales, automatizando el proceso."
+    },
+    {
+      "codigo": "948354-150-LP26",
+      "nombre": "CONTRATACIÓN DEL SERVICIO DE SISTEMA INFORMÁTICO PARA GESTIÓN DE DATOS DE BANCO DE SANGRE DEL HOSPITAL DIPRECA",
+      "organismo": "FONDO HOSPITAL DE LA DIRECCION DE PREVISION DE CARABINEROS DE CHILE",
+      "unidad": "Unidad de Compra de Bienes y Servicios",
+      "tipo": "LP",
+      "cierre": "2026-10-15T16:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-10-05",
+      "monto": "175.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$175.0M contra ~$29M de costo estimado (14.6 meses-persona), $7.3M al mes por 24 meses.",
+        "monto_clp": 175000000,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 14.6,
+        "mensual": 7291667
+      },
+      "veredicto": "revisar",
+      "puntaje": 15,
+      "razones": [
+        "rubro ONU 43232405",
+        "«sistema informatico» en el título",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=948354-150-LP26",
+      "descripcion": "El Hospital de la Dirección de Previsión de Carabineros de Chile, ubicado en Vital Apoquindo N°1.200, Comuna de Las Condes, Región Metropolitana, en adelante “EL HOSPITAL”, llama a Licitación Pública para la Contratación del Servicio de Sistema Informático para Gestión de Datos de Banco de Sangre, en adelante “EL SERVICIO”, por un periodo de 24 meses, cuyas características y requisitos técnicos constan en las Bases Administrativas y Técnicas de esta Licitación con sus respectivos anexos."
+    },
+    {
+      "codigo": "2760-118-LR26",
+      "nombre": "SERVICIOS DE TELECOMUNICACIONES Y OTROS SERVICIOS INFORMÁTICOS PARA LA MUNICIPALIDAD DE CORONEL",
+      "organismo": "I MUNICIPALIDAD DE CORONEL",
+      "unidad": "SECRETARIA COMUNAL DE PLANIFICACION",
+      "tipo": "LR",
+      "cierre": "2026-10-15T15:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-09-15",
+      "monto": "540.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$540.0M contra ~$27M de costo estimado (13.5 meses-persona), $9.0M al mes por 60 meses.",
+        "monto_clp": 540000000,
+        "meses_contrato": 60.0,
+        "esfuerzo_mp": 13.5,
+        "mensual": 9000000
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 81111803"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2760-118-LR26",
+      "descripcion": "SERVICIOS DE TELECOMUNICACIONES Y OTROS SERVICIOS INFORMÁTICOS PARA LA MUNICIPALIDAD DE CORONEL"
     }
   ],
   "oportunidades": [
     {
-      "codigo": "1057390-21-LR26",
-      "nombre": "PLATAFORMA CLOUD COMPUTING Y SERVICIOS ASOCIADOS ESISSAN",
-      "organismo": "SERVICIO DE SALUD ARAUCANIA NORTE",
-      "unidad": "Bienes y Servicios",
-      "tipo": "LR",
-      "cierre": "2026-11-09T15:30:00",
-      "habiles_restantes": 20,
+      "codigo": "765-25-L126",
+      "nombre": "Desarrollo de soluciones informáticas para la implementación del plan de transformación digital de la CONADI 2026-2029",
+      "organismo": "CORP NACIONAL DE DESARROLLO INDIGENA",
+      "unidad": "CORP NACIONAL DE DESARROLLO INDIGENA",
+      "tipo": "L1",
+      "cierre": "2026-10-26T16:49:00",
+      "habiles_restantes": 9,
       "nuevo": true,
-      "visto_desde": "2026-10-12",
-      "monto": "487.000.000 CLP",
+      "visto_desde": "2026-10-13",
+      "monto": "6.000.000 CLP",
       "precio": {
         "nivel": "verde",
         "etiqueta": "presupuesto razonable",
-        "detalle": "$487.0M contra ~$17M de costo estimado (8.7 meses-persona), $13.5M al mes por 36 meses.",
-        "monto_clp": 487000000,
-        "meses_contrato": 36.0,
-        "esfuerzo_mp": 8.7,
-        "mensual": 13527778
+        "detalle": "$6.0M contra ~$3M de costo estimado (1.7 meses-persona).",
+        "monto_clp": 6000000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 11,
+      "razones": [
+        "rubro ONU 43232909",
+        "«transformacion digital» en el título",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=765-25-L126",
+      "descripcion": "Plan de Transformación Digital institucional período 2026-2029 establece las siguientes iniciativas para el 2026:\nPTD-D1-01. Implementación de autenticación oficial en procedimientos\nadministrativos priorizados\nPTD-D1-02. Integración a la red de interoperabilidad del estado\nPTD-D1-04. Digitalización del ingreso de solicitudes, formularios y documentos"
+    },
+    {
+      "codigo": "1020-55-LE26",
+      "nombre": "Adq. Sopor. y Actual. Software ServiceTonic MOP.",
+      "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+      "unidad": "MOP Subsecretaría ",
+      "tipo": "LE",
+      "cierre": "2026-10-29T15:00:00",
+      "habiles_restantes": 12,
+      "nuevo": true,
+      "visto_desde": "2026-10-13",
+      "monto": "22.500.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$22.5M contra ~$1M de costo estimado (0.7 meses-persona).",
+        "monto_clp": 22500000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 0.7,
+        "mensual": null
       },
       "veredicto": "revisar",
       "puntaje": 12,
       "razones": [
-        "rubro ONU 43232915",
-        "«programacion» en el detalle",
-        "«aplicativo» en el detalle",
-        "«software» en el detalle"
+        "rubro ONU 43231512",
+        "«software» en el título",
+        "«software de gestion» en el detalle"
       ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057390-21-LR26",
-      "descripcion": "La presente licitación tiene como contratación de Servicios Plataforma Cloud Computing y Servicios Asociados Aplicativo ESISSAN del Servicio De Salud Araucanía Norte a 36 meses, todo ello según especificaciones técnicas (Formulario No 5). "
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1020-55-LE26",
+      "descripcion": "Que, el objetivo es la Adquisición de Soporte y Actualizaciones Software ServiceTonic Licencias en modalidad On-Premise, usuarios nombrados, por 12 meses."
     }
   ]
 }
