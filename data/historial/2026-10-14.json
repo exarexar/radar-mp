@@ -1,0 +1,435 @@
+{
+  "generado": "2026-10-14 11:26",
+  "fecha": "2026-10-14",
+  "horizonte": 20,
+  "fecha_hasta": "2026-11-11",
+  "primera_corrida": false,
+  "modo": "solo desarrollo",
+  "resumen": {
+    "activas_revisadas": 4624,
+    "detalles_consultados": 419,
+    "nuevas": 2,
+    "por_cerrar": 10,
+    "llamadas_api": 59
+  },
+  "nuevas": [
+    {
+      "codigo": "1469-272-L126",
+      "nombre": "SERVICIO DE LICENCIA SENTIOVR DIRECCIÓN DE TECNOLOGÍAS EDUCATIVAS",
+      "organismo": "UNIVERSIDAD DE TALCA",
+      "unidad": "Universidad de Talca",
+      "tipo": "L1",
+      "cierre": "2026-10-26T15:00:00",
+      "habiles_restantes": 8,
+      "nuevo": true,
+      "visto_desde": "2026-10-14",
+      "monto": "2.268.640 CLP",
+      "precio": {
+        "nivel": "amarilla",
+        "etiqueta": "margen apretado",
+        "detalle": "$2.3M contra ~$3M de costo estimado (1.7 meses-persona). Se puede, pero sin espacio para imprevistos.",
+        "monto_clp": 2268640,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231512",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1469-272-L126",
+      "descripcion": "La Universidad de Talca requiere Servicio de Licencia SentioVR para la Dirección de Tecnologías Educativas, por el periodo de 12 meses, a contar de la acepción de la Orden de Compra"
+    },
+    {
+      "codigo": "425-72-LP26",
+      "nombre": "Arriendo de Kioscos Autoconsulta y Aplicativo CJS",
+      "organismo": "CORP ADMINISTRATIVA DEL PODER JUDICIAL",
+      "unidad": "Servicios",
+      "tipo": "LP",
+      "cierre": "2026-11-02T16:00:00",
+      "habiles_restantes": 13,
+      "nuevo": true,
+      "visto_desde": "2026-10-14",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~8.7 meses-persona, o sea del orden de $17M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 8.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 16,
+      "razones": [
+        "rubro ONU 81111809",
+        "«aplicativo» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=425-72-LP26",
+      "descripcion": "UR(1813) Servicio de arriendo de Kioscos de Autoconsulta y Desarrollo de Aplicativo para el Centro de Justicia de Santiago"
+    }
+  ],
+  "por_cerrar": [
+    {
+      "codigo": "1952-84-LE26",
+      "nombre": "SERVICIO DE MANTENIMIENTO PARA SISTEMA GESTION LLAMADO DE ENFERMERIA DEL HOSPITAL VILLARRICA",
+      "organismo": "Hospital Villarrica",
+      "unidad": "Hospital Villarrica",
+      "tipo": "LE",
+      "cierre": "2026-10-14T15:30:00",
+      "habiles_restantes": 0,
+      "nuevo": false,
+      "visto_desde": "2026-10-02",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~6.3 meses-persona, o sea del orden de $13M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 6.3,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 81111812"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1952-84-LE26",
+      "descripcion": "El Hospital Villarrica, a través de su subdepartamento de abastecimiento, requiere la adquisición de “SERVICIO DE MANTENIMIENTO PARA SISTEMA GESTION LLAMADO DE ENFERMERIA DEL HOSPITAL VILLARRICA”, el contrato se cursará por un periodo de 24 meses, pudiendo ser renovado hasta por 12 meses más, por razones fundadas, en la medida que existan disponibilidad financiera y los resultados de los informes de evaluación, mínimo un al año, así lo amerite"
+    },
+    {
+      "codigo": "1057415-60-LE26",
+      "nombre": "SOFTWARE DE GESTIÓN TRIBUTARIA E INVENTARIO",
+      "organismo": "SERVICIO SALUD BIO BIO HOSPITAL NACIMIENTO",
+      "unidad": "Bienes y Servicios",
+      "tipo": "LE",
+      "cierre": "2026-10-15T15:30:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-10-02",
+      "monto": "9.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$9.0M contra ~$3M de costo estimado (1.7 meses-persona).",
+        "monto_clp": 9000000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 16,
+      "razones": [
+        "rubro ONU 43232304",
+        "«software» en el título",
+        "«software de gestion» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057415-60-LE26",
+      "descripcion": "Disponer del servicio de software de gestión tributaria, retenciones e inventario farmacéutico para las unidades de Recaudación, Finanzas y Farmacia para el Hospital Familiar y Comunitario de Nacimiento, acorde a las condiciones requeridas por la Unidad de Contabilidad, que serán reguladas por el pliego de condiciones establecidas en las presentes bases."
+    },
+    {
+      "codigo": "1191688-76-LE26",
+      "nombre": "Sistema de Reserva y Pago Online de Campos Dep.",
+      "organismo": "I MUNICIPALIDAD DE LA COMUNA DE EL BOSQUE",
+      "unidad": "Secretaria de Planificación",
+      "tipo": "LE",
+      "cierre": "2026-10-15T15:00:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-10-02",
+      "monto": "14.000.000 CLP",
+      "precio": {
+        "nivel": "roja",
+        "etiqueta": "no paga ni una persona",
+        "detalle": "$14.0M repartidos en 24 meses son $0.6M al mes. No alcanza ni para tener a una persona dedicada.",
+        "monto_clp": 14000000,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 6.3,
+        "mensual": 583333
+      },
+      "veredicto": "nogo",
+      "puntaje": 16,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el detalle",
+        "«software» en el detalle",
+        "«desarrollo de plataforma» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1191688-76-LE26",
+      "descripcion": "Contratar el sistema de reservas y pago online de campos deportivos e inscripción de talleres deportivos que permita una comunicación directa con la comunidad para entregar un servicio oportuno y amigable y en tiempo real de los servicios municipales, automatizando el proceso."
+    },
+    {
+      "codigo": "948354-150-LP26",
+      "nombre": "CONTRATACIÓN DEL SERVICIO DE SISTEMA INFORMÁTICO PARA GESTIÓN DE DATOS DE BANCO DE SANGRE DEL HOSPITAL DIPRECA",
+      "organismo": "FONDO HOSPITAL DE LA DIRECCION DE PREVISION DE CARABINEROS DE CHILE",
+      "unidad": "Unidad de Compra de Bienes y Servicios",
+      "tipo": "LP",
+      "cierre": "2026-10-15T16:00:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-10-05",
+      "monto": "175.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$175.0M contra ~$29M de costo estimado (14.6 meses-persona), $7.3M al mes por 24 meses.",
+        "monto_clp": 175000000,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 14.6,
+        "mensual": 7291667
+      },
+      "veredicto": "revisar",
+      "puntaje": 15,
+      "razones": [
+        "rubro ONU 43232405",
+        "«sistema informatico» en el título",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=948354-150-LP26",
+      "descripcion": "El Hospital de la Dirección de Previsión de Carabineros de Chile, ubicado en Vital Apoquindo N°1.200, Comuna de Las Condes, Región Metropolitana, en adelante “EL HOSPITAL”, llama a Licitación Pública para la Contratación del Servicio de Sistema Informático para Gestión de Datos de Banco de Sangre, en adelante “EL SERVICIO”, por un periodo de 24 meses, cuyas características y requisitos técnicos constan en las Bases Administrativas y Técnicas de esta Licitación con sus respectivos anexos."
+    },
+    {
+      "codigo": "2760-118-LR26",
+      "nombre": "SERVICIOS DE TELECOMUNICACIONES Y OTROS SERVICIOS INFORMÁTICOS PARA LA MUNICIPALIDAD DE CORONEL",
+      "organismo": "I MUNICIPALIDAD DE CORONEL",
+      "unidad": "SECRETARIA COMUNAL DE PLANIFICACION",
+      "tipo": "LR",
+      "cierre": "2026-10-15T15:00:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-09-15",
+      "monto": "540.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$540.0M contra ~$27M de costo estimado (13.5 meses-persona), $9.0M al mes por 60 meses.",
+        "monto_clp": 540000000,
+        "meses_contrato": 60.0,
+        "esfuerzo_mp": 13.5,
+        "mensual": 9000000
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 81111803"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2760-118-LR26",
+      "descripcion": "SERVICIOS DE TELECOMUNICACIONES Y OTROS SERVICIOS INFORMÁTICOS PARA LA MUNICIPALIDAD DE CORONEL"
+    },
+    {
+      "codigo": "2770-120-LR26",
+      "nombre": "SISTEMA DE GESTIÓN INTEGRADO SMAPA",
+      "organismo": "I MUNICIPALIDAD DE MAIPU",
+      "unidad": "I MUNICIPALIDAD DE MAIPU",
+      "tipo": "LR",
+      "cierre": "2026-10-15T15:01:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-08-19",
+      "monto": "54.018 CLF",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$2206.6M contra ~$32M de costo estimado (16 meses-persona), $40.9M al mes por 54 meses.",
+        "monto_clp": 2206621820,
+        "meses_contrato": 54.0,
+        "esfuerzo_mp": 16.0,
+        "mensual": 40863367
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43233001",
+        "«sistema de gestion» en el título",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2770-120-LR26",
+      "descripcion": "La presenta licitación tiene por finalidad la adquisición, implementación y ejecución de un sistema TI (tecnología de la información) enfocado en unificar e integrar todas las tareas de las diferentes unidades de SMAPA en una sola plataforma, de manera de tener una sola fuente de información, sin necesidad de traspasos manuales, para así prestar un mejor servicio a los usuarios, así como también el facturador electrónico de la Municipalidad de Maipú. \r\nTodo lo anterior en virtud de lo dispuesto en las presentes Bases Administrativas, las Bases Técnicas y todos sus anexos."
+    },
+    {
+      "codigo": "1126922-40-L126",
+      "nombre": "PLATAFORMA WEB PARA GESTION DE DOTACION",
+      "organismo": "SERVICIO LOCAL DE EDUCACION PUBLICA DE LLANQUIHUE",
+      "unidad": "SERVICIO LOCAL DE EDUCACION PUBLICA DE LLANQUIHUE",
+      "tipo": "L1",
+      "cierre": "2026-10-16T15:01:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-10-02",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~2.8 meses-persona, o sea del orden de $6M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": null,
+        "esfuerzo_mp": 2.8,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 21,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el título",
+        "«software» en el detalle",
+        "«desarrollo de plataforma» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1126922-40-L126",
+      "descripcion": "CONTRATACIÓN DEL SERVICIO DE GESTIÓN DE DOTACIÓN DOCENTE Y ASISTENTES DE LA EDUCACIÓN MEDIANTE PLATAFORMA WEB PARA LOS ESTABLECIMIENTOS\r\nEDUCACIONALES DEL SERVICIO LOCAL DE EDUCACIÓN PÚBLICA LLANQUIHUE"
+    },
+    {
+      "codigo": "752-38-LE26",
+      "nombre": "Mantenimiento Evolutivo y Soporte Sistema Fondo Comunidad y FNDR",
+      "organismo": "GOBIERNO REGIONAL DECIMA REGION LOS LAGOS",
+      "unidad": "Gobierno Regional de Los Lagos",
+      "tipo": "LE",
+      "cierre": "2026-10-16T15:30:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-10-07",
+      "monto": "32.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$32.0M contra ~$3M de costo estimado (1.5 meses-persona), $6.4M al mes por 5 meses.",
+        "monto_clp": 32000000,
+        "meses_contrato": 5.0,
+        "esfuerzo_mp": 1.5,
+        "mensual": 6400000
+      },
+      "veredicto": "revisar",
+      "puntaje": 15,
+      "razones": [
+        "rubro ONU 81112201",
+        "«evolutivo» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=752-38-LE26",
+      "descripcion": "El Gobierno Regional de Los Lagos tiene la necesidad de contratar el servicio de \"Mantenimiento evolutivo y soporte para los sistemas de Fondo Comunidad y Fondos Concursables 6% FNDR\", lo que permitirá agregar nuevas funcionalidades y hacer los cambios que surgen en cada proceso concursal, incorporar nuevos requisitos normativos y dar administración y soporte técnico a los sistemas en operación, según lo requerido por el Departamento de Tecnologías Digitales e Innovación."
+    },
+    {
+      "codigo": "948354-139-LR26",
+      "nombre": "CONTRATACIÓN DE SERVICIO DE SOFTWARE DE RECURSOS HUMANOS PARA EL HOSPITAL DIPRECA",
+      "organismo": "FONDO HOSPITAL DE LA DIRECCION DE PREVISION DE CARABINEROS DE CHILE",
+      "unidad": "Unidad de Compra de Bienes y Servicios",
+      "tipo": "LR",
+      "cierre": "2026-10-16T16:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-09-17",
+      "monto": "450.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$450.0M contra ~$17M de costo estimado (8.7 meses-persona), $12.5M al mes por 36 meses.",
+        "monto_clp": 450000000,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 8.7,
+        "mensual": 12500000
+      },
+      "veredicto": "revisar",
+      "puntaje": 12,
+      "razones": [
+        "rubro ONU 43231505",
+        "«software» en el título",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=948354-139-LR26",
+      "descripcion": "El Hospital de la Dirección de Previsión de Carabineros de Chile, ubicado en Vital Apoquindo N°1.200, Comuna de Las Condes, Región Metropolitana, en adelante “EL HOSPITAL”, llama a Licitación Pública para la Contratación de Servicio de Software para el Recursos Humanos, en adelante “EL SERVICIO”, por un periodo de 36 meses, para el referido Centro Asistencial, cuyas características y requisitos técnicos constan en las Bases Administrativas y Técnicas de esta Licitación con sus respectivos anexos."
+    },
+    {
+      "codigo": "1079639-23-LE26",
+      "nombre": "RENOVACIÓN SOFTWARE INSEYETS PRO POR 12 MESES",
+      "organismo": "DIRECCION DE LOGISTICA DE CARABINEROS",
+      "unidad": "SECCIÓN COMPRAS ZONA DE CARABINEROS LOS LAGOS",
+      "tipo": "LE",
+      "cierre": "2026-10-16T15:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-10-08",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~1.7 meses-persona, o sea del orden de $3M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 9,
+      "razones": [
+        "rubro ONU 43231511",
+        "«software» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1079639-23-LE26",
+      "descripcion": "RENOVACIÓN SOFTWARE INSEYETS PRO POR 12 MESES PARA LA SECCIÓN OS9 LOS LAGOS"
+    }
+  ],
+  "oportunidades": [
+    {
+      "codigo": "1469-272-L126",
+      "nombre": "SERVICIO DE LICENCIA SENTIOVR DIRECCIÓN DE TECNOLOGÍAS EDUCATIVAS",
+      "organismo": "UNIVERSIDAD DE TALCA",
+      "unidad": "Universidad de Talca",
+      "tipo": "L1",
+      "cierre": "2026-10-26T15:00:00",
+      "habiles_restantes": 8,
+      "nuevo": true,
+      "visto_desde": "2026-10-14",
+      "monto": "2.268.640 CLP",
+      "precio": {
+        "nivel": "amarilla",
+        "etiqueta": "margen apretado",
+        "detalle": "$2.3M contra ~$3M de costo estimado (1.7 meses-persona). Se puede, pero sin espacio para imprevistos.",
+        "monto_clp": 2268640,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231512",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1469-272-L126",
+      "descripcion": "La Universidad de Talca requiere Servicio de Licencia SentioVR para la Dirección de Tecnologías Educativas, por el periodo de 12 meses, a contar de la acepción de la Orden de Compra"
+    },
+    {
+      "codigo": "425-72-LP26",
+      "nombre": "Arriendo de Kioscos Autoconsulta y Aplicativo CJS",
+      "organismo": "CORP ADMINISTRATIVA DEL PODER JUDICIAL",
+      "unidad": "Servicios",
+      "tipo": "LP",
+      "cierre": "2026-11-02T16:00:00",
+      "habiles_restantes": 13,
+      "nuevo": true,
+      "visto_desde": "2026-10-14",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~8.7 meses-persona, o sea del orden de $17M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 8.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 16,
+      "razones": [
+        "rubro ONU 81111809",
+        "«aplicativo» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=425-72-LP26",
+      "descripcion": "UR(1813) Servicio de arriendo de Kioscos de Autoconsulta y Desarrollo de Aplicativo para el Centro de Justicia de Santiago"
+    }
+  ]
+}
