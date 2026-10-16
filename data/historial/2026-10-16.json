@@ -1,0 +1,594 @@
+{
+  "generado": "2026-10-16 10:52",
+  "fecha": "2026-10-16",
+  "horizonte": 20,
+  "fecha_hasta": "2026-11-13",
+  "primera_corrida": false,
+  "modo": "solo desarrollo",
+  "resumen": {
+    "activas_revisadas": 4846,
+    "detalles_consultados": 444,
+    "nuevas": 4,
+    "por_cerrar": 11,
+    "llamadas_api": 196
+  },
+  "nuevas": [
+    {
+      "codigo": "1469-284-L126",
+      "nombre": "20-44369 Desarrollo e Implementación de Plataforma Web para Revista Tralka",
+      "organismo": "UNIVERSIDAD DE TALCA",
+      "unidad": "Universidad de Talca",
+      "tipo": "L1",
+      "cierre": "2026-10-21T16:00:00",
+      "habiles_restantes": 3,
+      "nuevo": true,
+      "visto_desde": "2026-10-16",
+      "monto": "2.405.000 CLP",
+      "precio": {
+        "nivel": "amarilla",
+        "etiqueta": "margen apretado",
+        "detalle": "$2.4M contra ~$6M de costo estimado (2.8 meses-persona). Se puede, pero sin espacio para imprevistos.",
+        "monto_clp": 2405000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 2.8,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 31,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el título",
+        "«software» en el detalle",
+        "«desarrollo de plataforma» en el detalle",
+        "«desarrollo e implementacion» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1469-284-L126",
+      "descripcion": "Desarrollo e Implementación de Plataforma Web para Revista Tralka"
+    },
+    {
+      "codigo": "1374899-50-LP26",
+      "nombre": "IMPLEMENTACIÓN DE UN SISTEMA DE GESTIÓN DE TURNOS CONTROL HORARIO Y CÁLCULO DE COMPENSACIONES CON ARRIENDO DE RELOJES CONTROL SOPORTE Y MANTENCIÓN",
+      "organismo": "HOSPITAL DE QUILPUE",
+      "unidad": "Hospital Marga Marga",
+      "tipo": "LP",
+      "cierre": "2026-10-26T16:00:00",
+      "habiles_restantes": 6,
+      "nuevo": true,
+      "visto_desde": "2026-10-16",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~8.5 meses-persona, o sea del orden de $17M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 8.5,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 21,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el detalle",
+        "«sistema de gestion» en el título",
+        "«software» en el detalle",
+        "«desarrollo de plataforma» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1374899-50-LP26",
+      "descripcion": "Las presentes Bases de licitación orientan, fijan y determinan las normas y procedimientos por las que deben regirse las personas naturales o jurídicas interesadas en participar en el llamado a licitación para la “IMPLEMENTACIÓN DE UN SISTEMA DE GESTIÓN DE TURNOS, CONTROL HORARIO Y CÁLCULO DE COMPENSACIONES CON ARRIENDO DE RELOJES CONTROL, SOPORTE Y MANTENCIÓN”, por un periodo de 24 meses, con el objetivo de mejorar la gestión de turnos de manera transversal en todo el establecimiento dentro de un plazo acotado."
+    },
+    {
+      "codigo": "618923-19-LP26",
+      "nombre": "ADQUISICIÓN E IMPLEMENTACIÓN SOFTWARE INVENTARIO",
+      "organismo": "SUBSECRETARIA PARA LAS FUERZAS ARMADAS",
+      "unidad": "Subsecretaría para las Fuerzas Armadas",
+      "tipo": "LP",
+      "cierre": "2026-10-26T15:00:00",
+      "habiles_restantes": 6,
+      "nuevo": true,
+      "visto_desde": "2026-10-16",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~3.9 meses-persona, o sea del orden de $8M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 3.9,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 9,
+      "razones": [
+        "rubro ONU 43232311",
+        "«software» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=618923-19-LP26",
+      "descripcion": "Se requiere implementar una solución integral, mediante un software de uso perpetuo, para el registro, control y valorización actualizada, del inventario de sus dependencias, el cual facilite la administración y gestión de los bienes muebles e inmuebles de la citada Repartición, acorde a la normativa vigente, sobre el Sistema de Contabilidad General de la Nación, basado en las “NICSP”"
+    },
+    {
+      "codigo": "1514-113-LE26",
+      "nombre": "Convenio de Sistema de Gestión de Calidad en Salud GCS bajo modalidad Cloud",
+      "organismo": "SERVICIO DE SALUD CHILOE",
+      "unidad": "Hospital de Castro",
+      "tipo": "LE",
+      "cierre": "2026-10-27T15:00:00",
+      "habiles_restantes": 7,
+      "nuevo": true,
+      "visto_desde": "2026-10-16",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~11.5 meses-persona, o sea del orden de $23M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 11.5,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 9,
+      "razones": [
+        "rubro ONU 43232401",
+        "«sistema de gestion» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1514-113-LE26",
+      "descripcion": "Hospital de Castro requiere realizar Licitación Pública para establecer dicho Convenio de Sistema de Gestión de Calidad en Salud (GCS) bajo modalidad Cloud y con ello permitir el normal funcionamiento del Hospital "
+    }
+  ],
+  "por_cerrar": [
+    {
+      "codigo": "1126922-40-L126",
+      "nombre": "PLATAFORMA WEB PARA GESTION DE DOTACION",
+      "organismo": "SERVICIO LOCAL DE EDUCACION PUBLICA DE LLANQUIHUE",
+      "unidad": "SERVICIO LOCAL DE EDUCACION PUBLICA DE LLANQUIHUE",
+      "tipo": "L1",
+      "cierre": "2026-10-16T15:01:00",
+      "habiles_restantes": 0,
+      "nuevo": false,
+      "visto_desde": "2026-10-02",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~2.8 meses-persona, o sea del orden de $6M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": null,
+        "esfuerzo_mp": 2.8,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 21,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el título",
+        "«software» en el detalle",
+        "«desarrollo de plataforma» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1126922-40-L126",
+      "descripcion": "CONTRATACIÓN DEL SERVICIO DE GESTIÓN DE DOTACIÓN DOCENTE Y ASISTENTES DE LA EDUCACIÓN MEDIANTE PLATAFORMA WEB PARA LOS ESTABLECIMIENTOS\r\nEDUCACIONALES DEL SERVICIO LOCAL DE EDUCACIÓN PÚBLICA LLANQUIHUE"
+    },
+    {
+      "codigo": "752-38-LE26",
+      "nombre": "Mantenimiento Evolutivo y Soporte Sistema Fondo Comunidad y FNDR",
+      "organismo": "GOBIERNO REGIONAL DECIMA REGION LOS LAGOS",
+      "unidad": "Gobierno Regional de Los Lagos",
+      "tipo": "LE",
+      "cierre": "2026-10-16T15:30:00",
+      "habiles_restantes": 0,
+      "nuevo": false,
+      "visto_desde": "2026-10-07",
+      "monto": "32.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$32.0M contra ~$3M de costo estimado (1.5 meses-persona), $6.4M al mes por 5 meses.",
+        "monto_clp": 32000000,
+        "meses_contrato": 5.0,
+        "esfuerzo_mp": 1.5,
+        "mensual": 6400000
+      },
+      "veredicto": "revisar",
+      "puntaje": 15,
+      "razones": [
+        "rubro ONU 81112201",
+        "«evolutivo» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=752-38-LE26",
+      "descripcion": "El Gobierno Regional de Los Lagos tiene la necesidad de contratar el servicio de \"Mantenimiento evolutivo y soporte para los sistemas de Fondo Comunidad y Fondos Concursables 6% FNDR\", lo que permitirá agregar nuevas funcionalidades y hacer los cambios que surgen en cada proceso concursal, incorporar nuevos requisitos normativos y dar administración y soporte técnico a los sistemas en operación, según lo requerido por el Departamento de Tecnologías Digitales e Innovación."
+    },
+    {
+      "codigo": "948354-139-LR26",
+      "nombre": "CONTRATACIÓN DE SERVICIO DE SOFTWARE DE RECURSOS HUMANOS PARA EL HOSPITAL DIPRECA",
+      "organismo": "FONDO HOSPITAL DE LA DIRECCION DE PREVISION DE CARABINEROS DE CHILE",
+      "unidad": "Unidad de Compra de Bienes y Servicios",
+      "tipo": "LR",
+      "cierre": "2026-10-16T16:00:00",
+      "habiles_restantes": 0,
+      "nuevo": false,
+      "visto_desde": "2026-09-17",
+      "monto": "450.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$450.0M contra ~$17M de costo estimado (8.7 meses-persona), $12.5M al mes por 36 meses.",
+        "monto_clp": 450000000,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 8.7,
+        "mensual": 12500000
+      },
+      "veredicto": "revisar",
+      "puntaje": 12,
+      "razones": [
+        "rubro ONU 43231505",
+        "«software» en el título",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=948354-139-LR26",
+      "descripcion": "El Hospital de la Dirección de Previsión de Carabineros de Chile, ubicado en Vital Apoquindo N°1.200, Comuna de Las Condes, Región Metropolitana, en adelante “EL HOSPITAL”, llama a Licitación Pública para la Contratación de Servicio de Software para el Recursos Humanos, en adelante “EL SERVICIO”, por un periodo de 36 meses, para el referido Centro Asistencial, cuyas características y requisitos técnicos constan en las Bases Administrativas y Técnicas de esta Licitación con sus respectivos anexos."
+    },
+    {
+      "codigo": "1079639-23-LE26",
+      "nombre": "RENOVACIÓN SOFTWARE INSEYETS PRO POR 12 MESES",
+      "organismo": "DIRECCION DE LOGISTICA DE CARABINEROS",
+      "unidad": "SECCIÓN COMPRAS ZONA DE CARABINEROS LOS LAGOS",
+      "tipo": "LE",
+      "cierre": "2026-10-16T15:00:00",
+      "habiles_restantes": 0,
+      "nuevo": false,
+      "visto_desde": "2026-10-08",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~1.7 meses-persona, o sea del orden de $3M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 9,
+      "razones": [
+        "rubro ONU 43231511",
+        "«software» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1079639-23-LE26",
+      "descripcion": "RENOVACIÓN SOFTWARE INSEYETS PRO POR 12 MESES PARA LA SECCIÓN OS9 LOS LAGOS"
+    },
+    {
+      "codigo": "1375758-7-LE26",
+      "nombre": "PLATAFORMA INTEGRAL PARA LA PLANIFICACIÓN CONTROL DE DOTACIÓN ESCOLAR Y GESTIÓN DE SOLICITUDES DE CONTRATACIÓN",
+      "organismo": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA SANTIAGO CENTRO",
+      "unidad": "NIVEL CENTRAL SLEP SANTIAGO CENTRO P01",
+      "tipo": "LE",
+      "cierre": "2026-10-19T16:30:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-10-07",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~6.3 meses-persona, o sea del orden de $13M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 6.3,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 13,
+      "razones": [
+        "rubro ONU 81111507",
+        "«erp» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1375758-7-LE26",
+      "descripcion": "SE REQUEIRE CONTRATAR PLATAFORMA INTEGRAL PARA LA PLANIFICACIÓN, CONTROL DE DOTACIÓN ESCOLAR Y GESTIÓN DE SOLICITUDES DE CONTRATACIÓN, SEGÚN BASES ADJUNTAS, APROBADAS POR RES. EXENTA N° "
+    },
+    {
+      "codigo": "1108660-10-LE26",
+      "nombre": "SERVICIO DE REDISEÑO DEL PORTAL INSTITUCIONAL",
+      "organismo": "FUND DE COMUNICACIONES CAPACITACION Y CULTURA DEL AGRO",
+      "unidad": "FUNDACIÓN DE COMUNICACIONES, CAPACITACIÓN Y CULTURA DEL AGRO - FUCOA",
+      "tipo": "LE",
+      "cierre": "2026-10-19T15:30:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-10-02",
+      "monto": "13.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$13.0M contra ~$3M de costo estimado (1.7 meses-persona).",
+        "monto_clp": 13000000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 11,
+      "razones": [
+        "rubro ONU 81112103",
+        "«sitio web» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1108660-10-LE26",
+      "descripcion": "CONTRATACIÓN DE LOS SERVICIO DE REDISEÑO DEL PORTAL INSTITUCIONAL DE LA CNR Y SU AULA VIRTUAL PARA LA LEY N° 18.450"
+    },
+    {
+      "codigo": "1389183-71-LE26",
+      "nombre": "PROGRAMAS INFORMATICOS PARA LICEOS TP",
+      "organismo": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DE ANDALIÉN COSTA",
+      "unidad": "SERVICIO EDUCATIVO ANDALIEN COSTA",
+      "tipo": "LE",
+      "cierre": "2026-10-19T17:00:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-10-06",
+      "monto": "9.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$9.0M contra ~$3M de costo estimado (1.7 meses-persona).",
+        "monto_clp": 9000000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231505",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1389183-71-LE26",
+      "descripcion": "Conforme a la Ley de Compras Públicas 19.886, el Decreto 661 que fija el reglamento y sus modificaciones, el Servicio Local de Educación Pública de Andalién Costa, llama a licitación pública a personas naturales o jurídicas, empresas o proveedores del rubro, o unión temporal de proveedores, para gestionar la compra de “PROGRAMAS INFORMÁTICOS PARA LICEOS TP”, el que tiene por objeto, adquirir Programas Computacionales para el desarrollo de las especialidades de Contabilidad y Administración de establecimientos educacionales Técnicos Profesionales dependientes del Servicio Local de Educación Pública Andalién Costa."
+    },
+    {
+      "codigo": "1643-91-LP26",
+      "nombre": "SISTEMA INFORMÁTICO ERP",
+      "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE T",
+      "unidad": "Hospital de Talagante",
+      "tipo": "LP",
+      "cierre": "2026-10-20T17:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-09-28",
+      "monto": "320.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$320.0M contra ~$29M de costo estimado (14.6 meses-persona), $13.3M al mes por 24 meses.",
+        "monto_clp": 320000000,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 14.6,
+        "mensual": 13333333
+      },
+      "veredicto": "go",
+      "puntaje": 21,
+      "razones": [
+        "rubro ONU 43231602",
+        "«sistema informatico» en el título",
+        "«erp» en el título",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1643-91-LP26",
+      "descripcion": "EL HOSPITAL DE TALAGANTE REQUIERE LA CONTRATACIÓN DEL SERVICIO DE IMPLEMENTACIÓN, MIGRACIÓN, PUESTA EN MARCHA Y EJECUCIÓN DE UN SISTEMA INFORMÁTICO DE GESTIÓN ERP POR 24 MESES."
+    },
+    {
+      "codigo": "630-29-LE26",
+      "nombre": "SERVICIO DE GESTIÓN DOCUMENTAL EN MODALIDAD SAAS",
+      "organismo": "SUBSECRETARIA DEL TRABAJO",
+      "unidad": "Subsecretaria del Trabajo",
+      "tipo": "LE",
+      "cierre": "2026-10-20T10:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-10-05",
+      "monto": "40.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$40.0M contra ~$11M de costo estimado (5.5 meses-persona), $3.3M al mes por 12 meses.",
+        "monto_clp": 40000000,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 5.5,
+        "mensual": 3333333
+      },
+      "veredicto": "revisar",
+      "puntaje": 11,
+      "razones": [
+        "rubro ONU 43232202",
+        "«software» en el detalle",
+        "«gestion documental» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=630-29-LE26",
+      "descripcion": "La Subsecretaría del Trabajo, en adelante “la Subsecretaría”, requiere contratar el servicio de un Gestor Documental en modalidad SaaS Software as a Service. El objetivo principal de esta licitación es implementar una plataforma integral que modernice la gestión, trazabilidad y seguridad de los documentos institucionales."
+    },
+    {
+      "codigo": "2974-83-LE26",
+      "nombre": "ADQ. DE HARDWARE COMPUTACIONAL.",
+      "organismo": "FUERZA AEREA DE CHILE COMANDO LOGISTICO",
+      "unidad": "División de Bienestar Social",
+      "tipo": "LE",
+      "cierre": "2026-10-20T10:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-10-08",
+      "monto": "16.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$16.0M contra ~$3M de costo estimado (1.7 meses-persona).",
+        "monto_clp": 16000000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 81111812"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2974-83-LE26",
+      "descripcion": "ADQ. DE HARDWARE COMPUTACIONAL.(550/2026)"
+    },
+    {
+      "codigo": "5482-94-LP26",
+      "nombre": "SERVICIO DE ARRIENDO MANTENCIÓN Y SOPORTE DE PLATAFORMA DOM",
+      "organismo": "I MUNICIPALIDAD DE NUNOA",
+      "unidad": "SECPLANUNOA",
+      "tipo": "LP",
+      "cierre": "2026-10-20T18:36:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-10-05",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~19.4 meses-persona, o sea del orden de $39M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 19.4,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 9,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el detalle",
+        "«sistema informatico» en el detalle",
+        "«software» en el detalle",
+        "«desarrollo de plataforma» en el detalle",
+        "ruido: «obras»"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5482-94-LP26",
+      "descripcion": "contratar una solución tecnológica integral que permita la implementación,\r\nparametrización, operación, soporte, mantención y alojamiento de un sistema\r\ninformático especializado para la Dirección de Obras Municipales de Ñuñoa (en\r\nadelante DOM)."
+    }
+  ],
+  "oportunidades": [
+    {
+      "codigo": "1469-284-L126",
+      "nombre": "20-44369 Desarrollo e Implementación de Plataforma Web para Revista Tralka",
+      "organismo": "UNIVERSIDAD DE TALCA",
+      "unidad": "Universidad de Talca",
+      "tipo": "L1",
+      "cierre": "2026-10-21T16:00:00",
+      "habiles_restantes": 3,
+      "nuevo": true,
+      "visto_desde": "2026-10-16",
+      "monto": "2.405.000 CLP",
+      "precio": {
+        "nivel": "amarilla",
+        "etiqueta": "margen apretado",
+        "detalle": "$2.4M contra ~$6M de costo estimado (2.8 meses-persona). Se puede, pero sin espacio para imprevistos.",
+        "monto_clp": 2405000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 2.8,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 31,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el título",
+        "«software» en el detalle",
+        "«desarrollo de plataforma» en el detalle",
+        "«desarrollo e implementacion» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1469-284-L126",
+      "descripcion": "Desarrollo e Implementación de Plataforma Web para Revista Tralka"
+    },
+    {
+      "codigo": "1374899-50-LP26",
+      "nombre": "IMPLEMENTACIÓN DE UN SISTEMA DE GESTIÓN DE TURNOS CONTROL HORARIO Y CÁLCULO DE COMPENSACIONES CON ARRIENDO DE RELOJES CONTROL SOPORTE Y MANTENCIÓN",
+      "organismo": "HOSPITAL DE QUILPUE",
+      "unidad": "Hospital Marga Marga",
+      "tipo": "LP",
+      "cierre": "2026-10-26T16:00:00",
+      "habiles_restantes": 6,
+      "nuevo": true,
+      "visto_desde": "2026-10-16",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~8.5 meses-persona, o sea del orden de $17M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 8.5,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 21,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el detalle",
+        "«sistema de gestion» en el título",
+        "«software» en el detalle",
+        "«desarrollo de plataforma» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1374899-50-LP26",
+      "descripcion": "Las presentes Bases de licitación orientan, fijan y determinan las normas y procedimientos por las que deben regirse las personas naturales o jurídicas interesadas en participar en el llamado a licitación para la “IMPLEMENTACIÓN DE UN SISTEMA DE GESTIÓN DE TURNOS, CONTROL HORARIO Y CÁLCULO DE COMPENSACIONES CON ARRIENDO DE RELOJES CONTROL, SOPORTE Y MANTENCIÓN”, por un periodo de 24 meses, con el objetivo de mejorar la gestión de turnos de manera transversal en todo el establecimiento dentro de un plazo acotado."
+    },
+    {
+      "codigo": "618923-19-LP26",
+      "nombre": "ADQUISICIÓN E IMPLEMENTACIÓN SOFTWARE INVENTARIO",
+      "organismo": "SUBSECRETARIA PARA LAS FUERZAS ARMADAS",
+      "unidad": "Subsecretaría para las Fuerzas Armadas",
+      "tipo": "LP",
+      "cierre": "2026-10-26T15:00:00",
+      "habiles_restantes": 6,
+      "nuevo": true,
+      "visto_desde": "2026-10-16",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~3.9 meses-persona, o sea del orden de $8M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 3.9,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 9,
+      "razones": [
+        "rubro ONU 43232311",
+        "«software» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=618923-19-LP26",
+      "descripcion": "Se requiere implementar una solución integral, mediante un software de uso perpetuo, para el registro, control y valorización actualizada, del inventario de sus dependencias, el cual facilite la administración y gestión de los bienes muebles e inmuebles de la citada Repartición, acorde a la normativa vigente, sobre el Sistema de Contabilidad General de la Nación, basado en las “NICSP”"
+    },
+    {
+      "codigo": "1514-113-LE26",
+      "nombre": "Convenio de Sistema de Gestión de Calidad en Salud GCS bajo modalidad Cloud",
+      "organismo": "SERVICIO DE SALUD CHILOE",
+      "unidad": "Hospital de Castro",
+      "tipo": "LE",
+      "cierre": "2026-10-27T15:00:00",
+      "habiles_restantes": 7,
+      "nuevo": true,
+      "visto_desde": "2026-10-16",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~11.5 meses-persona, o sea del orden de $23M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 11.5,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 9,
+      "razones": [
+        "rubro ONU 43232401",
+        "«sistema de gestion» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1514-113-LE26",
+      "descripcion": "Hospital de Castro requiere realizar Licitación Pública para establecer dicho Convenio de Sistema de Gestión de Calidad en Salud (GCS) bajo modalidad Cloud y con ello permitir el normal funcionamiento del Hospital "
+    }
+  ]
+}
