@@ -1,34 +1,34 @@
 {
-  "generado": "2026-10-19 13:22",
-  "fecha": "2026-10-19",
+  "generado": "2026-10-20 11:14",
+  "fecha": "2026-10-20",
   "horizonte": 20,
-  "fecha_hasta": "2026-11-16",
+  "fecha_hasta": "2026-11-17",
   "primera_corrida": false,
   "modo": "solo desarrollo",
   "resumen": {
-    "activas_revisadas": 5077,
-    "detalles_consultados": 471,
-    "nuevas": 2,
-    "por_cerrar": 7,
-    "llamadas_api": 395
+    "activas_revisadas": 4629,
+    "detalles_consultados": 442,
+    "nuevas": 5,
+    "por_cerrar": 4,
+    "llamadas_api": 86
   },
   "nuevas": [
     {
-      "codigo": "1221019-17-LE26",
-      "nombre": "Plataforma de Venta de Entradas para Evento.",
-      "organismo": "Corporación Municipal de Deporte  de Vitacura",
-      "unidad": "Corporación",
-      "tipo": "LE",
-      "cierre": "2026-10-30T15:30:00",
-      "habiles_restantes": 9,
+      "codigo": "1110404-232-L126",
+      "nombre": "ADQUISICIÓN DE PLATAFORMA INTEGRATE PIE PARA LICEO B. ARTISTICO DR. JUAN NOE CREVANI, PERT. AL SLEPCH",
+      "organismo": "SERVICIO LOCAL DE EDUCACION DE CHINCHORRO",
+      "unidad": "SLEPCH - EE - Programa 02",
+      "tipo": "L1",
+      "cierre": "2026-10-26T15:00:00",
+      "habiles_restantes": 4,
       "nuevo": true,
-      "visto_desde": "2026-10-19",
-      "monto": "25.000.000 CLP",
+      "visto_desde": "2026-10-20",
+      "monto": "3.499.600 CLP",
       "precio": {
-        "nivel": "verde",
-        "etiqueta": "presupuesto razonable",
-        "detalle": "$25.0M contra ~$3M de costo estimado (1.7 meses-persona).",
-        "monto_clp": 25000000,
+        "nivel": "amarilla",
+        "etiqueta": "margen apretado",
+        "detalle": "$3.5M contra ~$3M de costo estimado (1.7 meses-persona). Se puede, pero sin espacio para imprevistos.",
+        "monto_clp": 3499600,
         "meses_contrato": null,
         "esfuerzo_mp": 1.7,
         "mensual": null
@@ -41,89 +41,120 @@
         "«software» en el detalle",
         "«desarrollo de plataforma» en el detalle"
       ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1221019-17-LE26",
-      "descripcion": "La presente propuesta, tiene por finalidad contratar el servicio de ticketera, para la Implementación, Administración y Operación de Plataforma de Venta de Entradas para Evento “Sport Fest Vitacura 2026, con el objeto de automatizar y optimizar la venta de entradas, el cobro digital y el control de acceso del público de forma segura y centralizada. "
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1110404-232-L126",
+      "descripcion": "       El Servicio Local de Educación Pública Chinchorro requiere fortalecer la gestión pedagógica y administrativa del Programa de Integración Escolar (PIE), mediante la adquisición de la plataforma tecnológica Integrate PIE, destinada a optimizar los procesos asociados a la planificación, registro, seguimiento y evaluación de los apoyos entregados a estudiantes con Necesidades Educativas Especiales (NEE)."
     },
     {
-      "codigo": "2345-137-LR26",
-      "nombre": "SERVICIO DE APLICACIÓN MÓVIL DE SEGURIDAD 1402 PARA LA COMUNA DE LAS CONDES",
-      "organismo": "I MUNICIPALIDAD DE LAS CONDES",
-      "unidad": "I MUNICIPALIDAD DE LAS CONDES",
-      "tipo": "LR",
-      "cierre": "2026-11-16T15:01:00",
-      "habiles_restantes": 20,
+      "codigo": "2318-79-LE26",
+      "nombre": "SISTEMA DE GESTIÓN DOCUMENTAL",
+      "organismo": "I MUNICIPALIDAD DE SAN JAVIER",
+      "unidad": "IMUNI_SAN JAVIER DEPTO. ADQUISICIONES",
+      "tipo": "LE",
+      "cierre": "2026-10-29T15:00:00",
+      "habiles_restantes": 7,
       "nuevo": true,
-      "visto_desde": "2026-10-19",
-      "monto": "504.000.000 CLP",
+      "visto_desde": "2026-10-20",
+      "monto": "28.560.000 CLP",
       "precio": {
         "nivel": "verde",
         "etiqueta": "presupuesto razonable",
-        "detalle": "$504.0M contra ~$29M de costo estimado (14.5 meses-persona), $10.5M al mes por 48 meses.",
-        "monto_clp": 504000000,
-        "meses_contrato": 48.0,
-        "esfuerzo_mp": 14.5,
-        "mensual": 10500000
+        "detalle": "$28.6M contra ~$11M de costo estimado (5.5 meses-persona), $2.4M al mes por 12 meses.",
+        "monto_clp": 28560000,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 5.5,
+        "mensual": 2380000
       },
       "veredicto": "go",
-      "puntaje": 23,
+      "puntaje": 21,
       "razones": [
-        "rubro ONU 81112105",
-        "«aplicacion movil» en el título",
-        "«desarrollo e implementacion» en el detalle"
+        "rubro ONU 43231512",
+        "«sistema de gestion» en el título",
+        "«software» en el detalle",
+        "«gestion documental» en el título",
+        "«software de gestion» en el detalle"
       ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2345-137-LR26",
-      "descripcion": "La presente licitación tiene por objetivo contratar el “SERVICIO DE APLICACIÓN MÓVIL DE SEGURIDAD 1402 PARA LA COMUNA DE LAS CONDES”, por un periodo de 48 meses, para proporcionar a la Municipalidad los siguientes servicios: \r\na)\tServicio de desarrollo o adaptación e implementación de una aplicación móvil para reporte de eventos de seguridad y emergencia.\r\nb)\tServicio de desarrollo o adaptación e implementación de un sistema en ambiente web para la administración y gestión de eventos de seguridad y emergencia. \r\nc)\tServicio de desarrollo e implementación de API’s para integración con sistemas municipales.\r\nd)\tServicio de mantenimiento preventivo y correctivo para aplicación móvil y sistema en ambiente web de seguridad y emergencia y API´s de integración\r\n"
-    }
-  ],
-  "por_cerrar": [
-    {
-      "codigo": "1108660-10-LE26",
-      "nombre": "SERVICIO DE REDISEÑO DEL PORTAL INSTITUCIONAL",
-      "organismo": "FUND DE COMUNICACIONES CAPACITACION Y CULTURA DEL AGRO",
-      "unidad": "FUNDACIÓN DE COMUNICACIONES, CAPACITACIÓN Y CULTURA DEL AGRO - FUCOA",
-      "tipo": "LE",
-      "cierre": "2026-10-19T15:30:00",
-      "habiles_restantes": 0,
-      "nuevo": false,
-      "visto_desde": "2026-10-02",
-      "monto": "13.000.000 CLP",
-      "precio": {
-        "nivel": "verde",
-        "etiqueta": "presupuesto razonable",
-        "detalle": "$13.0M contra ~$3M de costo estimado (1.7 meses-persona).",
-        "monto_clp": 13000000,
-        "meses_contrato": null,
-        "esfuerzo_mp": 1.7,
-        "mensual": null
-      },
-      "veredicto": "revisar",
-      "puntaje": 11,
-      "razones": [
-        "rubro ONU 81112103",
-        "«sitio web» en el detalle"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1108660-10-LE26",
-      "descripcion": "CONTRATACIÓN DE LOS SERVICIO DE REDISEÑO DEL PORTAL INSTITUCIONAL DE LA CNR Y SU AULA VIRTUAL PARA LA LEY N° 18.450"
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2318-79-LE26",
+      "descripcion": "Arriendo de sistema de gestión documental Ilustre Municipalidad de San Javier"
     },
     {
-      "codigo": "1389183-71-LE26",
-      "nombre": "PROGRAMAS INFORMATICOS PARA LICEOS TP",
-      "organismo": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DE ANDALIÉN COSTA",
-      "unidad": "SERVICIO EDUCATIVO ANDALIEN COSTA",
+      "codigo": "557639-100-LE26",
+      "nombre": "PLATAFORMA DE GESTIÓN DE EST. EDUCACIONALES CORMUN",
+      "organismo": "CORP MUNICIPAL DE SERVICIOS PUBLICOS TRASPASADOS DE RANCAGUA",
+      "unidad": "CORMUN RANCAGUA - ADMINISTRACIÓN CENTRAL",
       "tipo": "LE",
-      "cierre": "2026-10-19T17:00:00",
-      "habiles_restantes": 0,
-      "nuevo": false,
-      "visto_desde": "2026-10-06",
-      "monto": "9.000.000 CLP",
+      "cierre": "2026-10-29T18:00:00",
+      "habiles_restantes": 7,
+      "nuevo": true,
+      "visto_desde": "2026-10-20",
+      "monto": "38.900.000 CLP",
       "precio": {
         "nivel": "verde",
         "etiqueta": "presupuesto razonable",
-        "detalle": "$9.0M contra ~$3M de costo estimado (1.7 meses-persona).",
+        "detalle": "$38.9M contra ~$8M de costo estimado (3.9 meses-persona), $3.2M al mes por 12 meses.",
+        "monto_clp": 38900000,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 3.9,
+        "mensual": 3241667
+      },
+      "veredicto": "revisar",
+      "puntaje": 16,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el detalle",
+        "«software» en el detalle",
+        "«desarrollo de plataforma» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=557639-100-LE26",
+      "descripcion": "Implementar una Plataforma de Gestión de Establecimientos Educacionales que permita optimizar la administración académica, administrativa y comunicacional de los establecimientos educacionales, facilitando la gestión de información, el seguimiento de procesos escolares, el control de asistencia entre otras."
+    },
+    {
+      "codigo": "4037-69-LE26",
+      "nombre": "CONTRATACION DEL SERVICIO DE SERVIDOR VIRTUAL HOSTING munifresia.cl  SOPORTE Y MANTENCION DE LA PAGINA WEB SEGUN  BASES ADMINISTRATIVAS Y TECNICAS ADJUNTAS",
+      "organismo": "I MUNICIPALIDAD DE FRESIA",
+      "unidad": "Departamento de adquisiciones y abastecimiento",
+      "tipo": "LE",
+      "cierre": "2026-10-30T10:00:00",
+      "habiles_restantes": 8,
+      "nuevo": true,
+      "visto_desde": "2026-10-20",
+      "monto": "9.000.000 CLP",
+      "precio": {
+        "nivel": "roja",
+        "etiqueta": "no paga ni una persona",
+        "detalle": "$9.0M repartidos en 12 meses son $0.8M al mes. No alcanza ni para tener a una persona dedicada.",
         "monto_clp": 9000000,
-        "meses_contrato": null,
-        "esfuerzo_mp": 1.7,
-        "mensual": null
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 2.9,
+        "mensual": 750000
+      },
+      "veredicto": "nogo",
+      "puntaje": 14,
+      "razones": [
+        "rubro ONU 81112105",
+        "«pagina web» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4037-69-LE26",
+      "descripcion": "CONTRATACION DEL SERVICIO DE SERVIDOR VIRTUAL HOSTING munifresia.cl , SOPORTE Y MANTENCION DE LA PAGINA WEB, SEGUN  BASES ADMINISTRATIVAS Y TECNICAS ADJUNTAS, DECRETO ALCALDICIO N° 1973 DE FECHA 19/10/2026"
+    },
+    {
+      "codigo": "1305504-17-LP26",
+      "nombre": "SISTEMA GESTIÓN DE PERSONAS SLEP ANDALIÉN COSTA",
+      "organismo": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DE ANDALIÉN COSTA",
+      "unidad": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DE ANDALIÉN CO",
+      "tipo": "LP",
+      "cierre": "2026-11-10T17:00:00",
+      "habiles_restantes": 15,
+      "nuevo": true,
+      "visto_desde": "2026-10-20",
+      "monto": "128.377.200 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$128.4M contra ~$13M de costo estimado (6.3 meses-persona), $5.3M al mes por 24 meses.",
+        "monto_clp": 128377200,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 6.3,
+        "mensual": 5349050
       },
       "veredicto": "revisar",
       "puntaje": 10,
@@ -132,9 +163,11 @@
         "«software» en el detalle",
         "«software de gestion» en el detalle"
       ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1389183-71-LE26",
-      "descripcion": "Conforme a la Ley de Compras Públicas 19.886, el Decreto 661 que fija el reglamento y sus modificaciones, el Servicio Local de Educación Pública de Andalién Costa, llama a licitación pública a personas naturales o jurídicas, empresas o proveedores del rubro, o unión temporal de proveedores, para gestionar la compra de “PROGRAMAS INFORMÁTICOS PARA LICEOS TP”, el que tiene por objeto, adquirir Programas Computacionales para el desarrollo de las especialidades de Contabilidad y Administración de establecimientos educacionales Técnicos Profesionales dependientes del Servicio Local de Educación Pública Andalién Costa."
-    },
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1305504-17-LP26",
+      "descripcion": "SEGÚN BASES"
+    }
+  ],
+  "por_cerrar": [
     {
       "codigo": "1643-91-LP26",
       "nombre": "SISTEMA INFORMÁTICO ERP",
@@ -142,7 +175,7 @@
       "unidad": "Hospital de Talagante",
       "tipo": "LP",
       "cierre": "2026-10-20T17:00:00",
-      "habiles_restantes": 1,
+      "habiles_restantes": 0,
       "nuevo": false,
       "visto_desde": "2026-09-28",
       "monto": "320.000.000 CLP",
@@ -167,71 +200,13 @@
       "descripcion": "EL HOSPITAL DE TALAGANTE REQUIERE LA CONTRATACIÓN DEL SERVICIO DE IMPLEMENTACIÓN, MIGRACIÓN, PUESTA EN MARCHA Y EJECUCIÓN DE UN SISTEMA INFORMÁTICO DE GESTIÓN ERP POR 24 MESES."
     },
     {
-      "codigo": "630-29-LE26",
-      "nombre": "SERVICIO DE GESTIÓN DOCUMENTAL EN MODALIDAD SAAS",
-      "organismo": "SUBSECRETARIA DEL TRABAJO",
-      "unidad": "Subsecretaria del Trabajo",
-      "tipo": "LE",
-      "cierre": "2026-10-20T10:00:00",
-      "habiles_restantes": 1,
-      "nuevo": false,
-      "visto_desde": "2026-10-05",
-      "monto": "40.000.000 CLP",
-      "precio": {
-        "nivel": "verde",
-        "etiqueta": "presupuesto razonable",
-        "detalle": "$40.0M contra ~$11M de costo estimado (5.5 meses-persona), $3.3M al mes por 12 meses.",
-        "monto_clp": 40000000,
-        "meses_contrato": 12.0,
-        "esfuerzo_mp": 5.5,
-        "mensual": 3333333
-      },
-      "veredicto": "revisar",
-      "puntaje": 11,
-      "razones": [
-        "rubro ONU 43232202",
-        "«software» en el detalle",
-        "«gestion documental» en el título"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=630-29-LE26",
-      "descripcion": "La Subsecretaría del Trabajo, en adelante “la Subsecretaría”, requiere contratar el servicio de un Gestor Documental en modalidad SaaS Software as a Service. El objetivo principal de esta licitación es implementar una plataforma integral que modernice la gestión, trazabilidad y seguridad de los documentos institucionales."
-    },
-    {
-      "codigo": "2974-83-LE26",
-      "nombre": "ADQ. DE HARDWARE COMPUTACIONAL.",
-      "organismo": "FUERZA AEREA DE CHILE COMANDO LOGISTICO",
-      "unidad": "División de Bienestar Social",
-      "tipo": "LE",
-      "cierre": "2026-10-20T10:00:00",
-      "habiles_restantes": 1,
-      "nuevo": false,
-      "visto_desde": "2026-10-08",
-      "monto": "16.000.000 CLP",
-      "precio": {
-        "nivel": "verde",
-        "etiqueta": "presupuesto razonable",
-        "detalle": "$16.0M contra ~$3M de costo estimado (1.7 meses-persona).",
-        "monto_clp": 16000000,
-        "meses_contrato": null,
-        "esfuerzo_mp": 1.7,
-        "mensual": null
-      },
-      "veredicto": "revisar",
-      "puntaje": 10,
-      "razones": [
-        "rubro ONU 81111812"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2974-83-LE26",
-      "descripcion": "ADQ. DE HARDWARE COMPUTACIONAL.(550/2026)"
-    },
-    {
       "codigo": "1469-284-L126",
       "nombre": "20-44369 Desarrollo e Implementación de Plataforma Web para Revista Tralka",
       "organismo": "UNIVERSIDAD DE TALCA",
       "unidad": "Universidad de Talca",
       "tipo": "L1",
       "cierre": "2026-10-21T16:00:00",
-      "habiles_restantes": 2,
+      "habiles_restantes": 1,
       "nuevo": false,
       "visto_desde": "2026-10-16",
       "monto": "2.405.000 CLP",
@@ -257,52 +232,81 @@
       "descripcion": "Desarrollo e Implementación de Plataforma Web para Revista Tralka"
     },
     {
-      "codigo": "2933-73-LE26",
-      "nombre": "2DO LLAMADO SISTEMA DE INFORMACION Y GESTIÓN 2026",
-      "organismo": "I MUNICIPALIDAD DE ALHUE",
-      "unidad": "DPTO. MUNICIPALIDAD",
-      "tipo": "LE",
-      "cierre": "2026-10-21T16:30:00",
+      "codigo": "4086-48-LP26",
+      "nombre": "SERVICIO DE SISTEMA DE INFORMACIÓN DE LA GESTIÓN",
+      "organismo": "I MUNICIPALIDAD DE MAULLIN",
+      "unidad": "Administracion y Finanzas",
+      "tipo": "LP",
+      "cierre": "2026-10-22T10:00:00",
       "habiles_restantes": 2,
       "nuevo": false,
-      "visto_desde": "2026-10-15",
-      "monto": "no informado",
+      "visto_desde": "2026-10-02",
+      "monto": "202.800.000 CLP",
       "precio": {
-        "nivel": "sin_monto",
-        "etiqueta": "monto no publicado",
-        "detalle": "El organismo no informó presupuesto. Estimo ~1.7 meses-persona, o sea del orden de $3M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
-        "monto_clp": null,
-        "meses_contrato": null,
-        "esfuerzo_mp": 1.7,
-        "mensual": null
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$202.8M contra ~$25M de costo estimado (12.5 meses-persona), $3.4M al mes por 60 meses.",
+        "monto_clp": 202800000,
+        "meses_contrato": 60.0,
+        "esfuerzo_mp": 12.5,
+        "mensual": 3380000
       },
       "veredicto": "revisar",
       "puntaje": 12,
       "razones": [
-        "rubro ONU 43231601",
+        "rubro ONU 43232401",
         "«sistema de informacion» en el título"
       ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2933-73-LE26",
-      "descripcion": "El objetivo de la presente licitación es dar solución a las necesidades a las oficinas de Administración y Finanzas, para el buen funcionamiento administrativos de esta área."
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4086-48-LP26",
+      "descripcion": "SERVICIO DE MANTENCIÓN, ARRIENDO Y PROVISIÓN DE SISTEMA DE INFORMACIÓN DE LA GESTIÓN MUNICIPAL Y SOPORTE COMPUTACIONAL SEGÚN BASES, ESPECIFICACIONES TÉCNICAS, ANEXOS E ITEM ADJUNTOS."
+    },
+    {
+      "codigo": "869591-12-LP26",
+      "nombre": "CONTRATACIÓN DE PLATAFORMA DE GESTIÓN DOCUMENTAL EXPEDIENTE ELECTRÓNICO Y GESTIÓN DE PROCESOS",
+      "organismo": "DIRECCION DE COMPRAS Y CONTRATACION PUBLICA",
+      "unidad": "Calidad del Gasto en las Compras Públicas",
+      "tipo": "LP",
+      "cierre": "2026-10-22T15:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-09-16",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~13.5 meses-persona, o sea del orden de $27M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 44.0,
+        "esfuerzo_mp": 13.5,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43232202",
+        "«gestion documental» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=869591-12-LP26",
+      "descripcion": "CONTRATACIÓN DE PLATAFORMA DE GESTIÓN DOCUMENTAL, EXPEDIENTE ELECTRÓNICO Y GESTIÓN DE PROCESOS PARA LA DIRECCIÓN DE COMPRAS Y CONTRATACIÓN PÚBLICA"
     }
   ],
   "oportunidades": [
     {
-      "codigo": "1221019-17-LE26",
-      "nombre": "Plataforma de Venta de Entradas para Evento.",
-      "organismo": "Corporación Municipal de Deporte  de Vitacura",
-      "unidad": "Corporación",
-      "tipo": "LE",
-      "cierre": "2026-10-30T15:30:00",
-      "habiles_restantes": 9,
+      "codigo": "1110404-232-L126",
+      "nombre": "ADQUISICIÓN DE PLATAFORMA INTEGRATE PIE PARA LICEO B. ARTISTICO DR. JUAN NOE CREVANI, PERT. AL SLEPCH",
+      "organismo": "SERVICIO LOCAL DE EDUCACION DE CHINCHORRO",
+      "unidad": "SLEPCH - EE - Programa 02",
+      "tipo": "L1",
+      "cierre": "2026-10-26T15:00:00",
+      "habiles_restantes": 4,
       "nuevo": true,
-      "visto_desde": "2026-10-19",
-      "monto": "25.000.000 CLP",
+      "visto_desde": "2026-10-20",
+      "monto": "3.499.600 CLP",
       "precio": {
-        "nivel": "verde",
-        "etiqueta": "presupuesto razonable",
-        "detalle": "$25.0M contra ~$3M de costo estimado (1.7 meses-persona).",
-        "monto_clp": 25000000,
+        "nivel": "amarilla",
+        "etiqueta": "margen apretado",
+        "detalle": "$3.5M contra ~$3M de costo estimado (1.7 meses-persona). Se puede, pero sin espacio para imprevistos.",
+        "monto_clp": 3499600,
         "meses_contrato": null,
         "esfuerzo_mp": 1.7,
         "mensual": null
@@ -315,38 +319,130 @@
         "«software» en el detalle",
         "«desarrollo de plataforma» en el detalle"
       ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1221019-17-LE26",
-      "descripcion": "La presente propuesta, tiene por finalidad contratar el servicio de ticketera, para la Implementación, Administración y Operación de Plataforma de Venta de Entradas para Evento “Sport Fest Vitacura 2026, con el objeto de automatizar y optimizar la venta de entradas, el cobro digital y el control de acceso del público de forma segura y centralizada. "
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1110404-232-L126",
+      "descripcion": "       El Servicio Local de Educación Pública Chinchorro requiere fortalecer la gestión pedagógica y administrativa del Programa de Integración Escolar (PIE), mediante la adquisición de la plataforma tecnológica Integrate PIE, destinada a optimizar los procesos asociados a la planificación, registro, seguimiento y evaluación de los apoyos entregados a estudiantes con Necesidades Educativas Especiales (NEE)."
     },
     {
-      "codigo": "2345-137-LR26",
-      "nombre": "SERVICIO DE APLICACIÓN MÓVIL DE SEGURIDAD 1402 PARA LA COMUNA DE LAS CONDES",
-      "organismo": "I MUNICIPALIDAD DE LAS CONDES",
-      "unidad": "I MUNICIPALIDAD DE LAS CONDES",
-      "tipo": "LR",
-      "cierre": "2026-11-16T15:01:00",
-      "habiles_restantes": 20,
+      "codigo": "2318-79-LE26",
+      "nombre": "SISTEMA DE GESTIÓN DOCUMENTAL",
+      "organismo": "I MUNICIPALIDAD DE SAN JAVIER",
+      "unidad": "IMUNI_SAN JAVIER DEPTO. ADQUISICIONES",
+      "tipo": "LE",
+      "cierre": "2026-10-29T15:00:00",
+      "habiles_restantes": 7,
       "nuevo": true,
-      "visto_desde": "2026-10-19",
-      "monto": "504.000.000 CLP",
+      "visto_desde": "2026-10-20",
+      "monto": "28.560.000 CLP",
       "precio": {
         "nivel": "verde",
         "etiqueta": "presupuesto razonable",
-        "detalle": "$504.0M contra ~$29M de costo estimado (14.5 meses-persona), $10.5M al mes por 48 meses.",
-        "monto_clp": 504000000,
-        "meses_contrato": 48.0,
-        "esfuerzo_mp": 14.5,
-        "mensual": 10500000
+        "detalle": "$28.6M contra ~$11M de costo estimado (5.5 meses-persona), $2.4M al mes por 12 meses.",
+        "monto_clp": 28560000,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 5.5,
+        "mensual": 2380000
       },
       "veredicto": "go",
-      "puntaje": 23,
+      "puntaje": 21,
+      "razones": [
+        "rubro ONU 43231512",
+        "«sistema de gestion» en el título",
+        "«software» en el detalle",
+        "«gestion documental» en el título",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2318-79-LE26",
+      "descripcion": "Arriendo de sistema de gestión documental Ilustre Municipalidad de San Javier"
+    },
+    {
+      "codigo": "557639-100-LE26",
+      "nombre": "PLATAFORMA DE GESTIÓN DE EST. EDUCACIONALES CORMUN",
+      "organismo": "CORP MUNICIPAL DE SERVICIOS PUBLICOS TRASPASADOS DE RANCAGUA",
+      "unidad": "CORMUN RANCAGUA - ADMINISTRACIÓN CENTRAL",
+      "tipo": "LE",
+      "cierre": "2026-10-29T18:00:00",
+      "habiles_restantes": 7,
+      "nuevo": true,
+      "visto_desde": "2026-10-20",
+      "monto": "38.900.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$38.9M contra ~$8M de costo estimado (3.9 meses-persona), $3.2M al mes por 12 meses.",
+        "monto_clp": 38900000,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 3.9,
+        "mensual": 3241667
+      },
+      "veredicto": "revisar",
+      "puntaje": 16,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el detalle",
+        "«software» en el detalle",
+        "«desarrollo de plataforma» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=557639-100-LE26",
+      "descripcion": "Implementar una Plataforma de Gestión de Establecimientos Educacionales que permita optimizar la administración académica, administrativa y comunicacional de los establecimientos educacionales, facilitando la gestión de información, el seguimiento de procesos escolares, el control de asistencia entre otras."
+    },
+    {
+      "codigo": "4037-69-LE26",
+      "nombre": "CONTRATACION DEL SERVICIO DE SERVIDOR VIRTUAL HOSTING munifresia.cl  SOPORTE Y MANTENCION DE LA PAGINA WEB SEGUN  BASES ADMINISTRATIVAS Y TECNICAS ADJUNTAS",
+      "organismo": "I MUNICIPALIDAD DE FRESIA",
+      "unidad": "Departamento de adquisiciones y abastecimiento",
+      "tipo": "LE",
+      "cierre": "2026-10-30T10:00:00",
+      "habiles_restantes": 8,
+      "nuevo": true,
+      "visto_desde": "2026-10-20",
+      "monto": "9.000.000 CLP",
+      "precio": {
+        "nivel": "roja",
+        "etiqueta": "no paga ni una persona",
+        "detalle": "$9.0M repartidos en 12 meses son $0.8M al mes. No alcanza ni para tener a una persona dedicada.",
+        "monto_clp": 9000000,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 2.9,
+        "mensual": 750000
+      },
+      "veredicto": "nogo",
+      "puntaje": 14,
       "razones": [
         "rubro ONU 81112105",
-        "«aplicacion movil» en el título",
-        "«desarrollo e implementacion» en el detalle"
+        "«pagina web» en el título"
       ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2345-137-LR26",
-      "descripcion": "La presente licitación tiene por objetivo contratar el “SERVICIO DE APLICACIÓN MÓVIL DE SEGURIDAD 1402 PARA LA COMUNA DE LAS CONDES”, por un periodo de 48 meses, para proporcionar a la Municipalidad los siguientes servicios: \r\na)\tServicio de desarrollo o adaptación e implementación de una aplicación móvil para reporte de eventos de seguridad y emergencia.\r\nb)\tServicio de desarrollo o adaptación e implementación de un sistema en ambiente web para la administración y gestión de eventos de seguridad y emergencia. \r\nc)\tServicio de desarrollo e implementación de API’s para integración con sistemas municipales.\r\nd)\tServicio de mantenimiento preventivo y correctivo para aplicación móvil y sistema en ambiente web de seguridad y emergencia y API´s de integración\r\n"
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4037-69-LE26",
+      "descripcion": "CONTRATACION DEL SERVICIO DE SERVIDOR VIRTUAL HOSTING munifresia.cl , SOPORTE Y MANTENCION DE LA PAGINA WEB, SEGUN  BASES ADMINISTRATIVAS Y TECNICAS ADJUNTAS, DECRETO ALCALDICIO N° 1973 DE FECHA 19/10/2026"
+    },
+    {
+      "codigo": "1305504-17-LP26",
+      "nombre": "SISTEMA GESTIÓN DE PERSONAS SLEP ANDALIÉN COSTA",
+      "organismo": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DE ANDALIÉN COSTA",
+      "unidad": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DE ANDALIÉN CO",
+      "tipo": "LP",
+      "cierre": "2026-11-10T17:00:00",
+      "habiles_restantes": 15,
+      "nuevo": true,
+      "visto_desde": "2026-10-20",
+      "monto": "128.377.200 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$128.4M contra ~$13M de costo estimado (6.3 meses-persona), $5.3M al mes por 24 meses.",
+        "monto_clp": 128377200,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 6.3,
+        "mensual": 5349050
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231505",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1305504-17-LP26",
+      "descripcion": "SEGÚN BASES"
     }
   ]
 }
