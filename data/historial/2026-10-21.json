@@ -1,0 +1,349 @@
+{
+  "generado": "2026-10-21 11:25",
+  "fecha": "2026-10-21",
+  "horizonte": 20,
+  "fecha_hasta": "2026-11-18",
+  "primera_corrida": false,
+  "modo": "solo desarrollo",
+  "resumen": {
+    "activas_revisadas": 4731,
+    "detalles_consultados": 453,
+    "nuevas": 3,
+    "por_cerrar": 5,
+    "llamadas_api": 94
+  },
+  "nuevas": [
+    {
+      "codigo": "564953-78-B226",
+      "nombre": "ACTUALIZACIÓN PLATAFORMA ERP",
+      "organismo": "Corporación de Educación y Salud de Las Condes",
+      "unidad": "Corporación de Educación y Salud de Las Condes",
+      "tipo": "B2",
+      "cierre": "2026-11-09T17:59:00",
+      "habiles_restantes": 13,
+      "nuevo": true,
+      "visto_desde": "2026-10-21",
+      "monto": "250.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$250.0M contra ~$42M de costo estimado (21 meses-persona), $6.2M al mes por 40 meses.",
+        "monto_clp": 250000000,
+        "meses_contrato": 40.0,
+        "esfuerzo_mp": 21.0,
+        "mensual": 6250000
+      },
+      "veredicto": "revisar",
+      "puntaje": 11,
+      "razones": [
+        "rubro ONU 43231602",
+        "«erp» en el título",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=564953-78-B226",
+      "descripcion": "El objetivo de la presente licitación es contratar el servicio de implementación y soporte de ERP Dynamics Business Central"
+    },
+    {
+      "codigo": "1036569-17-LP26",
+      "nombre": "CONTRATACIÓN SISTEMA DE PERSONAL Y REMUNERACIONES",
+      "organismo": "GOBIERNO REGIONAL DE ÑUBLE",
+      "unidad": "División de Administración y Finanzas",
+      "tipo": "LP",
+      "cierre": "2026-11-09T18:47:00",
+      "habiles_restantes": 13,
+      "nuevo": true,
+      "visto_desde": "2026-10-21",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~1.7 meses-persona, o sea del orden de $3M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231505",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1036569-17-LP26",
+      "descripcion": "CONTRATACIÓN SISTEMA DE PERSONAL Y REMUNERACIONES CON MÓDULO DE AUTOCONSULTA EN LA NUBE PARA EL GOBIERNO REGIONAL DE ÑUBLE"
+    },
+    {
+      "codigo": "1057494-70-LP26",
+      "nombre": "SOPORTE FUNCIONAL SISTEMA ABEX",
+      "organismo": "SERVICIO DE SALUD SUR HOSPITAL EXEQUIEL",
+      "unidad": "Bienes y Servicios",
+      "tipo": "LP",
+      "cierre": "2026-11-09T16:00:00",
+      "habiles_restantes": 13,
+      "nuevo": true,
+      "visto_desde": "2026-10-21",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~5.3 meses-persona, o sea del orden de $11M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 5.3,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231503",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057494-70-LP26",
+      "descripcion": "CONTRATACIÓN DE SERVICIO DE SOPORTE FUNCIONAL SISTEMA ABEX PARA HOSPITAL DR. EXEQUIEL GONZÁLEZ CORTÉS Y SERVICIO SE SALUD METROPOPOLITANO SUR"
+    }
+  ],
+  "por_cerrar": [
+    {
+      "codigo": "4086-48-LP26",
+      "nombre": "SERVICIO DE SISTEMA DE INFORMACIÓN DE LA GESTIÓN",
+      "organismo": "I MUNICIPALIDAD DE MAULLIN",
+      "unidad": "Administracion y Finanzas",
+      "tipo": "LP",
+      "cierre": "2026-10-22T10:00:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-10-02",
+      "monto": "202.800.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$202.8M contra ~$25M de costo estimado (12.5 meses-persona), $3.4M al mes por 60 meses.",
+        "monto_clp": 202800000,
+        "meses_contrato": 60.0,
+        "esfuerzo_mp": 12.5,
+        "mensual": 3380000
+      },
+      "veredicto": "revisar",
+      "puntaje": 12,
+      "razones": [
+        "rubro ONU 43232401",
+        "«sistema de informacion» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4086-48-LP26",
+      "descripcion": "SERVICIO DE MANTENCIÓN, ARRIENDO Y PROVISIÓN DE SISTEMA DE INFORMACIÓN DE LA GESTIÓN MUNICIPAL Y SOPORTE COMPUTACIONAL SEGÚN BASES, ESPECIFICACIONES TÉCNICAS, ANEXOS E ITEM ADJUNTOS."
+    },
+    {
+      "codigo": "869591-12-LP26",
+      "nombre": "CONTRATACIÓN DE PLATAFORMA DE GESTIÓN DOCUMENTAL EXPEDIENTE ELECTRÓNICO Y GESTIÓN DE PROCESOS",
+      "organismo": "DIRECCION DE COMPRAS Y CONTRATACION PUBLICA",
+      "unidad": "Calidad del Gasto en las Compras Públicas",
+      "tipo": "LP",
+      "cierre": "2026-10-22T15:00:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-09-16",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~13.5 meses-persona, o sea del orden de $27M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 44.0,
+        "esfuerzo_mp": 13.5,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43232202",
+        "«gestion documental» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=869591-12-LP26",
+      "descripcion": "CONTRATACIÓN DE PLATAFORMA DE GESTIÓN DOCUMENTAL, EXPEDIENTE ELECTRÓNICO Y GESTIÓN DE PROCESOS PARA LA DIRECCIÓN DE COMPRAS Y CONTRATACIÓN PÚBLICA"
+    },
+    {
+      "codigo": "1469-284-L126",
+      "nombre": "20-44369 Desarrollo e Implementación de Plataforma Web para Revista Tralka",
+      "organismo": "UNIVERSIDAD DE TALCA",
+      "unidad": "Universidad de Talca",
+      "tipo": "L1",
+      "cierre": "2026-10-23T16:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-10-16",
+      "monto": "2.405.000 CLP",
+      "precio": {
+        "nivel": "amarilla",
+        "etiqueta": "margen apretado",
+        "detalle": "$2.4M contra ~$6M de costo estimado (2.8 meses-persona). Se puede, pero sin espacio para imprevistos.",
+        "monto_clp": 2405000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 2.8,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 31,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el título",
+        "«software» en el detalle",
+        "«desarrollo de plataforma» en el detalle",
+        "«desarrollo e implementacion» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1469-284-L126",
+      "descripcion": "Desarrollo e Implementación de Plataforma Web para Revista Tralka"
+    },
+    {
+      "codigo": "608-197-LR26",
+      "nombre": "SERVICIO DE OPERACIÓN MANTENIMIENTO Y ACTUALIZACIÓN DE PLATAFORMAS TECNOLÓGICAS DE LA SALA DE CONTROL CENTRALIZADO DEL HOSPITAL DR. GUSTAVO FRICKE",
+      "organismo": "HOSPITAL DR GUSTAVO FRICKE DE VINA DEL MAR",
+      "unidad": "Hospital Dr. Gustavo Fricke",
+      "tipo": "LR",
+      "cierre": "2026-10-23T16:29:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-09-15",
+      "monto": "675.433.201 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$675.4M contra ~$10M de costo estimado (4.9 meses-persona), $39.7M al mes por 17 meses.",
+        "monto_clp": 675433201,
+        "meses_contrato": 17.0,
+        "esfuerzo_mp": 4.9,
+        "mensual": 39731365
+      },
+      "veredicto": "revisar",
+      "puntaje": 14,
+      "razones": [
+        "rubro ONU 81111503",
+        "«integracion de sistemas» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=608-197-LR26",
+      "descripcion": "Que la unidad de control centralizado integra plataformas tecnológicas y de comunicación complejas que\r\npermiten el monitoreo constante y reacción inmediata ante incidentes y respuesta en tiempo real frente a\r\nemergencias."
+    },
+    {
+      "codigo": "1230848-71-L126",
+      "nombre": "SERVICIO DE SOFTWARE PARA GESTIÓN DE FILAS TÓTEM",
+      "organismo": "Corporación Municipal de Desarrollo Social de Calama",
+      "unidad": "Corporación Municipal de Desarrollo Social de Cala",
+      "tipo": "L1",
+      "cierre": "2026-10-23T15:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-10-15",
+      "monto": "2.300.000 CLP",
+      "precio": {
+        "nivel": "amarilla",
+        "etiqueta": "margen apretado",
+        "detalle": "$2.3M contra ~$3M de costo estimado (1.7 meses-persona). Se puede, pero sin espacio para imprevistos.",
+        "monto_clp": 2300000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 9,
+      "razones": [
+        "rubro ONU 43232301",
+        "«software» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1230848-71-L126",
+      "descripcion": "Contratación de un servicio integral de software para la gestión de filas del CESFAM Dr. Enrique Montt, que asegure la operación continua, segura y trazable del sistema, mediante una solución compatible e integrada con Rayen, permitiendo ordenar la atención, registrar el anuncio de llegada de los usuarios y generar información para la administración del establecimiento, de acuerdo con las Bases Técnicas."
+    }
+  ],
+  "oportunidades": [
+    {
+      "codigo": "564953-78-B226",
+      "nombre": "ACTUALIZACIÓN PLATAFORMA ERP",
+      "organismo": "Corporación de Educación y Salud de Las Condes",
+      "unidad": "Corporación de Educación y Salud de Las Condes",
+      "tipo": "B2",
+      "cierre": "2026-11-09T17:59:00",
+      "habiles_restantes": 13,
+      "nuevo": true,
+      "visto_desde": "2026-10-21",
+      "monto": "250.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$250.0M contra ~$42M de costo estimado (21 meses-persona), $6.2M al mes por 40 meses.",
+        "monto_clp": 250000000,
+        "meses_contrato": 40.0,
+        "esfuerzo_mp": 21.0,
+        "mensual": 6250000
+      },
+      "veredicto": "revisar",
+      "puntaje": 11,
+      "razones": [
+        "rubro ONU 43231602",
+        "«erp» en el título",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=564953-78-B226",
+      "descripcion": "El objetivo de la presente licitación es contratar el servicio de implementación y soporte de ERP Dynamics Business Central"
+    },
+    {
+      "codigo": "1036569-17-LP26",
+      "nombre": "CONTRATACIÓN SISTEMA DE PERSONAL Y REMUNERACIONES",
+      "organismo": "GOBIERNO REGIONAL DE ÑUBLE",
+      "unidad": "División de Administración y Finanzas",
+      "tipo": "LP",
+      "cierre": "2026-11-09T18:47:00",
+      "habiles_restantes": 13,
+      "nuevo": true,
+      "visto_desde": "2026-10-21",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~1.7 meses-persona, o sea del orden de $3M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231505",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1036569-17-LP26",
+      "descripcion": "CONTRATACIÓN SISTEMA DE PERSONAL Y REMUNERACIONES CON MÓDULO DE AUTOCONSULTA EN LA NUBE PARA EL GOBIERNO REGIONAL DE ÑUBLE"
+    },
+    {
+      "codigo": "1057494-70-LP26",
+      "nombre": "SOPORTE FUNCIONAL SISTEMA ABEX",
+      "organismo": "SERVICIO DE SALUD SUR HOSPITAL EXEQUIEL",
+      "unidad": "Bienes y Servicios",
+      "tipo": "LP",
+      "cierre": "2026-11-09T16:00:00",
+      "habiles_restantes": 13,
+      "nuevo": true,
+      "visto_desde": "2026-10-21",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~5.3 meses-persona, o sea del orden de $11M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 5.3,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231503",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057494-70-LP26",
+      "descripcion": "CONTRATACIÓN DE SERVICIO DE SOPORTE FUNCIONAL SISTEMA ABEX PARA HOSPITAL DR. EXEQUIEL GONZÁLEZ CORTÉS Y SERVICIO SE SALUD METROPOPOLITANO SUR"
+    }
+  ]
+}
