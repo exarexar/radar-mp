@@ -1,0 +1,590 @@
+{
+  "generado": "2026-10-23 11:10",
+  "fecha": "2026-10-23",
+  "horizonte": 20,
+  "fecha_hasta": "2026-11-20",
+  "primera_corrida": false,
+  "modo": "solo desarrollo",
+  "resumen": {
+    "activas_revisadas": 5004,
+    "detalles_consultados": 475,
+    "nuevas": 0,
+    "por_cerrar": 19,
+    "llamadas_api": 186
+  },
+  "nuevas": [],
+  "por_cerrar": [
+    {
+      "codigo": "1469-284-L126",
+      "nombre": "20-44369 Desarrollo e Implementación de Plataforma Web para Revista Tralka",
+      "organismo": "UNIVERSIDAD DE TALCA",
+      "unidad": "Universidad de Talca",
+      "tipo": "L1",
+      "cierre": "2026-10-23T16:00:00",
+      "habiles_restantes": 0,
+      "nuevo": false,
+      "visto_desde": "2026-10-16",
+      "monto": "2.405.000 CLP",
+      "precio": {
+        "nivel": "amarilla",
+        "etiqueta": "margen apretado",
+        "detalle": "$2.4M contra ~$6M de costo estimado (2.8 meses-persona). Se puede, pero sin espacio para imprevistos.",
+        "monto_clp": 2405000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 2.8,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 31,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el título",
+        "«software» en el detalle",
+        "«desarrollo de plataforma» en el detalle",
+        "«desarrollo e implementacion» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1469-284-L126",
+      "descripcion": "Desarrollo e Implementación de Plataforma Web para Revista Tralka"
+    },
+    {
+      "codigo": "608-197-LR26",
+      "nombre": "SERVICIO DE OPERACIÓN MANTENIMIENTO Y ACTUALIZACIÓN DE PLATAFORMAS TECNOLÓGICAS DE LA SALA DE CONTROL CENTRALIZADO DEL HOSPITAL DR. GUSTAVO FRICKE",
+      "organismo": "HOSPITAL DR GUSTAVO FRICKE DE VINA DEL MAR",
+      "unidad": "Hospital Dr. Gustavo Fricke",
+      "tipo": "LR",
+      "cierre": "2026-10-23T16:29:00",
+      "habiles_restantes": 0,
+      "nuevo": false,
+      "visto_desde": "2026-09-15",
+      "monto": "675.433.201 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$675.4M contra ~$10M de costo estimado (4.9 meses-persona), $39.7M al mes por 17 meses.",
+        "monto_clp": 675433201,
+        "meses_contrato": 17.0,
+        "esfuerzo_mp": 4.9,
+        "mensual": 39731365
+      },
+      "veredicto": "revisar",
+      "puntaje": 14,
+      "razones": [
+        "rubro ONU 81111503",
+        "«integracion de sistemas» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=608-197-LR26",
+      "descripcion": "Que la unidad de control centralizado integra plataformas tecnológicas y de comunicación complejas que\r\npermiten el monitoreo constante y reacción inmediata ante incidentes y respuesta en tiempo real frente a\r\nemergencias."
+    },
+    {
+      "codigo": "1230848-71-L126",
+      "nombre": "SERVICIO DE SOFTWARE PARA GESTIÓN DE FILAS TÓTEM",
+      "organismo": "Corporación Municipal de Desarrollo Social de Calama",
+      "unidad": "Corporación Municipal de Desarrollo Social de Cala",
+      "tipo": "L1",
+      "cierre": "2026-10-23T15:00:00",
+      "habiles_restantes": 0,
+      "nuevo": false,
+      "visto_desde": "2026-10-15",
+      "monto": "2.300.000 CLP",
+      "precio": {
+        "nivel": "amarilla",
+        "etiqueta": "margen apretado",
+        "detalle": "$2.3M contra ~$3M de costo estimado (1.7 meses-persona). Se puede, pero sin espacio para imprevistos.",
+        "monto_clp": 2300000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 9,
+      "razones": [
+        "rubro ONU 43232301",
+        "«software» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1230848-71-L126",
+      "descripcion": "Contratación de un servicio integral de software para la gestión de filas del CESFAM Dr. Enrique Montt, que asegure la operación continua, segura y trazable del sistema, mediante una solución compatible e integrada con Rayen, permitiendo ordenar la atención, registrar el anuncio de llegada de los usuarios y generar información para la administración del establecimiento, de acuerdo con las Bases Técnicas."
+    },
+    {
+      "codigo": "1374899-50-LP26",
+      "nombre": "IMPLEMENTACIÓN DE UN SISTEMA DE GESTIÓN DE TURNOS CONTROL HORARIO Y CÁLCULO DE COMPENSACIONES CON ARRIENDO DE RELOJES CONTROL SOPORTE Y MANTENCIÓN",
+      "organismo": "HOSPITAL DE QUILPUE",
+      "unidad": "Hospital Marga Marga",
+      "tipo": "LP",
+      "cierre": "2026-10-26T16:00:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-10-16",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~8.5 meses-persona, o sea del orden de $17M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 8.5,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 21,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el detalle",
+        "«sistema de gestion» en el título",
+        "«software» en el detalle",
+        "«desarrollo de plataforma» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1374899-50-LP26",
+      "descripcion": "Las presentes Bases de licitación orientan, fijan y determinan las normas y procedimientos por las que deben regirse las personas naturales o jurídicas interesadas en participar en el llamado a licitación para la “IMPLEMENTACIÓN DE UN SISTEMA DE GESTIÓN DE TURNOS, CONTROL HORARIO Y CÁLCULO DE COMPENSACIONES CON ARRIENDO DE RELOJES CONTROL, SOPORTE Y MANTENCIÓN”, por un periodo de 24 meses, con el objetivo de mejorar la gestión de turnos de manera transversal en todo el establecimiento dentro de un plazo acotado."
+    },
+    {
+      "codigo": "1110404-232-L126",
+      "nombre": "ADQUISICIÓN DE PLATAFORMA INTEGRATE PIE PARA LICEO B. ARTISTICO DR. JUAN NOE CREVANI, PERT. AL SLEPCH",
+      "organismo": "SERVICIO LOCAL DE EDUCACION DE CHINCHORRO",
+      "unidad": "SLEPCH - EE - Programa 02",
+      "tipo": "L1",
+      "cierre": "2026-10-26T15:00:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-10-20",
+      "monto": "3.499.600 CLP",
+      "precio": {
+        "nivel": "amarilla",
+        "etiqueta": "margen apretado",
+        "detalle": "$3.5M contra ~$3M de costo estimado (1.7 meses-persona). Se puede, pero sin espacio para imprevistos.",
+        "monto_clp": 3499600,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 16,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el detalle",
+        "«software» en el detalle",
+        "«desarrollo de plataforma» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1110404-232-L126",
+      "descripcion": "       El Servicio Local de Educación Pública Chinchorro requiere fortalecer la gestión pedagógica y administrativa del Programa de Integración Escolar (PIE), mediante la adquisición de la plataforma tecnológica Integrate PIE, destinada a optimizar los procesos asociados a la planificación, registro, seguimiento y evaluación de los apoyos entregados a estudiantes con Necesidades Educativas Especiales (NEE)."
+    },
+    {
+      "codigo": "5482-101-LR26",
+      "nombre": "Plataforma IA para video y seguridad urbana",
+      "organismo": "I MUNICIPALIDAD DE NUNOA",
+      "unidad": "SECPLANUNOA",
+      "tipo": "LR",
+      "cierre": "2026-10-26T15:01:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-09-11",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~5.7 meses-persona, o sea del orden de $11M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 26.0,
+        "esfuerzo_mp": 5.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 16,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el detalle",
+        "«software» en el detalle",
+        "«desarrollo de plataforma» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5482-101-LR26",
+      "descripcion": "La presente licitación contempla como objetivo general, contratar el suministro,\r\nimplementación, puesta en marcha y soporte continuo de una plataforma de Inteligencia Artificial para analítica de video y gestión inteligente de alertas, que opere sobre la red decámaras yo el sistema VMS ya existentes de la Municipalidad de Ñuñoa."
+    },
+    {
+      "codigo": "1375758-7-LE26",
+      "nombre": "PLATAFORMA INTEGRAL PARA LA PLANIFICACIÓN CONTROL DE DOTACIÓN ESCOLAR Y GESTIÓN DE SOLICITUDES DE CONTRATACIÓN",
+      "organismo": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA SANTIAGO CENTRO",
+      "unidad": "NIVEL CENTRAL SLEP SANTIAGO CENTRO P01",
+      "tipo": "LE",
+      "cierre": "2026-10-26T16:30:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-10-07",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~6.3 meses-persona, o sea del orden de $13M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 6.3,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 13,
+      "razones": [
+        "rubro ONU 81111507",
+        "«erp» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1375758-7-LE26",
+      "descripcion": "SE REQUEIRE CONTRATAR PLATAFORMA INTEGRAL PARA LA PLANIFICACIÓN, CONTROL DE DOTACIÓN ESCOLAR Y GESTIÓN DE SOLICITUDES DE CONTRATACIÓN, SEGÚN BASES ADJUNTAS, APROBADAS POR RES. EXENTA N° "
+    },
+    {
+      "codigo": "2933-73-LE26",
+      "nombre": "2DO LLAMADO SISTEMA DE INFORMACION Y GESTIÓN 2026",
+      "organismo": "I MUNICIPALIDAD DE ALHUE",
+      "unidad": "DPTO. MUNICIPALIDAD",
+      "tipo": "LE",
+      "cierre": "2026-10-26T16:30:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-10-15",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~1.7 meses-persona, o sea del orden de $3M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 12,
+      "razones": [
+        "rubro ONU 43231601",
+        "«sistema de informacion» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2933-73-LE26",
+      "descripcion": "El objetivo de la presente licitación es dar solución a las necesidades a las oficinas de Administración y Finanzas, para el buen funcionamiento administrativos de esta área."
+    },
+    {
+      "codigo": "630-29-LE26",
+      "nombre": "SERVICIO DE GESTIÓN DOCUMENTAL EN MODALIDAD SAAS",
+      "organismo": "SUBSECRETARIA DEL TRABAJO",
+      "unidad": "Subsecretaria del Trabajo",
+      "tipo": "LE",
+      "cierre": "2026-10-26T15:01:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-10-05",
+      "monto": "40.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$40.0M contra ~$11M de costo estimado (5.5 meses-persona), $3.3M al mes por 12 meses.",
+        "monto_clp": 40000000,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 5.5,
+        "mensual": 3333333
+      },
+      "veredicto": "revisar",
+      "puntaje": 11,
+      "razones": [
+        "rubro ONU 43232202",
+        "«software» en el detalle",
+        "«gestion documental» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=630-29-LE26",
+      "descripcion": "La Subsecretaría del Trabajo, en adelante “la Subsecretaría”, requiere contratar el servicio de un Gestor Documental en modalidad SaaS Software as a Service. El objetivo principal de esta licitación es implementar una plataforma integral que modernice la gestión, trazabilidad y seguridad de los documentos institucionales."
+    },
+    {
+      "codigo": "765-25-L126",
+      "nombre": "Desarrollo de soluciones informáticas para la implementación del plan de transformación digital de la CONADI 2026-2029",
+      "organismo": "CORP NACIONAL DE DESARROLLO INDIGENA",
+      "unidad": "CORP NACIONAL DE DESARROLLO INDIGENA",
+      "tipo": "L1",
+      "cierre": "2026-10-26T16:49:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-10-13",
+      "monto": "6.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$6.0M contra ~$3M de costo estimado (1.7 meses-persona).",
+        "monto_clp": 6000000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 11,
+      "razones": [
+        "rubro ONU 43232909",
+        "«transformacion digital» en el título",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=765-25-L126",
+      "descripcion": "Plan de Transformación Digital institucional período 2026-2029 establece las siguientes iniciativas para el 2026:\nPTD-D1-01. Implementación de autenticación oficial en procedimientos\nadministrativos priorizados\nPTD-D1-02. Integración a la red de interoperabilidad del estado\nPTD-D1-04. Digitalización del ingreso de solicitudes, formularios y documentos"
+    },
+    {
+      "codigo": "1469-272-L126",
+      "nombre": "SERVICIO DE LICENCIA SENTIOVR DIRECCIÓN DE TECNOLOGÍAS EDUCATIVAS",
+      "organismo": "UNIVERSIDAD DE TALCA",
+      "unidad": "Universidad de Talca",
+      "tipo": "L1",
+      "cierre": "2026-10-26T15:00:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-10-14",
+      "monto": "2.268.640 CLP",
+      "precio": {
+        "nivel": "amarilla",
+        "etiqueta": "margen apretado",
+        "detalle": "$2.3M contra ~$3M de costo estimado (1.7 meses-persona). Se puede, pero sin espacio para imprevistos.",
+        "monto_clp": 2268640,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231512",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1469-272-L126",
+      "descripcion": "La Universidad de Talca requiere Servicio de Licencia SentioVR para la Dirección de Tecnologías Educativas, por el periodo de 12 meses, a contar de la acepción de la Orden de Compra"
+    },
+    {
+      "codigo": "2788-54-LE26",
+      "nombre": "ADQUISICION Y RENOVACION DE SOFTWARES",
+      "organismo": "I MUNICIPALIDAD DE PAINE",
+      "unidad": "DEPARTAMENTO DE ADQUISICIONES",
+      "tipo": "LE",
+      "cierre": "2026-10-26T15:00:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-10-15",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~3.9 meses-persona, o sea del orden de $8M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 3.9,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231512",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2788-54-LE26",
+      "descripcion": "ADQUISICION Y RENOVACION DE SOFTWARES PARA UTILIZACION EN SECPLA, COMUNICACIONES, DOM Y OTRAS DEPENDENCIAS MUNICIPALES"
+    },
+    {
+      "codigo": "3269-11-LE26",
+      "nombre": "SA 83 MANTENCIÓN SISTEMA DE SERVIDORES HP DL 360",
+      "organismo": "FUERZA AEREA DE CHILE COMANDO LOGISTICO",
+      "unidad": "Servicio Aerofotogramétrico",
+      "tipo": "LE",
+      "cierre": "2026-10-26T15:01:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-10-15",
+      "monto": "13.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$13.0M contra ~$1M de costo estimado (0.7 meses-persona).",
+        "monto_clp": 13000000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 0.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231512",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3269-11-LE26",
+      "descripcion": "El “SAF” cuenta con servicios críticos ejecutándose sobre servidores físicos y virtuales, alojados en plataformas HP DL360 GEN10, los cuales necesitan mantener la continuidad operativa, por lo que se requiere contratar un servicio de mantenimiento preventivo y correctivo de la plataforma, asegurando con esto mayor protección de la información."
+    },
+    {
+      "codigo": "3269-13-LE26",
+      "nombre": "Mantto. Sistema de Almacenamiento Masivo HP 3PAR",
+      "organismo": "FUERZA AEREA DE CHILE COMANDO LOGISTICO",
+      "unidad": "Servicio Aerofotogramétrico",
+      "tipo": "LE",
+      "cierre": "2026-10-26T15:01:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-10-15",
+      "monto": "20.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$20.0M contra ~$3M de costo estimado (1.7 meses-persona).",
+        "monto_clp": 20000000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231512",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3269-13-LE26",
+      "descripcion": "Se requiere un servicio de Mantenimiento Preventivo y Correctivo de Hardware y Software del sistema de Almacenamiento Masivo HP 3PAR"
+    },
+    {
+      "codigo": "4891-44-LE26",
+      "nombre": "SS PRODUC INTEGRAL PROGRAMACIÓN DÍA DE LA MÚSICA NACIONAL",
+      "organismo": "SUBSECRETARÍA DE LAS CULTURAS Y LAS ARTES",
+      "unidad": "Consejo Regional de la Cultura y Las Artes R. Metropolitana",
+      "tipo": "LE",
+      "cierre": "2026-10-26T15:01:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-10-15",
+      "monto": "34.100.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$34.1M contra ~$3M de costo estimado (1.7 meses-persona).",
+        "monto_clp": 34100000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 9,
+      "razones": [
+        "«programacion» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4891-44-LE26",
+      "descripcion": "Implementación de la programación regional en el marco del Día de la Música Nacional 2026, denominada \"La Música Vive en los Territorios\", a realizarse el 12/11/2026 en la comuna de San Joaquín y 14/11/2026 en la comuna de Conchalí."
+    },
+    {
+      "codigo": "618923-19-LP26",
+      "nombre": "ADQUISICIÓN E IMPLEMENTACIÓN SOFTWARE INVENTARIO",
+      "organismo": "SUBSECRETARIA PARA LAS FUERZAS ARMADAS",
+      "unidad": "Subsecretaría para las Fuerzas Armadas",
+      "tipo": "LP",
+      "cierre": "2026-10-26T15:00:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-10-16",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~3.9 meses-persona, o sea del orden de $8M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 3.9,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 9,
+      "razones": [
+        "rubro ONU 43232311",
+        "«software» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=618923-19-LP26",
+      "descripcion": "Se requiere implementar una solución integral, mediante un software de uso perpetuo, para el registro, control y valorización actualizada, del inventario de sus dependencias, el cual facilite la administración y gestión de los bienes muebles e inmuebles de la citada Repartición, acorde a la normativa vigente, sobre el Sistema de Contabilidad General de la Nación, basado en las “NICSP”"
+    },
+    {
+      "codigo": "434-110-LP26",
+      "nombre": "SISTEMA DE GESTIÓN DOCUMENTAL SEGÚN LEY N°21.180",
+      "organismo": "I MUNICIPALIDAD DE CAUQUENES",
+      "unidad": "Adquisiciones",
+      "tipo": "LP",
+      "cierre": "2026-10-27T09:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-10-08",
+      "monto": "75.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$75.0M contra ~$23M de costo estimado (11.5 meses-persona), $2.1M al mes por 36 meses.",
+        "monto_clp": 75000000,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 11.5,
+        "mensual": 2083333
+      },
+      "veredicto": "revisar",
+      "puntaje": 14,
+      "razones": [
+        "«transformacion digital» en el detalle",
+        "«sistema de gestion» en el título",
+        "«gestion documental» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=434-110-LP26",
+      "descripcion": "TENER UN SISTEMA PARA ACOMPAÑAMIENTO EN LA IMPLEMENTACIÓN DE LA LEY DE TRANSFORMACIÓN DIGITAL DEL ESTADO."
+    },
+    {
+      "codigo": "1514-113-LE26",
+      "nombre": "Convenio de Sistema de Gestión de Calidad en Salud GCS bajo modalidad Cloud",
+      "organismo": "SERVICIO DE SALUD CHILOE",
+      "unidad": "Hospital de Castro",
+      "tipo": "LE",
+      "cierre": "2026-10-27T15:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-10-16",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~11.5 meses-persona, o sea del orden de $23M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 11.5,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 9,
+      "razones": [
+        "rubro ONU 43232401",
+        "«sistema de gestion» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1514-113-LE26",
+      "descripcion": "Hospital de Castro requiere realizar Licitación Pública para establecer dicho Convenio de Sistema de Gestión de Calidad en Salud (GCS) bajo modalidad Cloud y con ello permitir el normal funcionamiento del Hospital "
+    },
+    {
+      "codigo": "5482-94-LP26",
+      "nombre": "SERVICIO DE ARRIENDO MANTENCIÓN Y SOPORTE DE PLATAFORMA DOM",
+      "organismo": "I MUNICIPALIDAD DE NUNOA",
+      "unidad": "SECPLANUNOA",
+      "tipo": "LP",
+      "cierre": "2026-10-27T10:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-10-05",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~19.4 meses-persona, o sea del orden de $39M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 19.4,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 9,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el detalle",
+        "«sistema informatico» en el detalle",
+        "«software» en el detalle",
+        "«desarrollo de plataforma» en el detalle",
+        "ruido: «obras»"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5482-94-LP26",
+      "descripcion": "contratar una solución tecnológica integral que permita la implementación,\r\nparametrización, operación, soporte, mantención y alojamiento de un sistema\r\ninformático especializado para la Dirección de Obras Municipales de Ñuñoa (en\r\nadelante DOM)."
+    }
+  ],
+  "oportunidades": []
+}
