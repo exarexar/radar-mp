@@ -1,0 +1,265 @@
+{
+  "generado": "2026-10-28 12:52",
+  "fecha": "2026-10-28",
+  "horizonte": 20,
+  "fecha_hasta": "2026-11-25",
+  "primera_corrida": false,
+  "modo": "solo desarrollo",
+  "resumen": {
+    "activas_revisadas": 5044,
+    "detalles_consultados": 462,
+    "nuevas": 2,
+    "por_cerrar": 4,
+    "llamadas_api": 80
+  },
+  "nuevas": [
+    {
+      "codigo": "1057049-405-LP26",
+      "nombre": "JLL SERVICIO DE SOPORTE Y SUSCRIPCION DE PLATAFORMA DE INFRAESTRUCTURA HIPERCONVERGENTE HCI",
+      "organismo": "SERV SALUD METROPOLITANO CENTRAL HOSPITAL CLINICO SAN BORJA ARRIARAN",
+      "unidad": "Bienes y Servicios",
+      "tipo": "LP",
+      "cierre": "2026-11-16T15:30:00",
+      "habiles_restantes": 13,
+      "nuevo": true,
+      "visto_desde": "2026-10-28",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~3.5 meses-persona, o sea del orden de $7M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 15.0,
+        "esfuerzo_mp": 3.5,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 16,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el detalle",
+        "«software» en el detalle",
+        "«desarrollo de plataforma» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057049-405-LP26",
+      "descripcion": "JLL SERVICIO DE SOPORTE Y SUSCRIPCION DE PLATAFORMA DE INFRAESTRUCTURA HIPERCONVERGENTE (HCI) PARA EL DEPARTAMENTO DE TECNOLOGIAS DE LA INFORMACION Y COMUNICACION DEL HOSPITAL CLINICO SAN BORJA ARRIARAN"
+    },
+    {
+      "codigo": "2026-93-LR26",
+      "nombre": "SISTEMA ERP Y GESTOR DOCUMENTAL HBQP",
+      "organismo": "SERVICIO SALUD VINA DEL MAR QUILLOTA",
+      "unidad": "Servicio de Salud Viña del Mar - Quillota",
+      "tipo": "LR",
+      "cierre": "2026-11-25T18:00:00",
+      "habiles_restantes": 20,
+      "nuevo": true,
+      "visto_desde": "2026-10-28",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~5.4 meses-persona, o sea del orden de $11M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": null,
+        "esfuerzo_mp": 5.4,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 11,
+      "razones": [
+        "rubro ONU 43231602",
+        "«erp» en el título",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2026-93-LR26",
+      "descripcion": "ADQUISICIÓN SISTEMA ERP Y GESTOR DOCUMENTAL PARA HOSPITAL BIPROVINCIAL QUILLOTA PETORCA"
+    }
+  ],
+  "por_cerrar": [
+    {
+      "codigo": "2318-79-LE26",
+      "nombre": "SISTEMA DE GESTIÓN DOCUMENTAL",
+      "organismo": "I MUNICIPALIDAD DE SAN JAVIER",
+      "unidad": "IMUNI_SAN JAVIER DEPTO. ADQUISICIONES",
+      "tipo": "LE",
+      "cierre": "2026-10-29T15:00:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-10-20",
+      "monto": "28.560.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$28.6M contra ~$11M de costo estimado (5.5 meses-persona), $2.4M al mes por 12 meses.",
+        "monto_clp": 28560000,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 5.5,
+        "mensual": 2380000
+      },
+      "veredicto": "go",
+      "puntaje": 21,
+      "razones": [
+        "rubro ONU 43231512",
+        "«sistema de gestion» en el título",
+        "«software» en el detalle",
+        "«gestion documental» en el título",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2318-79-LE26",
+      "descripcion": "Arriendo de sistema de gestión documental Ilustre Municipalidad de San Javier"
+    },
+    {
+      "codigo": "557639-100-LE26",
+      "nombre": "PLATAFORMA DE GESTIÓN DE EST. EDUCACIONALES CORMUN",
+      "organismo": "CORP MUNICIPAL DE SERVICIOS PUBLICOS TRASPASADOS DE RANCAGUA",
+      "unidad": "CORMUN RANCAGUA - ADMINISTRACIÓN CENTRAL",
+      "tipo": "LE",
+      "cierre": "2026-10-29T18:00:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-10-20",
+      "monto": "38.900.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$38.9M contra ~$8M de costo estimado (3.9 meses-persona), $3.2M al mes por 12 meses.",
+        "monto_clp": 38900000,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 3.9,
+        "mensual": 3241667
+      },
+      "veredicto": "revisar",
+      "puntaje": 16,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el detalle",
+        "«software» en el detalle",
+        "«desarrollo de plataforma» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=557639-100-LE26",
+      "descripcion": "Implementar una Plataforma de Gestión de Establecimientos Educacionales que permita optimizar la administración académica, administrativa y comunicacional de los establecimientos educacionales, facilitando la gestión de información, el seguimiento de procesos escolares, el control de asistencia entre otras."
+    },
+    {
+      "codigo": "1020-55-LE26",
+      "nombre": "Adq. Sopor. y Actual. Software ServiceTonic MOP.",
+      "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+      "unidad": "MOP Subsecretaría ",
+      "tipo": "LE",
+      "cierre": "2026-10-29T15:00:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-10-13",
+      "monto": "22.500.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$22.5M contra ~$1M de costo estimado (0.7 meses-persona).",
+        "monto_clp": 22500000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 0.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 12,
+      "razones": [
+        "rubro ONU 43231512",
+        "«software» en el título",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1020-55-LE26",
+      "descripcion": "Que, el objetivo es la Adquisición de Soporte y Actualizaciones Software ServiceTonic Licencias en modalidad On-Premise, usuarios nombrados, por 12 meses."
+    },
+    {
+      "codigo": "4037-69-LE26",
+      "nombre": "CONTRATACION DEL SERVICIO DE SERVIDOR VIRTUAL HOSTING munifresia.cl  SOPORTE Y MANTENCION DE LA PAGINA WEB SEGUN  BASES ADMINISTRATIVAS Y TECNICAS ADJUNTAS",
+      "organismo": "I MUNICIPALIDAD DE FRESIA",
+      "unidad": "Departamento de adquisiciones y abastecimiento",
+      "tipo": "LE",
+      "cierre": "2026-10-30T10:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-10-20",
+      "monto": "9.000.000 CLP",
+      "precio": {
+        "nivel": "roja",
+        "etiqueta": "no paga ni una persona",
+        "detalle": "$9.0M repartidos en 12 meses son $0.8M al mes. No alcanza ni para tener a una persona dedicada.",
+        "monto_clp": 9000000,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 2.9,
+        "mensual": 750000
+      },
+      "veredicto": "nogo",
+      "puntaje": 14,
+      "razones": [
+        "rubro ONU 81112105",
+        "«pagina web» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4037-69-LE26",
+      "descripcion": "CONTRATACION DEL SERVICIO DE SERVIDOR VIRTUAL HOSTING munifresia.cl , SOPORTE Y MANTENCION DE LA PAGINA WEB, SEGUN  BASES ADMINISTRATIVAS Y TECNICAS ADJUNTAS, DECRETO ALCALDICIO N° 1973 DE FECHA 19/10/2026"
+    }
+  ],
+  "oportunidades": [
+    {
+      "codigo": "1057049-405-LP26",
+      "nombre": "JLL SERVICIO DE SOPORTE Y SUSCRIPCION DE PLATAFORMA DE INFRAESTRUCTURA HIPERCONVERGENTE HCI",
+      "organismo": "SERV SALUD METROPOLITANO CENTRAL HOSPITAL CLINICO SAN BORJA ARRIARAN",
+      "unidad": "Bienes y Servicios",
+      "tipo": "LP",
+      "cierre": "2026-11-16T15:30:00",
+      "habiles_restantes": 13,
+      "nuevo": true,
+      "visto_desde": "2026-10-28",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~3.5 meses-persona, o sea del orden de $7M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 15.0,
+        "esfuerzo_mp": 3.5,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 16,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el detalle",
+        "«software» en el detalle",
+        "«desarrollo de plataforma» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057049-405-LP26",
+      "descripcion": "JLL SERVICIO DE SOPORTE Y SUSCRIPCION DE PLATAFORMA DE INFRAESTRUCTURA HIPERCONVERGENTE (HCI) PARA EL DEPARTAMENTO DE TECNOLOGIAS DE LA INFORMACION Y COMUNICACION DEL HOSPITAL CLINICO SAN BORJA ARRIARAN"
+    },
+    {
+      "codigo": "2026-93-LR26",
+      "nombre": "SISTEMA ERP Y GESTOR DOCUMENTAL HBQP",
+      "organismo": "SERVICIO SALUD VINA DEL MAR QUILLOTA",
+      "unidad": "Servicio de Salud Viña del Mar - Quillota",
+      "tipo": "LR",
+      "cierre": "2026-11-25T18:00:00",
+      "habiles_restantes": 20,
+      "nuevo": true,
+      "visto_desde": "2026-10-28",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~5.4 meses-persona, o sea del orden de $11M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": null,
+        "esfuerzo_mp": 5.4,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 11,
+      "razones": [
+        "rubro ONU 43231602",
+        "«erp» en el título",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2026-93-LR26",
+      "descripcion": "ADQUISICIÓN SISTEMA ERP Y GESTOR DOCUMENTAL PARA HOSPITAL BIPROVINCIAL QUILLOTA PETORCA"
+    }
+  ]
+}

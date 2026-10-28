@@ -1,138 +1,78 @@
 {
-  "generado": "2026-10-27 12:15",
-  "fecha": "2026-10-27",
+  "generado": "2026-10-28 12:52",
+  "fecha": "2026-10-28",
   "horizonte": 20,
-  "fecha_hasta": "2026-11-24",
+  "fecha_hasta": "2026-11-25",
   "primera_corrida": false,
   "modo": "solo desarrollo",
   "resumen": {
-    "activas_revisadas": 4857,
-    "detalles_consultados": 449,
-    "nuevas": 4,
-    "por_cerrar": 3,
-    "llamadas_api": 88
+    "activas_revisadas": 5044,
+    "detalles_consultados": 462,
+    "nuevas": 2,
+    "por_cerrar": 4,
+    "llamadas_api": 80
   },
   "nuevas": [
     {
-      "codigo": "885-107-LE26",
-      "nombre": "Contratación de una herramienta automatizada de análisis de vulnerabilidades de ciberseguridad para la CGR",
-      "organismo": "CONTRALORIA GENERAL DE LA REPUBLICA",
-      "unidad": "Contraloría General de la República",
-      "tipo": "LE",
-      "cierre": "2026-11-03T16:00:00",
-      "habiles_restantes": 5,
+      "codigo": "1057049-405-LP26",
+      "nombre": "JLL SERVICIO DE SOPORTE Y SUSCRIPCION DE PLATAFORMA DE INFRAESTRUCTURA HIPERCONVERGENTE HCI",
+      "organismo": "SERV SALUD METROPOLITANO CENTRAL HOSPITAL CLINICO SAN BORJA ARRIARAN",
+      "unidad": "Bienes y Servicios",
+      "tipo": "LP",
+      "cierre": "2026-11-16T15:30:00",
+      "habiles_restantes": 13,
       "nuevo": true,
-      "visto_desde": "2026-10-27",
-      "monto": "25.000.000 CLP",
-      "precio": {
-        "nivel": "verde",
-        "etiqueta": "presupuesto razonable",
-        "detalle": "$25.0M contra ~$6M de costo estimado (2.9 meses-persona), $2.1M al mes por 12 meses.",
-        "monto_clp": 25000000,
-        "meses_contrato": 12.0,
-        "esfuerzo_mp": 2.9,
-        "mensual": 2083333
-      },
-      "veredicto": "revisar",
-      "puntaje": 9,
-      "razones": [
-        "rubro ONU 43231511",
-        "«ciberseguridad» en el título",
-        "«software» en el detalle",
-        "ruido: «capacitacion»"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=885-107-LE26",
-      "descripcion": "La Contraloría General de la República, requiere la contratación de una herramienta automatizada de análisis de vulnerabilidades de ciberseguridad, que incluya la provisión e instalación del software, capacitación para su uso, licencias y soporte, por un período de 12 meses."
-    },
-    {
-      "codigo": "5251-93-LE26",
-      "nombre": "SERVICIOS DE SOPORTE PARA BASE DE DATOS INSTITUCIONALES",
-      "organismo": "UNIVERSIDAD TECNOLOGICA METROPOLITANA",
-      "unidad": "DEPARTAMENTO DE ABASTECIMIENTO",
-      "tipo": "LE",
-      "cierre": "2026-11-05T20:00:00",
-      "habiles_restantes": 7,
-      "nuevo": true,
-      "visto_desde": "2026-10-27",
-      "monto": "34.000.000 CLP",
-      "precio": {
-        "nivel": "verde",
-        "etiqueta": "presupuesto razonable",
-        "detalle": "$34.0M contra ~$11M de costo estimado (5.3 meses-persona), $1.4M al mes por 24 meses.",
-        "monto_clp": 34000000,
-        "meses_contrato": 24.0,
-        "esfuerzo_mp": 5.3,
-        "mensual": 1416667
-      },
-      "veredicto": "revisar",
-      "puntaje": 15,
-      "razones": [
-        "rubro ONU 81111812",
-        "«base de datos» en el título"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5251-93-LE26",
-      "descripcion": "Contratar el Servicio de Soporte para Base de Datos Institucionales destinado a asegurar la disponibilidad, estabilidad, seguridad y rendimiento óptimo de las plataformas tecnológicas de la Universidad, permitiendo la administración, monitoreo, optimización y resolución de incidentes en los distintos motores de base de datos de misión crítica. Este servicio apoyará la continuidad operacional de los sistemas institucionales que soportan los procesos académicos, administrativos, docentes y de gestión utilizados por estudiantes, académicos y funcionarios, contribuyendo al desarrollo de las actividades universitarias mediante la prevención de riesgos de indisponibilidad, el resguardo de la integridad de los datos, la gestión eficiente de la capacidad y el fortalecimiento de la infraestructura tecnológica de la Institución"
-    },
-    {
-      "codigo": "5350-38-LE26",
-      "nombre": "CONVENIO SUMINISTRO SOFTWARE INVENTARIO DROGUERIA",
-      "organismo": "I MUNICIPALIDAD DE VALLENAR",
-      "unidad": "DEPTO DE SALUD MUNICIPAL",
-      "tipo": "LE",
-      "cierre": "2026-11-05T15:32:00",
-      "habiles_restantes": 7,
-      "nuevo": true,
-      "visto_desde": "2026-10-27",
-      "monto": "10.000.000 CLP",
-      "precio": {
-        "nivel": "roja",
-        "etiqueta": "no paga ni una persona",
-        "detalle": "$10.0M repartidos en 36 meses son $0.3M al mes. No alcanza ni para tener a una persona dedicada.",
-        "monto_clp": 10000000,
-        "meses_contrato": 36.0,
-        "esfuerzo_mp": 8.7,
-        "mensual": 277778
-      },
-      "veredicto": "nogo",
-      "puntaje": 9,
-      "razones": [
-        "rubro ONU 43231508",
-        "«software» en el título"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5350-38-LE26",
-      "descripcion": "CONVENIO SUMINISTRO SOFTWARE INVENTARIO DROGUERIA"
-    },
-    {
-      "codigo": "1057432-98-LE26",
-      "nombre": "CONTRATACIÓN PLATAFORMA MOODLE POR UN PERIODO DE 2",
-      "organismo": "SERVICIO DE SALUD CONCEPCION",
-      "unidad": "Servicio de Salud  Concepción",
-      "tipo": "LE",
-      "cierre": "2026-11-06T15:00:00",
-      "habiles_restantes": 8,
-      "nuevo": true,
-      "visto_desde": "2026-10-27",
+      "visto_desde": "2026-10-28",
       "monto": "no informado",
       "precio": {
         "nivel": "sin_monto",
         "etiqueta": "monto no publicado",
-        "detalle": "El organismo no informó presupuesto. Estimo ~5.3 meses-persona, o sea del orden de $11M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "detalle": "El organismo no informó presupuesto. Estimo ~3.5 meses-persona, o sea del orden de $7M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
         "monto_clp": null,
-        "meses_contrato": 24.0,
-        "esfuerzo_mp": 5.3,
+        "meses_contrato": 15.0,
+        "esfuerzo_mp": 3.5,
         "mensual": null
       },
       "veredicto": "revisar",
-      "puntaje": 14,
+      "puntaje": 16,
       "razones": [
         "rubro ONU 43232408",
         "«plataforma web» en el detalle",
         "«software» en el detalle",
-        "«desarrollo de plataforma» en el detalle",
-        "ruido: «capacitacion» en el detalle"
+        "«desarrollo de plataforma» en el detalle"
       ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057432-98-LE26",
-      "descripcion": "CONTRATACIÓN PLATAFORMA MOODLE POR UN PERIODO DE 24 MESES; El Servicio de Salud Concepción SSC requiere obtener un servicio de plataforma de capacitación virtual, que cree, gestione y administre los cursos que se soliciten. Con el objetivo de entregar a los funcionarios dependientes de SSC y funcionarios de APS, las capacitaciones necesarias para mejorar la calidad de la atención de usuarios."
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057049-405-LP26",
+      "descripcion": "JLL SERVICIO DE SOPORTE Y SUSCRIPCION DE PLATAFORMA DE INFRAESTRUCTURA HIPERCONVERGENTE (HCI) PARA EL DEPARTAMENTO DE TECNOLOGIAS DE LA INFORMACION Y COMUNICACION DEL HOSPITAL CLINICO SAN BORJA ARRIARAN"
+    },
+    {
+      "codigo": "2026-93-LR26",
+      "nombre": "SISTEMA ERP Y GESTOR DOCUMENTAL HBQP",
+      "organismo": "SERVICIO SALUD VINA DEL MAR QUILLOTA",
+      "unidad": "Servicio de Salud Viña del Mar - Quillota",
+      "tipo": "LR",
+      "cierre": "2026-11-25T18:00:00",
+      "habiles_restantes": 20,
+      "nuevo": true,
+      "visto_desde": "2026-10-28",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~5.4 meses-persona, o sea del orden de $11M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": null,
+        "esfuerzo_mp": 5.4,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 11,
+      "razones": [
+        "rubro ONU 43231602",
+        "«erp» en el título",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2026-93-LR26",
+      "descripcion": "ADQUISICIÓN SISTEMA ERP Y GESTOR DOCUMENTAL PARA HOSPITAL BIPROVINCIAL QUILLOTA PETORCA"
     }
   ],
   "por_cerrar": [
@@ -143,7 +83,7 @@
       "unidad": "IMUNI_SAN JAVIER DEPTO. ADQUISICIONES",
       "tipo": "LE",
       "cierre": "2026-10-29T15:00:00",
-      "habiles_restantes": 2,
+      "habiles_restantes": 1,
       "nuevo": false,
       "visto_desde": "2026-10-20",
       "monto": "28.560.000 CLP",
@@ -175,7 +115,7 @@
       "unidad": "CORMUN RANCAGUA - ADMINISTRACIÓN CENTRAL",
       "tipo": "LE",
       "cierre": "2026-10-29T18:00:00",
-      "habiles_restantes": 2,
+      "habiles_restantes": 1,
       "nuevo": false,
       "visto_desde": "2026-10-20",
       "monto": "38.900.000 CLP",
@@ -206,7 +146,7 @@
       "unidad": "MOP Subsecretaría ",
       "tipo": "LE",
       "cierre": "2026-10-29T15:00:00",
-      "habiles_restantes": 2,
+      "habiles_restantes": 1,
       "nuevo": false,
       "visto_desde": "2026-10-13",
       "monto": "22.500.000 CLP",
@@ -228,129 +168,98 @@
       ],
       "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1020-55-LE26",
       "descripcion": "Que, el objetivo es la Adquisición de Soporte y Actualizaciones Software ServiceTonic Licencias en modalidad On-Premise, usuarios nombrados, por 12 meses."
+    },
+    {
+      "codigo": "4037-69-LE26",
+      "nombre": "CONTRATACION DEL SERVICIO DE SERVIDOR VIRTUAL HOSTING munifresia.cl  SOPORTE Y MANTENCION DE LA PAGINA WEB SEGUN  BASES ADMINISTRATIVAS Y TECNICAS ADJUNTAS",
+      "organismo": "I MUNICIPALIDAD DE FRESIA",
+      "unidad": "Departamento de adquisiciones y abastecimiento",
+      "tipo": "LE",
+      "cierre": "2026-10-30T10:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-10-20",
+      "monto": "9.000.000 CLP",
+      "precio": {
+        "nivel": "roja",
+        "etiqueta": "no paga ni una persona",
+        "detalle": "$9.0M repartidos en 12 meses son $0.8M al mes. No alcanza ni para tener a una persona dedicada.",
+        "monto_clp": 9000000,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 2.9,
+        "mensual": 750000
+      },
+      "veredicto": "nogo",
+      "puntaje": 14,
+      "razones": [
+        "rubro ONU 81112105",
+        "«pagina web» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4037-69-LE26",
+      "descripcion": "CONTRATACION DEL SERVICIO DE SERVIDOR VIRTUAL HOSTING munifresia.cl , SOPORTE Y MANTENCION DE LA PAGINA WEB, SEGUN  BASES ADMINISTRATIVAS Y TECNICAS ADJUNTAS, DECRETO ALCALDICIO N° 1973 DE FECHA 19/10/2026"
     }
   ],
   "oportunidades": [
     {
-      "codigo": "885-107-LE26",
-      "nombre": "Contratación de una herramienta automatizada de análisis de vulnerabilidades de ciberseguridad para la CGR",
-      "organismo": "CONTRALORIA GENERAL DE LA REPUBLICA",
-      "unidad": "Contraloría General de la República",
-      "tipo": "LE",
-      "cierre": "2026-11-03T16:00:00",
-      "habiles_restantes": 5,
+      "codigo": "1057049-405-LP26",
+      "nombre": "JLL SERVICIO DE SOPORTE Y SUSCRIPCION DE PLATAFORMA DE INFRAESTRUCTURA HIPERCONVERGENTE HCI",
+      "organismo": "SERV SALUD METROPOLITANO CENTRAL HOSPITAL CLINICO SAN BORJA ARRIARAN",
+      "unidad": "Bienes y Servicios",
+      "tipo": "LP",
+      "cierre": "2026-11-16T15:30:00",
+      "habiles_restantes": 13,
       "nuevo": true,
-      "visto_desde": "2026-10-27",
-      "monto": "25.000.000 CLP",
-      "precio": {
-        "nivel": "verde",
-        "etiqueta": "presupuesto razonable",
-        "detalle": "$25.0M contra ~$6M de costo estimado (2.9 meses-persona), $2.1M al mes por 12 meses.",
-        "monto_clp": 25000000,
-        "meses_contrato": 12.0,
-        "esfuerzo_mp": 2.9,
-        "mensual": 2083333
-      },
-      "veredicto": "revisar",
-      "puntaje": 9,
-      "razones": [
-        "rubro ONU 43231511",
-        "«ciberseguridad» en el título",
-        "«software» en el detalle",
-        "ruido: «capacitacion»"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=885-107-LE26",
-      "descripcion": "La Contraloría General de la República, requiere la contratación de una herramienta automatizada de análisis de vulnerabilidades de ciberseguridad, que incluya la provisión e instalación del software, capacitación para su uso, licencias y soporte, por un período de 12 meses."
-    },
-    {
-      "codigo": "5251-93-LE26",
-      "nombre": "SERVICIOS DE SOPORTE PARA BASE DE DATOS INSTITUCIONALES",
-      "organismo": "UNIVERSIDAD TECNOLOGICA METROPOLITANA",
-      "unidad": "DEPARTAMENTO DE ABASTECIMIENTO",
-      "tipo": "LE",
-      "cierre": "2026-11-05T20:00:00",
-      "habiles_restantes": 7,
-      "nuevo": true,
-      "visto_desde": "2026-10-27",
-      "monto": "34.000.000 CLP",
-      "precio": {
-        "nivel": "verde",
-        "etiqueta": "presupuesto razonable",
-        "detalle": "$34.0M contra ~$11M de costo estimado (5.3 meses-persona), $1.4M al mes por 24 meses.",
-        "monto_clp": 34000000,
-        "meses_contrato": 24.0,
-        "esfuerzo_mp": 5.3,
-        "mensual": 1416667
-      },
-      "veredicto": "revisar",
-      "puntaje": 15,
-      "razones": [
-        "rubro ONU 81111812",
-        "«base de datos» en el título"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5251-93-LE26",
-      "descripcion": "Contratar el Servicio de Soporte para Base de Datos Institucionales destinado a asegurar la disponibilidad, estabilidad, seguridad y rendimiento óptimo de las plataformas tecnológicas de la Universidad, permitiendo la administración, monitoreo, optimización y resolución de incidentes en los distintos motores de base de datos de misión crítica. Este servicio apoyará la continuidad operacional de los sistemas institucionales que soportan los procesos académicos, administrativos, docentes y de gestión utilizados por estudiantes, académicos y funcionarios, contribuyendo al desarrollo de las actividades universitarias mediante la prevención de riesgos de indisponibilidad, el resguardo de la integridad de los datos, la gestión eficiente de la capacidad y el fortalecimiento de la infraestructura tecnológica de la Institución"
-    },
-    {
-      "codigo": "5350-38-LE26",
-      "nombre": "CONVENIO SUMINISTRO SOFTWARE INVENTARIO DROGUERIA",
-      "organismo": "I MUNICIPALIDAD DE VALLENAR",
-      "unidad": "DEPTO DE SALUD MUNICIPAL",
-      "tipo": "LE",
-      "cierre": "2026-11-05T15:32:00",
-      "habiles_restantes": 7,
-      "nuevo": true,
-      "visto_desde": "2026-10-27",
-      "monto": "10.000.000 CLP",
-      "precio": {
-        "nivel": "roja",
-        "etiqueta": "no paga ni una persona",
-        "detalle": "$10.0M repartidos en 36 meses son $0.3M al mes. No alcanza ni para tener a una persona dedicada.",
-        "monto_clp": 10000000,
-        "meses_contrato": 36.0,
-        "esfuerzo_mp": 8.7,
-        "mensual": 277778
-      },
-      "veredicto": "nogo",
-      "puntaje": 9,
-      "razones": [
-        "rubro ONU 43231508",
-        "«software» en el título"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5350-38-LE26",
-      "descripcion": "CONVENIO SUMINISTRO SOFTWARE INVENTARIO DROGUERIA"
-    },
-    {
-      "codigo": "1057432-98-LE26",
-      "nombre": "CONTRATACIÓN PLATAFORMA MOODLE POR UN PERIODO DE 2",
-      "organismo": "SERVICIO DE SALUD CONCEPCION",
-      "unidad": "Servicio de Salud  Concepción",
-      "tipo": "LE",
-      "cierre": "2026-11-06T15:00:00",
-      "habiles_restantes": 8,
-      "nuevo": true,
-      "visto_desde": "2026-10-27",
+      "visto_desde": "2026-10-28",
       "monto": "no informado",
       "precio": {
         "nivel": "sin_monto",
         "etiqueta": "monto no publicado",
-        "detalle": "El organismo no informó presupuesto. Estimo ~5.3 meses-persona, o sea del orden de $11M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "detalle": "El organismo no informó presupuesto. Estimo ~3.5 meses-persona, o sea del orden de $7M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
         "monto_clp": null,
-        "meses_contrato": 24.0,
-        "esfuerzo_mp": 5.3,
+        "meses_contrato": 15.0,
+        "esfuerzo_mp": 3.5,
         "mensual": null
       },
       "veredicto": "revisar",
-      "puntaje": 14,
+      "puntaje": 16,
       "razones": [
         "rubro ONU 43232408",
         "«plataforma web» en el detalle",
         "«software» en el detalle",
-        "«desarrollo de plataforma» en el detalle",
-        "ruido: «capacitacion» en el detalle"
+        "«desarrollo de plataforma» en el detalle"
       ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057432-98-LE26",
-      "descripcion": "CONTRATACIÓN PLATAFORMA MOODLE POR UN PERIODO DE 24 MESES; El Servicio de Salud Concepción SSC requiere obtener un servicio de plataforma de capacitación virtual, que cree, gestione y administre los cursos que se soliciten. Con el objetivo de entregar a los funcionarios dependientes de SSC y funcionarios de APS, las capacitaciones necesarias para mejorar la calidad de la atención de usuarios."
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057049-405-LP26",
+      "descripcion": "JLL SERVICIO DE SOPORTE Y SUSCRIPCION DE PLATAFORMA DE INFRAESTRUCTURA HIPERCONVERGENTE (HCI) PARA EL DEPARTAMENTO DE TECNOLOGIAS DE LA INFORMACION Y COMUNICACION DEL HOSPITAL CLINICO SAN BORJA ARRIARAN"
+    },
+    {
+      "codigo": "2026-93-LR26",
+      "nombre": "SISTEMA ERP Y GESTOR DOCUMENTAL HBQP",
+      "organismo": "SERVICIO SALUD VINA DEL MAR QUILLOTA",
+      "unidad": "Servicio de Salud Viña del Mar - Quillota",
+      "tipo": "LR",
+      "cierre": "2026-11-25T18:00:00",
+      "habiles_restantes": 20,
+      "nuevo": true,
+      "visto_desde": "2026-10-28",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~5.4 meses-persona, o sea del orden de $11M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": null,
+        "esfuerzo_mp": 5.4,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 11,
+      "razones": [
+        "rubro ONU 43231602",
+        "«erp» en el título",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2026-93-LR26",
+      "descripcion": "ADQUISICIÓN SISTEMA ERP Y GESTOR DOCUMENTAL PARA HOSPITAL BIPROVINCIAL QUILLOTA PETORCA"
     }
   ]
 }
