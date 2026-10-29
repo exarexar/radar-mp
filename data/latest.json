@@ -1,36 +1,124 @@
 {
-  "generado": "2026-10-28 12:52",
-  "fecha": "2026-10-28",
+  "generado": "2026-10-29 12:58",
+  "fecha": "2026-10-29",
   "horizonte": 20,
-  "fecha_hasta": "2026-11-25",
+  "fecha_hasta": "2026-11-26",
   "primera_corrida": false,
   "modo": "solo desarrollo",
   "resumen": {
-    "activas_revisadas": 5044,
-    "detalles_consultados": 462,
-    "nuevas": 2,
-    "por_cerrar": 4,
-    "llamadas_api": 80
+    "activas_revisadas": 5114,
+    "detalles_consultados": 475,
+    "nuevas": 6,
+    "por_cerrar": 6,
+    "llamadas_api": 97
   },
   "nuevas": [
     {
-      "codigo": "1057049-405-LP26",
-      "nombre": "JLL SERVICIO DE SOPORTE Y SUSCRIPCION DE PLATAFORMA DE INFRAESTRUCTURA HIPERCONVERGENTE HCI",
-      "organismo": "SERV SALUD METROPOLITANO CENTRAL HOSPITAL CLINICO SAN BORJA ARRIARAN",
-      "unidad": "Bienes y Servicios",
-      "tipo": "LP",
-      "cierre": "2026-11-16T15:30:00",
-      "habiles_restantes": 13,
+      "codigo": "1230744-12-L126",
+      "nombre": "SUMINISTRO DE SISTEMA DE VENTA DE ENTRADAS",
+      "organismo": "CORPORACION MUNICIPAL DE CULTURA Y ARTES DE MOLINA",
+      "unidad": "Unidad de Administración y Finanzas",
+      "tipo": "L1",
+      "cierre": "2026-11-03T19:32:00",
+      "habiles_restantes": 3,
       "nuevo": true,
-      "visto_desde": "2026-10-28",
+      "visto_desde": "2026-10-29",
       "monto": "no informado",
       "precio": {
         "nivel": "sin_monto",
         "etiqueta": "monto no publicado",
-        "detalle": "El organismo no informó presupuesto. Estimo ~3.5 meses-persona, o sea del orden de $7M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "detalle": "El organismo no informó presupuesto. Estimo ~6.3 meses-persona, o sea del orden de $13M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
         "monto_clp": null,
-        "meses_contrato": 15.0,
-        "esfuerzo_mp": 3.5,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 6.3,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231503",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1230744-12-L126",
+      "descripcion": "La Corporación Municipal de Cultura y Artes de Molina, requiere contratar la prestación de un servicio de un Sistema de venta de Entradas para el Teatro Municipal de Molina o de cualquier otro recinto en que dicha Corporación participe como Producción; Coproducción; auspiciador o patrocinador de cualquier tipo de evento."
+    },
+    {
+      "codigo": "1058014-13-LE26",
+      "nombre": "MEDICAMENTOS  PROGRAMACION  SERV FARMACIA",
+      "organismo": "SERVICIO DE SALUD ARAUCO HOSPITAL DE ARAUCO",
+      "unidad": "Fármarcos",
+      "tipo": "LE",
+      "cierre": "2026-11-04T16:00:00",
+      "habiles_restantes": 4,
+      "nuevo": true,
+      "visto_desde": "2026-10-29",
+      "monto": "7.960.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$8.0M contra ~$3M de costo estimado (1.7 meses-persona).",
+        "monto_clp": 7960000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 9,
+      "razones": [
+        "«programacion» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1058014-13-LE26",
+      "descripcion": "\r\nEl Hospital de Arauco, requiere adquirir Medicamentos Programación Compras Servicio Farmacia 2026  para el Servicio de Farmacia del Hospital Arauco según especificaciones Técnicas de las presentes bases de licitación.\r\n"
+    },
+    {
+      "codigo": "2981-306-LE26",
+      "nombre": "APLICACION DE CAPTURA VOLUMETRICA Y MODELADO 3D POLYCAM JENACIF",
+      "organismo": "POLICIA DE INVESTIGACIONES DE CHILE",
+      "unidad": "DEPARTAMENTO ADMINISTRATIVO",
+      "tipo": "LE",
+      "cierre": "2026-11-09T15:00:00",
+      "habiles_restantes": 7,
+      "nuevo": true,
+      "visto_desde": "2026-10-29",
+      "monto": "9.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$9.0M contra ~$3M de costo estimado (1.7 meses-persona).",
+        "monto_clp": 9000000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231512",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2981-306-LE26",
+      "descripcion": "ADQUISICION DE 16 LICENCIAS DE APLICACION DE CAPTURA VOLUMETRICA Y MODELADO 3D POLYCAM EQUIVALENTE O SUPERIOR"
+    },
+    {
+      "codigo": "1867-50-LE26",
+      "nombre": "Desarrollar Plataformas en Línea para Departamento",
+      "organismo": "DIRECCION GENERAL DE MOVILIZACIONN NACIONAL",
+      "unidad": "DIRECCION GENERAL DE MOVILIZACIONN NACIONAL",
+      "tipo": "LE",
+      "cierre": "2026-11-10T15:00:00",
+      "habiles_restantes": 8,
+      "nuevo": true,
+      "visto_desde": "2026-10-29",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~1.7 meses-persona, o sea del orden de $3M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
         "mensual": null
       },
       "veredicto": "revisar",
@@ -41,38 +129,68 @@
         "«software» en el detalle",
         "«desarrollo de plataforma» en el detalle"
       ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057049-405-LP26",
-      "descripcion": "JLL SERVICIO DE SOPORTE Y SUSCRIPCION DE PLATAFORMA DE INFRAESTRUCTURA HIPERCONVERGENTE (HCI) PARA EL DEPARTAMENTO DE TECNOLOGIAS DE LA INFORMACION Y COMUNICACION DEL HOSPITAL CLINICO SAN BORJA ARRIARAN"
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1867-50-LE26",
+      "descripcion": "La DGMN convoca a personas naturales o jurídicas, ya sea que se presenten de manera individual o unidas mediante Uniones Temporales de Proveedores integradas por una o más empresas de menor tamaño, chilenas o extranjeras, que al momento de ofertar se encuentren hábiles en el Registro de Proveedores a cargo de la Dirección de Compras y Contratación Pública, para desarrollar plataforma para trámites en línea de los departamentos de Reclutamiento y Control de Convenciones de la DGMN."
     },
     {
-      "codigo": "2026-93-LR26",
-      "nombre": "SISTEMA ERP Y GESTOR DOCUMENTAL HBQP",
-      "organismo": "SERVICIO SALUD VINA DEL MAR QUILLOTA",
-      "unidad": "Servicio de Salud Viña del Mar - Quillota",
-      "tipo": "LR",
-      "cierre": "2026-11-25T18:00:00",
-      "habiles_restantes": 20,
+      "codigo": "1867-51-LE26",
+      "nombre": "Servicio de Consultoria  de gestión documental",
+      "organismo": "DIRECCION GENERAL DE MOVILIZACIONN NACIONAL",
+      "unidad": "DIRECCION GENERAL DE MOVILIZACIONN NACIONAL",
+      "tipo": "LE",
+      "cierre": "2026-11-10T15:00:00",
+      "habiles_restantes": 8,
       "nuevo": true,
-      "visto_desde": "2026-10-28",
+      "visto_desde": "2026-10-29",
       "monto": "no informado",
       "precio": {
         "nivel": "sin_monto",
         "etiqueta": "monto no publicado",
-        "detalle": "El organismo no informó presupuesto. Estimo ~5.4 meses-persona, o sea del orden de $11M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "detalle": "El organismo no informó presupuesto. Estimo ~2.8 meses-persona, o sea del orden de $6M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
         "monto_clp": null,
         "meses_contrato": null,
-        "esfuerzo_mp": 5.4,
+        "esfuerzo_mp": 2.8,
         "mensual": null
       },
       "veredicto": "revisar",
       "puntaje": 11,
       "razones": [
-        "rubro ONU 43231602",
-        "«erp» en el título",
+        "rubro ONU 43233001",
+        "«software» en el detalle",
+        "«gestion documental» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1867-51-LE26",
+      "descripcion": "La DGMN convoca a personas naturales o jurídicas, ya sea que se presenten de manera individual o unidas mediante Uniones Temporales de Proveedores integradas por una o más empresas de menor tamaño, chilenas o extranjeras, que al momento de ofertar se encuentren hábiles en el Registro de Proveedores a cargo de la Dirección de Compras y Contratación Pública, para el servicio de consultoría y levantamiento para el diseño de una solución de gestión documental para la DGMN."
+    },
+    {
+      "codigo": "2770-161-LR26",
+      "nombre": "SOLUCIÓN INFORMÁTICA INTEGRAL PARA LA GESTIÓN DE PROCESOS DE LA I. MUNICIPALIDAD DE MAIPÚ",
+      "organismo": "I MUNICIPALIDAD DE MAIPU",
+      "unidad": "I MUNICIPALIDAD DE MAIPU",
+      "tipo": "LR",
+      "cierre": "2026-11-26T14:00:00",
+      "habiles_restantes": 20,
+      "nuevo": true,
+      "visto_desde": "2026-10-29",
+      "monto": "480.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$480.0M contra ~$11M de costo estimado (5.3 meses-persona), $20.0M al mes por 24 meses.",
+        "monto_clp": 480000000,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 5.3,
+        "mensual": 20000000
+      },
+      "veredicto": "revisar",
+      "puntaje": 15,
+      "razones": [
+        "rubro ONU 81111503",
+        "«integracion de sistemas» en el detalle",
         "«software» en el detalle"
       ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2026-93-LR26",
-      "descripcion": "ADQUISICIÓN SISTEMA ERP Y GESTOR DOCUMENTAL PARA HOSPITAL BIPROVINCIAL QUILLOTA PETORCA"
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2770-161-LR26",
+      "descripcion": "La finalidad de la presente licitación pública es contratar una Solución Informática Integral para la Gestión de Procesos de la I. Municipalidad de Maipú, bajo modalidad de arriendo de software, infraestructura y soporte para los servicios municipales, sobre una plataforma única destinada a gestionar los principales procesos administrativos, financieros y de atención a la comunidad. Asimismo, deberá facilitar la realización de trámites en línea y el acceso oportuno y confiable a la información, contribuyendo a mejorar la eficiencia de la gestión municipal, la calidad y cobertura de los servicios, la toma de decisiones, la transparencia y el control institucional.\r\nTodo lo anterior en virtud de lo dispuesto en las presentes Bases Administrativas, las Bases Técnicas y\r\ntodos sus anexos"
     }
   ],
   "por_cerrar": [
@@ -83,7 +201,7 @@
       "unidad": "IMUNI_SAN JAVIER DEPTO. ADQUISICIONES",
       "tipo": "LE",
       "cierre": "2026-10-29T15:00:00",
-      "habiles_restantes": 1,
+      "habiles_restantes": 0,
       "nuevo": false,
       "visto_desde": "2026-10-20",
       "monto": "28.560.000 CLP",
@@ -115,7 +233,7 @@
       "unidad": "CORMUN RANCAGUA - ADMINISTRACIÓN CENTRAL",
       "tipo": "LE",
       "cierre": "2026-10-29T18:00:00",
-      "habiles_restantes": 1,
+      "habiles_restantes": 0,
       "nuevo": false,
       "visto_desde": "2026-10-20",
       "monto": "38.900.000 CLP",
@@ -146,7 +264,7 @@
       "unidad": "MOP Subsecretaría ",
       "tipo": "LE",
       "cierre": "2026-10-29T15:00:00",
-      "habiles_restantes": 1,
+      "habiles_restantes": 0,
       "nuevo": false,
       "visto_desde": "2026-10-13",
       "monto": "22.500.000 CLP",
@@ -176,7 +294,7 @@
       "unidad": "Departamento de adquisiciones y abastecimiento",
       "tipo": "LE",
       "cierre": "2026-10-30T10:00:00",
-      "habiles_restantes": 2,
+      "habiles_restantes": 1,
       "nuevo": false,
       "visto_desde": "2026-10-20",
       "monto": "9.000.000 CLP",
@@ -197,27 +315,175 @@
       ],
       "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4037-69-LE26",
       "descripcion": "CONTRATACION DEL SERVICIO DE SERVIDOR VIRTUAL HOSTING munifresia.cl , SOPORTE Y MANTENCION DE LA PAGINA WEB, SEGUN  BASES ADMINISTRATIVAS Y TECNICAS ADJUNTAS, DECRETO ALCALDICIO N° 1973 DE FECHA 19/10/2026"
-    }
-  ],
-  "oportunidades": [
+    },
     {
-      "codigo": "1057049-405-LP26",
-      "nombre": "JLL SERVICIO DE SOPORTE Y SUSCRIPCION DE PLATAFORMA DE INFRAESTRUCTURA HIPERCONVERGENTE HCI",
-      "organismo": "SERV SALUD METROPOLITANO CENTRAL HOSPITAL CLINICO SAN BORJA ARRIARAN",
-      "unidad": "Bienes y Servicios",
+      "codigo": "3945-31-LE26",
+      "nombre": "CONTRATACION SERVICIO DE SISTEMA INFORMATICO DE GESTION DOCUMENTAL- MUNICIPALIDAD LOS ALAMOS",
+      "organismo": "I MUNICIPALIDAD DE LOS ALAMOS DEPTO COMUNAL",
+      "unidad": "Administración y Finanzas",
+      "tipo": "LE",
+      "cierre": "2026-11-02T15:01:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-10-26",
+      "monto": "70.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$70.0M contra ~$39M de costo estimado (19.4 meses-persona), $1.9M al mes por 36 meses.",
+        "monto_clp": 70000000,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 19.4,
+        "mensual": 1944444
+      },
+      "veredicto": "go",
+      "puntaje": 21,
+      "razones": [
+        "rubro ONU 43233004",
+        "«sistema informatico» en el título",
+        "«software» en el detalle",
+        "«gestion documental» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3945-31-LE26",
+      "descripcion": ":    La   necesidad      de      contratar   “ADQUISICION       SERVICIO   DE \r\n\t\t\tSISTEMA             INFORMATIVO    DE     GESTION   DOCUMENTAL –\r\n\t\t\tMUNICIPALIDAD LOS ALAMOS”, conforme a Bases Administrativas, \r\n \t\t\tTécnicas y Anexos adjuntos. \r\n"
+    },
+    {
+      "codigo": "425-72-LP26",
+      "nombre": "Arriendo de Kioscos Autoconsulta y Aplicativo CJS",
+      "organismo": "CORP ADMINISTRATIVA DEL PODER JUDICIAL",
+      "unidad": "Servicios",
       "tipo": "LP",
-      "cierre": "2026-11-16T15:30:00",
-      "habiles_restantes": 13,
-      "nuevo": true,
-      "visto_desde": "2026-10-28",
+      "cierre": "2026-11-02T16:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-10-14",
       "monto": "no informado",
       "precio": {
         "nivel": "sin_monto",
         "etiqueta": "monto no publicado",
-        "detalle": "El organismo no informó presupuesto. Estimo ~3.5 meses-persona, o sea del orden de $7M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "detalle": "El organismo no informó presupuesto. Estimo ~8.7 meses-persona, o sea del orden de $17M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
         "monto_clp": null,
-        "meses_contrato": 15.0,
-        "esfuerzo_mp": 3.5,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 8.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 16,
+      "razones": [
+        "rubro ONU 81111809",
+        "«aplicativo» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=425-72-LP26",
+      "descripcion": "UR(1813) Servicio de arriendo de Kioscos de Autoconsulta y Desarrollo de Aplicativo para el Centro de Justicia de Santiago"
+    }
+  ],
+  "oportunidades": [
+    {
+      "codigo": "1230744-12-L126",
+      "nombre": "SUMINISTRO DE SISTEMA DE VENTA DE ENTRADAS",
+      "organismo": "CORPORACION MUNICIPAL DE CULTURA Y ARTES DE MOLINA",
+      "unidad": "Unidad de Administración y Finanzas",
+      "tipo": "L1",
+      "cierre": "2026-11-03T19:32:00",
+      "habiles_restantes": 3,
+      "nuevo": true,
+      "visto_desde": "2026-10-29",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~6.3 meses-persona, o sea del orden de $13M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 6.3,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231503",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1230744-12-L126",
+      "descripcion": "La Corporación Municipal de Cultura y Artes de Molina, requiere contratar la prestación de un servicio de un Sistema de venta de Entradas para el Teatro Municipal de Molina o de cualquier otro recinto en que dicha Corporación participe como Producción; Coproducción; auspiciador o patrocinador de cualquier tipo de evento."
+    },
+    {
+      "codigo": "1058014-13-LE26",
+      "nombre": "MEDICAMENTOS  PROGRAMACION  SERV FARMACIA",
+      "organismo": "SERVICIO DE SALUD ARAUCO HOSPITAL DE ARAUCO",
+      "unidad": "Fármarcos",
+      "tipo": "LE",
+      "cierre": "2026-11-04T16:00:00",
+      "habiles_restantes": 4,
+      "nuevo": true,
+      "visto_desde": "2026-10-29",
+      "monto": "7.960.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$8.0M contra ~$3M de costo estimado (1.7 meses-persona).",
+        "monto_clp": 7960000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 9,
+      "razones": [
+        "«programacion» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1058014-13-LE26",
+      "descripcion": "\r\nEl Hospital de Arauco, requiere adquirir Medicamentos Programación Compras Servicio Farmacia 2026  para el Servicio de Farmacia del Hospital Arauco según especificaciones Técnicas de las presentes bases de licitación.\r\n"
+    },
+    {
+      "codigo": "2981-306-LE26",
+      "nombre": "APLICACION DE CAPTURA VOLUMETRICA Y MODELADO 3D POLYCAM JENACIF",
+      "organismo": "POLICIA DE INVESTIGACIONES DE CHILE",
+      "unidad": "DEPARTAMENTO ADMINISTRATIVO",
+      "tipo": "LE",
+      "cierre": "2026-11-09T15:00:00",
+      "habiles_restantes": 7,
+      "nuevo": true,
+      "visto_desde": "2026-10-29",
+      "monto": "9.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$9.0M contra ~$3M de costo estimado (1.7 meses-persona).",
+        "monto_clp": 9000000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231512",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2981-306-LE26",
+      "descripcion": "ADQUISICION DE 16 LICENCIAS DE APLICACION DE CAPTURA VOLUMETRICA Y MODELADO 3D POLYCAM EQUIVALENTE O SUPERIOR"
+    },
+    {
+      "codigo": "1867-50-LE26",
+      "nombre": "Desarrollar Plataformas en Línea para Departamento",
+      "organismo": "DIRECCION GENERAL DE MOVILIZACIONN NACIONAL",
+      "unidad": "DIRECCION GENERAL DE MOVILIZACIONN NACIONAL",
+      "tipo": "LE",
+      "cierre": "2026-11-10T15:00:00",
+      "habiles_restantes": 8,
+      "nuevo": true,
+      "visto_desde": "2026-10-29",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~1.7 meses-persona, o sea del orden de $3M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
         "mensual": null
       },
       "veredicto": "revisar",
@@ -228,38 +494,68 @@
         "«software» en el detalle",
         "«desarrollo de plataforma» en el detalle"
       ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057049-405-LP26",
-      "descripcion": "JLL SERVICIO DE SOPORTE Y SUSCRIPCION DE PLATAFORMA DE INFRAESTRUCTURA HIPERCONVERGENTE (HCI) PARA EL DEPARTAMENTO DE TECNOLOGIAS DE LA INFORMACION Y COMUNICACION DEL HOSPITAL CLINICO SAN BORJA ARRIARAN"
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1867-50-LE26",
+      "descripcion": "La DGMN convoca a personas naturales o jurídicas, ya sea que se presenten de manera individual o unidas mediante Uniones Temporales de Proveedores integradas por una o más empresas de menor tamaño, chilenas o extranjeras, que al momento de ofertar se encuentren hábiles en el Registro de Proveedores a cargo de la Dirección de Compras y Contratación Pública, para desarrollar plataforma para trámites en línea de los departamentos de Reclutamiento y Control de Convenciones de la DGMN."
     },
     {
-      "codigo": "2026-93-LR26",
-      "nombre": "SISTEMA ERP Y GESTOR DOCUMENTAL HBQP",
-      "organismo": "SERVICIO SALUD VINA DEL MAR QUILLOTA",
-      "unidad": "Servicio de Salud Viña del Mar - Quillota",
-      "tipo": "LR",
-      "cierre": "2026-11-25T18:00:00",
-      "habiles_restantes": 20,
+      "codigo": "1867-51-LE26",
+      "nombre": "Servicio de Consultoria  de gestión documental",
+      "organismo": "DIRECCION GENERAL DE MOVILIZACIONN NACIONAL",
+      "unidad": "DIRECCION GENERAL DE MOVILIZACIONN NACIONAL",
+      "tipo": "LE",
+      "cierre": "2026-11-10T15:00:00",
+      "habiles_restantes": 8,
       "nuevo": true,
-      "visto_desde": "2026-10-28",
+      "visto_desde": "2026-10-29",
       "monto": "no informado",
       "precio": {
         "nivel": "sin_monto",
         "etiqueta": "monto no publicado",
-        "detalle": "El organismo no informó presupuesto. Estimo ~5.4 meses-persona, o sea del orden de $11M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "detalle": "El organismo no informó presupuesto. Estimo ~2.8 meses-persona, o sea del orden de $6M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
         "monto_clp": null,
         "meses_contrato": null,
-        "esfuerzo_mp": 5.4,
+        "esfuerzo_mp": 2.8,
         "mensual": null
       },
       "veredicto": "revisar",
       "puntaje": 11,
       "razones": [
-        "rubro ONU 43231602",
-        "«erp» en el título",
+        "rubro ONU 43233001",
+        "«software» en el detalle",
+        "«gestion documental» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1867-51-LE26",
+      "descripcion": "La DGMN convoca a personas naturales o jurídicas, ya sea que se presenten de manera individual o unidas mediante Uniones Temporales de Proveedores integradas por una o más empresas de menor tamaño, chilenas o extranjeras, que al momento de ofertar se encuentren hábiles en el Registro de Proveedores a cargo de la Dirección de Compras y Contratación Pública, para el servicio de consultoría y levantamiento para el diseño de una solución de gestión documental para la DGMN."
+    },
+    {
+      "codigo": "2770-161-LR26",
+      "nombre": "SOLUCIÓN INFORMÁTICA INTEGRAL PARA LA GESTIÓN DE PROCESOS DE LA I. MUNICIPALIDAD DE MAIPÚ",
+      "organismo": "I MUNICIPALIDAD DE MAIPU",
+      "unidad": "I MUNICIPALIDAD DE MAIPU",
+      "tipo": "LR",
+      "cierre": "2026-11-26T14:00:00",
+      "habiles_restantes": 20,
+      "nuevo": true,
+      "visto_desde": "2026-10-29",
+      "monto": "480.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$480.0M contra ~$11M de costo estimado (5.3 meses-persona), $20.0M al mes por 24 meses.",
+        "monto_clp": 480000000,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 5.3,
+        "mensual": 20000000
+      },
+      "veredicto": "revisar",
+      "puntaje": 15,
+      "razones": [
+        "rubro ONU 81111503",
+        "«integracion de sistemas» en el detalle",
         "«software» en el detalle"
       ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2026-93-LR26",
-      "descripcion": "ADQUISICIÓN SISTEMA ERP Y GESTOR DOCUMENTAL PARA HOSPITAL BIPROVINCIAL QUILLOTA PETORCA"
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2770-161-LR26",
+      "descripcion": "La finalidad de la presente licitación pública es contratar una Solución Informática Integral para la Gestión de Procesos de la I. Municipalidad de Maipú, bajo modalidad de arriendo de software, infraestructura y soporte para los servicios municipales, sobre una plataforma única destinada a gestionar los principales procesos administrativos, financieros y de atención a la comunidad. Asimismo, deberá facilitar la realización de trámites en línea y el acceso oportuno y confiable a la información, contribuyendo a mejorar la eficiencia de la gestión municipal, la calidad y cobertura de los servicios, la toma de decisiones, la transparencia y el control institucional.\r\nTodo lo anterior en virtud de lo dispuesto en las presentes Bases Administrativas, las Bases Técnicas y\r\ntodos sus anexos"
     }
   ]
 }
