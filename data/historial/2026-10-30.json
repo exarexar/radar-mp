@@ -1,0 +1,231 @@
+{
+  "generado": "2026-10-30 12:45",
+  "fecha": "2026-10-30",
+  "horizonte": 20,
+  "fecha_hasta": "2026-11-27",
+  "primera_corrida": false,
+  "modo": "solo desarrollo",
+  "resumen": {
+    "activas_revisadas": 5206,
+    "detalles_consultados": 472,
+    "nuevas": 2,
+    "por_cerrar": 3,
+    "llamadas_api": 206
+  },
+  "nuevas": [
+    {
+      "codigo": "1867-54-LE26",
+      "nombre": "Servicio de Administración y Soporte Base de Datos",
+      "organismo": "DIRECCION GENERAL DE MOVILIZACIONN NACIONAL",
+      "unidad": "DIRECCION GENERAL DE MOVILIZACIONN NACIONAL",
+      "tipo": "LE",
+      "cierre": "2026-11-12T17:30:00",
+      "habiles_restantes": 9,
+      "nuevo": true,
+      "visto_desde": "2026-10-30",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~2.9 meses-persona, o sea del orden de $6M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 2.9,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 15,
+      "razones": [
+        "rubro ONU 81111812",
+        "«base de datos» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1867-54-LE26",
+      "descripcion": "Contratación de Servicio de Administración y Soporte Base de Datos Informix para uso de la DGMN."
+    },
+    {
+      "codigo": "4301-70-LR26",
+      "nombre": "implementación y arriendo plataforma de software",
+      "organismo": "I MUNICIPALIDAD DE ZAPALLAR",
+      "unidad": "IMUNI_ ZAPALLAR",
+      "tipo": "LR",
+      "cierre": "2026-11-27T09:00:00",
+      "habiles_restantes": 20,
+      "nuevo": true,
+      "visto_desde": "2026-10-30",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~11.1 meses-persona, o sea del orden de $22M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 48.0,
+        "esfuerzo_mp": 11.1,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43232804",
+        "«software» en el título",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4301-70-LR26",
+      "descripcion": "La Ilustre Municipalidad de Zapallar, en adelante e indistintamente la “MUNICIPALIDAD” o el “MUNICIPIO”, llama a licitación pública para la contratación, denominada “implementación y arriendo plataforma de software de gestión municipal”"
+    }
+  ],
+  "por_cerrar": [
+    {
+      "codigo": "3945-31-LE26",
+      "nombre": "CONTRATACION SERVICIO DE SISTEMA INFORMATICO DE GESTION DOCUMENTAL- MUNICIPALIDAD LOS ALAMOS",
+      "organismo": "I MUNICIPALIDAD DE LOS ALAMOS DEPTO COMUNAL",
+      "unidad": "Administración y Finanzas",
+      "tipo": "LE",
+      "cierre": "2026-11-02T15:01:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-10-26",
+      "monto": "70.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$70.0M contra ~$39M de costo estimado (19.4 meses-persona), $1.9M al mes por 36 meses.",
+        "monto_clp": 70000000,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 19.4,
+        "mensual": 1944444
+      },
+      "veredicto": "go",
+      "puntaje": 21,
+      "razones": [
+        "rubro ONU 43233004",
+        "«sistema informatico» en el título",
+        "«software» en el detalle",
+        "«gestion documental» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3945-31-LE26",
+      "descripcion": ":    La   necesidad      de      contratar   “ADQUISICION       SERVICIO   DE \r\n\t\t\tSISTEMA             INFORMATIVO    DE     GESTION   DOCUMENTAL –\r\n\t\t\tMUNICIPALIDAD LOS ALAMOS”, conforme a Bases Administrativas, \r\n \t\t\tTécnicas y Anexos adjuntos. \r\n"
+    },
+    {
+      "codigo": "1230744-12-L126",
+      "nombre": "SUMINISTRO DE SISTEMA DE VENTA DE ENTRADAS",
+      "organismo": "CORPORACION MUNICIPAL DE CULTURA Y ARTES DE MOLINA",
+      "unidad": "Unidad de Administración y Finanzas",
+      "tipo": "L1",
+      "cierre": "2026-11-03T19:32:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-10-29",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~6.3 meses-persona, o sea del orden de $13M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 6.3,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231503",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1230744-12-L126",
+      "descripcion": "La Corporación Municipal de Cultura y Artes de Molina, requiere contratar la prestación de un servicio de un Sistema de venta de Entradas para el Teatro Municipal de Molina o de cualquier otro recinto en que dicha Corporación participe como Producción; Coproducción; auspiciador o patrocinador de cualquier tipo de evento."
+    },
+    {
+      "codigo": "885-107-LE26",
+      "nombre": "Contratación de una herramienta automatizada de análisis de vulnerabilidades de ciberseguridad para la CGR",
+      "organismo": "CONTRALORIA GENERAL DE LA REPUBLICA",
+      "unidad": "Contraloría General de la República",
+      "tipo": "LE",
+      "cierre": "2026-11-03T16:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-10-27",
+      "monto": "25.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$25.0M contra ~$6M de costo estimado (2.9 meses-persona), $2.1M al mes por 12 meses.",
+        "monto_clp": 25000000,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 2.9,
+        "mensual": 2083333
+      },
+      "veredicto": "revisar",
+      "puntaje": 9,
+      "razones": [
+        "rubro ONU 43231511",
+        "«ciberseguridad» en el título",
+        "«software» en el detalle",
+        "ruido: «capacitacion»"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=885-107-LE26",
+      "descripcion": "La Contraloría General de la República, requiere la contratación de una herramienta automatizada de análisis de vulnerabilidades de ciberseguridad, que incluya la provisión e instalación del software, capacitación para su uso, licencias y soporte, por un período de 12 meses."
+    }
+  ],
+  "oportunidades": [
+    {
+      "codigo": "1867-54-LE26",
+      "nombre": "Servicio de Administración y Soporte Base de Datos",
+      "organismo": "DIRECCION GENERAL DE MOVILIZACIONN NACIONAL",
+      "unidad": "DIRECCION GENERAL DE MOVILIZACIONN NACIONAL",
+      "tipo": "LE",
+      "cierre": "2026-11-12T17:30:00",
+      "habiles_restantes": 9,
+      "nuevo": true,
+      "visto_desde": "2026-10-30",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~2.9 meses-persona, o sea del orden de $6M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 2.9,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 15,
+      "razones": [
+        "rubro ONU 81111812",
+        "«base de datos» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1867-54-LE26",
+      "descripcion": "Contratación de Servicio de Administración y Soporte Base de Datos Informix para uso de la DGMN."
+    },
+    {
+      "codigo": "4301-70-LR26",
+      "nombre": "implementación y arriendo plataforma de software",
+      "organismo": "I MUNICIPALIDAD DE ZAPALLAR",
+      "unidad": "IMUNI_ ZAPALLAR",
+      "tipo": "LR",
+      "cierre": "2026-11-27T09:00:00",
+      "habiles_restantes": 20,
+      "nuevo": true,
+      "visto_desde": "2026-10-30",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~11.1 meses-persona, o sea del orden de $22M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 48.0,
+        "esfuerzo_mp": 11.1,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43232804",
+        "«software» en el título",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4301-70-LR26",
+      "descripcion": "La Ilustre Municipalidad de Zapallar, en adelante e indistintamente la “MUNICIPALIDAD” o el “MUNICIPIO”, llama a licitación pública para la contratación, denominada “implementación y arriendo plataforma de software de gestión municipal”"
+    }
+  ]
+}
