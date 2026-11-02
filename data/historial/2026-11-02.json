@@ -1,0 +1,655 @@
+{
+  "generado": "2026-11-02 16:23",
+  "fecha": "2026-11-02",
+  "horizonte": 20,
+  "fecha_hasta": "2026-11-30",
+  "primera_corrida": false,
+  "modo": "solo desarrollo",
+  "resumen": {
+    "activas_revisadas": 4945,
+    "detalles_consultados": 443,
+    "nuevas": 8,
+    "por_cerrar": 5,
+    "llamadas_api": 306
+  },
+  "nuevas": [
+    {
+      "codigo": "1485217-20-LE26",
+      "nombre": "SERVICIO DE LEVANTAMIENTO VALORIZACIÓN Y ARRIENDO DE SOFTWARE DE ADMINISTRACIÓN Y GESTIÓN DE INVENTARIO BAJO NORMAS NICSP-CGR",
+      "organismo": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA SANTIAGO CENTRO",
+      "unidad": "ESTABLECIMIENTOS EDUCACIONALES P02",
+      "tipo": "LE",
+      "cierre": "2026-11-06T16:30:00",
+      "habiles_restantes": 4,
+      "nuevo": true,
+      "visto_desde": "2026-11-02",
+      "monto": "60.349.312 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$60.3M contra ~$13M de costo estimado (6.3 meses-persona), $2.5M al mes por 24 meses.",
+        "monto_clp": 60349312,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 6.3,
+        "mensual": 2514555
+      },
+      "veredicto": "revisar",
+      "puntaje": 9,
+      "razones": [
+        "rubro ONU 43231508",
+        "«software» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1485217-20-LE26",
+      "descripcion": "SE REQUIERE CONTRATAR EL SERVICIO DE LEVANTAMIENTO, VALORIZACIÓN Y ARRIENDO DE SOFTWARE DE ADMINISTRACIÓN Y GESTIÓN DE INVENTARIO, BAJO NORMAS NICSP-CGR DEL SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DE SANTIAGO CENTRO, SEGÚN BASES ADJUNTAS APROBADAS POR RES. EXENTA N°1884/2026"
+    },
+    {
+      "codigo": "568963-27-LE26",
+      "nombre": "PLATAFORMA DIGITAL INTEGRAL DE GESTIÓN DE PERSONAS",
+      "organismo": "COMISION DEL SISTEMA NACIONAL DE CERTIFICACION DE COMPETENCIAS LABORALES",
+      "unidad": "CSNCCL",
+      "tipo": "LE",
+      "cierre": "2026-11-09T15:00:00",
+      "habiles_restantes": 5,
+      "nuevo": true,
+      "visto_desde": "2026-11-02",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~5.5 meses-persona, o sea del orden de $11M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 5.5,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 20,
+      "razones": [
+        "rubro ONU 43231505",
+        "«aplicacion movil» en el detalle",
+        "«plataforma web» en el detalle",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=568963-27-LE26",
+      "descripcion": "Contratación de un sistema integral de control de asistencia, como de gestión y desarrollo de personas para ChileValora, cuyo propósito es integrar, automatizar y optimizar los procesos de recursos humanos de la institución. La solución deberá operar en modalidad SaaS, estar alojada en la nube, disponer de aplicación móvil nativa para sistemas Android y iOS, y contar con una plataforma web."
+    },
+    {
+      "codigo": "3756-48-LE26",
+      "nombre": "SERVICIO DE SOFTWARE GESTIÓN DOCUMENTAL PARA LA MUNICIPALIDAD DE PELARCO",
+      "organismo": "I MUNICIPALIDAD DE PELARCO",
+      "unidad": "I MUNICIPALIDAD DE PELARCO",
+      "tipo": "LE",
+      "cierre": "2026-11-09T15:01:00",
+      "habiles_restantes": 5,
+      "nuevo": true,
+      "visto_desde": "2026-11-02",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~5.5 meses-persona, o sea del orden de $11M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 5.5,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 13,
+      "razones": [
+        "rubro ONU 43232903",
+        "«software» en el título",
+        "«gestion documental» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3756-48-LE26",
+      "descripcion": "SERVICIO DE SOFTWARE GESTIÓN DOCUMENTAL PARA LA MUNICIPALIDAD DE PELARCO"
+    },
+    {
+      "codigo": "4115-9-L126",
+      "nombre": "CV SUM SOFTWARE GESTION FARMACIA POPU CURACAUTIN",
+      "organismo": "I MUNICIPALIDAD DE CURACAUTIN",
+      "unidad": "SALUD",
+      "tipo": "L1",
+      "cierre": "2026-11-09T15:30:00",
+      "habiles_restantes": 5,
+      "nuevo": true,
+      "visto_desde": "2026-11-02",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~1.7 meses-persona, o sea del orden de $3M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 12,
+      "razones": [
+        "rubro ONU 43231503",
+        "«software» en el título",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4115-9-L126",
+      "descripcion": "Dar continuidad al software destinado a apoyar la gestión de adquisiciones, inventario, dispensación, ventas, caja, documentos tributarios electrónicos y generación de información para el registro contable institucional."
+    },
+    {
+      "codigo": "870-15-LE26",
+      "nombre": "E102RT8 SERV. ENLACE DE DATOS Y CONECTIVIDAD CNR",
+      "organismo": "COMISION NACIONAL DE RIEGO",
+      "unidad": "Comisión Nacional de Riego",
+      "tipo": "LE",
+      "cierre": "2026-11-09T15:00:00",
+      "habiles_restantes": 5,
+      "nuevo": true,
+      "visto_desde": "2026-11-02",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~8.7 meses-persona, o sea del orden de $17M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 8.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 9,
+      "razones": [
+        "rubro ONU 81112202",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=870-15-LE26",
+      "descripcion": "Garantizar la conectividad punto a punto, la estabilidad y la disponibilidad ininterrumpida de las comunicaciones de datos entre el Data Center de la CNR y el Data Center de ODEPA, asegurando un nivel de servicio continuo y seguro."
+    },
+    {
+      "codigo": "601-17-LE26",
+      "nombre": "Servicio mantención y otros del sitio web",
+      "organismo": "SUPERINTENDENCIA DE SALUD",
+      "unidad": "Superintendencia de Salud",
+      "tipo": "LE",
+      "cierre": "2026-11-10T15:10:00",
+      "habiles_restantes": 6,
+      "nuevo": true,
+      "visto_desde": "2026-11-02",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~5.3 meses-persona, o sea del orden de $11M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 5.3,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 15,
+      "razones": [
+        "rubro ONU 81112105",
+        "«sitio web» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=601-17-LE26",
+      "descripcion": "La Superintendencia de Salud, en adelante e indistintamente “la Superintendencia”, convoca a Licitación Pública a las personas naturales y jurídicas para que participen y presenten propuestas en el actual proceso de licitación de esta entidad, que administra a través del Portal de Mercado Público para la contratación de los servicios de hosting, infraestructura, almacenamiento, diseño, desarrollo, mantención, soporte y migración del contenido de su actual sitio web."
+    },
+    {
+      "codigo": "585-13-LE26",
+      "nombre": "Servicio de Implementación de Portal de Acceso",
+      "organismo": "SERVICIO DE COOPERACION TECNICA",
+      "unidad": "Sercotec - Nivel Central",
+      "tipo": "LE",
+      "cierre": "2026-11-12T16:00:00",
+      "habiles_restantes": 8,
+      "nuevo": true,
+      "visto_desde": "2026-11-02",
+      "monto": "25.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$25.0M contra ~$2M de costo estimado (1.1 meses-persona), $8.3M al mes por 3 meses.",
+        "monto_clp": 25000000,
+        "meses_contrato": 3.0,
+        "esfuerzo_mp": 1.1,
+        "mensual": 8333333
+      },
+      "veredicto": "revisar",
+      "puntaje": 13,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el detalle",
+        "«software» en el detalle",
+        "«desarrollo de plataforma» en el detalle",
+        "ruido: «capacitacion»"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=585-13-LE26",
+      "descripcion": "Servicio de diseño y puesta en marcha de un portal de acceso directo y sincronización de datos con los Portales de Capacitación, Ruta Digital y Pymes en Línea de Sercotec."
+    },
+    {
+      "codigo": "5155-36-LR26",
+      "nombre": "547 - Contratación sistema de gestión de personas para el Servicio Electoral",
+      "organismo": "SERVICIO ELECTORAL",
+      "unidad": "Unidad de Adquisiciones",
+      "tipo": "LR",
+      "cierre": "2026-11-30T15:00:00",
+      "habiles_restantes": 20,
+      "nuevo": true,
+      "visto_desde": "2026-11-02",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~14.5 meses-persona, o sea del orden de $29M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 48.0,
+        "esfuerzo_mp": 14.5,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 16,
+      "razones": [
+        "rubro ONU 43231511",
+        "«implementacion de sistema» en el detalle",
+        "«sistema de gestion» en el título",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5155-36-LR26",
+      "descripcion": "El Servicio Electoral requiere avanzar en la modernización de su gestión del capital humano mediante la contratación e implementación de un Sistema Integral de Gestión de Personas, provisto bajo la modalidad Software como Servicio (SaaS).\r\nEl objetivo de esta licitación es contratar la suscripción, habilitación, implementación, soporte y operación de un Sistema Integral de Gestión de Personas en modalidad SaaS, que permita modernizar los procesos de la División de Desarrollo de Personas del SERVEL, optimizar la eficiencia operativa institucional y garantizar el debido cumplimiento de la normativa aplicable al sector público en materia de gestión de recursos humanos, seguridad de la información y administración tecnológica.\r\nLa participación en el proceso de licitación implica la aceptación, por parte de los proponentes, de todos y cada uno de los términos y disposiciones contenidas en la"
+    }
+  ],
+  "por_cerrar": [
+    {
+      "codigo": "1230744-12-L126",
+      "nombre": "SUMINISTRO DE SISTEMA DE VENTA DE ENTRADAS",
+      "organismo": "CORPORACION MUNICIPAL DE CULTURA Y ARTES DE MOLINA",
+      "unidad": "Unidad de Administración y Finanzas",
+      "tipo": "L1",
+      "cierre": "2026-11-03T19:32:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-10-29",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~6.3 meses-persona, o sea del orden de $13M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 6.3,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231503",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1230744-12-L126",
+      "descripcion": "La Corporación Municipal de Cultura y Artes de Molina, requiere contratar la prestación de un servicio de un Sistema de venta de Entradas para el Teatro Municipal de Molina o de cualquier otro recinto en que dicha Corporación participe como Producción; Coproducción; auspiciador o patrocinador de cualquier tipo de evento."
+    },
+    {
+      "codigo": "885-107-LE26",
+      "nombre": "Contratación de una herramienta automatizada de análisis de vulnerabilidades de ciberseguridad para la CGR",
+      "organismo": "CONTRALORIA GENERAL DE LA REPUBLICA",
+      "unidad": "Contraloría General de la República",
+      "tipo": "LE",
+      "cierre": "2026-11-03T16:00:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-10-27",
+      "monto": "25.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$25.0M contra ~$6M de costo estimado (2.9 meses-persona), $2.1M al mes por 12 meses.",
+        "monto_clp": 25000000,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 2.9,
+        "mensual": 2083333
+      },
+      "veredicto": "revisar",
+      "puntaje": 9,
+      "razones": [
+        "rubro ONU 43231511",
+        "«ciberseguridad» en el título",
+        "«software» en el detalle",
+        "ruido: «capacitacion»"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=885-107-LE26",
+      "descripcion": "La Contraloría General de la República, requiere la contratación de una herramienta automatizada de análisis de vulnerabilidades de ciberseguridad, que incluya la provisión e instalación del software, capacitación para su uso, licencias y soporte, por un período de 12 meses."
+    },
+    {
+      "codigo": "1221019-17-LE26",
+      "nombre": "Plataforma de Venta de Entradas para Evento.",
+      "organismo": "Corporación Municipal de Deporte  de Vitacura",
+      "unidad": "Corporación",
+      "tipo": "LE",
+      "cierre": "2026-11-04T18:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-10-19",
+      "monto": "25.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$25.0M contra ~$3M de costo estimado (1.7 meses-persona).",
+        "monto_clp": 25000000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 16,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el detalle",
+        "«software» en el detalle",
+        "«desarrollo de plataforma» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1221019-17-LE26",
+      "descripcion": "La presente propuesta, tiene por finalidad contratar el servicio de ticketera, para la Implementación, Administración y Operación de Plataforma de Venta de Entradas para Evento “Sport Fest Vitacura 2026, con el objeto de automatizar y optimizar la venta de entradas, el cobro digital y el control de acceso del público de forma segura y centralizada. "
+    },
+    {
+      "codigo": "1019-117-LP26",
+      "nombre": "SERVICIO DE APOYO AL DESARROLLO E IMPLEMENTACIÓN",
+      "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+      "unidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO",
+      "tipo": "LP",
+      "cierre": "2026-11-04T17:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-10-06",
+      "monto": "150.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$150.0M contra ~$12M de costo estimado (6 meses-persona), $10.7M al mes por 14 meses.",
+        "monto_clp": 150000000,
+        "meses_contrato": 14.0,
+        "esfuerzo_mp": 6.0,
+        "mensual": 10714286
+      },
+      "veredicto": "revisar",
+      "puntaje": 15,
+      "razones": [
+        "rubro ONU 43232402",
+        "«software» en el detalle",
+        "«desarrollo e implementacion» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1019-117-LP26",
+      "descripcion": "SERVICIO DE APOYO AL DESARROLLO E IMPLEMENTACIÓN DEL BACKLOG DE LA DIRECCIÓN GENERAL DE AGUAS\r\nEl objetivo de la presente licitación es contratar servicios personales para el desarrollo e implementación de soluciones de software correspondientes a las iniciativas priorizadas del backlog institucional de la Dirección General de Aguas, que permita ejecutar funcionalidades, componentes e integraciones requeridas para la modernización de los procesos, plataformas y servicios digitales de la Institución, conforme a la arquitectura, estándares y lineamientos tecnológicos definidos por la DGA."
+    },
+    {
+      "codigo": "1058014-13-LE26",
+      "nombre": "MEDICAMENTOS  PROGRAMACION  SERV FARMACIA",
+      "organismo": "SERVICIO DE SALUD ARAUCO HOSPITAL DE ARAUCO",
+      "unidad": "Fármarcos",
+      "tipo": "LE",
+      "cierre": "2026-11-04T16:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-10-29",
+      "monto": "7.960.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$8.0M contra ~$3M de costo estimado (1.7 meses-persona).",
+        "monto_clp": 7960000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 9,
+      "razones": [
+        "«programacion» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1058014-13-LE26",
+      "descripcion": "\r\nEl Hospital de Arauco, requiere adquirir Medicamentos Programación Compras Servicio Farmacia 2026  para el Servicio de Farmacia del Hospital Arauco según especificaciones Técnicas de las presentes bases de licitación.\r\n"
+    }
+  ],
+  "oportunidades": [
+    {
+      "codigo": "1485217-20-LE26",
+      "nombre": "SERVICIO DE LEVANTAMIENTO VALORIZACIÓN Y ARRIENDO DE SOFTWARE DE ADMINISTRACIÓN Y GESTIÓN DE INVENTARIO BAJO NORMAS NICSP-CGR",
+      "organismo": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA SANTIAGO CENTRO",
+      "unidad": "ESTABLECIMIENTOS EDUCACIONALES P02",
+      "tipo": "LE",
+      "cierre": "2026-11-06T16:30:00",
+      "habiles_restantes": 4,
+      "nuevo": true,
+      "visto_desde": "2026-11-02",
+      "monto": "60.349.312 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$60.3M contra ~$13M de costo estimado (6.3 meses-persona), $2.5M al mes por 24 meses.",
+        "monto_clp": 60349312,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 6.3,
+        "mensual": 2514555
+      },
+      "veredicto": "revisar",
+      "puntaje": 9,
+      "razones": [
+        "rubro ONU 43231508",
+        "«software» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1485217-20-LE26",
+      "descripcion": "SE REQUIERE CONTRATAR EL SERVICIO DE LEVANTAMIENTO, VALORIZACIÓN Y ARRIENDO DE SOFTWARE DE ADMINISTRACIÓN Y GESTIÓN DE INVENTARIO, BAJO NORMAS NICSP-CGR DEL SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DE SANTIAGO CENTRO, SEGÚN BASES ADJUNTAS APROBADAS POR RES. EXENTA N°1884/2026"
+    },
+    {
+      "codigo": "568963-27-LE26",
+      "nombre": "PLATAFORMA DIGITAL INTEGRAL DE GESTIÓN DE PERSONAS",
+      "organismo": "COMISION DEL SISTEMA NACIONAL DE CERTIFICACION DE COMPETENCIAS LABORALES",
+      "unidad": "CSNCCL",
+      "tipo": "LE",
+      "cierre": "2026-11-09T15:00:00",
+      "habiles_restantes": 5,
+      "nuevo": true,
+      "visto_desde": "2026-11-02",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~5.5 meses-persona, o sea del orden de $11M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 5.5,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 20,
+      "razones": [
+        "rubro ONU 43231505",
+        "«aplicacion movil» en el detalle",
+        "«plataforma web» en el detalle",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=568963-27-LE26",
+      "descripcion": "Contratación de un sistema integral de control de asistencia, como de gestión y desarrollo de personas para ChileValora, cuyo propósito es integrar, automatizar y optimizar los procesos de recursos humanos de la institución. La solución deberá operar en modalidad SaaS, estar alojada en la nube, disponer de aplicación móvil nativa para sistemas Android y iOS, y contar con una plataforma web."
+    },
+    {
+      "codigo": "3756-48-LE26",
+      "nombre": "SERVICIO DE SOFTWARE GESTIÓN DOCUMENTAL PARA LA MUNICIPALIDAD DE PELARCO",
+      "organismo": "I MUNICIPALIDAD DE PELARCO",
+      "unidad": "I MUNICIPALIDAD DE PELARCO",
+      "tipo": "LE",
+      "cierre": "2026-11-09T15:01:00",
+      "habiles_restantes": 5,
+      "nuevo": true,
+      "visto_desde": "2026-11-02",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~5.5 meses-persona, o sea del orden de $11M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 5.5,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 13,
+      "razones": [
+        "rubro ONU 43232903",
+        "«software» en el título",
+        "«gestion documental» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3756-48-LE26",
+      "descripcion": "SERVICIO DE SOFTWARE GESTIÓN DOCUMENTAL PARA LA MUNICIPALIDAD DE PELARCO"
+    },
+    {
+      "codigo": "4115-9-L126",
+      "nombre": "CV SUM SOFTWARE GESTION FARMACIA POPU CURACAUTIN",
+      "organismo": "I MUNICIPALIDAD DE CURACAUTIN",
+      "unidad": "SALUD",
+      "tipo": "L1",
+      "cierre": "2026-11-09T15:30:00",
+      "habiles_restantes": 5,
+      "nuevo": true,
+      "visto_desde": "2026-11-02",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~1.7 meses-persona, o sea del orden de $3M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 12,
+      "razones": [
+        "rubro ONU 43231503",
+        "«software» en el título",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4115-9-L126",
+      "descripcion": "Dar continuidad al software destinado a apoyar la gestión de adquisiciones, inventario, dispensación, ventas, caja, documentos tributarios electrónicos y generación de información para el registro contable institucional."
+    },
+    {
+      "codigo": "870-15-LE26",
+      "nombre": "E102RT8 SERV. ENLACE DE DATOS Y CONECTIVIDAD CNR",
+      "organismo": "COMISION NACIONAL DE RIEGO",
+      "unidad": "Comisión Nacional de Riego",
+      "tipo": "LE",
+      "cierre": "2026-11-09T15:00:00",
+      "habiles_restantes": 5,
+      "nuevo": true,
+      "visto_desde": "2026-11-02",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~8.7 meses-persona, o sea del orden de $17M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 8.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 9,
+      "razones": [
+        "rubro ONU 81112202",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=870-15-LE26",
+      "descripcion": "Garantizar la conectividad punto a punto, la estabilidad y la disponibilidad ininterrumpida de las comunicaciones de datos entre el Data Center de la CNR y el Data Center de ODEPA, asegurando un nivel de servicio continuo y seguro."
+    },
+    {
+      "codigo": "601-17-LE26",
+      "nombre": "Servicio mantención y otros del sitio web",
+      "organismo": "SUPERINTENDENCIA DE SALUD",
+      "unidad": "Superintendencia de Salud",
+      "tipo": "LE",
+      "cierre": "2026-11-10T15:10:00",
+      "habiles_restantes": 6,
+      "nuevo": true,
+      "visto_desde": "2026-11-02",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~5.3 meses-persona, o sea del orden de $11M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 5.3,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 15,
+      "razones": [
+        "rubro ONU 81112105",
+        "«sitio web» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=601-17-LE26",
+      "descripcion": "La Superintendencia de Salud, en adelante e indistintamente “la Superintendencia”, convoca a Licitación Pública a las personas naturales y jurídicas para que participen y presenten propuestas en el actual proceso de licitación de esta entidad, que administra a través del Portal de Mercado Público para la contratación de los servicios de hosting, infraestructura, almacenamiento, diseño, desarrollo, mantención, soporte y migración del contenido de su actual sitio web."
+    },
+    {
+      "codigo": "585-13-LE26",
+      "nombre": "Servicio de Implementación de Portal de Acceso",
+      "organismo": "SERVICIO DE COOPERACION TECNICA",
+      "unidad": "Sercotec - Nivel Central",
+      "tipo": "LE",
+      "cierre": "2026-11-12T16:00:00",
+      "habiles_restantes": 8,
+      "nuevo": true,
+      "visto_desde": "2026-11-02",
+      "monto": "25.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$25.0M contra ~$2M de costo estimado (1.1 meses-persona), $8.3M al mes por 3 meses.",
+        "monto_clp": 25000000,
+        "meses_contrato": 3.0,
+        "esfuerzo_mp": 1.1,
+        "mensual": 8333333
+      },
+      "veredicto": "revisar",
+      "puntaje": 13,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el detalle",
+        "«software» en el detalle",
+        "«desarrollo de plataforma» en el detalle",
+        "ruido: «capacitacion»"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=585-13-LE26",
+      "descripcion": "Servicio de diseño y puesta en marcha de un portal de acceso directo y sincronización de datos con los Portales de Capacitación, Ruta Digital y Pymes en Línea de Sercotec."
+    },
+    {
+      "codigo": "5155-36-LR26",
+      "nombre": "547 - Contratación sistema de gestión de personas para el Servicio Electoral",
+      "organismo": "SERVICIO ELECTORAL",
+      "unidad": "Unidad de Adquisiciones",
+      "tipo": "LR",
+      "cierre": "2026-11-30T15:00:00",
+      "habiles_restantes": 20,
+      "nuevo": true,
+      "visto_desde": "2026-11-02",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~14.5 meses-persona, o sea del orden de $29M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 48.0,
+        "esfuerzo_mp": 14.5,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 16,
+      "razones": [
+        "rubro ONU 43231511",
+        "«implementacion de sistema» en el detalle",
+        "«sistema de gestion» en el título",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5155-36-LR26",
+      "descripcion": "El Servicio Electoral requiere avanzar en la modernización de su gestión del capital humano mediante la contratación e implementación de un Sistema Integral de Gestión de Personas, provisto bajo la modalidad Software como Servicio (SaaS).\r\nEl objetivo de esta licitación es contratar la suscripción, habilitación, implementación, soporte y operación de un Sistema Integral de Gestión de Personas en modalidad SaaS, que permita modernizar los procesos de la División de Desarrollo de Personas del SERVEL, optimizar la eficiencia operativa institucional y garantizar el debido cumplimiento de la normativa aplicable al sector público en materia de gestión de recursos humanos, seguridad de la información y administración tecnológica.\r\nLa participación en el proceso de licitación implica la aceptación, por parte de los proponentes, de todos y cada uno de los términos y disposiciones contenidas en la"
+    }
+  ]
+}
