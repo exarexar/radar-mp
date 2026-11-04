@@ -1,110 +1,19 @@
 {
-  "generado": "2026-11-03 13:56",
-  "fecha": "2026-11-03",
+  "generado": "2026-11-04 13:59",
+  "fecha": "2026-11-04",
   "horizonte": 20,
-  "fecha_hasta": "2026-12-01",
+  "fecha_hasta": "2026-12-02",
   "primera_corrida": false,
   "modo": "solo desarrollo",
   "resumen": {
-    "activas_revisadas": 5074,
-    "detalles_consultados": 445,
-    "nuevas": 1,
-    "por_cerrar": 7,
-    "llamadas_api": 59
+    "activas_revisadas": 5164,
+    "detalles_consultados": 452,
+    "nuevas": 0,
+    "por_cerrar": 10,
+    "llamadas_api": 43
   },
-  "nuevas": [
-    {
-      "codigo": "577290-5-LP26",
-      "nombre": "Servicio Programación Calculo Del Tamaño de Flota",
-      "organismo": "SUBSECRETARIA DE TRANSPORTES",
-      "unidad": "Subsidio Nacional Transporte Publico",
-      "tipo": "LP",
-      "cierre": "2026-12-01T13:00:00",
-      "habiles_restantes": 20,
-      "nuevo": true,
-      "visto_desde": "2026-11-03",
-      "monto": "no informado",
-      "precio": {
-        "nivel": "sin_monto",
-        "etiqueta": "monto no publicado",
-        "detalle": "El organismo no informó presupuesto. Estimo ~6.7 meses-persona, o sea del orden de $13M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
-        "monto_clp": null,
-        "meses_contrato": 26.0,
-        "esfuerzo_mp": 6.7,
-        "mensual": null
-      },
-      "veredicto": "revisar",
-      "puntaje": 10,
-      "razones": [
-        "«programacion» en el título",
-        "«software» en el detalle"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=577290-5-LP26",
-      "descripcion": "El Ministerio de Transportes y Telecomunicaciones tiene como uno de sus objetivos prioritarios el contar con un sistema de transporte público regional eficiente, seguro y de calidad que se extienda a lo largo de todas las regiones de nuestro país. A fin de dar cumplimiento a dicho objetivo, se realiza el llamado a licitación para contratar un servicio provisto bajo modalidad Software como Servicio SaaS de programación operacional y modelación de servicios de transporte público, orientado al cálculo del tamaño de flota necesaria para la operación y al dimensionamiento de personal de conducción. Esta plataforma debe contribuir a mejorar la evaluación y diseño de sistemas de transporte público al permitir establecer de manera precisa y fundamentada la cantidad de buses y personal de conducción necesarios para cumplir un plan operacional determinado, considerando el análisis de distintos esc"
-    }
-  ],
+  "nuevas": [],
   "por_cerrar": [
-    {
-      "codigo": "1230744-12-L126",
-      "nombre": "SUMINISTRO DE SISTEMA DE VENTA DE ENTRADAS",
-      "organismo": "CORPORACION MUNICIPAL DE CULTURA Y ARTES DE MOLINA",
-      "unidad": "Unidad de Administración y Finanzas",
-      "tipo": "L1",
-      "cierre": "2026-11-03T19:32:00",
-      "habiles_restantes": 0,
-      "nuevo": false,
-      "visto_desde": "2026-10-29",
-      "monto": "no informado",
-      "precio": {
-        "nivel": "sin_monto",
-        "etiqueta": "monto no publicado",
-        "detalle": "El organismo no informó presupuesto. Estimo ~6.3 meses-persona, o sea del orden de $13M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
-        "monto_clp": null,
-        "meses_contrato": 24.0,
-        "esfuerzo_mp": 6.3,
-        "mensual": null
-      },
-      "veredicto": "revisar",
-      "puntaje": 10,
-      "razones": [
-        "rubro ONU 43231503",
-        "«software» en el detalle",
-        "«software de gestion» en el detalle"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1230744-12-L126",
-      "descripcion": "La Corporación Municipal de Cultura y Artes de Molina, requiere contratar la prestación de un servicio de un Sistema de venta de Entradas para el Teatro Municipal de Molina o de cualquier otro recinto en que dicha Corporación participe como Producción; Coproducción; auspiciador o patrocinador de cualquier tipo de evento."
-    },
-    {
-      "codigo": "885-107-LE26",
-      "nombre": "Contratación de una herramienta automatizada de análisis de vulnerabilidades de ciberseguridad para la CGR",
-      "organismo": "CONTRALORIA GENERAL DE LA REPUBLICA",
-      "unidad": "Contraloría General de la República",
-      "tipo": "LE",
-      "cierre": "2026-11-03T16:00:00",
-      "habiles_restantes": 0,
-      "nuevo": false,
-      "visto_desde": "2026-10-27",
-      "monto": "25.000.000 CLP",
-      "precio": {
-        "nivel": "verde",
-        "etiqueta": "presupuesto razonable",
-        "detalle": "$25.0M contra ~$6M de costo estimado (2.9 meses-persona), $2.1M al mes por 12 meses.",
-        "monto_clp": 25000000,
-        "meses_contrato": 12.0,
-        "esfuerzo_mp": 2.9,
-        "mensual": 2083333
-      },
-      "veredicto": "revisar",
-      "puntaje": 9,
-      "razones": [
-        "rubro ONU 43231511",
-        "«ciberseguridad» en el título",
-        "«software» en el detalle",
-        "ruido: «capacitacion»"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=885-107-LE26",
-      "descripcion": "La Contraloría General de la República, requiere la contratación de una herramienta automatizada de análisis de vulnerabilidades de ciberseguridad, que incluya la provisión e instalación del software, capacitación para su uso, licencias y soporte, por un período de 12 meses."
-    },
     {
       "codigo": "1221019-17-LE26",
       "nombre": "Plataforma de Venta de Entradas para Evento.",
@@ -112,7 +21,7 @@
       "unidad": "Corporación",
       "tipo": "LE",
       "cierre": "2026-11-04T18:00:00",
-      "habiles_restantes": 1,
+      "habiles_restantes": 0,
       "nuevo": false,
       "visto_desde": "2026-10-19",
       "monto": "25.000.000 CLP",
@@ -143,7 +52,7 @@
       "unidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO",
       "tipo": "LP",
       "cierre": "2026-11-04T17:00:00",
-      "habiles_restantes": 1,
+      "habiles_restantes": 0,
       "nuevo": false,
       "visto_desde": "2026-10-06",
       "monto": "150.000.000 CLP",
@@ -173,7 +82,7 @@
       "unidad": "Fármarcos",
       "tipo": "LE",
       "cierre": "2026-11-04T16:00:00",
-      "habiles_restantes": 1,
+      "habiles_restantes": 0,
       "nuevo": false,
       "visto_desde": "2026-10-29",
       "monto": "7.960.000 CLP",
@@ -201,7 +110,7 @@
       "unidad": "DEPARTAMENTO DE ABASTECIMIENTO",
       "tipo": "LE",
       "cierre": "2026-11-05T20:00:00",
-      "habiles_restantes": 2,
+      "habiles_restantes": 1,
       "nuevo": false,
       "visto_desde": "2026-10-27",
       "monto": "34.000.000 CLP",
@@ -230,7 +139,7 @@
       "unidad": "DEPTO DE SALUD MUNICIPAL",
       "tipo": "LE",
       "cierre": "2026-11-05T15:32:00",
-      "habiles_restantes": 2,
+      "habiles_restantes": 1,
       "nuevo": false,
       "visto_desde": "2026-10-27",
       "monto": "10.000.000 CLP",
@@ -251,37 +160,157 @@
       ],
       "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5350-38-LE26",
       "descripcion": "CONVENIO SUMINISTRO SOFTWARE INVENTARIO DROGUERIA"
-    }
-  ],
-  "oportunidades": [
+    },
     {
-      "codigo": "577290-5-LP26",
-      "nombre": "Servicio Programación Calculo Del Tamaño de Flota",
-      "organismo": "SUBSECRETARIA DE TRANSPORTES",
-      "unidad": "Subsidio Nacional Transporte Publico",
+      "codigo": "425-72-LP26",
+      "nombre": "Arriendo de Kioscos Autoconsulta y Aplicativo CJS",
+      "organismo": "CORP ADMINISTRATIVA DEL PODER JUDICIAL",
+      "unidad": "Servicios",
       "tipo": "LP",
-      "cierre": "2026-12-01T13:00:00",
-      "habiles_restantes": 20,
-      "nuevo": true,
-      "visto_desde": "2026-11-03",
+      "cierre": "2026-11-06T16:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-10-14",
       "monto": "no informado",
       "precio": {
         "nivel": "sin_monto",
         "etiqueta": "monto no publicado",
-        "detalle": "El organismo no informó presupuesto. Estimo ~6.7 meses-persona, o sea del orden de $13M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "detalle": "El organismo no informó presupuesto. Estimo ~8.7 meses-persona, o sea del orden de $17M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
         "monto_clp": null,
-        "meses_contrato": 26.0,
-        "esfuerzo_mp": 6.7,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 8.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 16,
+      "razones": [
+        "rubro ONU 81111809",
+        "«aplicativo» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=425-72-LP26",
+      "descripcion": "UR(1813) Servicio de arriendo de Kioscos de Autoconsulta y Desarrollo de Aplicativo para el Centro de Justicia de Santiago"
+    },
+    {
+      "codigo": "1057432-98-LE26",
+      "nombre": "CONTRATACIÓN PLATAFORMA MOODLE POR UN PERIODO DE 2",
+      "organismo": "SERVICIO DE SALUD CONCEPCION",
+      "unidad": "Servicio de Salud  Concepción",
+      "tipo": "LE",
+      "cierre": "2026-11-06T15:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-10-27",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~5.3 meses-persona, o sea del orden de $11M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 5.3,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 14,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el detalle",
+        "«software» en el detalle",
+        "«desarrollo de plataforma» en el detalle",
+        "ruido: «capacitacion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057432-98-LE26",
+      "descripcion": "CONTRATACIÓN PLATAFORMA MOODLE POR UN PERIODO DE 24 MESES; El Servicio de Salud Concepción SSC requiere obtener un servicio de plataforma de capacitación virtual, que cree, gestione y administre los cursos que se soliciten. Con el objetivo de entregar a los funcionarios dependientes de SSC y funcionarios de APS, las capacitaciones necesarias para mejorar la calidad de la atención de usuarios."
+    },
+    {
+      "codigo": "2735-149-LR26",
+      "nombre": "Servicio de Software de Gestión y Registro Clinico",
+      "organismo": "I MUNICIPALIDAD LO BARNECHEA",
+      "unidad": "Municipalidad de lo Barnechea - Adquisiciones - Consistorial",
+      "tipo": "LR",
+      "cierre": "2026-11-06T15:30:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-10-02",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~14.1 meses-persona, o sea del orden de $28M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 63.0,
+        "esfuerzo_mp": 14.1,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 14,
+      "razones": [
+        "rubro ONU 43232610",
+        "«software» en el título",
+        "«software de gestion» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2735-149-LR26",
+      "descripcion": "El objeto principal del servicio es proveer una plataforma tecnológica integral 100% web que dé estricto cumplimiento a lo dispuesto en la Ley N° 20.584 sobre Derechos y Deberes del Paciente, a la Ley N° 21.668 en materia de obligatoriedad e interoperabilidad de las fichas clínicas, y a la Ley N° 19.628 sobre protección de la vida privada, permitiendo mantener un registro clínico electrónico unificado, consistente, seguro y custodiado por la Dirección de Salud"
+    },
+    {
+      "codigo": "765-24-LE26",
+      "nombre": "Digitalizar e integrar trámites plataforma SUPER",
+      "organismo": "CORP NACIONAL DE DESARROLLO INDIGENA",
+      "unidad": "CORP NACIONAL DE DESARROLLO INDIGENA",
+      "tipo": "LE",
+      "cierre": "2026-11-06T12:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-10-26",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~1.7 meses-persona, o sea del orden de $3M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
         "mensual": null
       },
       "veredicto": "revisar",
       "puntaje": 10,
       "razones": [
-        "«programacion» en el título",
-        "«software» en el detalle"
+        "rubro ONU 43232303",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
       ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=577290-5-LP26",
-      "descripcion": "El Ministerio de Transportes y Telecomunicaciones tiene como uno de sus objetivos prioritarios el contar con un sistema de transporte público regional eficiente, seguro y de calidad que se extienda a lo largo de todas las regiones de nuestro país. A fin de dar cumplimiento a dicho objetivo, se realiza el llamado a licitación para contratar un servicio provisto bajo modalidad Software como Servicio SaaS de programación operacional y modelación de servicios de transporte público, orientado al cálculo del tamaño de flota necesaria para la operación y al dimensionamiento de personal de conducción. Esta plataforma debe contribuir a mejorar la evaluación y diseño de sistemas de transporte público al permitir establecer de manera precisa y fundamentada la cantidad de buses y personal de conducción necesarios para cumplir un plan operacional determinado, considerando el análisis de distintos esc"
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=765-24-LE26",
+      "descripcion": "Desarrollo de cuatro módulos SIMPLE para la gestión administrativa de autorizaciones CONADI e integrarlos con el Sistema Unificado de Permisos SUPER"
+    },
+    {
+      "codigo": "1485217-20-LE26",
+      "nombre": "SERVICIO DE LEVANTAMIENTO VALORIZACIÓN Y ARRIENDO DE SOFTWARE DE ADMINISTRACIÓN Y GESTIÓN DE INVENTARIO BAJO NORMAS NICSP-CGR",
+      "organismo": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA SANTIAGO CENTRO",
+      "unidad": "ESTABLECIMIENTOS EDUCACIONALES P02",
+      "tipo": "LE",
+      "cierre": "2026-11-06T16:30:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-11-02",
+      "monto": "60.349.312 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$60.3M contra ~$13M de costo estimado (6.3 meses-persona), $2.5M al mes por 24 meses.",
+        "monto_clp": 60349312,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 6.3,
+        "mensual": 2514555
+      },
+      "veredicto": "revisar",
+      "puntaje": 9,
+      "razones": [
+        "rubro ONU 43231508",
+        "«software» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1485217-20-LE26",
+      "descripcion": "SE REQUIERE CONTRATAR EL SERVICIO DE LEVANTAMIENTO, VALORIZACIÓN Y ARRIENDO DE SOFTWARE DE ADMINISTRACIÓN Y GESTIÓN DE INVENTARIO, BAJO NORMAS NICSP-CGR DEL SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DE SANTIAGO CENTRO, SEGÚN BASES ADJUNTAS APROBADAS POR RES. EXENTA N°1884/2026"
     }
-  ]
+  ],
+  "oportunidades": []
 }
