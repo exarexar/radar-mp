@@ -1,108 +1,140 @@
 {
-  "generado": "2026-11-04 13:59",
-  "fecha": "2026-11-04",
+  "generado": "2026-11-05 14:16",
+  "fecha": "2026-11-05",
   "horizonte": 20,
-  "fecha_hasta": "2026-12-02",
+  "fecha_hasta": "2026-12-03",
   "primera_corrida": false,
   "modo": "solo desarrollo",
   "resumen": {
-    "activas_revisadas": 5164,
-    "detalles_consultados": 452,
-    "nuevas": 0,
-    "por_cerrar": 10,
-    "llamadas_api": 43
+    "activas_revisadas": 5252,
+    "detalles_consultados": 449,
+    "nuevas": 4,
+    "por_cerrar": 13,
+    "llamadas_api": 115
   },
-  "nuevas": [],
-  "por_cerrar": [
+  "nuevas": [
     {
-      "codigo": "1221019-17-LE26",
-      "nombre": "Plataforma de Venta de Entradas para Evento.",
-      "organismo": "Corporación Municipal de Deporte  de Vitacura",
-      "unidad": "Corporación",
+      "codigo": "3697-52-LE26",
+      "nombre": "Contrato de Sum arriendo Software de Gestión Adm y Control de Licencias Médicas",
+      "organismo": "I MUNICIPALIDAD DE VICTORIA",
+      "unidad": "Adquisiciones",
       "tipo": "LE",
-      "cierre": "2026-11-04T18:00:00",
-      "habiles_restantes": 0,
-      "nuevo": false,
-      "visto_desde": "2026-10-19",
-      "monto": "25.000.000 CLP",
+      "cierre": "2026-11-13T15:00:00",
+      "habiles_restantes": 6,
+      "nuevo": true,
+      "visto_desde": "2026-11-05",
+      "monto": "11.100.000 CLP",
       "precio": {
-        "nivel": "verde",
-        "etiqueta": "presupuesto razonable",
-        "detalle": "$25.0M contra ~$3M de costo estimado (1.7 meses-persona).",
-        "monto_clp": 25000000,
-        "meses_contrato": null,
-        "esfuerzo_mp": 1.7,
-        "mensual": null
+        "nivel": "roja",
+        "etiqueta": "no paga ni una persona",
+        "detalle": "$11.1M repartidos en 24 meses son $0.5M al mes. No alcanza ni para tener a una persona dedicada.",
+        "monto_clp": 11100000,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 6.3,
+        "mensual": 462500
       },
-      "veredicto": "revisar",
+      "veredicto": "nogo",
       "puntaje": 16,
       "razones": [
-        "rubro ONU 43232408",
-        "«plataforma web» en el detalle",
-        "«software» en el detalle",
-        "«desarrollo de plataforma» en el detalle"
+        "rubro ONU 43231512",
+        "«software» en el título",
+        "«software de gestion» en el título"
       ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1221019-17-LE26",
-      "descripcion": "La presente propuesta, tiene por finalidad contratar el servicio de ticketera, para la Implementación, Administración y Operación de Plataforma de Venta de Entradas para Evento “Sport Fest Vitacura 2026, con el objeto de automatizar y optimizar la venta de entradas, el cobro digital y el control de acceso del público de forma segura y centralizada. "
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3697-52-LE26",
+      "descripcion": "La Municipalidad de Victoria, requiere contratar con el servicio por arriendo de un software de gestión, administración y control de licencias médicas solicitado por la Oficina de Remuneraciones, según anexo técnico adjunto."
     },
     {
-      "codigo": "1019-117-LP26",
-      "nombre": "SERVICIO DE APOYO AL DESARROLLO E IMPLEMENTACIÓN",
-      "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-      "unidad": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO",
-      "tipo": "LP",
-      "cierre": "2026-11-04T17:00:00",
-      "habiles_restantes": 0,
-      "nuevo": false,
-      "visto_desde": "2026-10-06",
-      "monto": "150.000.000 CLP",
+      "codigo": "2251-17-LE26",
+      "nombre": "Arriendo software interpretación imágenes rayos X",
+      "organismo": "DIRECCION GENERAL DE AERONAUTICA CIVIL",
+      "unidad": "UNIDAD DE COMPRA ESCUELA TECNICA DE AERONAUTICA",
+      "tipo": "LE",
+      "cierre": "2026-11-16T15:31:00",
+      "habiles_restantes": 7,
+      "nuevo": true,
+      "visto_desde": "2026-11-05",
+      "monto": "33.960.000 CLP",
       "precio": {
         "nivel": "verde",
         "etiqueta": "presupuesto razonable",
-        "detalle": "$150.0M contra ~$12M de costo estimado (6 meses-persona), $10.7M al mes por 14 meses.",
-        "monto_clp": 150000000,
-        "meses_contrato": 14.0,
-        "esfuerzo_mp": 6.0,
-        "mensual": 10714286
+        "detalle": "$34.0M contra ~$8M de costo estimado (3.9 meses-persona), $2.8M al mes por 12 meses.",
+        "monto_clp": 33960000,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 3.9,
+        "mensual": 2830000
       },
       "veredicto": "revisar",
-      "puntaje": 15,
+      "puntaje": 10,
       "razones": [
-        "rubro ONU 43232402",
-        "«software» en el detalle",
-        "«desarrollo e implementacion» en el título"
+        "rubro ONU 81112106",
+        "«software» en el título"
       ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1019-117-LP26",
-      "descripcion": "SERVICIO DE APOYO AL DESARROLLO E IMPLEMENTACIÓN DEL BACKLOG DE LA DIRECCIÓN GENERAL DE AGUAS\r\nEl objetivo de la presente licitación es contratar servicios personales para el desarrollo e implementación de soluciones de software correspondientes a las iniciativas priorizadas del backlog institucional de la Dirección General de Aguas, que permita ejecutar funcionalidades, componentes e integraciones requeridas para la modernización de los procesos, plataformas y servicios digitales de la Institución, conforme a la arquitectura, estándares y lineamientos tecnológicos definidos por la DGA."
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2251-17-LE26",
+      "descripcion": "La necesidad de la Escuela Técnica Aeronáutica (ETA) de contratar por 12 meses el arriendo de software de interpretación de imágenes de rayos X para la formación AVSEC de la ETA, para más información, favor de revisar Bases Técnicas, Bases Administrativas así como todo anexo asociado."
     },
     {
-      "codigo": "1058014-13-LE26",
-      "nombre": "MEDICAMENTOS  PROGRAMACION  SERV FARMACIA",
-      "organismo": "SERVICIO DE SALUD ARAUCO HOSPITAL DE ARAUCO",
-      "unidad": "Fármarcos",
+      "codigo": "514862-145-LE26",
+      "nombre": "SOFTWARE GESTION DE PERSONAS Y CONTROL ASISTENCIA",
+      "organismo": "CORPORACION MUNICIPAL DE PENALOLEN PARA EL DESARROLO SOCIAL CORMUP",
+      "unidad": "CORPORACION MUNICIPAL DE PENALOLEN PARA EL DESARRO",
       "tipo": "LE",
-      "cierre": "2026-11-04T16:00:00",
-      "habiles_restantes": 0,
-      "nuevo": false,
-      "visto_desde": "2026-10-29",
-      "monto": "7.960.000 CLP",
+      "cierre": "2026-11-17T15:01:00",
+      "habiles_restantes": 8,
+      "nuevo": true,
+      "visto_desde": "2026-11-05",
+      "monto": "11.000.000 CLP",
       "precio": {
-        "nivel": "verde",
-        "etiqueta": "presupuesto razonable",
-        "detalle": "$8.0M contra ~$3M de costo estimado (1.7 meses-persona).",
-        "monto_clp": 7960000,
-        "meses_contrato": null,
-        "esfuerzo_mp": 1.7,
+        "nivel": "roja",
+        "etiqueta": "no paga ni una persona",
+        "detalle": "$11.0M repartidos en 24 meses son $0.5M al mes. No alcanza ni para tener a una persona dedicada.",
+        "monto_clp": 11000000,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 6.3,
+        "mensual": 458333
+      },
+      "veredicto": "nogo",
+      "puntaje": 12,
+      "razones": [
+        "rubro ONU 43231505",
+        "«software» en el título",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=514862-145-LE26",
+      "descripcion": "DESARROLLO SOFTWARE GESTION DE PERSONAS Y CONTROL DE ASISTENCIA SOLPED 10032772"
+    },
+    {
+      "codigo": "2582-73-LR26",
+      "nombre": "ARRIENDO DE SISTEMAS COMPUTACIONALES PARA LA IMS",
+      "organismo": "I MUNICIPALIDAD DE SANTIAGO",
+      "unidad": "SECPLAN",
+      "tipo": "LR",
+      "cierre": "2026-12-03T14:00:00",
+      "habiles_restantes": 20,
+      "nuevo": true,
+      "visto_desde": "2026-11-05",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~8.7 meses-persona, o sea del orden de $17M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 8.7,
         "mensual": null
       },
       "veredicto": "revisar",
-      "puntaje": 9,
+      "puntaje": 13,
       "razones": [
-        "«programacion» en el título"
+        "rubro ONU 43231505",
+        "«erp» en el detalle",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
       ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1058014-13-LE26",
-      "descripcion": "\r\nEl Hospital de Arauco, requiere adquirir Medicamentos Programación Compras Servicio Farmacia 2026  para el Servicio de Farmacia del Hospital Arauco según especificaciones Técnicas de las presentes bases de licitación.\r\n"
-    },
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2582-73-LR26",
+      "descripcion": "El objetivo del servicio licitado es el arriendo de una solución computacional lntegral\r\npara la llustre Municipalidad de Santiago, considerando la exteinalización de los\r\nservicios de administración y manejo de datos, contemplando la respectiva plataforma\r\ntecnológica. Lo anterior, destinado a responder a los requerimientos de información que\r\nplantea el ejercicio de las funciones municipales.\r\nEsta licitación también incluye el servicio de migración de los datos municipales, de\r\nmanera de garantizar la operación normal e histórica de los sistemas. Esta migración\r\nestará a cargo de la empresa adjudicataria de la licitación. Las empresas oferentes\r\ndeberán presentar en su propuesta y plan de trabajo por cada sistema, la forma de\r\nmigrar. los problemas presentados, procedimiento uiilizado, detalle de la información\r\ntraspasada y la no traspasada y toda aquella documentación que permita un"
+    }
+  ],
+  "por_cerrar": [
     {
       "codigo": "5251-93-LE26",
       "nombre": "SERVICIOS DE SOPORTE PARA BASE DE DATOS INSTITUCIONALES",
@@ -110,7 +142,7 @@
       "unidad": "DEPARTAMENTO DE ABASTECIMIENTO",
       "tipo": "LE",
       "cierre": "2026-11-05T20:00:00",
-      "habiles_restantes": 1,
+      "habiles_restantes": 0,
       "nuevo": false,
       "visto_desde": "2026-10-27",
       "monto": "34.000.000 CLP",
@@ -139,7 +171,7 @@
       "unidad": "DEPTO DE SALUD MUNICIPAL",
       "tipo": "LE",
       "cierre": "2026-11-05T15:32:00",
-      "habiles_restantes": 1,
+      "habiles_restantes": 0,
       "nuevo": false,
       "visto_desde": "2026-10-27",
       "monto": "10.000.000 CLP",
@@ -168,7 +200,7 @@
       "unidad": "Servicios",
       "tipo": "LP",
       "cierre": "2026-11-06T16:00:00",
-      "habiles_restantes": 2,
+      "habiles_restantes": 1,
       "nuevo": false,
       "visto_desde": "2026-10-14",
       "monto": "no informado",
@@ -197,7 +229,7 @@
       "unidad": "Servicio de Salud  Concepción",
       "tipo": "LE",
       "cierre": "2026-11-06T15:00:00",
-      "habiles_restantes": 2,
+      "habiles_restantes": 1,
       "nuevo": false,
       "visto_desde": "2026-10-27",
       "monto": "no informado",
@@ -223,43 +255,13 @@
       "descripcion": "CONTRATACIÓN PLATAFORMA MOODLE POR UN PERIODO DE 24 MESES; El Servicio de Salud Concepción SSC requiere obtener un servicio de plataforma de capacitación virtual, que cree, gestione y administre los cursos que se soliciten. Con el objetivo de entregar a los funcionarios dependientes de SSC y funcionarios de APS, las capacitaciones necesarias para mejorar la calidad de la atención de usuarios."
     },
     {
-      "codigo": "2735-149-LR26",
-      "nombre": "Servicio de Software de Gestión y Registro Clinico",
-      "organismo": "I MUNICIPALIDAD LO BARNECHEA",
-      "unidad": "Municipalidad de lo Barnechea - Adquisiciones - Consistorial",
-      "tipo": "LR",
-      "cierre": "2026-11-06T15:30:00",
-      "habiles_restantes": 2,
-      "nuevo": false,
-      "visto_desde": "2026-10-02",
-      "monto": "no informado",
-      "precio": {
-        "nivel": "sin_monto",
-        "etiqueta": "monto no publicado",
-        "detalle": "El organismo no informó presupuesto. Estimo ~14.1 meses-persona, o sea del orden de $28M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
-        "monto_clp": null,
-        "meses_contrato": 63.0,
-        "esfuerzo_mp": 14.1,
-        "mensual": null
-      },
-      "veredicto": "revisar",
-      "puntaje": 14,
-      "razones": [
-        "rubro ONU 43232610",
-        "«software» en el título",
-        "«software de gestion» en el título"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2735-149-LR26",
-      "descripcion": "El objeto principal del servicio es proveer una plataforma tecnológica integral 100% web que dé estricto cumplimiento a lo dispuesto en la Ley N° 20.584 sobre Derechos y Deberes del Paciente, a la Ley N° 21.668 en materia de obligatoriedad e interoperabilidad de las fichas clínicas, y a la Ley N° 19.628 sobre protección de la vida privada, permitiendo mantener un registro clínico electrónico unificado, consistente, seguro y custodiado por la Dirección de Salud"
-    },
-    {
       "codigo": "765-24-LE26",
       "nombre": "Digitalizar e integrar trámites plataforma SUPER",
       "organismo": "CORP NACIONAL DE DESARROLLO INDIGENA",
       "unidad": "CORP NACIONAL DE DESARROLLO INDIGENA",
       "tipo": "LE",
       "cierre": "2026-11-06T12:00:00",
-      "habiles_restantes": 2,
+      "habiles_restantes": 1,
       "nuevo": false,
       "visto_desde": "2026-10-26",
       "monto": "no informado",
@@ -289,7 +291,7 @@
       "unidad": "ESTABLECIMIENTOS EDUCACIONALES P02",
       "tipo": "LE",
       "cierre": "2026-11-06T16:30:00",
-      "habiles_restantes": 2,
+      "habiles_restantes": 1,
       "nuevo": false,
       "visto_desde": "2026-11-02",
       "monto": "60.349.312 CLP",
@@ -310,7 +312,339 @@
       ],
       "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1485217-20-LE26",
       "descripcion": "SE REQUIERE CONTRATAR EL SERVICIO DE LEVANTAMIENTO, VALORIZACIÓN Y ARRIENDO DE SOFTWARE DE ADMINISTRACIÓN Y GESTIÓN DE INVENTARIO, BAJO NORMAS NICSP-CGR DEL SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DE SANTIAGO CENTRO, SEGÚN BASES ADJUNTAS APROBADAS POR RES. EXENTA N°1884/2026"
+    },
+    {
+      "codigo": "568963-27-LE26",
+      "nombre": "PLATAFORMA DIGITAL INTEGRAL DE GESTIÓN DE PERSONAS",
+      "organismo": "COMISION DEL SISTEMA NACIONAL DE CERTIFICACION DE COMPETENCIAS LABORALES",
+      "unidad": "CSNCCL",
+      "tipo": "LE",
+      "cierre": "2026-11-09T15:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-11-02",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~5.5 meses-persona, o sea del orden de $11M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 5.5,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 20,
+      "razones": [
+        "rubro ONU 43231505",
+        "«aplicacion movil» en el detalle",
+        "«plataforma web» en el detalle",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=568963-27-LE26",
+      "descripcion": "Contratación de un sistema integral de control de asistencia, como de gestión y desarrollo de personas para ChileValora, cuyo propósito es integrar, automatizar y optimizar los procesos de recursos humanos de la institución. La solución deberá operar en modalidad SaaS, estar alojada en la nube, disponer de aplicación móvil nativa para sistemas Android y iOS, y contar con una plataforma web."
+    },
+    {
+      "codigo": "3756-48-LE26",
+      "nombre": "SERVICIO DE SOFTWARE GESTIÓN DOCUMENTAL PARA LA MUNICIPALIDAD DE PELARCO",
+      "organismo": "I MUNICIPALIDAD DE PELARCO",
+      "unidad": "I MUNICIPALIDAD DE PELARCO",
+      "tipo": "LE",
+      "cierre": "2026-11-09T15:01:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-11-02",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~5.5 meses-persona, o sea del orden de $11M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 5.5,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 13,
+      "razones": [
+        "rubro ONU 43232903",
+        "«software» en el título",
+        "«gestion documental» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3756-48-LE26",
+      "descripcion": "SERVICIO DE SOFTWARE GESTIÓN DOCUMENTAL PARA LA MUNICIPALIDAD DE PELARCO"
+    },
+    {
+      "codigo": "4115-9-L126",
+      "nombre": "CV SUM SOFTWARE GESTION FARMACIA POPU CURACAUTIN",
+      "organismo": "I MUNICIPALIDAD DE CURACAUTIN",
+      "unidad": "SALUD",
+      "tipo": "L1",
+      "cierre": "2026-11-09T15:30:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-11-02",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~1.7 meses-persona, o sea del orden de $3M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 12,
+      "razones": [
+        "rubro ONU 43231503",
+        "«software» en el título",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4115-9-L126",
+      "descripcion": "Dar continuidad al software destinado a apoyar la gestión de adquisiciones, inventario, dispensación, ventas, caja, documentos tributarios electrónicos y generación de información para el registro contable institucional."
+    },
+    {
+      "codigo": "564953-78-B226",
+      "nombre": "ACTUALIZACIÓN PLATAFORMA ERP",
+      "organismo": "Corporación de Educación y Salud de Las Condes",
+      "unidad": "Corporación de Educación y Salud de Las Condes",
+      "tipo": "B2",
+      "cierre": "2026-11-09T17:59:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-10-21",
+      "monto": "250.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$250.0M contra ~$42M de costo estimado (21 meses-persona), $6.2M al mes por 40 meses.",
+        "monto_clp": 250000000,
+        "meses_contrato": 40.0,
+        "esfuerzo_mp": 21.0,
+        "mensual": 6250000
+      },
+      "veredicto": "revisar",
+      "puntaje": 11,
+      "razones": [
+        "rubro ONU 43231602",
+        "«erp» en el título",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=564953-78-B226",
+      "descripcion": "El objetivo de la presente licitación es contratar el servicio de implementación y soporte de ERP Dynamics Business Central"
+    },
+    {
+      "codigo": "1057494-70-LP26",
+      "nombre": "SOPORTE FUNCIONAL SISTEMA ABEX",
+      "organismo": "SERVICIO DE SALUD SUR HOSPITAL EXEQUIEL",
+      "unidad": "Bienes y Servicios",
+      "tipo": "LP",
+      "cierre": "2026-11-09T16:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-10-21",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~5.3 meses-persona, o sea del orden de $11M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 5.3,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231503",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057494-70-LP26",
+      "descripcion": "CONTRATACIÓN DE SERVICIO DE SOPORTE FUNCIONAL SISTEMA ABEX PARA HOSPITAL DR. EXEQUIEL GONZÁLEZ CORTÉS Y SERVICIO SE SALUD METROPOPOLITANO SUR"
+    },
+    {
+      "codigo": "2981-306-LE26",
+      "nombre": "APLICACION DE CAPTURA VOLUMETRICA Y MODELADO 3D POLYCAM JENACIF",
+      "organismo": "POLICIA DE INVESTIGACIONES DE CHILE",
+      "unidad": "DEPARTAMENTO ADMINISTRATIVO",
+      "tipo": "LE",
+      "cierre": "2026-11-09T15:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-10-29",
+      "monto": "9.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$9.0M contra ~$3M de costo estimado (1.7 meses-persona).",
+        "monto_clp": 9000000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231512",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2981-306-LE26",
+      "descripcion": "ADQUISICION DE 16 LICENCIAS DE APLICACION DE CAPTURA VOLUMETRICA Y MODELADO 3D POLYCAM EQUIVALENTE O SUPERIOR"
+    },
+    {
+      "codigo": "870-15-LE26",
+      "nombre": "E102RT8 SERV. ENLACE DE DATOS Y CONECTIVIDAD CNR",
+      "organismo": "COMISION NACIONAL DE RIEGO",
+      "unidad": "Comisión Nacional de Riego",
+      "tipo": "LE",
+      "cierre": "2026-11-09T15:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-11-02",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~8.7 meses-persona, o sea del orden de $17M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 8.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 9,
+      "razones": [
+        "rubro ONU 81112202",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=870-15-LE26",
+      "descripcion": "Garantizar la conectividad punto a punto, la estabilidad y la disponibilidad ininterrumpida de las comunicaciones de datos entre el Data Center de la CNR y el Data Center de ODEPA, asegurando un nivel de servicio continuo y seguro."
     }
   ],
-  "oportunidades": []
+  "oportunidades": [
+    {
+      "codigo": "3697-52-LE26",
+      "nombre": "Contrato de Sum arriendo Software de Gestión Adm y Control de Licencias Médicas",
+      "organismo": "I MUNICIPALIDAD DE VICTORIA",
+      "unidad": "Adquisiciones",
+      "tipo": "LE",
+      "cierre": "2026-11-13T15:00:00",
+      "habiles_restantes": 6,
+      "nuevo": true,
+      "visto_desde": "2026-11-05",
+      "monto": "11.100.000 CLP",
+      "precio": {
+        "nivel": "roja",
+        "etiqueta": "no paga ni una persona",
+        "detalle": "$11.1M repartidos en 24 meses son $0.5M al mes. No alcanza ni para tener a una persona dedicada.",
+        "monto_clp": 11100000,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 6.3,
+        "mensual": 462500
+      },
+      "veredicto": "nogo",
+      "puntaje": 16,
+      "razones": [
+        "rubro ONU 43231512",
+        "«software» en el título",
+        "«software de gestion» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3697-52-LE26",
+      "descripcion": "La Municipalidad de Victoria, requiere contratar con el servicio por arriendo de un software de gestión, administración y control de licencias médicas solicitado por la Oficina de Remuneraciones, según anexo técnico adjunto."
+    },
+    {
+      "codigo": "2251-17-LE26",
+      "nombre": "Arriendo software interpretación imágenes rayos X",
+      "organismo": "DIRECCION GENERAL DE AERONAUTICA CIVIL",
+      "unidad": "UNIDAD DE COMPRA ESCUELA TECNICA DE AERONAUTICA",
+      "tipo": "LE",
+      "cierre": "2026-11-16T15:31:00",
+      "habiles_restantes": 7,
+      "nuevo": true,
+      "visto_desde": "2026-11-05",
+      "monto": "33.960.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$34.0M contra ~$8M de costo estimado (3.9 meses-persona), $2.8M al mes por 12 meses.",
+        "monto_clp": 33960000,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 3.9,
+        "mensual": 2830000
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 81112106",
+        "«software» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2251-17-LE26",
+      "descripcion": "La necesidad de la Escuela Técnica Aeronáutica (ETA) de contratar por 12 meses el arriendo de software de interpretación de imágenes de rayos X para la formación AVSEC de la ETA, para más información, favor de revisar Bases Técnicas, Bases Administrativas así como todo anexo asociado."
+    },
+    {
+      "codigo": "514862-145-LE26",
+      "nombre": "SOFTWARE GESTION DE PERSONAS Y CONTROL ASISTENCIA",
+      "organismo": "CORPORACION MUNICIPAL DE PENALOLEN PARA EL DESARROLO SOCIAL CORMUP",
+      "unidad": "CORPORACION MUNICIPAL DE PENALOLEN PARA EL DESARRO",
+      "tipo": "LE",
+      "cierre": "2026-11-17T15:01:00",
+      "habiles_restantes": 8,
+      "nuevo": true,
+      "visto_desde": "2026-11-05",
+      "monto": "11.000.000 CLP",
+      "precio": {
+        "nivel": "roja",
+        "etiqueta": "no paga ni una persona",
+        "detalle": "$11.0M repartidos en 24 meses son $0.5M al mes. No alcanza ni para tener a una persona dedicada.",
+        "monto_clp": 11000000,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 6.3,
+        "mensual": 458333
+      },
+      "veredicto": "nogo",
+      "puntaje": 12,
+      "razones": [
+        "rubro ONU 43231505",
+        "«software» en el título",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=514862-145-LE26",
+      "descripcion": "DESARROLLO SOFTWARE GESTION DE PERSONAS Y CONTROL DE ASISTENCIA SOLPED 10032772"
+    },
+    {
+      "codigo": "2582-73-LR26",
+      "nombre": "ARRIENDO DE SISTEMAS COMPUTACIONALES PARA LA IMS",
+      "organismo": "I MUNICIPALIDAD DE SANTIAGO",
+      "unidad": "SECPLAN",
+      "tipo": "LR",
+      "cierre": "2026-12-03T14:00:00",
+      "habiles_restantes": 20,
+      "nuevo": true,
+      "visto_desde": "2026-11-05",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~8.7 meses-persona, o sea del orden de $17M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 8.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 13,
+      "razones": [
+        "rubro ONU 43231505",
+        "«erp» en el detalle",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2582-73-LR26",
+      "descripcion": "El objetivo del servicio licitado es el arriendo de una solución computacional lntegral\r\npara la llustre Municipalidad de Santiago, considerando la exteinalización de los\r\nservicios de administración y manejo de datos, contemplando la respectiva plataforma\r\ntecnológica. Lo anterior, destinado a responder a los requerimientos de información que\r\nplantea el ejercicio de las funciones municipales.\r\nEsta licitación también incluye el servicio de migración de los datos municipales, de\r\nmanera de garantizar la operación normal e histórica de los sistemas. Esta migración\r\nestará a cargo de la empresa adjudicataria de la licitación. Las empresas oferentes\r\ndeberán presentar en su propuesta y plan de trabajo por cada sistema, la forma de\r\nmigrar. los problemas presentados, procedimiento uiilizado, detalle de la información\r\ntraspasada y la no traspasada y toda aquella documentación que permita un"
+    }
+  ]
 }
