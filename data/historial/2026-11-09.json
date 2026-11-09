@@ -1,0 +1,558 @@
+{
+  "generado": "2026-11-09 16:41",
+  "fecha": "2026-11-09",
+  "horizonte": 20,
+  "fecha_hasta": "2026-12-07",
+  "primera_corrida": false,
+  "modo": "solo desarrollo",
+  "resumen": {
+    "activas_revisadas": 4941,
+    "detalles_consultados": 418,
+    "nuevas": 4,
+    "por_cerrar": 10,
+    "llamadas_api": 267
+  },
+  "nuevas": [
+    {
+      "codigo": "1469-352-L126",
+      "nombre": "SERVICIO DE CONSULTORÍA Y DESARROLLO EN LOS MÓDULOS ERP SAP PARA  DIRECCIÓN DE FINANZAS DE LA UNIVERSIDAD DE TALCA",
+      "organismo": "UNIVERSIDAD DE TALCA",
+      "unidad": "Universidad de Talca",
+      "tipo": "L1",
+      "cierre": "2026-11-16T15:00:00",
+      "habiles_restantes": 5,
+      "nuevo": true,
+      "visto_desde": "2026-11-09",
+      "monto": "7.000.000 CLP",
+      "precio": {
+        "nivel": "amarilla",
+        "etiqueta": "margen apretado",
+        "detalle": "$7.0M contra ~$11M de costo estimado (5.4 meses-persona). Se puede, pero sin espacio para imprevistos.",
+        "monto_clp": 7000000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 5.4,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 11,
+      "razones": [
+        "rubro ONU 43231602",
+        "«erp» en el título",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1469-352-L126",
+      "descripcion": "La Universidad de Talca requiere realizar mejoras y nuevos desarrollos de todo \ntipo, para todos los módulos del ERP SAP, considerando también desarrollos o \nmejoras de integraciones con sistemas legados y sistemas externos. "
+    },
+    {
+      "codigo": "1075337-59-LE26",
+      "nombre": "NUEVO PROC. ARRIENDO SOFTWARE INTEGRACION DTE Y CLOUD SERVER",
+      "organismo": "SERVICIO DE SALUD ARAUCANIA NORTE HOSPITAL DE ANGOL",
+      "unidad": "Bienes y Servicio",
+      "tipo": "LE",
+      "cierre": "2026-11-19T15:06:00",
+      "habiles_restantes": 8,
+      "nuevo": true,
+      "visto_desde": "2026-11-09",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~8.7 meses-persona, o sea del orden de $17M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 8.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 12,
+      "razones": [
+        "rubro ONU 43231512",
+        "«software» en el título",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1075337-59-LE26",
+      "descripcion": "La presente licitación tiene como objetivo la contratación del servicio de arriendo de software de integración de integración DTE y Cloud Server, para el Hospital Dr. Mauricio Heyermann Torres de Angol."
+    },
+    {
+      "codigo": "584146-17-LE26",
+      "nombre": "SERVICIOS DE SOFTWARE PARA CARRERA FUNCIONARIA APS",
+      "organismo": "I MUNICIPALIDAD DE PURRANQUE",
+      "unidad": "DEPARTAMENTO DE SALUD MUNICIPAL",
+      "tipo": "LE",
+      "cierre": "2026-11-19T09:00:00",
+      "habiles_restantes": 8,
+      "nuevo": true,
+      "visto_desde": "2026-11-09",
+      "monto": "10.000.000 CLP",
+      "precio": {
+        "nivel": "roja",
+        "etiqueta": "no paga ni una persona",
+        "detalle": "$10.0M repartidos en 24 meses son $0.4M al mes. No alcanza ni para tener a una persona dedicada.",
+        "monto_clp": 10000000,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 6.3,
+        "mensual": 416667
+      },
+      "veredicto": "nogo",
+      "puntaje": 12,
+      "razones": [
+        "rubro ONU 43231505",
+        "«software» en el título",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=584146-17-LE26",
+      "descripcion": "SERVICIOS DE SOFTWARE PARA CARRERA FUNCIONARIA APS"
+    },
+    {
+      "codigo": "5155-40-LP26",
+      "nombre": "571 - Contratación servicos de soporte extendido de infraestructura TI y Sistemas informáticos",
+      "organismo": "SERVICIO ELECTORAL",
+      "unidad": "Unidad de Adquisiciones",
+      "tipo": "LP",
+      "cierre": "2026-11-30T15:00:00",
+      "habiles_restantes": 15,
+      "nuevo": true,
+      "visto_desde": "2026-11-09",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~2.9 meses-persona, o sea del orden de $6M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 2.9,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 81111812"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5155-40-LP26",
+      "descripcion": "El SERVEL requiere proveer la contratación por servicios para la mantención y soporte extendido de infraestructura TI y sistemas informáticos para las plataformas que actualmente administra SERVEL según detalle en bases de licitación.\r\nLa participación en el proceso de licitación implica la aceptación, por parte de los proponentes, de todos y cada uno de los términos y disposiciones contenidas en las Bases, sin necesidad de declaración expresa del oferente."
+    }
+  ],
+  "por_cerrar": [
+    {
+      "codigo": "564953-78-B226",
+      "nombre": "ACTUALIZACIÓN PLATAFORMA ERP",
+      "organismo": "Corporación de Educación y Salud de Las Condes",
+      "unidad": "Corporación de Educación y Salud de Las Condes",
+      "tipo": "B2",
+      "cierre": "2026-11-09T17:59:00",
+      "habiles_restantes": 0,
+      "nuevo": false,
+      "visto_desde": "2026-10-21",
+      "monto": "250.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$250.0M contra ~$42M de costo estimado (21 meses-persona), $6.2M al mes por 40 meses.",
+        "monto_clp": 250000000,
+        "meses_contrato": 40.0,
+        "esfuerzo_mp": 21.0,
+        "mensual": 6250000
+      },
+      "veredicto": "revisar",
+      "puntaje": 11,
+      "razones": [
+        "rubro ONU 43231602",
+        "«erp» en el título",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=564953-78-B226",
+      "descripcion": "El objetivo de la presente licitación es contratar el servicio de implementación y soporte de ERP Dynamics Business Central"
+    },
+    {
+      "codigo": "1867-50-LE26",
+      "nombre": "Desarrollar Plataformas en Línea para Departamento",
+      "organismo": "DIRECCION GENERAL DE MOVILIZACIONN NACIONAL",
+      "unidad": "DIRECCION GENERAL DE MOVILIZACIONN NACIONAL",
+      "tipo": "LE",
+      "cierre": "2026-11-10T15:00:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-10-29",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~1.7 meses-persona, o sea del orden de $3M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 16,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el detalle",
+        "«software» en el detalle",
+        "«desarrollo de plataforma» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1867-50-LE26",
+      "descripcion": "La DGMN convoca a personas naturales o jurídicas, ya sea que se presenten de manera individual o unidas mediante Uniones Temporales de Proveedores integradas por una o más empresas de menor tamaño, chilenas o extranjeras, que al momento de ofertar se encuentren hábiles en el Registro de Proveedores a cargo de la Dirección de Compras y Contratación Pública, para desarrollar plataforma para trámites en línea de los departamentos de Reclutamiento y Control de Convenciones de la DGMN."
+    },
+    {
+      "codigo": "425-72-LP26",
+      "nombre": "Arriendo de Kioscos Autoconsulta y Aplicativo CJS",
+      "organismo": "CORP ADMINISTRATIVA DEL PODER JUDICIAL",
+      "unidad": "Servicios",
+      "tipo": "LP",
+      "cierre": "2026-11-10T16:00:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-10-14",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~8.7 meses-persona, o sea del orden de $17M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 8.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 16,
+      "razones": [
+        "rubro ONU 81111809",
+        "«aplicativo» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=425-72-LP26",
+      "descripcion": "UR(1813) Servicio de arriendo de Kioscos de Autoconsulta y Desarrollo de Aplicativo para el Centro de Justicia de Santiago"
+    },
+    {
+      "codigo": "5482-101-LR26",
+      "nombre": "Plataforma IA para video y seguridad urbana",
+      "organismo": "I MUNICIPALIDAD DE NUNOA",
+      "unidad": "SECPLANUNOA",
+      "tipo": "LR",
+      "cierre": "2026-11-10T15:01:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-09-11",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~5.7 meses-persona, o sea del orden de $11M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 26.0,
+        "esfuerzo_mp": 5.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 16,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el detalle",
+        "«software» en el detalle",
+        "«desarrollo de plataforma» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5482-101-LR26",
+      "descripcion": "La presente licitación contempla como objetivo general, contratar el suministro,\r\nimplementación, puesta en marcha y soporte continuo de una plataforma de Inteligencia Artificial para analítica de video y gestión inteligente de alertas, que opere sobre la red decámaras yo el sistema VMS ya existentes de la Municipalidad de Ñuñoa."
+    },
+    {
+      "codigo": "601-17-LE26",
+      "nombre": "Servicio mantención y otros del sitio web",
+      "organismo": "SUPERINTENDENCIA DE SALUD",
+      "unidad": "Superintendencia de Salud",
+      "tipo": "LE",
+      "cierre": "2026-11-10T15:10:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-11-02",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~5.3 meses-persona, o sea del orden de $11M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 5.3,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 15,
+      "razones": [
+        "rubro ONU 81112105",
+        "«sitio web» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=601-17-LE26",
+      "descripcion": "La Superintendencia de Salud, en adelante e indistintamente “la Superintendencia”, convoca a Licitación Pública a las personas naturales y jurídicas para que participen y presenten propuestas en el actual proceso de licitación de esta entidad, que administra a través del Portal de Mercado Público para la contratación de los servicios de hosting, infraestructura, almacenamiento, diseño, desarrollo, mantención, soporte y migración del contenido de su actual sitio web."
+    },
+    {
+      "codigo": "1057390-21-LR26",
+      "nombre": "PLATAFORMA CLOUD COMPUTING Y SERVICIOS ASOCIADOS ESISSAN",
+      "organismo": "SERVICIO DE SALUD ARAUCANIA NORTE",
+      "unidad": "Bienes y Servicios",
+      "tipo": "LR",
+      "cierre": "2026-11-10T15:30:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-10-12",
+      "monto": "487.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$487.0M contra ~$17M de costo estimado (8.7 meses-persona), $13.5M al mes por 36 meses.",
+        "monto_clp": 487000000,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 8.7,
+        "mensual": 13527778
+      },
+      "veredicto": "revisar",
+      "puntaje": 12,
+      "razones": [
+        "rubro ONU 43232915",
+        "«programacion» en el detalle",
+        "«aplicativo» en el detalle",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057390-21-LR26",
+      "descripcion": "La presente licitación tiene como contratación de Servicios Plataforma Cloud Computing y Servicios Asociados Aplicativo ESISSAN del Servicio De Salud Araucanía Norte a 36 meses, todo ello según especificaciones técnicas (Formulario No 5). "
+    },
+    {
+      "codigo": "1867-51-LE26",
+      "nombre": "Servicio de Consultoria  de gestión documental",
+      "organismo": "DIRECCION GENERAL DE MOVILIZACIONN NACIONAL",
+      "unidad": "DIRECCION GENERAL DE MOVILIZACIONN NACIONAL",
+      "tipo": "LE",
+      "cierre": "2026-11-10T15:00:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-10-29",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~2.8 meses-persona, o sea del orden de $6M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": null,
+        "esfuerzo_mp": 2.8,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 11,
+      "razones": [
+        "rubro ONU 43233001",
+        "«software» en el detalle",
+        "«gestion documental» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1867-51-LE26",
+      "descripcion": "La DGMN convoca a personas naturales o jurídicas, ya sea que se presenten de manera individual o unidas mediante Uniones Temporales de Proveedores integradas por una o más empresas de menor tamaño, chilenas o extranjeras, que al momento de ofertar se encuentren hábiles en el Registro de Proveedores a cargo de la Dirección de Compras y Contratación Pública, para el servicio de consultoría y levantamiento para el diseño de una solución de gestión documental para la DGMN."
+    },
+    {
+      "codigo": "1305504-17-LP26",
+      "nombre": "SISTEMA GESTIÓN DE PERSONAS SLEP ANDALIÉN COSTA",
+      "organismo": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DE ANDALIÉN COSTA",
+      "unidad": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DE ANDALIÉN CO",
+      "tipo": "LP",
+      "cierre": "2026-11-10T17:00:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-10-20",
+      "monto": "128.377.200 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$128.4M contra ~$13M de costo estimado (6.3 meses-persona), $5.3M al mes por 24 meses.",
+        "monto_clp": 128377200,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 6.3,
+        "mensual": 5349050
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231505",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1305504-17-LP26",
+      "descripcion": "SEGÚN BASES"
+    },
+    {
+      "codigo": "577290-2-LP26",
+      "nombre": "SERVICIO TECNOLÓGICO INTEGRAL RED REGIONAL",
+      "organismo": "SUBSECRETARIA DE TRANSPORTES",
+      "unidad": "Subsidio Nacional Transporte Publico",
+      "tipo": "LP",
+      "cierre": "2026-11-10T15:00:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-09-30",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~7.1 meses-persona, o sea del orden de $14M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 28.0,
+        "esfuerzo_mp": 7.1,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43232701",
+        "«aplicacion movil» en el detalle",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=577290-2-LP26",
+      "descripcion": "La Subsecretaría de Transportes tiene como uno de sus objetivos prioritarios el contar con un sistema de transporte público regional eficiente, seguro y de calidad que se extienda a lo largo de todas las regiones de nuestro país. A fin de dar cumplimiento a dicho objetivo, se realiza el llamado a licitación para contratar un servicio tecnológico integral que permita implementar, operar y mantener una aplicación móvil y sus sistemas asociados, destinada a entregar información en tiempo real, precisa y accesible a las personas usuarias del sistema de transporte público regional en adelante, “sistema tecnológico integral”. Esta solución debe contribuir a mejorar la experiencia de viaje, fortalecer la infraestructura tecnológica del sistema y asegurar la continuidad, calidad y escalabilidad del servicio en múltiples ciudades del país. Las presentes bases técnicas contienen los requerimientos"
+    },
+    {
+      "codigo": "2735-149-LR26",
+      "nombre": "Servicio de Software de Gestión y Registro Clinico",
+      "organismo": "I MUNICIPALIDAD LO BARNECHEA",
+      "unidad": "Municipalidad de lo Barnechea - Adquisiciones - Consistorial",
+      "tipo": "LR",
+      "cierre": "2026-11-11T15:30:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-10-02",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~14.1 meses-persona, o sea del orden de $28M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 63.0,
+        "esfuerzo_mp": 14.1,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 14,
+      "razones": [
+        "rubro ONU 43232610",
+        "«software» en el título",
+        "«software de gestion» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2735-149-LR26",
+      "descripcion": "El objeto principal del servicio es proveer una plataforma tecnológica integral 100% web que dé estricto cumplimiento a lo dispuesto en la Ley N° 20.584 sobre Derechos y Deberes del Paciente, a la Ley N° 21.668 en materia de obligatoriedad e interoperabilidad de las fichas clínicas, y a la Ley N° 19.628 sobre protección de la vida privada, permitiendo mantener un registro clínico electrónico unificado, consistente, seguro y custodiado por la Dirección de Salud"
+    }
+  ],
+  "oportunidades": [
+    {
+      "codigo": "1469-352-L126",
+      "nombre": "SERVICIO DE CONSULTORÍA Y DESARROLLO EN LOS MÓDULOS ERP SAP PARA  DIRECCIÓN DE FINANZAS DE LA UNIVERSIDAD DE TALCA",
+      "organismo": "UNIVERSIDAD DE TALCA",
+      "unidad": "Universidad de Talca",
+      "tipo": "L1",
+      "cierre": "2026-11-16T15:00:00",
+      "habiles_restantes": 5,
+      "nuevo": true,
+      "visto_desde": "2026-11-09",
+      "monto": "7.000.000 CLP",
+      "precio": {
+        "nivel": "amarilla",
+        "etiqueta": "margen apretado",
+        "detalle": "$7.0M contra ~$11M de costo estimado (5.4 meses-persona). Se puede, pero sin espacio para imprevistos.",
+        "monto_clp": 7000000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 5.4,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 11,
+      "razones": [
+        "rubro ONU 43231602",
+        "«erp» en el título",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1469-352-L126",
+      "descripcion": "La Universidad de Talca requiere realizar mejoras y nuevos desarrollos de todo \ntipo, para todos los módulos del ERP SAP, considerando también desarrollos o \nmejoras de integraciones con sistemas legados y sistemas externos. "
+    },
+    {
+      "codigo": "1075337-59-LE26",
+      "nombre": "NUEVO PROC. ARRIENDO SOFTWARE INTEGRACION DTE Y CLOUD SERVER",
+      "organismo": "SERVICIO DE SALUD ARAUCANIA NORTE HOSPITAL DE ANGOL",
+      "unidad": "Bienes y Servicio",
+      "tipo": "LE",
+      "cierre": "2026-11-19T15:06:00",
+      "habiles_restantes": 8,
+      "nuevo": true,
+      "visto_desde": "2026-11-09",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~8.7 meses-persona, o sea del orden de $17M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 8.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 12,
+      "razones": [
+        "rubro ONU 43231512",
+        "«software» en el título",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1075337-59-LE26",
+      "descripcion": "La presente licitación tiene como objetivo la contratación del servicio de arriendo de software de integración de integración DTE y Cloud Server, para el Hospital Dr. Mauricio Heyermann Torres de Angol."
+    },
+    {
+      "codigo": "584146-17-LE26",
+      "nombre": "SERVICIOS DE SOFTWARE PARA CARRERA FUNCIONARIA APS",
+      "organismo": "I MUNICIPALIDAD DE PURRANQUE",
+      "unidad": "DEPARTAMENTO DE SALUD MUNICIPAL",
+      "tipo": "LE",
+      "cierre": "2026-11-19T09:00:00",
+      "habiles_restantes": 8,
+      "nuevo": true,
+      "visto_desde": "2026-11-09",
+      "monto": "10.000.000 CLP",
+      "precio": {
+        "nivel": "roja",
+        "etiqueta": "no paga ni una persona",
+        "detalle": "$10.0M repartidos en 24 meses son $0.4M al mes. No alcanza ni para tener a una persona dedicada.",
+        "monto_clp": 10000000,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 6.3,
+        "mensual": 416667
+      },
+      "veredicto": "nogo",
+      "puntaje": 12,
+      "razones": [
+        "rubro ONU 43231505",
+        "«software» en el título",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=584146-17-LE26",
+      "descripcion": "SERVICIOS DE SOFTWARE PARA CARRERA FUNCIONARIA APS"
+    },
+    {
+      "codigo": "5155-40-LP26",
+      "nombre": "571 - Contratación servicos de soporte extendido de infraestructura TI y Sistemas informáticos",
+      "organismo": "SERVICIO ELECTORAL",
+      "unidad": "Unidad de Adquisiciones",
+      "tipo": "LP",
+      "cierre": "2026-11-30T15:00:00",
+      "habiles_restantes": 15,
+      "nuevo": true,
+      "visto_desde": "2026-11-09",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~2.9 meses-persona, o sea del orden de $6M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 2.9,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 81111812"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5155-40-LP26",
+      "descripcion": "El SERVEL requiere proveer la contratación por servicios para la mantención y soporte extendido de infraestructura TI y sistemas informáticos para las plataformas que actualmente administra SERVEL según detalle en bases de licitación.\r\nLa participación en el proceso de licitación implica la aceptación, por parte de los proponentes, de todos y cada uno de los términos y disposiciones contenidas en las Bases, sin necesidad de declaración expresa del oferente."
+    }
+  ]
+}
