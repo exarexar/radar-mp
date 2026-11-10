@@ -1,126 +1,36 @@
 {
-  "generado": "2026-11-09 16:41",
-  "fecha": "2026-11-09",
+  "generado": "2026-11-10 13:55",
+  "fecha": "2026-11-10",
   "horizonte": 20,
-  "fecha_hasta": "2026-12-07",
+  "fecha_hasta": "2026-12-09",
   "primera_corrida": false,
   "modo": "solo desarrollo",
   "resumen": {
-    "activas_revisadas": 4941,
-    "detalles_consultados": 418,
-    "nuevas": 4,
-    "por_cerrar": 10,
-    "llamadas_api": 267
+    "activas_revisadas": 5000,
+    "detalles_consultados": 429,
+    "nuevas": 2,
+    "por_cerrar": 13,
+    "llamadas_api": 62
   },
   "nuevas": [
     {
-      "codigo": "1469-352-L126",
-      "nombre": "SERVICIO DE CONSULTORÍA Y DESARROLLO EN LOS MÓDULOS ERP SAP PARA  DIRECCIÓN DE FINANZAS DE LA UNIVERSIDAD DE TALCA",
-      "organismo": "UNIVERSIDAD DE TALCA",
-      "unidad": "Universidad de Talca",
-      "tipo": "L1",
-      "cierre": "2026-11-16T15:00:00",
-      "habiles_restantes": 5,
-      "nuevo": true,
-      "visto_desde": "2026-11-09",
-      "monto": "7.000.000 CLP",
-      "precio": {
-        "nivel": "amarilla",
-        "etiqueta": "margen apretado",
-        "detalle": "$7.0M contra ~$11M de costo estimado (5.4 meses-persona). Se puede, pero sin espacio para imprevistos.",
-        "monto_clp": 7000000,
-        "meses_contrato": null,
-        "esfuerzo_mp": 5.4,
-        "mensual": null
-      },
-      "veredicto": "revisar",
-      "puntaje": 11,
-      "razones": [
-        "rubro ONU 43231602",
-        "«erp» en el título",
-        "«software» en el detalle"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1469-352-L126",
-      "descripcion": "La Universidad de Talca requiere realizar mejoras y nuevos desarrollos de todo \ntipo, para todos los módulos del ERP SAP, considerando también desarrollos o \nmejoras de integraciones con sistemas legados y sistemas externos. "
-    },
-    {
-      "codigo": "1075337-59-LE26",
-      "nombre": "NUEVO PROC. ARRIENDO SOFTWARE INTEGRACION DTE Y CLOUD SERVER",
-      "organismo": "SERVICIO DE SALUD ARAUCANIA NORTE HOSPITAL DE ANGOL",
-      "unidad": "Bienes y Servicio",
+      "codigo": "1057049-422-LE26",
+      "nombre": "JLL CONTRATACION DE SERVICIOS DE SOPORTE Y SUSCRIPCION DE PLATAFORMA DE INFRAESTRUCTURA HIPERCONVERGENTE HCI",
+      "organismo": "SERV SALUD METROPOLITANO CENTRAL HOSPITAL CLINICO SAN BORJA ARRIARAN",
+      "unidad": "Bienes y Servicios",
       "tipo": "LE",
-      "cierre": "2026-11-19T15:06:00",
-      "habiles_restantes": 8,
+      "cierre": "2026-11-19T15:30:00",
+      "habiles_restantes": 7,
       "nuevo": true,
-      "visto_desde": "2026-11-09",
+      "visto_desde": "2026-11-10",
       "monto": "no informado",
       "precio": {
         "nivel": "sin_monto",
         "etiqueta": "monto no publicado",
-        "detalle": "El organismo no informó presupuesto. Estimo ~8.7 meses-persona, o sea del orden de $17M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "detalle": "El organismo no informó presupuesto. Estimo ~3.5 meses-persona, o sea del orden de $7M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
         "monto_clp": null,
-        "meses_contrato": 36.0,
-        "esfuerzo_mp": 8.7,
-        "mensual": null
-      },
-      "veredicto": "revisar",
-      "puntaje": 12,
-      "razones": [
-        "rubro ONU 43231512",
-        "«software» en el título",
-        "«software de gestion» en el detalle"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1075337-59-LE26",
-      "descripcion": "La presente licitación tiene como objetivo la contratación del servicio de arriendo de software de integración de integración DTE y Cloud Server, para el Hospital Dr. Mauricio Heyermann Torres de Angol."
-    },
-    {
-      "codigo": "584146-17-LE26",
-      "nombre": "SERVICIOS DE SOFTWARE PARA CARRERA FUNCIONARIA APS",
-      "organismo": "I MUNICIPALIDAD DE PURRANQUE",
-      "unidad": "DEPARTAMENTO DE SALUD MUNICIPAL",
-      "tipo": "LE",
-      "cierre": "2026-11-19T09:00:00",
-      "habiles_restantes": 8,
-      "nuevo": true,
-      "visto_desde": "2026-11-09",
-      "monto": "10.000.000 CLP",
-      "precio": {
-        "nivel": "roja",
-        "etiqueta": "no paga ni una persona",
-        "detalle": "$10.0M repartidos en 24 meses son $0.4M al mes. No alcanza ni para tener a una persona dedicada.",
-        "monto_clp": 10000000,
-        "meses_contrato": 24.0,
-        "esfuerzo_mp": 6.3,
-        "mensual": 416667
-      },
-      "veredicto": "nogo",
-      "puntaje": 12,
-      "razones": [
-        "rubro ONU 43231505",
-        "«software» en el título",
-        "«software de gestion» en el detalle"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=584146-17-LE26",
-      "descripcion": "SERVICIOS DE SOFTWARE PARA CARRERA FUNCIONARIA APS"
-    },
-    {
-      "codigo": "5155-40-LP26",
-      "nombre": "571 - Contratación servicos de soporte extendido de infraestructura TI y Sistemas informáticos",
-      "organismo": "SERVICIO ELECTORAL",
-      "unidad": "Unidad de Adquisiciones",
-      "tipo": "LP",
-      "cierre": "2026-11-30T15:00:00",
-      "habiles_restantes": 15,
-      "nuevo": true,
-      "visto_desde": "2026-11-09",
-      "monto": "no informado",
-      "precio": {
-        "nivel": "sin_monto",
-        "etiqueta": "monto no publicado",
-        "detalle": "El organismo no informó presupuesto. Estimo ~2.9 meses-persona, o sea del orden de $6M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
-        "monto_clp": null,
-        "meses_contrato": 12.0,
-        "esfuerzo_mp": 2.9,
+        "meses_contrato": 15.0,
+        "esfuerzo_mp": 3.5,
         "mensual": null
       },
       "veredicto": "revisar",
@@ -128,41 +38,41 @@
       "razones": [
         "rubro ONU 81111812"
       ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5155-40-LP26",
-      "descripcion": "El SERVEL requiere proveer la contratación por servicios para la mantención y soporte extendido de infraestructura TI y sistemas informáticos para las plataformas que actualmente administra SERVEL según detalle en bases de licitación.\r\nLa participación en el proceso de licitación implica la aceptación, por parte de los proponentes, de todos y cada uno de los términos y disposiciones contenidas en las Bases, sin necesidad de declaración expresa del oferente."
-    }
-  ],
-  "por_cerrar": [
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057049-422-LE26",
+      "descripcion": "JLL APRUEBA BASES DE LICITACION CONTRATACION DE SERVICIOS DE SOPORTE Y SUSCRIPCION DE PLATAFORMA DE INFRAESTRUCTURA HIPERCONVERGENTE (HCI) PARA EL DEPARTAMENTO DE TECNOLOGIAS DE LA INFORMACION Y COMUNICACION DEL HOSPITAL CLINICO SAN BORJA ARRIARAN "
+    },
     {
-      "codigo": "564953-78-B226",
-      "nombre": "ACTUALIZACIÓN PLATAFORMA ERP",
-      "organismo": "Corporación de Educación y Salud de Las Condes",
-      "unidad": "Corporación de Educación y Salud de Las Condes",
-      "tipo": "B2",
-      "cierre": "2026-11-09T17:59:00",
-      "habiles_restantes": 0,
-      "nuevo": false,
-      "visto_desde": "2026-10-21",
-      "monto": "250.000.000 CLP",
+      "codigo": "4469-239-LE26",
+      "nombre": "S.C. N° 40669 U.F. LICENCIAS ZOOM PARA 12 MESES. INFORMATICA UPLA. AIUE 2655.",
+      "organismo": "UNIVERSIDAD DE PLAYA ANCHA DE CIENCIAS DE LA EDUCACION",
+      "unidad": "ADQUISICIONES",
+      "tipo": "LE",
+      "cierre": "2026-11-19T09:00:00",
+      "habiles_restantes": 7,
+      "nuevo": true,
+      "visto_desde": "2026-11-10",
+      "monto": "15.537.108 CLP",
       "precio": {
         "nivel": "verde",
         "etiqueta": "presupuesto razonable",
-        "detalle": "$250.0M contra ~$42M de costo estimado (21 meses-persona), $6.2M al mes por 40 meses.",
-        "monto_clp": 250000000,
-        "meses_contrato": 40.0,
-        "esfuerzo_mp": 21.0,
-        "mensual": 6250000
+        "detalle": "$15.5M contra ~$3M de costo estimado (1.7 meses-persona).",
+        "monto_clp": 15537108,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
       },
       "veredicto": "revisar",
-      "puntaje": 11,
+      "puntaje": 10,
       "razones": [
-        "rubro ONU 43231602",
-        "«erp» en el título",
-        "«software» en el detalle"
+        "rubro ONU 43231512",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
       ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=564953-78-B226",
-      "descripcion": "El objetivo de la presente licitación es contratar el servicio de implementación y soporte de ERP Dynamics Business Central"
-    },
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4469-239-LE26",
+      "descripcion": "S.C. N° 40669 (U.F.), LICENCIAS ZOOM PARA 12 MESES. INFORMATICA UPLA. AIUE 2655.\r\nART. 38 SEGUN LEY 21094 DE UNIVERSIDADES ESTATALES"
+    }
+  ],
+  "por_cerrar": [
     {
       "codigo": "1867-50-LE26",
       "nombre": "Desarrollar Plataformas en Línea para Departamento",
@@ -170,7 +80,7 @@
       "unidad": "DIRECCION GENERAL DE MOVILIZACIONN NACIONAL",
       "tipo": "LE",
       "cierre": "2026-11-10T15:00:00",
-      "habiles_restantes": 1,
+      "habiles_restantes": 0,
       "nuevo": false,
       "visto_desde": "2026-10-29",
       "monto": "no informado",
@@ -201,7 +111,7 @@
       "unidad": "Servicios",
       "tipo": "LP",
       "cierre": "2026-11-10T16:00:00",
-      "habiles_restantes": 1,
+      "habiles_restantes": 0,
       "nuevo": false,
       "visto_desde": "2026-10-14",
       "monto": "no informado",
@@ -230,7 +140,7 @@
       "unidad": "SECPLANUNOA",
       "tipo": "LR",
       "cierre": "2026-11-10T15:01:00",
-      "habiles_restantes": 1,
+      "habiles_restantes": 0,
       "nuevo": false,
       "visto_desde": "2026-09-11",
       "monto": "no informado",
@@ -261,7 +171,7 @@
       "unidad": "Superintendencia de Salud",
       "tipo": "LE",
       "cierre": "2026-11-10T15:10:00",
-      "habiles_restantes": 1,
+      "habiles_restantes": 0,
       "nuevo": false,
       "visto_desde": "2026-11-02",
       "monto": "no informado",
@@ -290,7 +200,7 @@
       "unidad": "Bienes y Servicios",
       "tipo": "LR",
       "cierre": "2026-11-10T15:30:00",
-      "habiles_restantes": 1,
+      "habiles_restantes": 0,
       "nuevo": false,
       "visto_desde": "2026-10-12",
       "monto": "487.000.000 CLP",
@@ -321,7 +231,7 @@
       "unidad": "DIRECCION GENERAL DE MOVILIZACIONN NACIONAL",
       "tipo": "LE",
       "cierre": "2026-11-10T15:00:00",
-      "habiles_restantes": 1,
+      "habiles_restantes": 0,
       "nuevo": false,
       "visto_desde": "2026-10-29",
       "monto": "no informado",
@@ -351,7 +261,7 @@
       "unidad": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DE ANDALIÉN CO",
       "tipo": "LP",
       "cierre": "2026-11-10T17:00:00",
-      "habiles_restantes": 1,
+      "habiles_restantes": 0,
       "nuevo": false,
       "visto_desde": "2026-10-20",
       "monto": "128.377.200 CLP",
@@ -381,7 +291,7 @@
       "unidad": "Subsidio Nacional Transporte Publico",
       "tipo": "LP",
       "cierre": "2026-11-10T15:00:00",
-      "habiles_restantes": 1,
+      "habiles_restantes": 0,
       "nuevo": false,
       "visto_desde": "2026-09-30",
       "monto": "no informado",
@@ -411,7 +321,7 @@
       "unidad": "Municipalidad de lo Barnechea - Adquisiciones - Consistorial",
       "tipo": "LR",
       "cierre": "2026-11-11T15:30:00",
-      "habiles_restantes": 2,
+      "habiles_restantes": 1,
       "nuevo": false,
       "visto_desde": "2026-10-02",
       "monto": "no informado",
@@ -433,109 +343,50 @@
       ],
       "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2735-149-LR26",
       "descripcion": "El objeto principal del servicio es proveer una plataforma tecnológica integral 100% web que dé estricto cumplimiento a lo dispuesto en la Ley N° 20.584 sobre Derechos y Deberes del Paciente, a la Ley N° 21.668 en materia de obligatoriedad e interoperabilidad de las fichas clínicas, y a la Ley N° 19.628 sobre protección de la vida privada, permitiendo mantener un registro clínico electrónico unificado, consistente, seguro y custodiado por la Dirección de Salud"
-    }
-  ],
-  "oportunidades": [
-    {
-      "codigo": "1469-352-L126",
-      "nombre": "SERVICIO DE CONSULTORÍA Y DESARROLLO EN LOS MÓDULOS ERP SAP PARA  DIRECCIÓN DE FINANZAS DE LA UNIVERSIDAD DE TALCA",
-      "organismo": "UNIVERSIDAD DE TALCA",
-      "unidad": "Universidad de Talca",
-      "tipo": "L1",
-      "cierre": "2026-11-16T15:00:00",
-      "habiles_restantes": 5,
-      "nuevo": true,
-      "visto_desde": "2026-11-09",
-      "monto": "7.000.000 CLP",
-      "precio": {
-        "nivel": "amarilla",
-        "etiqueta": "margen apretado",
-        "detalle": "$7.0M contra ~$11M de costo estimado (5.4 meses-persona). Se puede, pero sin espacio para imprevistos.",
-        "monto_clp": 7000000,
-        "meses_contrato": null,
-        "esfuerzo_mp": 5.4,
-        "mensual": null
-      },
-      "veredicto": "revisar",
-      "puntaje": 11,
-      "razones": [
-        "rubro ONU 43231602",
-        "«erp» en el título",
-        "«software» en el detalle"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1469-352-L126",
-      "descripcion": "La Universidad de Talca requiere realizar mejoras y nuevos desarrollos de todo \ntipo, para todos los módulos del ERP SAP, considerando también desarrollos o \nmejoras de integraciones con sistemas legados y sistemas externos. "
     },
     {
-      "codigo": "1075337-59-LE26",
-      "nombre": "NUEVO PROC. ARRIENDO SOFTWARE INTEGRACION DTE Y CLOUD SERVER",
-      "organismo": "SERVICIO DE SALUD ARAUCANIA NORTE HOSPITAL DE ANGOL",
-      "unidad": "Bienes y Servicio",
-      "tipo": "LE",
-      "cierre": "2026-11-19T15:06:00",
-      "habiles_restantes": 8,
-      "nuevo": true,
-      "visto_desde": "2026-11-09",
-      "monto": "no informado",
+      "codigo": "1456835-4-LP26",
+      "nombre": "SISTEMA DE GESTIÓN DE PERSONAS Y REMUNERACIONES",
+      "organismo": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DEL LITORAL",
+      "unidad": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DEL LITORAL",
+      "tipo": "LP",
+      "cierre": "2026-11-12T15:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-10-26",
+      "monto": "138.000.000 CLP",
       "precio": {
-        "nivel": "sin_monto",
-        "etiqueta": "monto no publicado",
-        "detalle": "El organismo no informó presupuesto. Estimo ~8.7 meses-persona, o sea del orden de $17M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
-        "monto_clp": null,
-        "meses_contrato": 36.0,
-        "esfuerzo_mp": 8.7,
-        "mensual": null
-      },
-      "veredicto": "revisar",
-      "puntaje": 12,
-      "razones": [
-        "rubro ONU 43231512",
-        "«software» en el título",
-        "«software de gestion» en el detalle"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1075337-59-LE26",
-      "descripcion": "La presente licitación tiene como objetivo la contratación del servicio de arriendo de software de integración de integración DTE y Cloud Server, para el Hospital Dr. Mauricio Heyermann Torres de Angol."
-    },
-    {
-      "codigo": "584146-17-LE26",
-      "nombre": "SERVICIOS DE SOFTWARE PARA CARRERA FUNCIONARIA APS",
-      "organismo": "I MUNICIPALIDAD DE PURRANQUE",
-      "unidad": "DEPARTAMENTO DE SALUD MUNICIPAL",
-      "tipo": "LE",
-      "cierre": "2026-11-19T09:00:00",
-      "habiles_restantes": 8,
-      "nuevo": true,
-      "visto_desde": "2026-11-09",
-      "monto": "10.000.000 CLP",
-      "precio": {
-        "nivel": "roja",
-        "etiqueta": "no paga ni una persona",
-        "detalle": "$10.0M repartidos en 24 meses son $0.4M al mes. No alcanza ni para tener a una persona dedicada.",
-        "monto_clp": 10000000,
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$138.0M contra ~$29M de costo estimado (14.6 meses-persona), $5.8M al mes por 24 meses.",
+        "monto_clp": 138000000,
         "meses_contrato": 24.0,
-        "esfuerzo_mp": 6.3,
-        "mensual": 416667
+        "esfuerzo_mp": 14.6,
+        "mensual": 5750000
       },
-      "veredicto": "nogo",
-      "puntaje": 12,
+      "veredicto": "revisar",
+      "puntaje": 15,
       "razones": [
         "rubro ONU 43231505",
-        "«software» en el título",
-        "«software de gestion» en el detalle"
+        "«sistema informatico» en el detalle",
+        "«sistema de gestion» en el título",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle",
+        "ruido: «licenciamiento» en el detalle"
       ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=584146-17-LE26",
-      "descripcion": "SERVICIOS DE SOFTWARE PARA CARRERA FUNCIONARIA APS"
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1456835-4-LP26",
+      "descripcion": "El Servicio Local de Educación Pública del Litoral requiere contratar el servicio de implementación, puesta en marcha, licenciamiento, mantención y soporte de un sistema informático de gestión de personas y remuneraciones, por un periodo de 24 meses."
     },
     {
-      "codigo": "5155-40-LP26",
-      "nombre": "571 - Contratación servicos de soporte extendido de infraestructura TI y Sistemas informáticos",
-      "organismo": "SERVICIO ELECTORAL",
-      "unidad": "Unidad de Adquisiciones",
-      "tipo": "LP",
-      "cierre": "2026-11-30T15:00:00",
-      "habiles_restantes": 15,
-      "nuevo": true,
-      "visto_desde": "2026-11-09",
+      "codigo": "1867-54-LE26",
+      "nombre": "Servicio de Administración y Soporte Base de Datos",
+      "organismo": "DIRECCION GENERAL DE MOVILIZACIONN NACIONAL",
+      "unidad": "DIRECCION GENERAL DE MOVILIZACIONN NACIONAL",
+      "tipo": "LE",
+      "cierre": "2026-11-12T17:30:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-10-30",
       "monto": "no informado",
       "precio": {
         "nivel": "sin_monto",
@@ -547,12 +398,135 @@
         "mensual": null
       },
       "veredicto": "revisar",
+      "puntaje": 15,
+      "razones": [
+        "rubro ONU 81111812",
+        "«base de datos» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1867-54-LE26",
+      "descripcion": "Contratación de Servicio de Administración y Soporte Base de Datos Informix para uso de la DGMN."
+    },
+    {
+      "codigo": "585-13-LE26",
+      "nombre": "Servicio de Implementación de Portal de Acceso",
+      "organismo": "SERVICIO DE COOPERACION TECNICA",
+      "unidad": "Sercotec - Nivel Central",
+      "tipo": "LE",
+      "cierre": "2026-11-12T16:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-11-02",
+      "monto": "25.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$25.0M contra ~$2M de costo estimado (1.1 meses-persona), $8.3M al mes por 3 meses.",
+        "monto_clp": 25000000,
+        "meses_contrato": 3.0,
+        "esfuerzo_mp": 1.1,
+        "mensual": 8333333
+      },
+      "veredicto": "revisar",
+      "puntaje": 13,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el detalle",
+        "«software» en el detalle",
+        "«desarrollo de plataforma» en el detalle",
+        "ruido: «capacitacion»"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=585-13-LE26",
+      "descripcion": "Servicio de diseño y puesta en marcha de un portal de acceso directo y sincronización de datos con los Portales de Capacitación, Ruta Digital y Pymes en Línea de Sercotec."
+    },
+    {
+      "codigo": "1036569-17-LP26",
+      "nombre": "CONTRATACIÓN SISTEMA DE PERSONAL Y REMUNERACIONES",
+      "organismo": "GOBIERNO REGIONAL DE ÑUBLE",
+      "unidad": "División de Administración y Finanzas",
+      "tipo": "LP",
+      "cierre": "2026-11-12T18:47:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-10-21",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~1.7 meses-persona, o sea del orden de $3M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231505",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1036569-17-LP26",
+      "descripcion": "CONTRATACIÓN SISTEMA DE PERSONAL Y REMUNERACIONES CON MÓDULO DE AUTOCONSULTA EN LA NUBE PARA EL GOBIERNO REGIONAL DE ÑUBLE"
+    }
+  ],
+  "oportunidades": [
+    {
+      "codigo": "1057049-422-LE26",
+      "nombre": "JLL CONTRATACION DE SERVICIOS DE SOPORTE Y SUSCRIPCION DE PLATAFORMA DE INFRAESTRUCTURA HIPERCONVERGENTE HCI",
+      "organismo": "SERV SALUD METROPOLITANO CENTRAL HOSPITAL CLINICO SAN BORJA ARRIARAN",
+      "unidad": "Bienes y Servicios",
+      "tipo": "LE",
+      "cierre": "2026-11-19T15:30:00",
+      "habiles_restantes": 7,
+      "nuevo": true,
+      "visto_desde": "2026-11-10",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~3.5 meses-persona, o sea del orden de $7M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 15.0,
+        "esfuerzo_mp": 3.5,
+        "mensual": null
+      },
+      "veredicto": "revisar",
       "puntaje": 10,
       "razones": [
         "rubro ONU 81111812"
       ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5155-40-LP26",
-      "descripcion": "El SERVEL requiere proveer la contratación por servicios para la mantención y soporte extendido de infraestructura TI y sistemas informáticos para las plataformas que actualmente administra SERVEL según detalle en bases de licitación.\r\nLa participación en el proceso de licitación implica la aceptación, por parte de los proponentes, de todos y cada uno de los términos y disposiciones contenidas en las Bases, sin necesidad de declaración expresa del oferente."
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057049-422-LE26",
+      "descripcion": "JLL APRUEBA BASES DE LICITACION CONTRATACION DE SERVICIOS DE SOPORTE Y SUSCRIPCION DE PLATAFORMA DE INFRAESTRUCTURA HIPERCONVERGENTE (HCI) PARA EL DEPARTAMENTO DE TECNOLOGIAS DE LA INFORMACION Y COMUNICACION DEL HOSPITAL CLINICO SAN BORJA ARRIARAN "
+    },
+    {
+      "codigo": "4469-239-LE26",
+      "nombre": "S.C. N° 40669 U.F. LICENCIAS ZOOM PARA 12 MESES. INFORMATICA UPLA. AIUE 2655.",
+      "organismo": "UNIVERSIDAD DE PLAYA ANCHA DE CIENCIAS DE LA EDUCACION",
+      "unidad": "ADQUISICIONES",
+      "tipo": "LE",
+      "cierre": "2026-11-19T09:00:00",
+      "habiles_restantes": 7,
+      "nuevo": true,
+      "visto_desde": "2026-11-10",
+      "monto": "15.537.108 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$15.5M contra ~$3M de costo estimado (1.7 meses-persona).",
+        "monto_clp": 15537108,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231512",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4469-239-LE26",
+      "descripcion": "S.C. N° 40669 (U.F.), LICENCIAS ZOOM PARA 12 MESES. INFORMATICA UPLA. AIUE 2655.\r\nART. 38 SEGUN LEY 21094 DE UNIVERSIDADES ESTATALES"
     }
   ]
 }
