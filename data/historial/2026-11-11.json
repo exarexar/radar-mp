@@ -1,0 +1,295 @@
+{
+  "generado": "2026-11-11 14:00",
+  "fecha": "2026-11-11",
+  "horizonte": 20,
+  "fecha_hasta": "2026-12-10",
+  "primera_corrida": false,
+  "modo": "solo desarrollo",
+  "resumen": {
+    "activas_revisadas": 5098,
+    "detalles_consultados": 434,
+    "nuevas": 1,
+    "por_cerrar": 7,
+    "llamadas_api": 51
+  },
+  "nuevas": [
+    {
+      "codigo": "1306643-26-LE26",
+      "nombre": "PLATAFORMA DE GESTIÓN ADMINISTRATIVA",
+      "organismo": "I.MUNICIPALIDAD DE CERRO NAVIA",
+      "unidad": "SERVICIOS TRASPASADOS DEPARTAMENTO DE SALUD",
+      "tipo": "LE",
+      "cierre": "2026-11-24T15:00:00",
+      "habiles_restantes": 9,
+      "nuevo": true,
+      "visto_desde": "2026-11-11",
+      "monto": "25.704.000 CLP",
+      "precio": {
+        "nivel": "roja",
+        "etiqueta": "no paga ni una persona",
+        "detalle": "$25.7M repartidos en 36 meses son $0.7M al mes. No alcanza ni para tener a una persona dedicada.",
+        "monto_clp": 25704000,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 8.7,
+        "mensual": 714000
+      },
+      "veredicto": "nogo",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231503",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1306643-26-LE26",
+      "descripcion": "Plataforma integral para la gestión administrativa, control y ventas de Farmacias Populares, Óptica Popular y Droguería Comunal, con funcionalidades y obligaciones previstas en Bases Técnicas, Bases Administrativas y anexos."
+    }
+  ],
+  "por_cerrar": [
+    {
+      "codigo": "2735-149-LR26",
+      "nombre": "Servicio de Software de Gestión y Registro Clinico",
+      "organismo": "I MUNICIPALIDAD LO BARNECHEA",
+      "unidad": "Municipalidad de lo Barnechea - Adquisiciones - Consistorial",
+      "tipo": "LR",
+      "cierre": "2026-11-11T15:30:00",
+      "habiles_restantes": 0,
+      "nuevo": false,
+      "visto_desde": "2026-10-02",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~14.1 meses-persona, o sea del orden de $28M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 63.0,
+        "esfuerzo_mp": 14.1,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 14,
+      "razones": [
+        "rubro ONU 43232610",
+        "«software» en el título",
+        "«software de gestion» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2735-149-LR26",
+      "descripcion": "El objeto principal del servicio es proveer una plataforma tecnológica integral 100% web que dé estricto cumplimiento a lo dispuesto en la Ley N° 20.584 sobre Derechos y Deberes del Paciente, a la Ley N° 21.668 en materia de obligatoriedad e interoperabilidad de las fichas clínicas, y a la Ley N° 19.628 sobre protección de la vida privada, permitiendo mantener un registro clínico electrónico unificado, consistente, seguro y custodiado por la Dirección de Salud"
+    },
+    {
+      "codigo": "1456835-4-LP26",
+      "nombre": "SISTEMA DE GESTIÓN DE PERSONAS Y REMUNERACIONES",
+      "organismo": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DEL LITORAL",
+      "unidad": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DEL LITORAL",
+      "tipo": "LP",
+      "cierre": "2026-11-12T15:00:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-10-26",
+      "monto": "138.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$138.0M contra ~$29M de costo estimado (14.6 meses-persona), $5.8M al mes por 24 meses.",
+        "monto_clp": 138000000,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 14.6,
+        "mensual": 5750000
+      },
+      "veredicto": "revisar",
+      "puntaje": 15,
+      "razones": [
+        "rubro ONU 43231505",
+        "«sistema informatico» en el detalle",
+        "«sistema de gestion» en el título",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle",
+        "ruido: «licenciamiento» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1456835-4-LP26",
+      "descripcion": "El Servicio Local de Educación Pública del Litoral requiere contratar el servicio de implementación, puesta en marcha, licenciamiento, mantención y soporte de un sistema informático de gestión de personas y remuneraciones, por un periodo de 24 meses."
+    },
+    {
+      "codigo": "1867-54-LE26",
+      "nombre": "Servicio de Administración y Soporte Base de Datos",
+      "organismo": "DIRECCION GENERAL DE MOVILIZACIONN NACIONAL",
+      "unidad": "DIRECCION GENERAL DE MOVILIZACIONN NACIONAL",
+      "tipo": "LE",
+      "cierre": "2026-11-12T17:30:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-10-30",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~2.9 meses-persona, o sea del orden de $6M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 2.9,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 15,
+      "razones": [
+        "rubro ONU 81111812",
+        "«base de datos» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1867-54-LE26",
+      "descripcion": "Contratación de Servicio de Administración y Soporte Base de Datos Informix para uso de la DGMN."
+    },
+    {
+      "codigo": "585-13-LE26",
+      "nombre": "Servicio de Implementación de Portal de Acceso",
+      "organismo": "SERVICIO DE COOPERACION TECNICA",
+      "unidad": "Sercotec - Nivel Central",
+      "tipo": "LE",
+      "cierre": "2026-11-12T16:00:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-11-02",
+      "monto": "25.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$25.0M contra ~$2M de costo estimado (1.1 meses-persona), $8.3M al mes por 3 meses.",
+        "monto_clp": 25000000,
+        "meses_contrato": 3.0,
+        "esfuerzo_mp": 1.1,
+        "mensual": 8333333
+      },
+      "veredicto": "revisar",
+      "puntaje": 13,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el detalle",
+        "«software» en el detalle",
+        "«desarrollo de plataforma» en el detalle",
+        "ruido: «capacitacion»"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=585-13-LE26",
+      "descripcion": "Servicio de diseño y puesta en marcha de un portal de acceso directo y sincronización de datos con los Portales de Capacitación, Ruta Digital y Pymes en Línea de Sercotec."
+    },
+    {
+      "codigo": "1036569-17-LP26",
+      "nombre": "CONTRATACIÓN SISTEMA DE PERSONAL Y REMUNERACIONES",
+      "organismo": "GOBIERNO REGIONAL DE ÑUBLE",
+      "unidad": "División de Administración y Finanzas",
+      "tipo": "LP",
+      "cierre": "2026-11-12T18:47:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-10-21",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~1.7 meses-persona, o sea del orden de $3M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231505",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1036569-17-LP26",
+      "descripcion": "CONTRATACIÓN SISTEMA DE PERSONAL Y REMUNERACIONES CON MÓDULO DE AUTOCONSULTA EN LA NUBE PARA EL GOBIERNO REGIONAL DE ÑUBLE"
+    },
+    {
+      "codigo": "3697-52-LE26",
+      "nombre": "Contrato de Sum arriendo Software de Gestión Adm y Control de Licencias Médicas",
+      "organismo": "I MUNICIPALIDAD DE VICTORIA",
+      "unidad": "Adquisiciones",
+      "tipo": "LE",
+      "cierre": "2026-11-13T15:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-11-05",
+      "monto": "11.100.000 CLP",
+      "precio": {
+        "nivel": "roja",
+        "etiqueta": "no paga ni una persona",
+        "detalle": "$11.1M repartidos en 24 meses son $0.5M al mes. No alcanza ni para tener a una persona dedicada.",
+        "monto_clp": 11100000,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 6.3,
+        "mensual": 462500
+      },
+      "veredicto": "nogo",
+      "puntaje": 16,
+      "razones": [
+        "rubro ONU 43231512",
+        "«software» en el título",
+        "«software de gestion» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3697-52-LE26",
+      "descripcion": "La Municipalidad de Victoria, requiere contratar con el servicio por arriendo de un software de gestión, administración y control de licencias médicas solicitado por la Oficina de Remuneraciones, según anexo técnico adjunto."
+    },
+    {
+      "codigo": "3756-48-LE26",
+      "nombre": "SERVICIO DE SOFTWARE GESTIÓN DOCUMENTAL PARA LA MUNICIPALIDAD DE PELARCO",
+      "organismo": "I MUNICIPALIDAD DE PELARCO",
+      "unidad": "I MUNICIPALIDAD DE PELARCO",
+      "tipo": "LE",
+      "cierre": "2026-11-13T12:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-11-02",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~5.5 meses-persona, o sea del orden de $11M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 5.5,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 13,
+      "razones": [
+        "rubro ONU 43232903",
+        "«software» en el título",
+        "«gestion documental» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3756-48-LE26",
+      "descripcion": "SERVICIO DE SOFTWARE GESTIÓN DOCUMENTAL PARA LA MUNICIPALIDAD DE PELARCO"
+    }
+  ],
+  "oportunidades": [
+    {
+      "codigo": "1306643-26-LE26",
+      "nombre": "PLATAFORMA DE GESTIÓN ADMINISTRATIVA",
+      "organismo": "I.MUNICIPALIDAD DE CERRO NAVIA",
+      "unidad": "SERVICIOS TRASPASADOS DEPARTAMENTO DE SALUD",
+      "tipo": "LE",
+      "cierre": "2026-11-24T15:00:00",
+      "habiles_restantes": 9,
+      "nuevo": true,
+      "visto_desde": "2026-11-11",
+      "monto": "25.704.000 CLP",
+      "precio": {
+        "nivel": "roja",
+        "etiqueta": "no paga ni una persona",
+        "detalle": "$25.7M repartidos en 36 meses son $0.7M al mes. No alcanza ni para tener a una persona dedicada.",
+        "monto_clp": 25704000,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 8.7,
+        "mensual": 714000
+      },
+      "veredicto": "nogo",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231503",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1306643-26-LE26",
+      "descripcion": "Plataforma integral para la gestión administrativa, control y ventas de Farmacias Populares, Óptica Popular y Droguería Comunal, con funcionalidades y obligaciones previstas en Bases Técnicas, Bases Administrativas y anexos."
+    }
+  ]
+}
