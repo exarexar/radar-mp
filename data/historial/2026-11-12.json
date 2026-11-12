@@ -1,0 +1,566 @@
+{
+  "generado": "2026-11-12 14:29",
+  "fecha": "2026-11-12",
+  "horizonte": 20,
+  "fecha_hasta": "2026-12-11",
+  "primera_corrida": false,
+  "modo": "solo desarrollo",
+  "resumen": {
+    "activas_revisadas": 5248,
+    "detalles_consultados": 456,
+    "nuevas": 5,
+    "por_cerrar": 8,
+    "llamadas_api": 66
+  },
+  "nuevas": [
+    {
+      "codigo": "2289-65-LE26",
+      "nombre": "CONTRATACIÓN DE SOFTWARE DOM MUNICIPALIDAD DE FRUT",
+      "organismo": "I MUNICIPALIDAD DE FRUTILLAR",
+      "unidad": "MUNICIPALIDAD DE FRUTILLAR",
+      "tipo": "LE",
+      "cierre": "2026-11-23T15:01:00",
+      "habiles_restantes": 7,
+      "nuevo": true,
+      "visto_desde": "2026-11-12",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~3.9 meses-persona, o sea del orden de $8M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 3.9,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 12,
+      "razones": [
+        "rubro ONU 43232303",
+        "«software» en el título",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2289-65-LE26",
+      "descripcion": "CONTRATACIÓN DE SOFTWARE DOM MUNICIPALIDAD DE FRUTILLAR, de acuerdo a las especificaciones señaladas en las Bases Técnicas que acompañan a las  Bases Administrativas."
+    },
+    {
+      "codigo": "1316747-36-LE26",
+      "nombre": "Servicio ERP en la nube con migración de datos",
+      "organismo": "CORPORACION CULTURAL MUNICIPAL DE LOS ANGELES",
+      "unidad": "Departamento de Administración",
+      "tipo": "LE",
+      "cierre": "2026-11-23T15:30:00",
+      "habiles_restantes": 7,
+      "nuevo": true,
+      "visto_desde": "2026-11-12",
+      "monto": "387 CLF",
+      "precio": {
+        "nivel": "amarilla",
+        "etiqueta": "margen apretado",
+        "detalle": "$15.8M contra ~$20M de costo estimado (9.8 meses-persona). Se puede, pero sin espacio para imprevistos.",
+        "monto_clp": 15808950,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 9.8,
+        "mensual": 1317412
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231602",
+        "«erp» en el título",
+        "«sistema de gestion» en el detalle",
+        "«software» en el detalle",
+        "ruido: «capacitacion»"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1316747-36-LE26",
+      "descripcion": "Contratación del servicio de sistema de gestión empresarial ERP en la nube, modalidad SaaS, para la Corporación Cultural Municipal de Los Ángeles. Incluye contabilidad, tesorería, compras, facturación electrónica, inventario, activo fijo, remuneraciones y firma electrónica, con implementación, migración de datos históricos, capacitación y soporte. Contrato de 12 meses, renovable hasta 2 veces."
+    },
+    {
+      "codigo": "3253-111-LP26",
+      "nombre": "SERVICIO DE ARRIENDO MANT. Y SOPORTE SISTEMAS GUB",
+      "organismo": "I MUNICIPALIDAD DE PELLUHUE",
+      "unidad": "Secretaría de  Planificación",
+      "tipo": "LP",
+      "cierre": "2026-11-23T15:00:00",
+      "habiles_restantes": 7,
+      "nuevo": true,
+      "visto_desde": "2026-11-12",
+      "monto": "3.000 CLF",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$122.5M contra ~$11M de costo estimado (5.3 meses-persona), $5.1M al mes por 24 meses.",
+        "monto_clp": 122550000,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 5.3,
+        "mensual": 5106250
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 81111805"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3253-111-LP26",
+      "descripcion": "Servicio de arriendo, mantencion y soporte de sistemas gubernamentales de Gestion Area Municipal Periodo 2027-2028, segun bases tecnicas y administrativas."
+    },
+    {
+      "codigo": "889473-73-B226",
+      "nombre": "SC 6506 - 8599 Levan. Inventario y Sistema de Gest",
+      "organismo": "UNIVERSIDAD DE O'HIGGINS",
+      "unidad": "UNIVERSIDAD DE O'HIGGINS",
+      "tipo": "B2",
+      "cierre": "2026-12-02T16:00:00",
+      "habiles_restantes": 14,
+      "nuevo": true,
+      "visto_desde": "2026-11-12",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~1.7 meses-persona, o sea del orden de $3M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 13,
+      "razones": [
+        "rubro ONU 43231508",
+        "«implementacion de sistema» en el detalle",
+        "«sistema de gestion» en el detalle",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=889473-73-B226",
+      "descripcion": "El presente proceso de licitación tiene por objeto realizar el levantamiento de inventario de todos los bienes existentes en las distintas dependencias de la universidad, incorporando dicha información a un software que nos permita gestionar estos activos de manera integral. Esto incluye las funciones de altas de activo, asignaciones, traspasos, bajas y otras operaciones necesarias para la administración del inventario institucional. Asimismo, el sistema deberá permitir él envió de información contable para su integración y utilización en la contabilidad institucional."
+    },
+    {
+      "codigo": "2026-101-LR26",
+      "nombre": "ADQUISICIÓN SISTEMA ERP Y GESTOR DOCUMENTAL HBQP",
+      "organismo": "SERVICIO SALUD VINA DEL MAR QUILLOTA",
+      "unidad": "Servicio de Salud Viña del Mar - Quillota",
+      "tipo": "LR",
+      "cierre": "2026-12-11T18:00:00",
+      "habiles_restantes": 20,
+      "nuevo": true,
+      "visto_desde": "2026-11-12",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~5.4 meses-persona, o sea del orden de $11M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": null,
+        "esfuerzo_mp": 5.4,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 13,
+      "razones": [
+        "rubro ONU 43231513",
+        "«erp» en el título",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2026-101-LR26",
+      "descripcion": "ADQUISICIÓN SISTEMA ERP Y GESTOR DOCUMENTAL PARA HOSPITAL BIPROVINCIAL QUILLOTA PETORCA"
+    }
+  ],
+  "por_cerrar": [
+    {
+      "codigo": "1456835-4-LP26",
+      "nombre": "SISTEMA DE GESTIÓN DE PERSONAS Y REMUNERACIONES",
+      "organismo": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DEL LITORAL",
+      "unidad": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DEL LITORAL",
+      "tipo": "LP",
+      "cierre": "2026-11-12T15:00:00",
+      "habiles_restantes": 0,
+      "nuevo": false,
+      "visto_desde": "2026-10-26",
+      "monto": "138.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$138.0M contra ~$29M de costo estimado (14.6 meses-persona), $5.8M al mes por 24 meses.",
+        "monto_clp": 138000000,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 14.6,
+        "mensual": 5750000
+      },
+      "veredicto": "revisar",
+      "puntaje": 15,
+      "razones": [
+        "rubro ONU 43231505",
+        "«sistema informatico» en el detalle",
+        "«sistema de gestion» en el título",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle",
+        "ruido: «licenciamiento» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1456835-4-LP26",
+      "descripcion": "El Servicio Local de Educación Pública del Litoral requiere contratar el servicio de implementación, puesta en marcha, licenciamiento, mantención y soporte de un sistema informático de gestión de personas y remuneraciones, por un periodo de 24 meses."
+    },
+    {
+      "codigo": "1867-54-LE26",
+      "nombre": "Servicio de Administración y Soporte Base de Datos",
+      "organismo": "DIRECCION GENERAL DE MOVILIZACIONN NACIONAL",
+      "unidad": "DIRECCION GENERAL DE MOVILIZACIONN NACIONAL",
+      "tipo": "LE",
+      "cierre": "2026-11-12T17:30:00",
+      "habiles_restantes": 0,
+      "nuevo": false,
+      "visto_desde": "2026-10-30",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~2.9 meses-persona, o sea del orden de $6M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 2.9,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 15,
+      "razones": [
+        "rubro ONU 81111812",
+        "«base de datos» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1867-54-LE26",
+      "descripcion": "Contratación de Servicio de Administración y Soporte Base de Datos Informix para uso de la DGMN."
+    },
+    {
+      "codigo": "585-13-LE26",
+      "nombre": "Servicio de Implementación de Portal de Acceso",
+      "organismo": "SERVICIO DE COOPERACION TECNICA",
+      "unidad": "Sercotec - Nivel Central",
+      "tipo": "LE",
+      "cierre": "2026-11-12T16:00:00",
+      "habiles_restantes": 0,
+      "nuevo": false,
+      "visto_desde": "2026-11-02",
+      "monto": "25.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$25.0M contra ~$2M de costo estimado (1.1 meses-persona), $8.3M al mes por 3 meses.",
+        "monto_clp": 25000000,
+        "meses_contrato": 3.0,
+        "esfuerzo_mp": 1.1,
+        "mensual": 8333333
+      },
+      "veredicto": "revisar",
+      "puntaje": 13,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el detalle",
+        "«software» en el detalle",
+        "«desarrollo de plataforma» en el detalle",
+        "ruido: «capacitacion»"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=585-13-LE26",
+      "descripcion": "Servicio de diseño y puesta en marcha de un portal de acceso directo y sincronización de datos con los Portales de Capacitación, Ruta Digital y Pymes en Línea de Sercotec."
+    },
+    {
+      "codigo": "1036569-17-LP26",
+      "nombre": "CONTRATACIÓN SISTEMA DE PERSONAL Y REMUNERACIONES",
+      "organismo": "GOBIERNO REGIONAL DE ÑUBLE",
+      "unidad": "División de Administración y Finanzas",
+      "tipo": "LP",
+      "cierre": "2026-11-12T18:47:00",
+      "habiles_restantes": 0,
+      "nuevo": false,
+      "visto_desde": "2026-10-21",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~1.7 meses-persona, o sea del orden de $3M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231505",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1036569-17-LP26",
+      "descripcion": "CONTRATACIÓN SISTEMA DE PERSONAL Y REMUNERACIONES CON MÓDULO DE AUTOCONSULTA EN LA NUBE PARA EL GOBIERNO REGIONAL DE ÑUBLE"
+    },
+    {
+      "codigo": "3697-52-LE26",
+      "nombre": "Contrato de Sum arriendo Software de Gestión Adm y Control de Licencias Médicas",
+      "organismo": "I MUNICIPALIDAD DE VICTORIA",
+      "unidad": "Adquisiciones",
+      "tipo": "LE",
+      "cierre": "2026-11-13T15:00:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-11-05",
+      "monto": "11.100.000 CLP",
+      "precio": {
+        "nivel": "roja",
+        "etiqueta": "no paga ni una persona",
+        "detalle": "$11.1M repartidos en 24 meses son $0.5M al mes. No alcanza ni para tener a una persona dedicada.",
+        "monto_clp": 11100000,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 6.3,
+        "mensual": 462500
+      },
+      "veredicto": "nogo",
+      "puntaje": 16,
+      "razones": [
+        "rubro ONU 43231512",
+        "«software» en el título",
+        "«software de gestion» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3697-52-LE26",
+      "descripcion": "La Municipalidad de Victoria, requiere contratar con el servicio por arriendo de un software de gestión, administración y control de licencias médicas solicitado por la Oficina de Remuneraciones, según anexo técnico adjunto."
+    },
+    {
+      "codigo": "3756-48-LE26",
+      "nombre": "SERVICIO DE SOFTWARE GESTIÓN DOCUMENTAL PARA LA MUNICIPALIDAD DE PELARCO",
+      "organismo": "I MUNICIPALIDAD DE PELARCO",
+      "unidad": "I MUNICIPALIDAD DE PELARCO",
+      "tipo": "LE",
+      "cierre": "2026-11-13T12:00:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-11-02",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~5.5 meses-persona, o sea del orden de $11M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 5.5,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 13,
+      "razones": [
+        "rubro ONU 43232903",
+        "«software» en el título",
+        "«gestion documental» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3756-48-LE26",
+      "descripcion": "SERVICIO DE SOFTWARE GESTIÓN DOCUMENTAL PARA LA MUNICIPALIDAD DE PELARCO"
+    },
+    {
+      "codigo": "1469-352-L126",
+      "nombre": "SERVICIO DE CONSULTORÍA Y DESARROLLO EN LOS MÓDULOS ERP SAP PARA  DIRECCIÓN DE FINANZAS DE LA UNIVERSIDAD DE TALCA",
+      "organismo": "UNIVERSIDAD DE TALCA",
+      "unidad": "Universidad de Talca",
+      "tipo": "L1",
+      "cierre": "2026-11-16T15:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-11-09",
+      "monto": "7.000.000 CLP",
+      "precio": {
+        "nivel": "amarilla",
+        "etiqueta": "margen apretado",
+        "detalle": "$7.0M contra ~$11M de costo estimado (5.4 meses-persona). Se puede, pero sin espacio para imprevistos.",
+        "monto_clp": 7000000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 5.4,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 11,
+      "razones": [
+        "rubro ONU 43231602",
+        "«erp» en el título",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1469-352-L126",
+      "descripcion": "La Universidad de Talca requiere realizar mejoras y nuevos desarrollos de todo \ntipo, para todos los módulos del ERP SAP, considerando también desarrollos o \nmejoras de integraciones con sistemas legados y sistemas externos. "
+    },
+    {
+      "codigo": "2251-17-LE26",
+      "nombre": "Arriendo software interpretación imágenes rayos X",
+      "organismo": "DIRECCION GENERAL DE AERONAUTICA CIVIL",
+      "unidad": "UNIDAD DE COMPRA ESCUELA TECNICA DE AERONAUTICA",
+      "tipo": "LE",
+      "cierre": "2026-11-16T15:31:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-11-05",
+      "monto": "33.960.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$34.0M contra ~$8M de costo estimado (3.9 meses-persona), $2.8M al mes por 12 meses.",
+        "monto_clp": 33960000,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 3.9,
+        "mensual": 2830000
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 81112106",
+        "«software» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2251-17-LE26",
+      "descripcion": "La necesidad de la Escuela Técnica Aeronáutica (ETA) de contratar por 12 meses el arriendo de software de interpretación de imágenes de rayos X para la formación AVSEC de la ETA, para más información, favor de revisar Bases Técnicas, Bases Administrativas así como todo anexo asociado."
+    }
+  ],
+  "oportunidades": [
+    {
+      "codigo": "2289-65-LE26",
+      "nombre": "CONTRATACIÓN DE SOFTWARE DOM MUNICIPALIDAD DE FRUT",
+      "organismo": "I MUNICIPALIDAD DE FRUTILLAR",
+      "unidad": "MUNICIPALIDAD DE FRUTILLAR",
+      "tipo": "LE",
+      "cierre": "2026-11-23T15:01:00",
+      "habiles_restantes": 7,
+      "nuevo": true,
+      "visto_desde": "2026-11-12",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~3.9 meses-persona, o sea del orden de $8M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 3.9,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 12,
+      "razones": [
+        "rubro ONU 43232303",
+        "«software» en el título",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2289-65-LE26",
+      "descripcion": "CONTRATACIÓN DE SOFTWARE DOM MUNICIPALIDAD DE FRUTILLAR, de acuerdo a las especificaciones señaladas en las Bases Técnicas que acompañan a las  Bases Administrativas."
+    },
+    {
+      "codigo": "1316747-36-LE26",
+      "nombre": "Servicio ERP en la nube con migración de datos",
+      "organismo": "CORPORACION CULTURAL MUNICIPAL DE LOS ANGELES",
+      "unidad": "Departamento de Administración",
+      "tipo": "LE",
+      "cierre": "2026-11-23T15:30:00",
+      "habiles_restantes": 7,
+      "nuevo": true,
+      "visto_desde": "2026-11-12",
+      "monto": "387 CLF",
+      "precio": {
+        "nivel": "amarilla",
+        "etiqueta": "margen apretado",
+        "detalle": "$15.8M contra ~$20M de costo estimado (9.8 meses-persona). Se puede, pero sin espacio para imprevistos.",
+        "monto_clp": 15808950,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 9.8,
+        "mensual": 1317412
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231602",
+        "«erp» en el título",
+        "«sistema de gestion» en el detalle",
+        "«software» en el detalle",
+        "ruido: «capacitacion»"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1316747-36-LE26",
+      "descripcion": "Contratación del servicio de sistema de gestión empresarial ERP en la nube, modalidad SaaS, para la Corporación Cultural Municipal de Los Ángeles. Incluye contabilidad, tesorería, compras, facturación electrónica, inventario, activo fijo, remuneraciones y firma electrónica, con implementación, migración de datos históricos, capacitación y soporte. Contrato de 12 meses, renovable hasta 2 veces."
+    },
+    {
+      "codigo": "3253-111-LP26",
+      "nombre": "SERVICIO DE ARRIENDO MANT. Y SOPORTE SISTEMAS GUB",
+      "organismo": "I MUNICIPALIDAD DE PELLUHUE",
+      "unidad": "Secretaría de  Planificación",
+      "tipo": "LP",
+      "cierre": "2026-11-23T15:00:00",
+      "habiles_restantes": 7,
+      "nuevo": true,
+      "visto_desde": "2026-11-12",
+      "monto": "3.000 CLF",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$122.5M contra ~$11M de costo estimado (5.3 meses-persona), $5.1M al mes por 24 meses.",
+        "monto_clp": 122550000,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 5.3,
+        "mensual": 5106250
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 81111805"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3253-111-LP26",
+      "descripcion": "Servicio de arriendo, mantencion y soporte de sistemas gubernamentales de Gestion Area Municipal Periodo 2027-2028, segun bases tecnicas y administrativas."
+    },
+    {
+      "codigo": "889473-73-B226",
+      "nombre": "SC 6506 - 8599 Levan. Inventario y Sistema de Gest",
+      "organismo": "UNIVERSIDAD DE O'HIGGINS",
+      "unidad": "UNIVERSIDAD DE O'HIGGINS",
+      "tipo": "B2",
+      "cierre": "2026-12-02T16:00:00",
+      "habiles_restantes": 14,
+      "nuevo": true,
+      "visto_desde": "2026-11-12",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~1.7 meses-persona, o sea del orden de $3M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 13,
+      "razones": [
+        "rubro ONU 43231508",
+        "«implementacion de sistema» en el detalle",
+        "«sistema de gestion» en el detalle",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=889473-73-B226",
+      "descripcion": "El presente proceso de licitación tiene por objeto realizar el levantamiento de inventario de todos los bienes existentes en las distintas dependencias de la universidad, incorporando dicha información a un software que nos permita gestionar estos activos de manera integral. Esto incluye las funciones de altas de activo, asignaciones, traspasos, bajas y otras operaciones necesarias para la administración del inventario institucional. Asimismo, el sistema deberá permitir él envió de información contable para su integración y utilización en la contabilidad institucional."
+    },
+    {
+      "codigo": "2026-101-LR26",
+      "nombre": "ADQUISICIÓN SISTEMA ERP Y GESTOR DOCUMENTAL HBQP",
+      "organismo": "SERVICIO SALUD VINA DEL MAR QUILLOTA",
+      "unidad": "Servicio de Salud Viña del Mar - Quillota",
+      "tipo": "LR",
+      "cierre": "2026-12-11T18:00:00",
+      "habiles_restantes": 20,
+      "nuevo": true,
+      "visto_desde": "2026-11-12",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~5.4 meses-persona, o sea del orden de $11M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": null,
+        "esfuerzo_mp": 5.4,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 13,
+      "razones": [
+        "rubro ONU 43231513",
+        "«erp» en el título",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2026-101-LR26",
+      "descripcion": "ADQUISICIÓN SISTEMA ERP Y GESTOR DOCUMENTAL PARA HOSPITAL BIPROVINCIAL QUILLOTA PETORCA"
+    }
+  ]
+}
