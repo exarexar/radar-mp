@@ -1,139 +1,110 @@
 {
-  "generado": "2026-11-13 14:05",
-  "fecha": "2026-11-13",
+  "generado": "2026-11-16 16:28",
+  "fecha": "2026-11-16",
   "horizonte": 20,
-  "fecha_hasta": "2026-12-14",
+  "fecha_hasta": "2026-12-15",
   "primera_corrida": false,
   "modo": "solo desarrollo",
   "resumen": {
-    "activas_revisadas": 5322,
-    "detalles_consultados": 451,
-    "nuevas": 1,
-    "por_cerrar": 5,
-    "llamadas_api": 165
+    "activas_revisadas": 4877,
+    "detalles_consultados": 426,
+    "nuevas": 3,
+    "por_cerrar": 2,
+    "llamadas_api": 225
   },
   "nuevas": [
     {
-      "codigo": "2704-94-LE26",
-      "nombre": "ESTACIÓN COMPUTACIONAL DE ALTO RENDIMIENTO SC 5792",
-      "organismo": "UNIVERSIDAD DEL BIO BIO",
-      "unidad": "Universidad del Bío-Bío - Campus Concepción",
+      "codigo": "1082957-37-LE26",
+      "nombre": "SERVICIOS DE DESARROLLO DE REPORTERÍA AVANZADA ANALÍTICA Y RE-VIRTUALIZACIÓN DE CURSOS PARA EL AULA VIRTUAL DE PROCHILE",
+      "organismo": "DIRECCION GENERAL DE PROMOCION DE EXPORTACIONES",
+      "unidad": "MN PROMOCION DE EXPORTACIONES",
       "tipo": "LE",
-      "cierre": "2026-11-23T18:00:00",
+      "cierre": "2026-11-24T13:00:00",
       "habiles_restantes": 6,
       "nuevo": true,
-      "visto_desde": "2026-11-13",
+      "visto_desde": "2026-11-16",
+      "monto": "16.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$16.0M contra ~$9M de costo estimado (4.3 meses-persona), $1.1M al mes por 14 meses.",
+        "monto_clp": 16000000,
+        "meses_contrato": 14.0,
+        "esfuerzo_mp": 4.3,
+        "mensual": 1142857
+      },
+      "veredicto": "go",
+      "puntaje": 20,
+      "razones": [
+        "rubro ONU 81111508",
+        "«servicios de desarrollo» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1082957-37-LE26",
+      "descripcion": "ProChile invita a participar en el proceso de contratación para servicios de desarrollo de reportería avanzada, analítica y re-virtualización de cursos para el Aula Virtual de ProChile, con el objetivo de optimizar el control de gestión de convocatorias, trazabilidad de la participación y calidad e la oferta formativa institucional en el Aula Virtual de ProChile. “E1O2RT9”."
+    },
+    {
+      "codigo": "1057547-482-LE26",
+      "nombre": "SUSCRIPCIÓN ANUAL A PLATAFORMA DE MODELACIÓN BIM",
+      "organismo": "SERVICIO DE SALUD VALDIVIA HOSPITAL BASE",
+      "unidad": "Bienes y Servicios",
+      "tipo": "LE",
+      "cierre": "2026-11-27T19:00:00",
+      "habiles_restantes": 9,
+      "nuevo": true,
+      "visto_desde": "2026-11-16",
+      "monto": "7.775.360 CLP",
+      "precio": {
+        "nivel": "roja",
+        "etiqueta": "no paga ni una persona",
+        "detalle": "$7.8M repartidos en 12 meses son $0.6M al mes. No alcanza ni para tener a una persona dedicada.",
+        "monto_clp": 7775360,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 3.9,
+        "mensual": 647947
+      },
+      "veredicto": "nogo",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231512",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057547-482-LE26",
+      "descripcion": "CONTRATACIÓN DE SUSCRIPCIÓN ANUAL A PLATAFORMA DE MODELACIÓN BIM EN LA NUBE PARA LA COORDINACIÓN DE PROYECTOS DE ARQUITECTURA Y ESPECIALIDADES DEL HOSPITAL BASE VALDIVIA"
+    },
+    {
+      "codigo": "1422825-33-LP26",
+      "nombre": "CONTRATO DE ARRENDAMIENTO DE SISTEMA DE GESTION DE TURNOS PARA EL HOSPITAL CARLOS VAN BUREN",
+      "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUREN",
+      "unidad": "Operaciones",
+      "tipo": "LP",
+      "cierre": "2026-12-07T16:00:00",
+      "habiles_restantes": 15,
+      "nuevo": true,
+      "visto_desde": "2026-11-16",
       "monto": "no informado",
       "precio": {
         "nivel": "sin_monto",
         "etiqueta": "monto no publicado",
-        "detalle": "El organismo no informó presupuesto. Estimo ~0.7 meses-persona, o sea del orden de $1M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "detalle": "El organismo no informó presupuesto. Estimo ~11.5 meses-persona, o sea del orden de $23M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
         "monto_clp": null,
-        "meses_contrato": null,
-        "esfuerzo_mp": 0.7,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 11.5,
         "mensual": null
       },
       "veredicto": "revisar",
-      "puntaje": 11,
+      "puntaje": 15,
       "razones": [
-        "rubro ONU 81111505",
-        "«programacion» en el detalle",
-        "ruido: «capacitacion»"
+        "rubro ONU 43231505",
+        "«sistema de gestion» en el título",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
       ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2704-94-LE26",
-      "descripcion": "SERVICIO DE PROVISIÓN, INSTALACIÓN, PUESTA EN MARCHA Y CAPACITACIÓN EN EL USO DE UNA ESTACIÓN DE TRABAJO COMPUTACIONAL DE ALTO RENDIMIENTO, PARA SIMULACIÓN NUMÉRICA, DINÁMICA DE FLUIDO COMPUTACIONAL, PROCESAMIENTO CIENTÍFICO E INTELIGENCIA ARTIFICIAL\r\nSC 5792"
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1422825-33-LP26",
+      "descripcion": "La necesidad del Hospital Carlos Van Buren de llamar a Licitación Pública a través del portal Mercado Público, para contratar el servicio de arrendamiento de sistema de Control de Turnos para el Hospital Carlos Van Buren por un período de 36 meses corridos"
     }
   ],
   "por_cerrar": [
-    {
-      "codigo": "3697-52-LE26",
-      "nombre": "Contrato de Sum arriendo Software de Gestión Adm y Control de Licencias Médicas",
-      "organismo": "I MUNICIPALIDAD DE VICTORIA",
-      "unidad": "Adquisiciones",
-      "tipo": "LE",
-      "cierre": "2026-11-13T15:00:00",
-      "habiles_restantes": 0,
-      "nuevo": false,
-      "visto_desde": "2026-11-05",
-      "monto": "11.100.000 CLP",
-      "precio": {
-        "nivel": "roja",
-        "etiqueta": "no paga ni una persona",
-        "detalle": "$11.1M repartidos en 24 meses son $0.5M al mes. No alcanza ni para tener a una persona dedicada.",
-        "monto_clp": 11100000,
-        "meses_contrato": 24.0,
-        "esfuerzo_mp": 6.3,
-        "mensual": 462500
-      },
-      "veredicto": "nogo",
-      "puntaje": 16,
-      "razones": [
-        "rubro ONU 43231512",
-        "«software» en el título",
-        "«software de gestion» en el título"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3697-52-LE26",
-      "descripcion": "La Municipalidad de Victoria, requiere contratar con el servicio por arriendo de un software de gestión, administración y control de licencias médicas solicitado por la Oficina de Remuneraciones, según anexo técnico adjunto."
-    },
-    {
-      "codigo": "1469-352-L126",
-      "nombre": "SERVICIO DE CONSULTORÍA Y DESARROLLO EN LOS MÓDULOS ERP SAP PARA  DIRECCIÓN DE FINANZAS DE LA UNIVERSIDAD DE TALCA",
-      "organismo": "UNIVERSIDAD DE TALCA",
-      "unidad": "Universidad de Talca",
-      "tipo": "L1",
-      "cierre": "2026-11-16T15:00:00",
-      "habiles_restantes": 1,
-      "nuevo": false,
-      "visto_desde": "2026-11-09",
-      "monto": "7.000.000 CLP",
-      "precio": {
-        "nivel": "amarilla",
-        "etiqueta": "margen apretado",
-        "detalle": "$7.0M contra ~$11M de costo estimado (5.4 meses-persona). Se puede, pero sin espacio para imprevistos.",
-        "monto_clp": 7000000,
-        "meses_contrato": null,
-        "esfuerzo_mp": 5.4,
-        "mensual": null
-      },
-      "veredicto": "revisar",
-      "puntaje": 11,
-      "razones": [
-        "rubro ONU 43231602",
-        "«erp» en el título",
-        "«software» en el detalle"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1469-352-L126",
-      "descripcion": "La Universidad de Talca requiere realizar mejoras y nuevos desarrollos de todo \ntipo, para todos los módulos del ERP SAP, considerando también desarrollos o \nmejoras de integraciones con sistemas legados y sistemas externos. "
-    },
-    {
-      "codigo": "2251-17-LE26",
-      "nombre": "Arriendo software interpretación imágenes rayos X",
-      "organismo": "DIRECCION GENERAL DE AERONAUTICA CIVIL",
-      "unidad": "UNIDAD DE COMPRA ESCUELA TECNICA DE AERONAUTICA",
-      "tipo": "LE",
-      "cierre": "2026-11-16T15:31:00",
-      "habiles_restantes": 1,
-      "nuevo": false,
-      "visto_desde": "2026-11-05",
-      "monto": "33.960.000 CLP",
-      "precio": {
-        "nivel": "verde",
-        "etiqueta": "presupuesto razonable",
-        "detalle": "$34.0M contra ~$8M de costo estimado (3.9 meses-persona), $2.8M al mes por 12 meses.",
-        "monto_clp": 33960000,
-        "meses_contrato": 12.0,
-        "esfuerzo_mp": 3.9,
-        "mensual": 2830000
-      },
-      "veredicto": "revisar",
-      "puntaje": 10,
-      "razones": [
-        "rubro ONU 81112106",
-        "«software» en el título"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2251-17-LE26",
-      "descripcion": "La necesidad de la Escuela Técnica Aeronáutica (ETA) de contratar por 12 meses el arriendo de software de interpretación de imágenes de rayos X para la formación AVSEC de la ETA, para más información, favor de revisar Bases Técnicas, Bases Administrativas así como todo anexo asociado."
-    },
     {
       "codigo": "1233623-47-LP26",
       "nombre": "SOFTWARE PARA GESTION DE PERSONAS LICANCABUR",
@@ -141,7 +112,7 @@
       "unidad": "Servicio Local de Educación Pública Licancabur",
       "tipo": "LP",
       "cierre": "2026-11-17T15:00:00",
-      "habiles_restantes": 2,
+      "habiles_restantes": 1,
       "nuevo": false,
       "visto_desde": "2026-10-22",
       "monto": "no informado",
@@ -172,7 +143,7 @@
       "unidad": "CORPORACION MUNICIPAL DE PENALOLEN PARA EL DESARRO",
       "tipo": "LE",
       "cierre": "2026-11-17T15:01:00",
-      "habiles_restantes": 2,
+      "habiles_restantes": 1,
       "nuevo": false,
       "visto_desde": "2026-11-05",
       "monto": "11.000.000 CLP",
@@ -198,34 +169,94 @@
   ],
   "oportunidades": [
     {
-      "codigo": "2704-94-LE26",
-      "nombre": "ESTACIÓN COMPUTACIONAL DE ALTO RENDIMIENTO SC 5792",
-      "organismo": "UNIVERSIDAD DEL BIO BIO",
-      "unidad": "Universidad del Bío-Bío - Campus Concepción",
+      "codigo": "1082957-37-LE26",
+      "nombre": "SERVICIOS DE DESARROLLO DE REPORTERÍA AVANZADA ANALÍTICA Y RE-VIRTUALIZACIÓN DE CURSOS PARA EL AULA VIRTUAL DE PROCHILE",
+      "organismo": "DIRECCION GENERAL DE PROMOCION DE EXPORTACIONES",
+      "unidad": "MN PROMOCION DE EXPORTACIONES",
       "tipo": "LE",
-      "cierre": "2026-11-23T18:00:00",
+      "cierre": "2026-11-24T13:00:00",
       "habiles_restantes": 6,
       "nuevo": true,
-      "visto_desde": "2026-11-13",
+      "visto_desde": "2026-11-16",
+      "monto": "16.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$16.0M contra ~$9M de costo estimado (4.3 meses-persona), $1.1M al mes por 14 meses.",
+        "monto_clp": 16000000,
+        "meses_contrato": 14.0,
+        "esfuerzo_mp": 4.3,
+        "mensual": 1142857
+      },
+      "veredicto": "go",
+      "puntaje": 20,
+      "razones": [
+        "rubro ONU 81111508",
+        "«servicios de desarrollo» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1082957-37-LE26",
+      "descripcion": "ProChile invita a participar en el proceso de contratación para servicios de desarrollo de reportería avanzada, analítica y re-virtualización de cursos para el Aula Virtual de ProChile, con el objetivo de optimizar el control de gestión de convocatorias, trazabilidad de la participación y calidad e la oferta formativa institucional en el Aula Virtual de ProChile. “E1O2RT9”."
+    },
+    {
+      "codigo": "1057547-482-LE26",
+      "nombre": "SUSCRIPCIÓN ANUAL A PLATAFORMA DE MODELACIÓN BIM",
+      "organismo": "SERVICIO DE SALUD VALDIVIA HOSPITAL BASE",
+      "unidad": "Bienes y Servicios",
+      "tipo": "LE",
+      "cierre": "2026-11-27T19:00:00",
+      "habiles_restantes": 9,
+      "nuevo": true,
+      "visto_desde": "2026-11-16",
+      "monto": "7.775.360 CLP",
+      "precio": {
+        "nivel": "roja",
+        "etiqueta": "no paga ni una persona",
+        "detalle": "$7.8M repartidos en 12 meses son $0.6M al mes. No alcanza ni para tener a una persona dedicada.",
+        "monto_clp": 7775360,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 3.9,
+        "mensual": 647947
+      },
+      "veredicto": "nogo",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231512",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057547-482-LE26",
+      "descripcion": "CONTRATACIÓN DE SUSCRIPCIÓN ANUAL A PLATAFORMA DE MODELACIÓN BIM EN LA NUBE PARA LA COORDINACIÓN DE PROYECTOS DE ARQUITECTURA Y ESPECIALIDADES DEL HOSPITAL BASE VALDIVIA"
+    },
+    {
+      "codigo": "1422825-33-LP26",
+      "nombre": "CONTRATO DE ARRENDAMIENTO DE SISTEMA DE GESTION DE TURNOS PARA EL HOSPITAL CARLOS VAN BUREN",
+      "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUREN",
+      "unidad": "Operaciones",
+      "tipo": "LP",
+      "cierre": "2026-12-07T16:00:00",
+      "habiles_restantes": 15,
+      "nuevo": true,
+      "visto_desde": "2026-11-16",
       "monto": "no informado",
       "precio": {
         "nivel": "sin_monto",
         "etiqueta": "monto no publicado",
-        "detalle": "El organismo no informó presupuesto. Estimo ~0.7 meses-persona, o sea del orden de $1M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "detalle": "El organismo no informó presupuesto. Estimo ~11.5 meses-persona, o sea del orden de $23M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
         "monto_clp": null,
-        "meses_contrato": null,
-        "esfuerzo_mp": 0.7,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 11.5,
         "mensual": null
       },
       "veredicto": "revisar",
-      "puntaje": 11,
+      "puntaje": 15,
       "razones": [
-        "rubro ONU 81111505",
-        "«programacion» en el detalle",
-        "ruido: «capacitacion»"
+        "rubro ONU 43231505",
+        "«sistema de gestion» en el título",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
       ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2704-94-LE26",
-      "descripcion": "SERVICIO DE PROVISIÓN, INSTALACIÓN, PUESTA EN MARCHA Y CAPACITACIÓN EN EL USO DE UNA ESTACIÓN DE TRABAJO COMPUTACIONAL DE ALTO RENDIMIENTO, PARA SIMULACIÓN NUMÉRICA, DINÁMICA DE FLUIDO COMPUTACIONAL, PROCESAMIENTO CIENTÍFICO E INTELIGENCIA ARTIFICIAL\r\nSC 5792"
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1422825-33-LP26",
+      "descripcion": "La necesidad del Hospital Carlos Van Buren de llamar a Licitación Pública a través del portal Mercado Público, para contratar el servicio de arrendamiento de sistema de Control de Turnos para el Hospital Carlos Van Buren por un período de 36 meses corridos"
     }
   ]
 }

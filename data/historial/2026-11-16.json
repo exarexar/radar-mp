@@ -1,0 +1,262 @@
+{
+  "generado": "2026-11-16 16:28",
+  "fecha": "2026-11-16",
+  "horizonte": 20,
+  "fecha_hasta": "2026-12-15",
+  "primera_corrida": false,
+  "modo": "solo desarrollo",
+  "resumen": {
+    "activas_revisadas": 4877,
+    "detalles_consultados": 426,
+    "nuevas": 3,
+    "por_cerrar": 2,
+    "llamadas_api": 225
+  },
+  "nuevas": [
+    {
+      "codigo": "1082957-37-LE26",
+      "nombre": "SERVICIOS DE DESARROLLO DE REPORTERÍA AVANZADA ANALÍTICA Y RE-VIRTUALIZACIÓN DE CURSOS PARA EL AULA VIRTUAL DE PROCHILE",
+      "organismo": "DIRECCION GENERAL DE PROMOCION DE EXPORTACIONES",
+      "unidad": "MN PROMOCION DE EXPORTACIONES",
+      "tipo": "LE",
+      "cierre": "2026-11-24T13:00:00",
+      "habiles_restantes": 6,
+      "nuevo": true,
+      "visto_desde": "2026-11-16",
+      "monto": "16.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$16.0M contra ~$9M de costo estimado (4.3 meses-persona), $1.1M al mes por 14 meses.",
+        "monto_clp": 16000000,
+        "meses_contrato": 14.0,
+        "esfuerzo_mp": 4.3,
+        "mensual": 1142857
+      },
+      "veredicto": "go",
+      "puntaje": 20,
+      "razones": [
+        "rubro ONU 81111508",
+        "«servicios de desarrollo» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1082957-37-LE26",
+      "descripcion": "ProChile invita a participar en el proceso de contratación para servicios de desarrollo de reportería avanzada, analítica y re-virtualización de cursos para el Aula Virtual de ProChile, con el objetivo de optimizar el control de gestión de convocatorias, trazabilidad de la participación y calidad e la oferta formativa institucional en el Aula Virtual de ProChile. “E1O2RT9”."
+    },
+    {
+      "codigo": "1057547-482-LE26",
+      "nombre": "SUSCRIPCIÓN ANUAL A PLATAFORMA DE MODELACIÓN BIM",
+      "organismo": "SERVICIO DE SALUD VALDIVIA HOSPITAL BASE",
+      "unidad": "Bienes y Servicios",
+      "tipo": "LE",
+      "cierre": "2026-11-27T19:00:00",
+      "habiles_restantes": 9,
+      "nuevo": true,
+      "visto_desde": "2026-11-16",
+      "monto": "7.775.360 CLP",
+      "precio": {
+        "nivel": "roja",
+        "etiqueta": "no paga ni una persona",
+        "detalle": "$7.8M repartidos en 12 meses son $0.6M al mes. No alcanza ni para tener a una persona dedicada.",
+        "monto_clp": 7775360,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 3.9,
+        "mensual": 647947
+      },
+      "veredicto": "nogo",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231512",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057547-482-LE26",
+      "descripcion": "CONTRATACIÓN DE SUSCRIPCIÓN ANUAL A PLATAFORMA DE MODELACIÓN BIM EN LA NUBE PARA LA COORDINACIÓN DE PROYECTOS DE ARQUITECTURA Y ESPECIALIDADES DEL HOSPITAL BASE VALDIVIA"
+    },
+    {
+      "codigo": "1422825-33-LP26",
+      "nombre": "CONTRATO DE ARRENDAMIENTO DE SISTEMA DE GESTION DE TURNOS PARA EL HOSPITAL CARLOS VAN BUREN",
+      "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUREN",
+      "unidad": "Operaciones",
+      "tipo": "LP",
+      "cierre": "2026-12-07T16:00:00",
+      "habiles_restantes": 15,
+      "nuevo": true,
+      "visto_desde": "2026-11-16",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~11.5 meses-persona, o sea del orden de $23M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 11.5,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 15,
+      "razones": [
+        "rubro ONU 43231505",
+        "«sistema de gestion» en el título",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1422825-33-LP26",
+      "descripcion": "La necesidad del Hospital Carlos Van Buren de llamar a Licitación Pública a través del portal Mercado Público, para contratar el servicio de arrendamiento de sistema de Control de Turnos para el Hospital Carlos Van Buren por un período de 36 meses corridos"
+    }
+  ],
+  "por_cerrar": [
+    {
+      "codigo": "1233623-47-LP26",
+      "nombre": "SOFTWARE PARA GESTION DE PERSONAS LICANCABUR",
+      "organismo": "Servicio Local de Educación Pública Licancabur",
+      "unidad": "Servicio Local de Educación Pública Licancabur",
+      "tipo": "LP",
+      "cierre": "2026-11-17T15:00:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-10-22",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~8.7 meses-persona, o sea del orden de $17M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 8.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 14,
+      "razones": [
+        "rubro ONU 43231505",
+        "«sistema de gestion» en el detalle",
+        "«software» en el título",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1233623-47-LP26",
+      "descripcion": "SOFTWARE PARA GESTION DE PERSONAS SLEP LICANCABUR POR UN PERIODO DE 36 MESES SEGUN LO INDICADO EN LAS BASES ADMINISTRATIVAS Y TECNICAS. COMPLETAR LOS ANEXOS FIRMARLOS SUBIRLOS A LA PLATAFORMA Y REALIZAR EXPOSICION TECNICA REMOTA"
+    },
+    {
+      "codigo": "514862-145-LE26",
+      "nombre": "SOFTWARE GESTION DE PERSONAS Y CONTROL ASISTENCIA",
+      "organismo": "CORPORACION MUNICIPAL DE PENALOLEN PARA EL DESARROLO SOCIAL CORMUP",
+      "unidad": "CORPORACION MUNICIPAL DE PENALOLEN PARA EL DESARRO",
+      "tipo": "LE",
+      "cierre": "2026-11-17T15:01:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-11-05",
+      "monto": "11.000.000 CLP",
+      "precio": {
+        "nivel": "roja",
+        "etiqueta": "no paga ni una persona",
+        "detalle": "$11.0M repartidos en 24 meses son $0.5M al mes. No alcanza ni para tener a una persona dedicada.",
+        "monto_clp": 11000000,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 6.3,
+        "mensual": 458333
+      },
+      "veredicto": "nogo",
+      "puntaje": 12,
+      "razones": [
+        "rubro ONU 43231505",
+        "«software» en el título",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=514862-145-LE26",
+      "descripcion": "DESARROLLO SOFTWARE GESTION DE PERSONAS Y CONTROL DE ASISTENCIA SOLPED 10032772"
+    }
+  ],
+  "oportunidades": [
+    {
+      "codigo": "1082957-37-LE26",
+      "nombre": "SERVICIOS DE DESARROLLO DE REPORTERÍA AVANZADA ANALÍTICA Y RE-VIRTUALIZACIÓN DE CURSOS PARA EL AULA VIRTUAL DE PROCHILE",
+      "organismo": "DIRECCION GENERAL DE PROMOCION DE EXPORTACIONES",
+      "unidad": "MN PROMOCION DE EXPORTACIONES",
+      "tipo": "LE",
+      "cierre": "2026-11-24T13:00:00",
+      "habiles_restantes": 6,
+      "nuevo": true,
+      "visto_desde": "2026-11-16",
+      "monto": "16.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$16.0M contra ~$9M de costo estimado (4.3 meses-persona), $1.1M al mes por 14 meses.",
+        "monto_clp": 16000000,
+        "meses_contrato": 14.0,
+        "esfuerzo_mp": 4.3,
+        "mensual": 1142857
+      },
+      "veredicto": "go",
+      "puntaje": 20,
+      "razones": [
+        "rubro ONU 81111508",
+        "«servicios de desarrollo» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1082957-37-LE26",
+      "descripcion": "ProChile invita a participar en el proceso de contratación para servicios de desarrollo de reportería avanzada, analítica y re-virtualización de cursos para el Aula Virtual de ProChile, con el objetivo de optimizar el control de gestión de convocatorias, trazabilidad de la participación y calidad e la oferta formativa institucional en el Aula Virtual de ProChile. “E1O2RT9”."
+    },
+    {
+      "codigo": "1057547-482-LE26",
+      "nombre": "SUSCRIPCIÓN ANUAL A PLATAFORMA DE MODELACIÓN BIM",
+      "organismo": "SERVICIO DE SALUD VALDIVIA HOSPITAL BASE",
+      "unidad": "Bienes y Servicios",
+      "tipo": "LE",
+      "cierre": "2026-11-27T19:00:00",
+      "habiles_restantes": 9,
+      "nuevo": true,
+      "visto_desde": "2026-11-16",
+      "monto": "7.775.360 CLP",
+      "precio": {
+        "nivel": "roja",
+        "etiqueta": "no paga ni una persona",
+        "detalle": "$7.8M repartidos en 12 meses son $0.6M al mes. No alcanza ni para tener a una persona dedicada.",
+        "monto_clp": 7775360,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 3.9,
+        "mensual": 647947
+      },
+      "veredicto": "nogo",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231512",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057547-482-LE26",
+      "descripcion": "CONTRATACIÓN DE SUSCRIPCIÓN ANUAL A PLATAFORMA DE MODELACIÓN BIM EN LA NUBE PARA LA COORDINACIÓN DE PROYECTOS DE ARQUITECTURA Y ESPECIALIDADES DEL HOSPITAL BASE VALDIVIA"
+    },
+    {
+      "codigo": "1422825-33-LP26",
+      "nombre": "CONTRATO DE ARRENDAMIENTO DE SISTEMA DE GESTION DE TURNOS PARA EL HOSPITAL CARLOS VAN BUREN",
+      "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL CARLOS VAN BUREN",
+      "unidad": "Operaciones",
+      "tipo": "LP",
+      "cierre": "2026-12-07T16:00:00",
+      "habiles_restantes": 15,
+      "nuevo": true,
+      "visto_desde": "2026-11-16",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~11.5 meses-persona, o sea del orden de $23M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 11.5,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 15,
+      "razones": [
+        "rubro ONU 43231505",
+        "«sistema de gestion» en el título",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1422825-33-LP26",
+      "descripcion": "La necesidad del Hospital Carlos Van Buren de llamar a Licitación Pública a través del portal Mercado Público, para contratar el servicio de arrendamiento de sistema de Control de Turnos para el Hospital Carlos Van Buren por un período de 36 meses corridos"
+    }
+  ]
+}
