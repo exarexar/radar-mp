@@ -1,0 +1,405 @@
+{
+  "generado": "2026-11-17 15:22",
+  "fecha": "2026-11-17",
+  "horizonte": 20,
+  "fecha_hasta": "2026-12-16",
+  "primera_corrida": false,
+  "modo": "solo desarrollo",
+  "resumen": {
+    "activas_revisadas": 4887,
+    "detalles_consultados": 442,
+    "nuevas": 5,
+    "por_cerrar": 3,
+    "llamadas_api": 75
+  },
+  "nuevas": [
+    {
+      "codigo": "1359575-10-LE26",
+      "nombre": "Servicio de mejoras de conectividad y red de datos",
+      "organismo": "UNIVERSIDAD DE VALPARAISO",
+      "unidad": "25 - Clínica Reproducción Humana",
+      "tipo": "LE",
+      "cierre": "2026-11-27T17:00:00",
+      "habiles_restantes": 8,
+      "nuevo": true,
+      "visto_desde": "2026-11-17",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~1.7 meses-persona, o sea del orden de $3M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 81111809"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1359575-10-LE26",
+      "descripcion": "La necesidad de contar con servicio integral de mejoras de conectividad y red de datos para el edificio Bruno Günther de la Universidad de Valparaíso, ubicado en Hontaneda N°2664, ciudad de Valparaíso, el que actualmente alberga a la clínica de reproducción humana y laboratorios de investigación de medicina."
+    },
+    {
+      "codigo": "872-55-LE26",
+      "nombre": "Licencias contra la Pérdida de Datos DLP",
+      "organismo": "Comisión Chilena de Energía Nuclear",
+      "unidad": "Comisión Chilena de Energía Nuclear",
+      "tipo": "LE",
+      "cierre": "2026-11-27T15:00:00",
+      "habiles_restantes": 8,
+      "nuevo": true,
+      "visto_desde": "2026-11-17",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~1.7 meses-persona, o sea del orden de $3M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231512",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=872-55-LE26",
+      "descripcion": "La Comisión Chilena de Energía Nuclear CCHEN requiere contratar el servicio de suministro, habilitación y uso de 350 licencias de una solución integral de Prevención contra la Pérdida de Datos Data Loss Prevention - DLP, por un período de 24 meses, tomando como referencia la plataforma Forcepoint DLP o una solución técnicamente equivalente, que permita descubrir, monitorear, controlar, clasificar y proteger activamente la información confidencial, sensible y regulada de la Institución, durante todo su ciclo de vida y frente a los distintos vectores de posible fuga o exfiltración de datos, tanto dentro como fuera de la infraestructura institucional."
+    },
+    {
+      "codigo": "2020-26-LE26",
+      "nombre": "MIGRACIÓN ACTUALIZACIÓN DE PLATAFORMA TECNOLOGICA",
+      "organismo": "Biblioteca del Congreso Nacional",
+      "unidad": "Biblioteca del Congreso Nacional",
+      "tipo": "LE",
+      "cierre": "2026-12-01T15:01:00",
+      "habiles_restantes": 10,
+      "nuevo": true,
+      "visto_desde": "2026-11-17",
+      "monto": "30.000.000 CLP",
+      "precio": {
+        "nivel": "roja",
+        "etiqueta": "no paga ni una persona",
+        "detalle": "$30.0M repartidos en 120 meses son $0.2M al mes. No alcanza ni para tener a una persona dedicada.",
+        "monto_clp": 30000000,
+        "meses_contrato": 120.0,
+        "esfuerzo_mp": 25.5,
+        "mensual": 250000
+      },
+      "veredicto": "nogo",
+      "puntaje": 9,
+      "razones": [
+        "rubro ONU 81112202",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2020-26-LE26",
+      "descripcion": "SERVICIO DE MIGRACIÓN DE FUNCIONALIDADES DE GESTIÓN DE\r\nDATOS DEL SISTEMA HISTORIA DE LA LEY Y LABOR PARLAMENTARIA, PARA LA\r\nBIBLIOTECA DEL CONGRESO NACIONAL."
+    },
+    {
+      "codigo": "1658-286-B226",
+      "nombre": "Propuesta Privada 32-2026 “CONTRATO DE SUMINISTRO PARA ADQUISICIÓN DE EQUIPOS INFORMÁTICOS”",
+      "organismo": "I MUNICIPALIDAD DE TEMUCO",
+      "unidad": "I MUNICIPALIDAD DE TEMUCO",
+      "tipo": "B2",
+      "cierre": "2026-12-07T18:00:00",
+      "habiles_restantes": 14,
+      "nuevo": true,
+      "visto_desde": "2026-11-17",
+      "monto": "20.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$20.0M contra ~$3M de costo estimado (1.7 meses-persona).",
+        "monto_clp": 20000000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231512",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1658-286-B226",
+      "descripcion": "Propuesta Privada 32-2026 “CONTRATO DE SUMINISTRO PARA ADQUISICIÓN DE EQUIPOS INFORMÁTICOS”"
+    },
+    {
+      "codigo": "1456837-9-LP26",
+      "nombre": "SERVICIO DE PLATAFORMA DE GESTIÓN EDUCATIVA",
+      "organismo": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA LA QUEBRADA",
+      "unidad": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA LA QUEBRADA",
+      "tipo": "LP",
+      "cierre": "2026-12-09T16:00:00",
+      "habiles_restantes": 15,
+      "nuevo": true,
+      "visto_desde": "2026-11-17",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~7.7 meses-persona, o sea del orden de $15M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 7.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 16,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el detalle",
+        "«software» en el detalle",
+        "«desarrollo de plataforma» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1456837-9-LP26",
+      "descripcion": "Contratar la implementación, puesta en marcha, operación, soporte y mantenimiento de una plataforma de gestión educativa para los establecimientos educacionales, jardines infantiles y el nivel central del Servicio Local de Educación Pública de La Quebrada, que permita gestionar, integrar, monitorear y analizar información institucional y educativa, fortaleciendo la toma de decisiones y la mejora continua durante un período de 36 meses."
+    }
+  ],
+  "por_cerrar": [
+    {
+      "codigo": "584146-17-LE26",
+      "nombre": "SERVICIOS DE SOFTWARE PARA CARRERA FUNCIONARIA APS",
+      "organismo": "I MUNICIPALIDAD DE PURRANQUE",
+      "unidad": "DEPARTAMENTO DE SALUD MUNICIPAL",
+      "tipo": "LE",
+      "cierre": "2026-11-19T09:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-11-09",
+      "monto": "10.000.000 CLP",
+      "precio": {
+        "nivel": "roja",
+        "etiqueta": "no paga ni una persona",
+        "detalle": "$10.0M repartidos en 24 meses son $0.4M al mes. No alcanza ni para tener a una persona dedicada.",
+        "monto_clp": 10000000,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 6.3,
+        "mensual": 416667
+      },
+      "veredicto": "nogo",
+      "puntaje": 12,
+      "razones": [
+        "rubro ONU 43231505",
+        "«software» en el título",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=584146-17-LE26",
+      "descripcion": "SERVICIOS DE SOFTWARE PARA CARRERA FUNCIONARIA APS"
+    },
+    {
+      "codigo": "1057049-422-LE26",
+      "nombre": "JLL CONTRATACION DE SERVICIOS DE SOPORTE Y SUSCRIPCION DE PLATAFORMA DE INFRAESTRUCTURA HIPERCONVERGENTE HCI",
+      "organismo": "SERV SALUD METROPOLITANO CENTRAL HOSPITAL CLINICO SAN BORJA ARRIARAN",
+      "unidad": "Bienes y Servicios",
+      "tipo": "LE",
+      "cierre": "2026-11-19T15:30:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-11-10",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~3.5 meses-persona, o sea del orden de $7M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 15.0,
+        "esfuerzo_mp": 3.5,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 81111812"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057049-422-LE26",
+      "descripcion": "JLL APRUEBA BASES DE LICITACION CONTRATACION DE SERVICIOS DE SOPORTE Y SUSCRIPCION DE PLATAFORMA DE INFRAESTRUCTURA HIPERCONVERGENTE (HCI) PARA EL DEPARTAMENTO DE TECNOLOGIAS DE LA INFORMACION Y COMUNICACION DEL HOSPITAL CLINICO SAN BORJA ARRIARAN "
+    },
+    {
+      "codigo": "4469-239-LE26",
+      "nombre": "S.C. N° 40669 U.F. LICENCIAS ZOOM PARA 12 MESES. INFORMATICA UPLA. AIUE 2655.",
+      "organismo": "UNIVERSIDAD DE PLAYA ANCHA DE CIENCIAS DE LA EDUCACION",
+      "unidad": "ADQUISICIONES",
+      "tipo": "LE",
+      "cierre": "2026-11-19T09:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-11-10",
+      "monto": "15.537.108 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$15.5M contra ~$3M de costo estimado (1.7 meses-persona).",
+        "monto_clp": 15537108,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231512",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4469-239-LE26",
+      "descripcion": "S.C. N° 40669 (U.F.), LICENCIAS ZOOM PARA 12 MESES. INFORMATICA UPLA. AIUE 2655.\r\nART. 38 SEGUN LEY 21094 DE UNIVERSIDADES ESTATALES"
+    }
+  ],
+  "oportunidades": [
+    {
+      "codigo": "1359575-10-LE26",
+      "nombre": "Servicio de mejoras de conectividad y red de datos",
+      "organismo": "UNIVERSIDAD DE VALPARAISO",
+      "unidad": "25 - Clínica Reproducción Humana",
+      "tipo": "LE",
+      "cierre": "2026-11-27T17:00:00",
+      "habiles_restantes": 8,
+      "nuevo": true,
+      "visto_desde": "2026-11-17",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~1.7 meses-persona, o sea del orden de $3M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 81111809"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1359575-10-LE26",
+      "descripcion": "La necesidad de contar con servicio integral de mejoras de conectividad y red de datos para el edificio Bruno Günther de la Universidad de Valparaíso, ubicado en Hontaneda N°2664, ciudad de Valparaíso, el que actualmente alberga a la clínica de reproducción humana y laboratorios de investigación de medicina."
+    },
+    {
+      "codigo": "872-55-LE26",
+      "nombre": "Licencias contra la Pérdida de Datos DLP",
+      "organismo": "Comisión Chilena de Energía Nuclear",
+      "unidad": "Comisión Chilena de Energía Nuclear",
+      "tipo": "LE",
+      "cierre": "2026-11-27T15:00:00",
+      "habiles_restantes": 8,
+      "nuevo": true,
+      "visto_desde": "2026-11-17",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~1.7 meses-persona, o sea del orden de $3M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231512",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=872-55-LE26",
+      "descripcion": "La Comisión Chilena de Energía Nuclear CCHEN requiere contratar el servicio de suministro, habilitación y uso de 350 licencias de una solución integral de Prevención contra la Pérdida de Datos Data Loss Prevention - DLP, por un período de 24 meses, tomando como referencia la plataforma Forcepoint DLP o una solución técnicamente equivalente, que permita descubrir, monitorear, controlar, clasificar y proteger activamente la información confidencial, sensible y regulada de la Institución, durante todo su ciclo de vida y frente a los distintos vectores de posible fuga o exfiltración de datos, tanto dentro como fuera de la infraestructura institucional."
+    },
+    {
+      "codigo": "2020-26-LE26",
+      "nombre": "MIGRACIÓN ACTUALIZACIÓN DE PLATAFORMA TECNOLOGICA",
+      "organismo": "Biblioteca del Congreso Nacional",
+      "unidad": "Biblioteca del Congreso Nacional",
+      "tipo": "LE",
+      "cierre": "2026-12-01T15:01:00",
+      "habiles_restantes": 10,
+      "nuevo": true,
+      "visto_desde": "2026-11-17",
+      "monto": "30.000.000 CLP",
+      "precio": {
+        "nivel": "roja",
+        "etiqueta": "no paga ni una persona",
+        "detalle": "$30.0M repartidos en 120 meses son $0.2M al mes. No alcanza ni para tener a una persona dedicada.",
+        "monto_clp": 30000000,
+        "meses_contrato": 120.0,
+        "esfuerzo_mp": 25.5,
+        "mensual": 250000
+      },
+      "veredicto": "nogo",
+      "puntaje": 9,
+      "razones": [
+        "rubro ONU 81112202",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2020-26-LE26",
+      "descripcion": "SERVICIO DE MIGRACIÓN DE FUNCIONALIDADES DE GESTIÓN DE\r\nDATOS DEL SISTEMA HISTORIA DE LA LEY Y LABOR PARLAMENTARIA, PARA LA\r\nBIBLIOTECA DEL CONGRESO NACIONAL."
+    },
+    {
+      "codigo": "1658-286-B226",
+      "nombre": "Propuesta Privada 32-2026 “CONTRATO DE SUMINISTRO PARA ADQUISICIÓN DE EQUIPOS INFORMÁTICOS”",
+      "organismo": "I MUNICIPALIDAD DE TEMUCO",
+      "unidad": "I MUNICIPALIDAD DE TEMUCO",
+      "tipo": "B2",
+      "cierre": "2026-12-07T18:00:00",
+      "habiles_restantes": 14,
+      "nuevo": true,
+      "visto_desde": "2026-11-17",
+      "monto": "20.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$20.0M contra ~$3M de costo estimado (1.7 meses-persona).",
+        "monto_clp": 20000000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231512",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1658-286-B226",
+      "descripcion": "Propuesta Privada 32-2026 “CONTRATO DE SUMINISTRO PARA ADQUISICIÓN DE EQUIPOS INFORMÁTICOS”"
+    },
+    {
+      "codigo": "1456837-9-LP26",
+      "nombre": "SERVICIO DE PLATAFORMA DE GESTIÓN EDUCATIVA",
+      "organismo": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA LA QUEBRADA",
+      "unidad": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA LA QUEBRADA",
+      "tipo": "LP",
+      "cierre": "2026-12-09T16:00:00",
+      "habiles_restantes": 15,
+      "nuevo": true,
+      "visto_desde": "2026-11-17",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~7.7 meses-persona, o sea del orden de $15M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 7.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 16,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el detalle",
+        "«software» en el detalle",
+        "«desarrollo de plataforma» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1456837-9-LP26",
+      "descripcion": "Contratar la implementación, puesta en marcha, operación, soporte y mantenimiento de una plataforma de gestión educativa para los establecimientos educacionales, jardines infantiles y el nivel central del Servicio Local de Educación Pública de La Quebrada, que permita gestionar, integrar, monitorear y analizar información institucional y educativa, fortaleciendo la toma de decisiones y la mejora continua durante un período de 36 meses."
+    }
+  ]
+}
