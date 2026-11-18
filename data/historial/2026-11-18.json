@@ -1,0 +1,350 @@
+{
+  "generado": "2026-11-18 14:55",
+  "fecha": "2026-11-18",
+  "horizonte": 20,
+  "fecha_hasta": "2026-12-17",
+  "primera_corrida": false,
+  "modo": "solo desarrollo",
+  "resumen": {
+    "activas_revisadas": 5089,
+    "detalles_consultados": 467,
+    "nuevas": 3,
+    "por_cerrar": 5,
+    "llamadas_api": 90
+  },
+  "nuevas": [
+    {
+      "codigo": "690263-9-LE26",
+      "nombre": "ADQ. MEDICAMENTOS INCUMPLIMIENTO PROGRAMACIÓN CENABAST PROGRAMAS MINISTERIALES CARDIOVASCULAR PARKINSON Y SALUD SEXUAL Y REPRODUCTIVA DSSA",
+      "organismo": "SERVICIO DE SALUD ARAUCO",
+      "unidad": "ABASTECIMIENTO FÁRMACOS E INSUMOS CLÍNICOS",
+      "tipo": "LE",
+      "cierre": "2026-11-23T15:01:00",
+      "habiles_restantes": 3,
+      "nuevo": true,
+      "visto_desde": "2026-11-18",
+      "monto": "20.340.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$20.3M contra ~$3M de costo estimado (1.7 meses-persona).",
+        "monto_clp": 20340000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 9,
+      "razones": [
+        "«programacion» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=690263-9-LE26",
+      "descripcion": "Solicitud de compra urgente de fármacos por incumplimiento de CENABAST – Programas Ministeriales"
+    },
+    {
+      "codigo": "1386073-25-LE26",
+      "nombre": "SERVICIO DE RENOVACIÓN INTEGRAL DEL SITIO WEB INSTITUCIONAL DE LA CORPORACIÓN CULTURAL DE LAS CONDES INCLUYENDO DESARROLLO IMPLEMENTACIÓN HOSTING Y MANTENCIÓN",
+      "organismo": "CORP CULTURAL DE LAS CONDES",
+      "unidad": "CORP CULTURAL DE LAS CONDES",
+      "tipo": "LE",
+      "cierre": "2026-11-30T15:30:00",
+      "habiles_restantes": 8,
+      "nuevo": true,
+      "visto_desde": "2026-11-18",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~8.5 meses-persona, o sea del orden de $17M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 8.5,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 29,
+      "razones": [
+        "rubro ONU 43232107",
+        "«plataforma web» en el detalle",
+        "«sitio web» en el título",
+        "«pagina web» en el detalle",
+        "«software» en el detalle",
+        "«desarrollo e implementacion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1386073-25-LE26",
+      "descripcion": "Desarrollar una adecuada arquitectura de la página web, para que sea una plataforma web única e integrada para la Corporación Cultural de Las Condes que refleje su identidad y actividad, incluyendo todas sus sedes y eventos, mejorando la experiencia del usuario y facilitando la compra de entradas, con un diseño moderno, responsivo y accesible. La contratación comprende dos componentes: (1) el desarrollo e implementación del sitio web, y (2) el servicio de mantención, configuración y operación del sitio por 24 meses posteriores a su puesta en producción."
+    },
+    {
+      "codigo": "4301-77-LR26",
+      "nombre": "implementación y arriendo plataforma de software",
+      "organismo": "I MUNICIPALIDAD DE ZAPALLAR",
+      "unidad": "IMUNI_ ZAPALLAR",
+      "tipo": "LR",
+      "cierre": "2026-12-17T10:00:00",
+      "habiles_restantes": 20,
+      "nuevo": true,
+      "visto_desde": "2026-11-18",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~11.1 meses-persona, o sea del orden de $22M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 48.0,
+        "esfuerzo_mp": 11.1,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231605",
+        "«software» en el título",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4301-77-LR26",
+      "descripcion": "implementación y arriendo plataforma de software de gestión municipal"
+    }
+  ],
+  "por_cerrar": [
+    {
+      "codigo": "584146-17-LE26",
+      "nombre": "SERVICIOS DE SOFTWARE PARA CARRERA FUNCIONARIA APS",
+      "organismo": "I MUNICIPALIDAD DE PURRANQUE",
+      "unidad": "DEPARTAMENTO DE SALUD MUNICIPAL",
+      "tipo": "LE",
+      "cierre": "2026-11-19T09:00:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-11-09",
+      "monto": "10.000.000 CLP",
+      "precio": {
+        "nivel": "roja",
+        "etiqueta": "no paga ni una persona",
+        "detalle": "$10.0M repartidos en 24 meses son $0.4M al mes. No alcanza ni para tener a una persona dedicada.",
+        "monto_clp": 10000000,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 6.3,
+        "mensual": 416667
+      },
+      "veredicto": "nogo",
+      "puntaje": 12,
+      "razones": [
+        "rubro ONU 43231505",
+        "«software» en el título",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=584146-17-LE26",
+      "descripcion": "SERVICIOS DE SOFTWARE PARA CARRERA FUNCIONARIA APS"
+    },
+    {
+      "codigo": "1057049-422-LE26",
+      "nombre": "JLL CONTRATACION DE SERVICIOS DE SOPORTE Y SUSCRIPCION DE PLATAFORMA DE INFRAESTRUCTURA HIPERCONVERGENTE HCI",
+      "organismo": "SERV SALUD METROPOLITANO CENTRAL HOSPITAL CLINICO SAN BORJA ARRIARAN",
+      "unidad": "Bienes y Servicios",
+      "tipo": "LE",
+      "cierre": "2026-11-19T15:30:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-11-10",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~3.5 meses-persona, o sea del orden de $7M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 15.0,
+        "esfuerzo_mp": 3.5,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 81111812"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057049-422-LE26",
+      "descripcion": "JLL APRUEBA BASES DE LICITACION CONTRATACION DE SERVICIOS DE SOPORTE Y SUSCRIPCION DE PLATAFORMA DE INFRAESTRUCTURA HIPERCONVERGENTE (HCI) PARA EL DEPARTAMENTO DE TECNOLOGIAS DE LA INFORMACION Y COMUNICACION DEL HOSPITAL CLINICO SAN BORJA ARRIARAN "
+    },
+    {
+      "codigo": "4469-239-LE26",
+      "nombre": "S.C. N° 40669 U.F. LICENCIAS ZOOM PARA 12 MESES. INFORMATICA UPLA. AIUE 2655.",
+      "organismo": "UNIVERSIDAD DE PLAYA ANCHA DE CIENCIAS DE LA EDUCACION",
+      "unidad": "ADQUISICIONES",
+      "tipo": "LE",
+      "cierre": "2026-11-19T09:00:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-11-10",
+      "monto": "15.537.108 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$15.5M contra ~$3M de costo estimado (1.7 meses-persona).",
+        "monto_clp": 15537108,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231512",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4469-239-LE26",
+      "descripcion": "S.C. N° 40669 (U.F.), LICENCIAS ZOOM PARA 12 MESES. INFORMATICA UPLA. AIUE 2655.\r\nART. 38 SEGUN LEY 21094 DE UNIVERSIDADES ESTATALES"
+    },
+    {
+      "codigo": "1075337-59-LE26",
+      "nombre": "NUEVO PROC. ARRIENDO SOFTWARE INTEGRACION DTE Y CLOUD SERVER",
+      "organismo": "SERVICIO DE SALUD ARAUCANIA NORTE HOSPITAL DE ANGOL",
+      "unidad": "Bienes y Servicio",
+      "tipo": "LE",
+      "cierre": "2026-11-20T15:06:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-11-09",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~8.7 meses-persona, o sea del orden de $17M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 8.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 12,
+      "razones": [
+        "rubro ONU 43231512",
+        "«software» en el título",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1075337-59-LE26",
+      "descripcion": "La presente licitación tiene como objetivo la contratación del servicio de arriendo de software de integración de integración DTE y Cloud Server, para el Hospital Dr. Mauricio Heyermann Torres de Angol."
+    },
+    {
+      "codigo": "3960-83-LP26",
+      "nombre": "SERVICIOS DE PROVISIÓN DE SOFTWARE",
+      "organismo": "I MUNICIPALIDAD DE HUALANE",
+      "unidad": "Finanzas Municipales",
+      "tipo": "LP",
+      "cierre": "2026-11-20T13:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-11-06",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~3.9 meses-persona, o sea del orden de $8M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 3.9,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 9,
+      "razones": [
+        "rubro ONU 43231513",
+        "«software» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3960-83-LP26",
+      "descripcion": "CONTRATACIÓN DE LOS SERVICIOS DE\r\nPROVISIÓN DE SOFTWARE PARA LA MUNICIPALIDAD DE HUALAÑÉ"
+    }
+  ],
+  "oportunidades": [
+    {
+      "codigo": "690263-9-LE26",
+      "nombre": "ADQ. MEDICAMENTOS INCUMPLIMIENTO PROGRAMACIÓN CENABAST PROGRAMAS MINISTERIALES CARDIOVASCULAR PARKINSON Y SALUD SEXUAL Y REPRODUCTIVA DSSA",
+      "organismo": "SERVICIO DE SALUD ARAUCO",
+      "unidad": "ABASTECIMIENTO FÁRMACOS E INSUMOS CLÍNICOS",
+      "tipo": "LE",
+      "cierre": "2026-11-23T15:01:00",
+      "habiles_restantes": 3,
+      "nuevo": true,
+      "visto_desde": "2026-11-18",
+      "monto": "20.340.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$20.3M contra ~$3M de costo estimado (1.7 meses-persona).",
+        "monto_clp": 20340000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 9,
+      "razones": [
+        "«programacion» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=690263-9-LE26",
+      "descripcion": "Solicitud de compra urgente de fármacos por incumplimiento de CENABAST – Programas Ministeriales"
+    },
+    {
+      "codigo": "1386073-25-LE26",
+      "nombre": "SERVICIO DE RENOVACIÓN INTEGRAL DEL SITIO WEB INSTITUCIONAL DE LA CORPORACIÓN CULTURAL DE LAS CONDES INCLUYENDO DESARROLLO IMPLEMENTACIÓN HOSTING Y MANTENCIÓN",
+      "organismo": "CORP CULTURAL DE LAS CONDES",
+      "unidad": "CORP CULTURAL DE LAS CONDES",
+      "tipo": "LE",
+      "cierre": "2026-11-30T15:30:00",
+      "habiles_restantes": 8,
+      "nuevo": true,
+      "visto_desde": "2026-11-18",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~8.5 meses-persona, o sea del orden de $17M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 8.5,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 29,
+      "razones": [
+        "rubro ONU 43232107",
+        "«plataforma web» en el detalle",
+        "«sitio web» en el título",
+        "«pagina web» en el detalle",
+        "«software» en el detalle",
+        "«desarrollo e implementacion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1386073-25-LE26",
+      "descripcion": "Desarrollar una adecuada arquitectura de la página web, para que sea una plataforma web única e integrada para la Corporación Cultural de Las Condes que refleje su identidad y actividad, incluyendo todas sus sedes y eventos, mejorando la experiencia del usuario y facilitando la compra de entradas, con un diseño moderno, responsivo y accesible. La contratación comprende dos componentes: (1) el desarrollo e implementación del sitio web, y (2) el servicio de mantención, configuración y operación del sitio por 24 meses posteriores a su puesta en producción."
+    },
+    {
+      "codigo": "4301-77-LR26",
+      "nombre": "implementación y arriendo plataforma de software",
+      "organismo": "I MUNICIPALIDAD DE ZAPALLAR",
+      "unidad": "IMUNI_ ZAPALLAR",
+      "tipo": "LR",
+      "cierre": "2026-12-17T10:00:00",
+      "habiles_restantes": 20,
+      "nuevo": true,
+      "visto_desde": "2026-11-18",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~11.1 meses-persona, o sea del orden de $22M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 48.0,
+        "esfuerzo_mp": 11.1,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231605",
+        "«software» en el título",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4301-77-LR26",
+      "descripcion": "implementación y arriendo plataforma de software de gestión municipal"
+    }
+  ]
+}
