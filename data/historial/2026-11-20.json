@@ -1,0 +1,535 @@
+{
+  "generado": "2026-11-20 14:41",
+  "fecha": "2026-11-20",
+  "horizonte": 20,
+  "fecha_hasta": "2026-12-21",
+  "primera_corrida": false,
+  "modo": "solo desarrollo",
+  "resumen": {
+    "activas_revisadas": 5235,
+    "detalles_consultados": 495,
+    "nuevas": 4,
+    "por_cerrar": 9,
+    "llamadas_api": 213
+  },
+  "nuevas": [
+    {
+      "codigo": "4023-33-LE26",
+      "nombre": "Sistema Gestión Documental Municipal Putre",
+      "organismo": "ILUSTRE MUNICIPALIDAD DE PUTRE",
+      "unidad": "Secoplac",
+      "tipo": "LE",
+      "cierre": "2026-11-30T16:16:00",
+      "habiles_restantes": 6,
+      "nuevo": true,
+      "visto_desde": "2026-11-20",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~2.8 meses-persona, o sea del orden de $6M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": null,
+        "esfuerzo_mp": 2.8,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 19,
+      "razones": [
+        "rubro ONU 81111505",
+        "«programacion» en el detalle",
+        "«sistema de gestion» en el detalle",
+        "«gestion documental» en el título",
+        "ruido: «capacitacion»"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4023-33-LE26",
+      "descripcion": "Contratar una consultoría especializada para el diseño, desarrollo, implementación y puesta en marcha de un Sistema de Gestión Documental Municipal, incluyendo la capacitación de los funcionarios, con la finalidad de modernizar y optimizar los procesos administrativos internos, fortaleciendo la trazabilidad documental, los flujos de trabajo y el seguimiento de los tiempos de tramitación de la Ilustre Municipalidad de Putre, conforme a las Bases Administrativas Generales y Bases Técnicas de la licitación."
+    },
+    {
+      "codigo": "584264-51-LE26",
+      "nombre": "PLATAFORMA CRM MUNICIPAL DE ATENCIÓN AL VECINO APP",
+      "organismo": "I MUNICIPALIDAD DE INDEPENDENCIA",
+      "unidad": "DIRECCION DE SECPLA",
+      "tipo": "LE",
+      "cierre": "2026-11-30T15:05:00",
+      "habiles_restantes": 6,
+      "nuevo": true,
+      "visto_desde": "2026-11-20",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~3.9 meses-persona, o sea del orden de $8M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 3.9,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 15,
+      "razones": [
+        "rubro ONU 43232303",
+        "«aplicacion movil» en el detalle",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=584264-51-LE26",
+      "descripcion": "La presente licitación tiene por objetivo la contratación de una solución tecnológica integral para la gestión y atención ciudadana, compuesta por una plataforma CRM Municipal de Atención al Vecino y una aplicación móvil integrada, que permita centralizar la información de los vecinos, registrar y gestionar solicitudes y requerimientos, realizar su derivación y seguimiento, mantener trazabilidad de las atenciones y disponer de información e indicadores que fortalezcan la gestión municipal.\r\n\r\nLa solución deberá permitir, además, que los vecinos ingresen y realicen seguimiento de sus solicitudes a través de la aplicación móvil, manteniendo integración con la plataforma utilizada por los funcionarios."
+    },
+    {
+      "codigo": "2974-99-LE26",
+      "nombre": "ADQ. DE HARDWARE COMPUTACIONAL PARA LA D.B.S.",
+      "organismo": "FUERZA AEREA DE CHILE COMANDO LOGISTICO",
+      "unidad": "División de Bienestar Social",
+      "tipo": "LE",
+      "cierre": "2026-11-30T15:00:00",
+      "habiles_restantes": 6,
+      "nuevo": true,
+      "visto_desde": "2026-11-20",
+      "monto": "25.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$25.0M contra ~$3M de costo estimado (1.7 meses-persona).",
+        "monto_clp": 25000000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 81111812"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2974-99-LE26",
+      "descripcion": "ADQUISICIÓN DE HARDWARE COMPUTACIONAL PARA LA DIVISIÓN DE BIENESTAR SOCIAL (662/2026).  "
+    },
+    {
+      "codigo": "4085-64-LR26",
+      "nombre": "PLATAFORMA INTEGRAL DE GESTIÓN MUNICIPAL.",
+      "organismo": "I MUNICIPALIDAD DE LONGAVI",
+      "unidad": "Depto. de Secplan",
+      "tipo": "LR",
+      "cierre": "2026-12-21T16:00:00",
+      "habiles_restantes": 20,
+      "nuevo": true,
+      "visto_desde": "2026-11-20",
+      "monto": "10.080 CLF",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$411.8M contra ~$1M de costo estimado (0.7 meses-persona).",
+        "monto_clp": 411768000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 0.7,
+        "mensual": null
+      },
+      "veredicto": "go",
+      "puntaje": 19,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el detalle",
+        "«transformacion digital» en el detalle",
+        "«software» en el detalle",
+        "«desarrollo de plataforma» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4085-64-LR26",
+      "descripcion": "Las presentes bases administrativas y técnicas norman el proceso de la propuesta pública que efectúa la Ilustre Municipalidad de Longaví, donde el Municipio actúa como unidad técnica para la licitación denominada: “CONTRATACIÓN DE UNA PLATAFORMA INTEGRAL DE GESTIÓN MUNICIPAL, TRANSFORMACIÓN DIGITAL, INTEROPERABILIDAD Y SOPORTE TECNOLÓGICO PARA LA ILUSTRE MUNICIPALIDAD DE LONGAVÍ”, que consiste en la contratación de una solución informática que permita cumplir de manera satisfactoria, no sólo con los requerimientos presentes, sino que igualmente debe permitir incorporar todas aquellas nuevas funcionalidades que posibiliten cumplir futuras necesidades que deriven tanto de la operación como de los nuevos requerimientos que se generen producto de la evolución de las Tecnologías de Información TI. Esto por una duración de 6 años.\r\n\r\nEn caso de haber cualquier discrepancia entre estas Bases Ad"
+    }
+  ],
+  "por_cerrar": [
+    {
+      "codigo": "1075337-59-LE26",
+      "nombre": "NUEVO PROC. ARRIENDO SOFTWARE INTEGRACION DTE Y CLOUD SERVER",
+      "organismo": "SERVICIO DE SALUD ARAUCANIA NORTE HOSPITAL DE ANGOL",
+      "unidad": "Bienes y Servicio",
+      "tipo": "LE",
+      "cierre": "2026-11-20T15:06:00",
+      "habiles_restantes": 0,
+      "nuevo": false,
+      "visto_desde": "2026-11-09",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~8.7 meses-persona, o sea del orden de $17M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 8.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 12,
+      "razones": [
+        "rubro ONU 43231512",
+        "«software» en el título",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1075337-59-LE26",
+      "descripcion": "La presente licitación tiene como objetivo la contratación del servicio de arriendo de software de integración de integración DTE y Cloud Server, para el Hospital Dr. Mauricio Heyermann Torres de Angol."
+    },
+    {
+      "codigo": "1301883-31-LR26",
+      "nombre": "Sistema de Gestión Integrado de Personas",
+      "organismo": "SERVICIO NACIONAL DE REINSERCION SOCIAL JUVENIL",
+      "unidad": "DIRECCIÓN NACIONAL",
+      "tipo": "LR",
+      "cierre": "2026-11-23T15:01:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-10-26",
+      "monto": "34.800 CLF",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$1421.6M contra ~$33M de costo estimado (16.5 meses-persona), $25.4M al mes por 56 meses.",
+        "monto_clp": 1421580000,
+        "meses_contrato": 56.0,
+        "esfuerzo_mp": 16.5,
+        "mensual": 25385357
+      },
+      "veredicto": "revisar",
+      "puntaje": 15,
+      "razones": [
+        "rubro ONU 43231505",
+        "«sistema de gestion» en el título",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1301883-31-LR26",
+      "descripcion": "La contratación de un “Sistema de gestión integrado de personas”, para el Servicio Nacional de Reinserción Social Juvenil."
+    },
+    {
+      "codigo": "2289-65-LE26",
+      "nombre": "CONTRATACIÓN DE SOFTWARE DOM MUNICIPALIDAD DE FRUT",
+      "organismo": "I MUNICIPALIDAD DE FRUTILLAR",
+      "unidad": "MUNICIPALIDAD DE FRUTILLAR",
+      "tipo": "LE",
+      "cierre": "2026-11-23T15:01:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-11-12",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~3.9 meses-persona, o sea del orden de $8M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 3.9,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 12,
+      "razones": [
+        "rubro ONU 43232303",
+        "«software» en el título",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2289-65-LE26",
+      "descripcion": "CONTRATACIÓN DE SOFTWARE DOM MUNICIPALIDAD DE FRUTILLAR, de acuerdo a las especificaciones señaladas en las Bases Técnicas que acompañan a las  Bases Administrativas."
+    },
+    {
+      "codigo": "2704-94-LE26",
+      "nombre": "ESTACIÓN COMPUTACIONAL DE ALTO RENDIMIENTO SC 5792",
+      "organismo": "UNIVERSIDAD DEL BIO BIO",
+      "unidad": "Universidad del Bío-Bío - Campus Concepción",
+      "tipo": "LE",
+      "cierre": "2026-11-23T18:00:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-11-13",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~0.7 meses-persona, o sea del orden de $1M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": null,
+        "esfuerzo_mp": 0.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 11,
+      "razones": [
+        "rubro ONU 81111505",
+        "«programacion» en el detalle",
+        "ruido: «capacitacion»"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2704-94-LE26",
+      "descripcion": "SERVICIO DE PROVISIÓN, INSTALACIÓN, PUESTA EN MARCHA Y CAPACITACIÓN EN EL USO DE UNA ESTACIÓN DE TRABAJO COMPUTACIONAL DE ALTO RENDIMIENTO, PARA SIMULACIÓN NUMÉRICA, DINÁMICA DE FLUIDO COMPUTACIONAL, PROCESAMIENTO CIENTÍFICO E INTELIGENCIA ARTIFICIAL\r\nSC 5792"
+    },
+    {
+      "codigo": "1316747-36-LE26",
+      "nombre": "Servicio ERP en la nube con migración de datos",
+      "organismo": "CORPORACION CULTURAL MUNICIPAL DE LOS ANGELES",
+      "unidad": "Departamento de Administración",
+      "tipo": "LE",
+      "cierre": "2026-11-23T15:30:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-11-12",
+      "monto": "387 CLF",
+      "precio": {
+        "nivel": "amarilla",
+        "etiqueta": "margen apretado",
+        "detalle": "$15.8M contra ~$20M de costo estimado (9.8 meses-persona). Se puede, pero sin espacio para imprevistos.",
+        "monto_clp": 15808950,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 9.8,
+        "mensual": 1317412
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231602",
+        "«erp» en el título",
+        "«sistema de gestion» en el detalle",
+        "«software» en el detalle",
+        "ruido: «capacitacion»"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1316747-36-LE26",
+      "descripcion": "Contratación del servicio de sistema de gestión empresarial ERP en la nube, modalidad SaaS, para la Corporación Cultural Municipal de Los Ángeles. Incluye contabilidad, tesorería, compras, facturación electrónica, inventario, activo fijo, remuneraciones y firma electrónica, con implementación, migración de datos históricos, capacitación y soporte. Contrato de 12 meses, renovable hasta 2 veces."
+    },
+    {
+      "codigo": "3253-111-LP26",
+      "nombre": "SERVICIO DE ARRIENDO MANT. Y SOPORTE SISTEMAS GUB",
+      "organismo": "I MUNICIPALIDAD DE PELLUHUE",
+      "unidad": "Secretaría de  Planificación",
+      "tipo": "LP",
+      "cierre": "2026-11-23T15:00:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-11-12",
+      "monto": "3.000 CLF",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$122.5M contra ~$11M de costo estimado (5.3 meses-persona), $5.1M al mes por 24 meses.",
+        "monto_clp": 122550000,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 5.3,
+        "mensual": 5106250
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 81111805"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3253-111-LP26",
+      "descripcion": "Servicio de arriendo, mantencion y soporte de sistemas gubernamentales de Gestion Area Municipal Periodo 2027-2028, segun bases tecnicas y administrativas."
+    },
+    {
+      "codigo": "690263-9-LE26",
+      "nombre": "ADQ. MEDICAMENTOS INCUMPLIMIENTO PROGRAMACIÓN CENABAST PROGRAMAS MINISTERIALES CARDIOVASCULAR PARKINSON Y SALUD SEXUAL Y REPRODUCTIVA DSSA",
+      "organismo": "SERVICIO DE SALUD ARAUCO",
+      "unidad": "ABASTECIMIENTO FÁRMACOS E INSUMOS CLÍNICOS",
+      "tipo": "LE",
+      "cierre": "2026-11-23T15:01:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-11-18",
+      "monto": "20.340.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$20.3M contra ~$3M de costo estimado (1.7 meses-persona).",
+        "monto_clp": 20340000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 9,
+      "razones": [
+        "«programacion» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=690263-9-LE26",
+      "descripcion": "Solicitud de compra urgente de fármacos por incumplimiento de CENABAST – Programas Ministeriales"
+    },
+    {
+      "codigo": "1082957-37-LE26",
+      "nombre": "SERVICIOS DE DESARROLLO DE REPORTERÍA AVANZADA ANALÍTICA Y RE-VIRTUALIZACIÓN DE CURSOS PARA EL AULA VIRTUAL DE PROCHILE",
+      "organismo": "DIRECCION GENERAL DE PROMOCION DE EXPORTACIONES",
+      "unidad": "MN PROMOCION DE EXPORTACIONES",
+      "tipo": "LE",
+      "cierre": "2026-11-24T13:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-11-16",
+      "monto": "16.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$16.0M contra ~$9M de costo estimado (4.3 meses-persona), $1.1M al mes por 14 meses.",
+        "monto_clp": 16000000,
+        "meses_contrato": 14.0,
+        "esfuerzo_mp": 4.3,
+        "mensual": 1142857
+      },
+      "veredicto": "go",
+      "puntaje": 20,
+      "razones": [
+        "rubro ONU 81111508",
+        "«servicios de desarrollo» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1082957-37-LE26",
+      "descripcion": "ProChile invita a participar en el proceso de contratación para servicios de desarrollo de reportería avanzada, analítica y re-virtualización de cursos para el Aula Virtual de ProChile, con el objetivo de optimizar el control de gestión de convocatorias, trazabilidad de la participación y calidad e la oferta formativa institucional en el Aula Virtual de ProChile. “E1O2RT9”."
+    },
+    {
+      "codigo": "1306643-26-LE26",
+      "nombre": "PLATAFORMA DE GESTIÓN ADMINISTRATIVA",
+      "organismo": "I.MUNICIPALIDAD DE CERRO NAVIA",
+      "unidad": "SERVICIOS TRASPASADOS DEPARTAMENTO DE SALUD",
+      "tipo": "LE",
+      "cierre": "2026-11-24T15:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-11-11",
+      "monto": "25.704.000 CLP",
+      "precio": {
+        "nivel": "roja",
+        "etiqueta": "no paga ni una persona",
+        "detalle": "$25.7M repartidos en 36 meses son $0.7M al mes. No alcanza ni para tener a una persona dedicada.",
+        "monto_clp": 25704000,
+        "meses_contrato": 36.0,
+        "esfuerzo_mp": 8.7,
+        "mensual": 714000
+      },
+      "veredicto": "nogo",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231503",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1306643-26-LE26",
+      "descripcion": "Plataforma integral para la gestión administrativa, control y ventas de Farmacias Populares, Óptica Popular y Droguería Comunal, con funcionalidades y obligaciones previstas en Bases Técnicas, Bases Administrativas y anexos."
+    }
+  ],
+  "oportunidades": [
+    {
+      "codigo": "4023-33-LE26",
+      "nombre": "Sistema Gestión Documental Municipal Putre",
+      "organismo": "ILUSTRE MUNICIPALIDAD DE PUTRE",
+      "unidad": "Secoplac",
+      "tipo": "LE",
+      "cierre": "2026-11-30T16:16:00",
+      "habiles_restantes": 6,
+      "nuevo": true,
+      "visto_desde": "2026-11-20",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~2.8 meses-persona, o sea del orden de $6M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": null,
+        "esfuerzo_mp": 2.8,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 19,
+      "razones": [
+        "rubro ONU 81111505",
+        "«programacion» en el detalle",
+        "«sistema de gestion» en el detalle",
+        "«gestion documental» en el título",
+        "ruido: «capacitacion»"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4023-33-LE26",
+      "descripcion": "Contratar una consultoría especializada para el diseño, desarrollo, implementación y puesta en marcha de un Sistema de Gestión Documental Municipal, incluyendo la capacitación de los funcionarios, con la finalidad de modernizar y optimizar los procesos administrativos internos, fortaleciendo la trazabilidad documental, los flujos de trabajo y el seguimiento de los tiempos de tramitación de la Ilustre Municipalidad de Putre, conforme a las Bases Administrativas Generales y Bases Técnicas de la licitación."
+    },
+    {
+      "codigo": "584264-51-LE26",
+      "nombre": "PLATAFORMA CRM MUNICIPAL DE ATENCIÓN AL VECINO APP",
+      "organismo": "I MUNICIPALIDAD DE INDEPENDENCIA",
+      "unidad": "DIRECCION DE SECPLA",
+      "tipo": "LE",
+      "cierre": "2026-11-30T15:05:00",
+      "habiles_restantes": 6,
+      "nuevo": true,
+      "visto_desde": "2026-11-20",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~3.9 meses-persona, o sea del orden de $8M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 3.9,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 15,
+      "razones": [
+        "rubro ONU 43232303",
+        "«aplicacion movil» en el detalle",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=584264-51-LE26",
+      "descripcion": "La presente licitación tiene por objetivo la contratación de una solución tecnológica integral para la gestión y atención ciudadana, compuesta por una plataforma CRM Municipal de Atención al Vecino y una aplicación móvil integrada, que permita centralizar la información de los vecinos, registrar y gestionar solicitudes y requerimientos, realizar su derivación y seguimiento, mantener trazabilidad de las atenciones y disponer de información e indicadores que fortalezcan la gestión municipal.\r\n\r\nLa solución deberá permitir, además, que los vecinos ingresen y realicen seguimiento de sus solicitudes a través de la aplicación móvil, manteniendo integración con la plataforma utilizada por los funcionarios."
+    },
+    {
+      "codigo": "2974-99-LE26",
+      "nombre": "ADQ. DE HARDWARE COMPUTACIONAL PARA LA D.B.S.",
+      "organismo": "FUERZA AEREA DE CHILE COMANDO LOGISTICO",
+      "unidad": "División de Bienestar Social",
+      "tipo": "LE",
+      "cierre": "2026-11-30T15:00:00",
+      "habiles_restantes": 6,
+      "nuevo": true,
+      "visto_desde": "2026-11-20",
+      "monto": "25.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$25.0M contra ~$3M de costo estimado (1.7 meses-persona).",
+        "monto_clp": 25000000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 81111812"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2974-99-LE26",
+      "descripcion": "ADQUISICIÓN DE HARDWARE COMPUTACIONAL PARA LA DIVISIÓN DE BIENESTAR SOCIAL (662/2026).  "
+    },
+    {
+      "codigo": "4085-64-LR26",
+      "nombre": "PLATAFORMA INTEGRAL DE GESTIÓN MUNICIPAL.",
+      "organismo": "I MUNICIPALIDAD DE LONGAVI",
+      "unidad": "Depto. de Secplan",
+      "tipo": "LR",
+      "cierre": "2026-12-21T16:00:00",
+      "habiles_restantes": 20,
+      "nuevo": true,
+      "visto_desde": "2026-11-20",
+      "monto": "10.080 CLF",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$411.8M contra ~$1M de costo estimado (0.7 meses-persona).",
+        "monto_clp": 411768000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 0.7,
+        "mensual": null
+      },
+      "veredicto": "go",
+      "puntaje": 19,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el detalle",
+        "«transformacion digital» en el detalle",
+        "«software» en el detalle",
+        "«desarrollo de plataforma» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4085-64-LR26",
+      "descripcion": "Las presentes bases administrativas y técnicas norman el proceso de la propuesta pública que efectúa la Ilustre Municipalidad de Longaví, donde el Municipio actúa como unidad técnica para la licitación denominada: “CONTRATACIÓN DE UNA PLATAFORMA INTEGRAL DE GESTIÓN MUNICIPAL, TRANSFORMACIÓN DIGITAL, INTEROPERABILIDAD Y SOPORTE TECNOLÓGICO PARA LA ILUSTRE MUNICIPALIDAD DE LONGAVÍ”, que consiste en la contratación de una solución informática que permita cumplir de manera satisfactoria, no sólo con los requerimientos presentes, sino que igualmente debe permitir incorporar todas aquellas nuevas funcionalidades que posibiliten cumplir futuras necesidades que deriven tanto de la operación como de los nuevos requerimientos que se generen producto de la evolución de las Tecnologías de Información TI. Esto por una duración de 6 años.\r\n\r\nEn caso de haber cualquier discrepancia entre estas Bases Ad"
+    }
+  ]
+}
