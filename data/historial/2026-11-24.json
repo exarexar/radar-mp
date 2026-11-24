@@ -1,0 +1,258 @@
+{
+  "generado": "2026-11-24 17:03",
+  "fecha": "2026-11-24",
+  "horizonte": 20,
+  "fecha_hasta": "2026-12-23",
+  "primera_corrida": false,
+  "modo": "solo desarrollo",
+  "resumen": {
+    "activas_revisadas": 4711,
+    "detalles_consultados": 428,
+    "nuevas": 3,
+    "por_cerrar": 2,
+    "llamadas_api": 61
+  },
+  "nuevas": [
+    {
+      "codigo": "1590-10-L126",
+      "nombre": "DISEÑO Y DESARROLLO DE UN PRODUCTO DIGITAL PARA LA GESTIÓN Y SEGUIMIENTO DE COMPROMISOS INSTITUCIONALES, CON APOYO DE INTELIGENCIA ARTIFICIAL",
+      "organismo": "SUBSECRETARIA DEL MINISTERIO DE AGRICULT",
+      "unidad": "Subsecretaría de Agricultura",
+      "tipo": "L1",
+      "cierre": "2026-11-30T15:01:00",
+      "habiles_restantes": 4,
+      "nuevo": true,
+      "visto_desde": "2026-11-24",
+      "monto": "7.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$7.0M contra ~$3M de costo estimado (1.7 meses-persona).",
+        "monto_clp": 7000000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 17,
+      "razones": [
+        "rubro ONU 43231507",
+        "«diseno y desarrollo» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1590-10-L126",
+      "descripcion": "Diseño y desarrollo de un producto digital para la Gestión y seguimiento de compromisos institucionales, con apoyo de Inteligencia artificial.\nLa contratación del diseño, desarrollo, prueba, documentación y entrega de un producto digital funcional para el registro y seguimiento de compromisos institucionales, con apoyo acotado de inteligencia artificial y validación humana.\n"
+    },
+    {
+      "codigo": "1469-406-L126",
+      "nombre": "SERVICIO DE VERIFICACIÓN FUNCIONAL Y RECONEXÓN DE INTEGRACIONES EN EL AMBIENTE DE QAS POST COPIA DE MANDANTE PARA ERP SAP DE LA UNIVERSIDAD DE TALCA",
+      "organismo": "UNIVERSIDAD DE TALCA",
+      "unidad": "Universidad de Talca",
+      "tipo": "L1",
+      "cierre": "2026-12-01T18:00:00",
+      "habiles_restantes": 5,
+      "nuevo": true,
+      "visto_desde": "2026-11-24",
+      "monto": "50 CLF",
+      "precio": {
+        "nivel": "amarilla",
+        "etiqueta": "margen apretado",
+        "detalle": "$2.0M contra ~$11M de costo estimado (5.4 meses-persona). Se puede, pero sin espacio para imprevistos.",
+        "monto_clp": 2042500,
+        "meses_contrato": null,
+        "esfuerzo_mp": 5.4,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 16,
+      "razones": [
+        "rubro ONU 81111507",
+        "«erp» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1469-406-L126",
+      "descripcion": "La Universidad de Talca, realizará una copia de mandante, y requiere realizar una verificación funcional de las integraciones y la reconexion de aquellas que no están operativas, garantizando el correcto funcionamiento del ambiente de SAP QAS."
+    },
+    {
+      "codigo": "1456840-4-LP26",
+      "nombre": "Software de Gestión Integral SLEP del Reloncaví",
+      "organismo": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DEL RELONCAVÍ",
+      "unidad": "P01 SLEP DEL RELONCAVÍ",
+      "tipo": "LP",
+      "cierre": "2026-12-14T15:00:00",
+      "habiles_restantes": 13,
+      "nuevo": true,
+      "visto_desde": "2026-11-24",
+      "monto": "100.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$100.0M contra ~$13M de costo estimado (6.3 meses-persona), $4.2M al mes por 24 meses.",
+        "monto_clp": 100000000,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 6.3,
+        "mensual": 4166667
+      },
+      "veredicto": "revisar",
+      "puntaje": 14,
+      "razones": [
+        "rubro ONU 43232915",
+        "«software» en el título",
+        "«software de gestion» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1456840-4-LP26",
+      "descripcion": "Conforme a la Ley de Compras Públicas 19.886, sus modificaciones y el Decreto 661 que fija su Reglamento, el Servicio Local de Educación Pública del Reloncaví, llama a Licitación Pública a personas naturales o jurídicas, empresas o proveedores del rubro, o unión temporal de proveedores, para disponer de una plataforma tecnológica integral que permita digitalizar, centralizar y dar trazabilidad completa al ciclo de gestión presupuestaria, abastecimiento, control financiero y otras áreas de los Programas 01 Nivel Central y 02 Establecimientos Educacionales del Servicio Local de Educación Pública del Reloncaví. A través de este servicio, se busca optimizar la planificación anual de compras, el seguimiento de requerimientos, la recepción conforme y el control de facturas y pagos, asegurando la eficiencia del gasto público, el cumplimiento oportuno de los plazos financieros."
+    }
+  ],
+  "por_cerrar": [
+    {
+      "codigo": "4160-28-LE26",
+      "nombre": "SITIO WEB MUNICIPAL CON SOPORTE Y MANTENCION CONTI",
+      "organismo": "MUNICIPALIDAD DE HUALPEN",
+      "unidad": "Secplan",
+      "tipo": "LE",
+      "cierre": "2026-11-25T14:00:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-11-06",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~5.3 meses-persona, o sea del orden de $11M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 5.3,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 16,
+      "razones": [
+        "rubro ONU 43232107",
+        "«sitio web» en el título",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4160-28-LE26",
+      "descripcion": "contratación del “SITIO WEB MUNICIPAL CON SOPORTE Y MANTENCION CONTINUA, MUNICIPALIDAD DE HUALPÉN”, para lo cual se deberá considerar un plazo de Desarrollo y Rediseño WEB de 30 días corridos y un plazo de Soporte y Mantención Integral de 24 meses."
+    },
+    {
+      "codigo": "726931-2-LE26",
+      "nombre": "PLATAFORMA INTEGRAL ALUMNI Y EMPLEABILIDAD UTA",
+      "organismo": "UNIVERSIDAD DE TARAPACA",
+      "unidad": "Direccion General de  Vinculacion con el Medio",
+      "tipo": "LE",
+      "cierre": "2026-11-26T16:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-11-06",
+      "monto": "24.500.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$24.5M contra ~$3M de costo estimado (1.7 meses-persona).",
+        "monto_clp": 24500000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 16,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el detalle",
+        "«software» en el detalle",
+        "«desarrollo de plataforma» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=726931-2-LE26",
+      "descripcion": "La Universidad de Tarapacá solicita la adquisición de servicio de plataforma integral ALUMNI y empleabilidad por un periodo de 24 meses de duración, según especificaciones técnicas descritas en el Anexo N°1. Asociada a la SC N° 2026100293."
+    }
+  ],
+  "oportunidades": [
+    {
+      "codigo": "1590-10-L126",
+      "nombre": "DISEÑO Y DESARROLLO DE UN PRODUCTO DIGITAL PARA LA GESTIÓN Y SEGUIMIENTO DE COMPROMISOS INSTITUCIONALES, CON APOYO DE INTELIGENCIA ARTIFICIAL",
+      "organismo": "SUBSECRETARIA DEL MINISTERIO DE AGRICULT",
+      "unidad": "Subsecretaría de Agricultura",
+      "tipo": "L1",
+      "cierre": "2026-11-30T15:01:00",
+      "habiles_restantes": 4,
+      "nuevo": true,
+      "visto_desde": "2026-11-24",
+      "monto": "7.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$7.0M contra ~$3M de costo estimado (1.7 meses-persona).",
+        "monto_clp": 7000000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 17,
+      "razones": [
+        "rubro ONU 43231507",
+        "«diseno y desarrollo» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1590-10-L126",
+      "descripcion": "Diseño y desarrollo de un producto digital para la Gestión y seguimiento de compromisos institucionales, con apoyo de Inteligencia artificial.\nLa contratación del diseño, desarrollo, prueba, documentación y entrega de un producto digital funcional para el registro y seguimiento de compromisos institucionales, con apoyo acotado de inteligencia artificial y validación humana.\n"
+    },
+    {
+      "codigo": "1469-406-L126",
+      "nombre": "SERVICIO DE VERIFICACIÓN FUNCIONAL Y RECONEXÓN DE INTEGRACIONES EN EL AMBIENTE DE QAS POST COPIA DE MANDANTE PARA ERP SAP DE LA UNIVERSIDAD DE TALCA",
+      "organismo": "UNIVERSIDAD DE TALCA",
+      "unidad": "Universidad de Talca",
+      "tipo": "L1",
+      "cierre": "2026-12-01T18:00:00",
+      "habiles_restantes": 5,
+      "nuevo": true,
+      "visto_desde": "2026-11-24",
+      "monto": "50 CLF",
+      "precio": {
+        "nivel": "amarilla",
+        "etiqueta": "margen apretado",
+        "detalle": "$2.0M contra ~$11M de costo estimado (5.4 meses-persona). Se puede, pero sin espacio para imprevistos.",
+        "monto_clp": 2042500,
+        "meses_contrato": null,
+        "esfuerzo_mp": 5.4,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 16,
+      "razones": [
+        "rubro ONU 81111507",
+        "«erp» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1469-406-L126",
+      "descripcion": "La Universidad de Talca, realizará una copia de mandante, y requiere realizar una verificación funcional de las integraciones y la reconexion de aquellas que no están operativas, garantizando el correcto funcionamiento del ambiente de SAP QAS."
+    },
+    {
+      "codigo": "1456840-4-LP26",
+      "nombre": "Software de Gestión Integral SLEP del Reloncaví",
+      "organismo": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DEL RELONCAVÍ",
+      "unidad": "P01 SLEP DEL RELONCAVÍ",
+      "tipo": "LP",
+      "cierre": "2026-12-14T15:00:00",
+      "habiles_restantes": 13,
+      "nuevo": true,
+      "visto_desde": "2026-11-24",
+      "monto": "100.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$100.0M contra ~$13M de costo estimado (6.3 meses-persona), $4.2M al mes por 24 meses.",
+        "monto_clp": 100000000,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 6.3,
+        "mensual": 4166667
+      },
+      "veredicto": "revisar",
+      "puntaje": 14,
+      "razones": [
+        "rubro ONU 43232915",
+        "«software» en el título",
+        "«software de gestion» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1456840-4-LP26",
+      "descripcion": "Conforme a la Ley de Compras Públicas 19.886, sus modificaciones y el Decreto 661 que fija su Reglamento, el Servicio Local de Educación Pública del Reloncaví, llama a Licitación Pública a personas naturales o jurídicas, empresas o proveedores del rubro, o unión temporal de proveedores, para disponer de una plataforma tecnológica integral que permita digitalizar, centralizar y dar trazabilidad completa al ciclo de gestión presupuestaria, abastecimiento, control financiero y otras áreas de los Programas 01 Nivel Central y 02 Establecimientos Educacionales del Servicio Local de Educación Pública del Reloncaví. A través de este servicio, se busca optimizar la planificación anual de compras, el seguimiento de requerimientos, la recepción conforme y el control de facturas y pagos, asegurando la eficiencia del gasto público, el cumplimiento oportuno de los plazos financieros."
+    }
+  ]
+}
