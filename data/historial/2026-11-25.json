@@ -1,0 +1,384 @@
+{
+  "generado": "2026-11-25 16:05",
+  "fecha": "2026-11-25",
+  "horizonte": 20,
+  "fecha_hasta": "2026-12-24",
+  "primera_corrida": false,
+  "modo": "solo desarrollo",
+  "resumen": {
+    "activas_revisadas": 4830,
+    "detalles_consultados": 436,
+    "nuevas": 4,
+    "por_cerrar": 4,
+    "llamadas_api": 61
+  },
+  "nuevas": [
+    {
+      "codigo": "1978-154-L126",
+      "nombre": "CURSO: DESARROLLO DE SOFTWARE CON AGENTES Y MULTIAGENTES DE IA",
+      "organismo": "SERVICIO DE SALUD DEL MAULE",
+      "unidad": "Servicio de Salud del Maule",
+      "tipo": "L1",
+      "cierre": "2026-12-03T15:00:00",
+      "habiles_restantes": 6,
+      "nuevo": true,
+      "visto_desde": "2026-11-25",
+      "monto": "3.000.000 CLP",
+      "precio": {
+        "nivel": "amarilla",
+        "etiqueta": "margen apretado",
+        "detalle": "$3.0M contra ~$11M de costo estimado (5.4 meses-persona). Se puede, pero sin espacio para imprevistos.",
+        "monto_clp": 3000000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 5.4,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 15,
+      "razones": [
+        "«desarrollo de software» en el título",
+        "«levantamiento de requerimientos» en el detalle",
+        "«software» en el título",
+        "ruido: «capacitacion»"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1978-154-L126",
+      "descripcion": "El Servicio de Salud Maule requiere la contratación del curso denominado “Desarrollo de Software con Agentes y Multiagentes de IA”, dirigido a 11 profesionales de áreas informáticas y de gestión de la información. Su propósito es fortalecer las capacidades para especificar, orquestar, construir y validar soluciones informáticas mediante agentes de inteligencia artificial, desde el levantamiento de requerimientos hasta la implementación de una aplicación funcional, con criterios de calidad, segur"
+    },
+    {
+      "codigo": "1561172-4-L126",
+      "nombre": "DISEÑO E IMPLEMENTACION DE ARQUITECTURA BÁSICA PARA EL DESARROLLO DE UN SISTEMA DE FISCALIZACIÓN PESQUERA QUE INCORPORE INTELIGENCIA ARTIFICIAL, BACKEND Y UNA SOLUCIÓN DIGITAL",
+      "organismo": "SERV NACIONAL DE PESCA",
+      "unidad": "IV Sernapesca Coquimbo Cuenta Extrapresupuestaria",
+      "tipo": "L1",
+      "cierre": "2026-12-04T16:04:00",
+      "habiles_restantes": 7,
+      "nuevo": true,
+      "visto_desde": "2026-11-25",
+      "monto": "5.000.000 CLP",
+      "precio": {
+        "nivel": "amarilla",
+        "etiqueta": "margen apretado",
+        "detalle": "$5.0M contra ~$6M de costo estimado (2.8 meses-persona). Se puede, pero sin espacio para imprevistos.",
+        "monto_clp": 5000000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 2.8,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 22,
+      "razones": [
+        "rubro ONU 43232407",
+        "«aplicacion movil» en el detalle",
+        "«plataforma web» en el detalle",
+        "«backend» en el título",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1561172-4-L126",
+      "descripcion": "DISEÑO E IMPLEMENTACION DE ARQUITECTURA BÁSICA PARA EL DESARROLLO DE UN SISTEMA DE FISCALIZACIÓN PESQUERA QUE INCORPORE INTELIGENCIA ARTIFICIAL, BACKEND Y UNA SOLUCIÓN DIGITAL (PLATAFORMA WEB, APLICACIÓN MÓVIEL U OTRA HERRAMIENTA DIGITAL) PARA LA SUPERVICIÓN, CONTROL Y VERIFICACIÓN DEL CUMPLIMIENTO NORMATIVO DE MANERA EFICIENTE Y AUTOMATIZADA PARA EL SERVICIO NACIONAL DE PESCA Y ACUICULTURA REGIÓN DE COQUIMBO"
+    },
+    {
+      "codigo": "2483-279-LE26",
+      "nombre": "“SERVICIO HOSTING SITIO WEB MUNICIPAL DE QUILICURA DESARROLLO REDISEÑO HEADLESS”",
+      "organismo": "I MUNICIPALIDAD DE QUILICURA",
+      "unidad": "DEPARTAMENTO COMPRAS PÚBLICAS",
+      "tipo": "LE",
+      "cierre": "2026-12-07T15:00:00",
+      "habiles_restantes": 8,
+      "nuevo": true,
+      "visto_desde": "2026-11-25",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~5.3 meses-persona, o sea del orden de $11M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 5.3,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 15,
+      "razones": [
+        "rubro ONU 81112105",
+        "«sitio web» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2483-279-LE26",
+      "descripcion": "“SERVICIO HOSTING SITIO WEB MUNICIPAL DE QUILICURA DESARROLLO, REDISEÑO HEADLESS”\r\nDECRETO ALCALDICIO E. Nº4593 APRUEBA BASES "
+    },
+    {
+      "codigo": "906816-26-LE26",
+      "nombre": "SERVICIO DE GESTIÓN DOCUMENTAL",
+      "organismo": "I MUNICIPALIDAD DE TALTAL",
+      "unidad": "Secplac",
+      "tipo": "LE",
+      "cierre": "2026-12-10T15:00:00",
+      "habiles_restantes": 10,
+      "nuevo": true,
+      "visto_desde": "2026-11-25",
+      "monto": "39.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$39.0M contra ~$6M de costo estimado (2.8 meses-persona).",
+        "monto_clp": 39000000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 2.8,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 11,
+      "razones": [
+        "rubro ONU 43233405",
+        "«software» en el detalle",
+        "«gestion documental» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=906816-26-LE26",
+      "descripcion": "SERVICIO DE GESTIÓN DOCUMENTAL"
+    }
+  ],
+  "por_cerrar": [
+    {
+      "codigo": "726931-2-LE26",
+      "nombre": "PLATAFORMA INTEGRAL ALUMNI Y EMPLEABILIDAD UTA",
+      "organismo": "UNIVERSIDAD DE TARAPACA",
+      "unidad": "Direccion General de  Vinculacion con el Medio",
+      "tipo": "LE",
+      "cierre": "2026-11-26T16:00:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-11-06",
+      "monto": "24.500.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$24.5M contra ~$3M de costo estimado (1.7 meses-persona).",
+        "monto_clp": 24500000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 16,
+      "razones": [
+        "rubro ONU 43232408",
+        "«plataforma web» en el detalle",
+        "«software» en el detalle",
+        "«desarrollo de plataforma» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=726931-2-LE26",
+      "descripcion": "La Universidad de Tarapacá solicita la adquisición de servicio de plataforma integral ALUMNI y empleabilidad por un periodo de 24 meses de duración, según especificaciones técnicas descritas en el Anexo N°1. Asociada a la SC N° 2026100293."
+    },
+    {
+      "codigo": "1057547-482-LE26",
+      "nombre": "SUSCRIPCIÓN ANUAL A PLATAFORMA DE MODELACIÓN BIM",
+      "organismo": "SERVICIO DE SALUD VALDIVIA HOSPITAL BASE",
+      "unidad": "Bienes y Servicios",
+      "tipo": "LE",
+      "cierre": "2026-11-27T19:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-11-16",
+      "monto": "7.775.360 CLP",
+      "precio": {
+        "nivel": "roja",
+        "etiqueta": "no paga ni una persona",
+        "detalle": "$7.8M repartidos en 12 meses son $0.6M al mes. No alcanza ni para tener a una persona dedicada.",
+        "monto_clp": 7775360,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 3.9,
+        "mensual": 647947
+      },
+      "veredicto": "nogo",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231512",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057547-482-LE26",
+      "descripcion": "CONTRATACIÓN DE SUSCRIPCIÓN ANUAL A PLATAFORMA DE MODELACIÓN BIM EN LA NUBE PARA LA COORDINACIÓN DE PROYECTOS DE ARQUITECTURA Y ESPECIALIDADES DEL HOSPITAL BASE VALDIVIA"
+    },
+    {
+      "codigo": "1359575-10-LE26",
+      "nombre": "Servicio de mejoras de conectividad y red de datos",
+      "organismo": "UNIVERSIDAD DE VALPARAISO",
+      "unidad": "25 - Clínica Reproducción Humana",
+      "tipo": "LE",
+      "cierre": "2026-11-27T17:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-11-17",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~1.7 meses-persona, o sea del orden de $3M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 81111809"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1359575-10-LE26",
+      "descripcion": "La necesidad de contar con servicio integral de mejoras de conectividad y red de datos para el edificio Bruno Günther de la Universidad de Valparaíso, ubicado en Hontaneda N°2664, ciudad de Valparaíso, el que actualmente alberga a la clínica de reproducción humana y laboratorios de investigación de medicina."
+    },
+    {
+      "codigo": "872-55-LE26",
+      "nombre": "Licencias contra la Pérdida de Datos DLP",
+      "organismo": "Comisión Chilena de Energía Nuclear",
+      "unidad": "Comisión Chilena de Energía Nuclear",
+      "tipo": "LE",
+      "cierre": "2026-11-27T15:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-11-17",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~1.7 meses-persona, o sea del orden de $3M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231512",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=872-55-LE26",
+      "descripcion": "La Comisión Chilena de Energía Nuclear CCHEN requiere contratar el servicio de suministro, habilitación y uso de 350 licencias de una solución integral de Prevención contra la Pérdida de Datos Data Loss Prevention - DLP, por un período de 24 meses, tomando como referencia la plataforma Forcepoint DLP o una solución técnicamente equivalente, que permita descubrir, monitorear, controlar, clasificar y proteger activamente la información confidencial, sensible y regulada de la Institución, durante todo su ciclo de vida y frente a los distintos vectores de posible fuga o exfiltración de datos, tanto dentro como fuera de la infraestructura institucional."
+    }
+  ],
+  "oportunidades": [
+    {
+      "codigo": "1978-154-L126",
+      "nombre": "CURSO: DESARROLLO DE SOFTWARE CON AGENTES Y MULTIAGENTES DE IA",
+      "organismo": "SERVICIO DE SALUD DEL MAULE",
+      "unidad": "Servicio de Salud del Maule",
+      "tipo": "L1",
+      "cierre": "2026-12-03T15:00:00",
+      "habiles_restantes": 6,
+      "nuevo": true,
+      "visto_desde": "2026-11-25",
+      "monto": "3.000.000 CLP",
+      "precio": {
+        "nivel": "amarilla",
+        "etiqueta": "margen apretado",
+        "detalle": "$3.0M contra ~$11M de costo estimado (5.4 meses-persona). Se puede, pero sin espacio para imprevistos.",
+        "monto_clp": 3000000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 5.4,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 15,
+      "razones": [
+        "«desarrollo de software» en el título",
+        "«levantamiento de requerimientos» en el detalle",
+        "«software» en el título",
+        "ruido: «capacitacion»"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1978-154-L126",
+      "descripcion": "El Servicio de Salud Maule requiere la contratación del curso denominado “Desarrollo de Software con Agentes y Multiagentes de IA”, dirigido a 11 profesionales de áreas informáticas y de gestión de la información. Su propósito es fortalecer las capacidades para especificar, orquestar, construir y validar soluciones informáticas mediante agentes de inteligencia artificial, desde el levantamiento de requerimientos hasta la implementación de una aplicación funcional, con criterios de calidad, segur"
+    },
+    {
+      "codigo": "1561172-4-L126",
+      "nombre": "DISEÑO E IMPLEMENTACION DE ARQUITECTURA BÁSICA PARA EL DESARROLLO DE UN SISTEMA DE FISCALIZACIÓN PESQUERA QUE INCORPORE INTELIGENCIA ARTIFICIAL, BACKEND Y UNA SOLUCIÓN DIGITAL",
+      "organismo": "SERV NACIONAL DE PESCA",
+      "unidad": "IV Sernapesca Coquimbo Cuenta Extrapresupuestaria",
+      "tipo": "L1",
+      "cierre": "2026-12-04T16:04:00",
+      "habiles_restantes": 7,
+      "nuevo": true,
+      "visto_desde": "2026-11-25",
+      "monto": "5.000.000 CLP",
+      "precio": {
+        "nivel": "amarilla",
+        "etiqueta": "margen apretado",
+        "detalle": "$5.0M contra ~$6M de costo estimado (2.8 meses-persona). Se puede, pero sin espacio para imprevistos.",
+        "monto_clp": 5000000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 2.8,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 22,
+      "razones": [
+        "rubro ONU 43232407",
+        "«aplicacion movil» en el detalle",
+        "«plataforma web» en el detalle",
+        "«backend» en el título",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1561172-4-L126",
+      "descripcion": "DISEÑO E IMPLEMENTACION DE ARQUITECTURA BÁSICA PARA EL DESARROLLO DE UN SISTEMA DE FISCALIZACIÓN PESQUERA QUE INCORPORE INTELIGENCIA ARTIFICIAL, BACKEND Y UNA SOLUCIÓN DIGITAL (PLATAFORMA WEB, APLICACIÓN MÓVIEL U OTRA HERRAMIENTA DIGITAL) PARA LA SUPERVICIÓN, CONTROL Y VERIFICACIÓN DEL CUMPLIMIENTO NORMATIVO DE MANERA EFICIENTE Y AUTOMATIZADA PARA EL SERVICIO NACIONAL DE PESCA Y ACUICULTURA REGIÓN DE COQUIMBO"
+    },
+    {
+      "codigo": "2483-279-LE26",
+      "nombre": "“SERVICIO HOSTING SITIO WEB MUNICIPAL DE QUILICURA DESARROLLO REDISEÑO HEADLESS”",
+      "organismo": "I MUNICIPALIDAD DE QUILICURA",
+      "unidad": "DEPARTAMENTO COMPRAS PÚBLICAS",
+      "tipo": "LE",
+      "cierre": "2026-12-07T15:00:00",
+      "habiles_restantes": 8,
+      "nuevo": true,
+      "visto_desde": "2026-11-25",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~5.3 meses-persona, o sea del orden de $11M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 24.0,
+        "esfuerzo_mp": 5.3,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 15,
+      "razones": [
+        "rubro ONU 81112105",
+        "«sitio web» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2483-279-LE26",
+      "descripcion": "“SERVICIO HOSTING SITIO WEB MUNICIPAL DE QUILICURA DESARROLLO, REDISEÑO HEADLESS”\r\nDECRETO ALCALDICIO E. Nº4593 APRUEBA BASES "
+    },
+    {
+      "codigo": "906816-26-LE26",
+      "nombre": "SERVICIO DE GESTIÓN DOCUMENTAL",
+      "organismo": "I MUNICIPALIDAD DE TALTAL",
+      "unidad": "Secplac",
+      "tipo": "LE",
+      "cierre": "2026-12-10T15:00:00",
+      "habiles_restantes": 10,
+      "nuevo": true,
+      "visto_desde": "2026-11-25",
+      "monto": "39.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$39.0M contra ~$6M de costo estimado (2.8 meses-persona).",
+        "monto_clp": 39000000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 2.8,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 11,
+      "razones": [
+        "rubro ONU 43233405",
+        "«software» en el detalle",
+        "«gestion documental» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=906816-26-LE26",
+      "descripcion": "SERVICIO DE GESTIÓN DOCUMENTAL"
+    }
+  ]
+}
