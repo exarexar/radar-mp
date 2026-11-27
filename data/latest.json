@@ -1,198 +1,49 @@
 {
-  "generado": "2026-11-26 15:55",
-  "fecha": "2026-11-26",
+  "generado": "2026-11-27 15:47",
+  "fecha": "2026-11-27",
   "horizonte": 20,
-  "fecha_hasta": "2026-12-28",
+  "fecha_hasta": "2026-12-29",
   "primera_corrida": false,
   "modo": "solo desarrollo",
   "resumen": {
-    "activas_revisadas": 4849,
-    "detalles_consultados": 453,
-    "nuevas": 5,
-    "por_cerrar": 9,
-    "llamadas_api": 94
+    "activas_revisadas": 4899,
+    "detalles_consultados": 443,
+    "nuevas": 1,
+    "por_cerrar": 8,
+    "llamadas_api": 199
   },
   "nuevas": [
     {
-      "codigo": "5190-31-LE26",
-      "nombre": "ÁREA PERSONAL - SOFTWARE DE GESTION DEL PERSONAL",
-      "organismo": "POLICIA DE INVESTIGACIONES DE CHILE",
-      "unidad": "JENABIEN",
-      "tipo": "LE",
-      "cierre": "2026-12-07T17:00:00",
-      "habiles_restantes": 7,
+      "codigo": "744835-19-L126",
+      "nombre": "SERVICIO DE ARRIENDO DE RELOJES CONTROL DE ASISTENCIA, MARCAJE Y SOFTWARE DE GESTIÓN",
+      "organismo": "I MUNICIPALIDAD DE LO ESPEJO",
+      "unidad": "Departamento de Adquisiciones",
+      "tipo": "L1",
+      "cierre": "2026-12-04T16:04:00",
+      "habiles_restantes": 5,
       "nuevo": true,
-      "visto_desde": "2026-11-26",
-      "monto": "25.500.000 CLP",
+      "visto_desde": "2026-11-27",
+      "monto": "7.200.000 CLP",
       "precio": {
         "nivel": "verde",
         "etiqueta": "presupuesto razonable",
-        "detalle": "$25.5M contra ~$13M de costo estimado (6.3 meses-persona), $1.1M al mes por 24 meses.",
-        "monto_clp": 25500000,
-        "meses_contrato": 24.0,
-        "esfuerzo_mp": 6.3,
-        "mensual": 1062500
+        "detalle": "$7.2M contra ~$3M de costo estimado (1.7 meses-persona).",
+        "monto_clp": 7200000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
       },
       "veredicto": "revisar",
-      "puntaje": 16,
+      "puntaje": 10,
       "razones": [
-        "rubro ONU 43231505",
         "«software» en el título",
         "«software de gestion» en el título"
       ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5190-31-LE26",
-      "descripcion": "Procurar la contratación del servicio de software financiero de emisión de documentos tributarios electrónicos para el Departamento de Contabilidad y Finanzas, dependiente de la Jefatura Nacional de Bienestar y Calidad de Vida."
-    },
-    {
-      "codigo": "2098-195-LE26",
-      "nombre": "ADQUISICIÓN DE SOFTWARES PARA AUTOCLAVES HRAV",
-      "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE C",
-      "unidad": "Hospital Curanilahue",
-      "tipo": "LE",
-      "cierre": "2026-12-07T15:30:00",
-      "habiles_restantes": 7,
-      "nuevo": true,
-      "visto_desde": "2026-11-26",
-      "monto": "no informado",
-      "precio": {
-        "nivel": "sin_monto",
-        "etiqueta": "monto no publicado",
-        "detalle": "El organismo no informó presupuesto. Estimo ~1.7 meses-persona, o sea del orden de $3M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
-        "monto_clp": null,
-        "meses_contrato": null,
-        "esfuerzo_mp": 1.7,
-        "mensual": null
-      },
-      "veredicto": "revisar",
-      "puntaje": 10,
-      "razones": [
-        "rubro ONU 81111809"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2098-195-LE26",
-      "descripcion": "Conforme a Ley de Compras Públicas Nº19.886, el reglamento, sus modificaciones y su modernización, el Hospital Dr. Rafael Avaria Valenzuela de Curanilahue a través del Departamento de Abastecimiento y Logística, invita a los oferentes, personas naturales o jurídicas y Uniones Temporales de Proveedores, a participar en la licitación pública para contar con una Empresa externa, que provea de bienes o servicios, para el Hospital de Curanilahue y la red del Servicio de Salud, determinado los requisitos administrativos mínimos para participar en la propuesta y garantizar con este mismo instrumento la calidad y entrega del servicio requerido."
-    },
-    {
-      "codigo": "1057402-209-LS26",
-      "nombre": "Contratación de Servicios Especializados para el Desarrollo de Sistemas Informáticos del Hospital Clínico de Magallanes",
-      "organismo": "HOSPITAL CLINICO DE MAGALLANES DR. LAUTARO NAVARRO AVARIA",
-      "unidad": "Bienes y Servicios",
-      "tipo": "LS",
-      "cierre": "2026-12-08T18:00:00",
-      "habiles_restantes": 7,
-      "nuevo": true,
-      "visto_desde": "2026-11-26",
-      "monto": "no informado",
-      "precio": {
-        "nivel": "sin_monto",
-        "etiqueta": "monto no publicado",
-        "detalle": "El organismo no informó presupuesto. Estimo ~6.3 meses-persona, o sea del orden de $13M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
-        "monto_clp": null,
-        "meses_contrato": 24.0,
-        "esfuerzo_mp": 6.3,
-        "mensual": null
-      },
-      "veredicto": "revisar",
-      "puntaje": 9,
-      "razones": [
-        "«integracion de sistemas» en el detalle",
-        "«desarrollo e implementacion» en el detalle"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057402-209-LS26",
-      "descripcion": "Seleccionar y contratar, mediante un procedimiento competitivo, transparente y sujeto a criterios objetivos de evaluación, la prestación de servicios especializados de desarrollo de sistemas informáticos para el Hospital Clínico de Magallanes “Dr. Lautaro Navarro Avaria”. La contratación comprende tres prestaciones profesionales durante el período comprendido entre el 1 de enero de 2027 y el 31 de diciembre de 2028, con sujeción a la disponibilidad presupuestaria, a las condiciones establecidas en estas Bases Administrativas y Técnicas y a las obligaciones de continuidad, confidencialidad y seguridad de la información."
-    },
-    {
-      "codigo": "552578-69-LE26",
-      "nombre": "ARRIENDO DE LICENCIAS DIGITALES",
-      "organismo": "I MUNICIPALIDAD DE SAN RAFAEL",
-      "unidad": "SECPLAN",
-      "tipo": "LE",
-      "cierre": "2026-12-10T16:00:00",
-      "habiles_restantes": 9,
-      "nuevo": true,
-      "visto_desde": "2026-11-26",
-      "monto": "10.900.000 CLP",
-      "precio": {
-        "nivel": "verde",
-        "etiqueta": "presupuesto razonable",
-        "detalle": "$10.9M contra ~$8M de costo estimado (3.9 meses-persona), $0.9M al mes por 12 meses.",
-        "monto_clp": 10900000,
-        "meses_contrato": 12.0,
-        "esfuerzo_mp": 3.9,
-        "mensual": 908333
-      },
-      "veredicto": "revisar",
-      "puntaje": 10,
-      "razones": [
-        "rubro ONU 43231512",
-        "«software» en el detalle",
-        "«software de gestion» en el detalle"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=552578-69-LE26",
-      "descripcion": "ARRIENDO DE LICENCIAS DIGITALES"
-    },
-    {
-      "codigo": "1514-147-LP26",
-      "nombre": "Convenio para la Implementación de un Sistema de Control de Asistencia y Gestión de Turnos SICA provisión e instalación de equipos biométricos integración con la red biométrica existente e interoperabilidad con SIRH",
-      "organismo": "SERVICIO DE SALUD CHILOE",
-      "unidad": "Hospital de Castro",
-      "tipo": "LP",
-      "cierre": "2026-12-16T13:00:00",
-      "habiles_restantes": 13,
-      "nuevo": true,
-      "visto_desde": "2026-11-26",
-      "monto": "no informado",
-      "precio": {
-        "nivel": "sin_monto",
-        "etiqueta": "monto no publicado",
-        "detalle": "El organismo no informó presupuesto. Estimo ~8.7 meses-persona, o sea del orden de $17M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
-        "monto_clp": null,
-        "meses_contrato": 36.0,
-        "esfuerzo_mp": 8.7,
-        "mensual": null
-      },
-      "veredicto": "revisar",
-      "puntaje": 10,
-      "razones": [
-        "rubro ONU 43231505",
-        "«software» en el detalle",
-        "«software de gestion» en el detalle"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1514-147-LP26",
-      "descripcion": "Que es necesario establecer Convenio para el normal funcionamiento del Hospital de Castro, según bases y requerimientos técnicos adjuntos."
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=744835-19-L126",
+      "descripcion": "EL OBJETIVO PRINCIPAL ES LA CONTRATACIÓN DEL SERVICIO DE ARRIENDO DE 8 EQUIPOS DE CONTROL DE ASISTENCIA, MARCAJE Y SUS SOFTWARE DE GESTIÓN MINIMO DE 350 FUNCIONARIOS Y FUNCIONARIAS POR UN MINIMO DE 6 MESES DE LA ILUSTRE MUNICIPALIDAD DE LO ESPEJO."
     }
   ],
   "por_cerrar": [
-    {
-      "codigo": "726931-2-LE26",
-      "nombre": "PLATAFORMA INTEGRAL ALUMNI Y EMPLEABILIDAD UTA",
-      "organismo": "UNIVERSIDAD DE TARAPACA",
-      "unidad": "Direccion General de  Vinculacion con el Medio",
-      "tipo": "LE",
-      "cierre": "2026-11-26T16:00:00",
-      "habiles_restantes": 0,
-      "nuevo": false,
-      "visto_desde": "2026-11-06",
-      "monto": "24.500.000 CLP",
-      "precio": {
-        "nivel": "verde",
-        "etiqueta": "presupuesto razonable",
-        "detalle": "$24.5M contra ~$3M de costo estimado (1.7 meses-persona).",
-        "monto_clp": 24500000,
-        "meses_contrato": null,
-        "esfuerzo_mp": 1.7,
-        "mensual": null
-      },
-      "veredicto": "revisar",
-      "puntaje": 16,
-      "razones": [
-        "rubro ONU 43232408",
-        "«plataforma web» en el detalle",
-        "«software» en el detalle",
-        "«desarrollo de plataforma» en el detalle"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=726931-2-LE26",
-      "descripcion": "La Universidad de Tarapacá solicita la adquisición de servicio de plataforma integral ALUMNI y empleabilidad por un periodo de 24 meses de duración, según especificaciones técnicas descritas en el Anexo N°1. Asociada a la SC N° 2026100293."
-    },
     {
       "codigo": "1057547-482-LE26",
       "nombre": "SUSCRIPCIÓN ANUAL A PLATAFORMA DE MODELACIÓN BIM",
@@ -200,7 +51,7 @@
       "unidad": "Bienes y Servicios",
       "tipo": "LE",
       "cierre": "2026-11-27T19:00:00",
-      "habiles_restantes": 1,
+      "habiles_restantes": 0,
       "nuevo": false,
       "visto_desde": "2026-11-16",
       "monto": "7.775.360 CLP",
@@ -230,7 +81,7 @@
       "unidad": "25 - Clínica Reproducción Humana",
       "tipo": "LE",
       "cierre": "2026-11-27T17:00:00",
-      "habiles_restantes": 1,
+      "habiles_restantes": 0,
       "nuevo": false,
       "visto_desde": "2026-11-17",
       "monto": "no informado",
@@ -252,43 +103,13 @@
       "descripcion": "La necesidad de contar con servicio integral de mejoras de conectividad y red de datos para el edificio Bruno Günther de la Universidad de Valparaíso, ubicado en Hontaneda N°2664, ciudad de Valparaíso, el que actualmente alberga a la clínica de reproducción humana y laboratorios de investigación de medicina."
     },
     {
-      "codigo": "872-55-LE26",
-      "nombre": "Licencias contra la Pérdida de Datos DLP",
-      "organismo": "Comisión Chilena de Energía Nuclear",
-      "unidad": "Comisión Chilena de Energía Nuclear",
-      "tipo": "LE",
-      "cierre": "2026-11-27T15:00:00",
-      "habiles_restantes": 1,
-      "nuevo": false,
-      "visto_desde": "2026-11-17",
-      "monto": "no informado",
-      "precio": {
-        "nivel": "sin_monto",
-        "etiqueta": "monto no publicado",
-        "detalle": "El organismo no informó presupuesto. Estimo ~1.7 meses-persona, o sea del orden de $3M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
-        "monto_clp": null,
-        "meses_contrato": null,
-        "esfuerzo_mp": 1.7,
-        "mensual": null
-      },
-      "veredicto": "revisar",
-      "puntaje": 10,
-      "razones": [
-        "rubro ONU 43231512",
-        "«software» en el detalle",
-        "«software de gestion» en el detalle"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=872-55-LE26",
-      "descripcion": "La Comisión Chilena de Energía Nuclear CCHEN requiere contratar el servicio de suministro, habilitación y uso de 350 licencias de una solución integral de Prevención contra la Pérdida de Datos Data Loss Prevention - DLP, por un período de 24 meses, tomando como referencia la plataforma Forcepoint DLP o una solución técnicamente equivalente, que permita descubrir, monitorear, controlar, clasificar y proteger activamente la información confidencial, sensible y regulada de la Institución, durante todo su ciclo de vida y frente a los distintos vectores de posible fuga o exfiltración de datos, tanto dentro como fuera de la infraestructura institucional."
-    },
-    {
       "codigo": "4023-33-LE26",
       "nombre": "Sistema Gestión Documental Municipal Putre",
       "organismo": "ILUSTRE MUNICIPALIDAD DE PUTRE",
       "unidad": "Secoplac",
       "tipo": "LE",
       "cierre": "2026-11-30T16:16:00",
-      "habiles_restantes": 2,
+      "habiles_restantes": 1,
       "nuevo": false,
       "visto_desde": "2026-11-20",
       "monto": "no informado",
@@ -314,42 +135,13 @@
       "descripcion": "Contratar una consultoría especializada para el diseño, desarrollo, implementación y puesta en marcha de un Sistema de Gestión Documental Municipal, incluyendo la capacitación de los funcionarios, con la finalidad de modernizar y optimizar los procesos administrativos internos, fortaleciendo la trazabilidad documental, los flujos de trabajo y el seguimiento de los tiempos de tramitación de la Ilustre Municipalidad de Putre, conforme a las Bases Administrativas Generales y Bases Técnicas de la licitación."
     },
     {
-      "codigo": "1590-10-L126",
-      "nombre": "DISEÑO Y DESARROLLO DE UN PRODUCTO DIGITAL PARA LA GESTIÓN Y SEGUIMIENTO DE COMPROMISOS INSTITUCIONALES, CON APOYO DE INTELIGENCIA ARTIFICIAL",
-      "organismo": "SUBSECRETARIA DEL MINISTERIO DE AGRICULT",
-      "unidad": "Subsecretaría de Agricultura",
-      "tipo": "L1",
-      "cierre": "2026-11-30T15:01:00",
-      "habiles_restantes": 2,
-      "nuevo": false,
-      "visto_desde": "2026-11-24",
-      "monto": "7.000.000 CLP",
-      "precio": {
-        "nivel": "verde",
-        "etiqueta": "presupuesto razonable",
-        "detalle": "$7.0M contra ~$3M de costo estimado (1.7 meses-persona).",
-        "monto_clp": 7000000,
-        "meses_contrato": null,
-        "esfuerzo_mp": 1.7,
-        "mensual": null
-      },
-      "veredicto": "revisar",
-      "puntaje": 17,
-      "razones": [
-        "rubro ONU 43231507",
-        "«diseno y desarrollo» en el título"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1590-10-L126",
-      "descripcion": "Diseño y desarrollo de un producto digital para la Gestión y seguimiento de compromisos institucionales, con apoyo de Inteligencia artificial.\nLa contratación del diseño, desarrollo, prueba, documentación y entrega de un producto digital funcional para el registro y seguimiento de compromisos institucionales, con apoyo acotado de inteligencia artificial y validación humana.\n"
-    },
-    {
       "codigo": "584264-51-LE26",
       "nombre": "PLATAFORMA CRM MUNICIPAL DE ATENCIÓN AL VECINO APP",
       "organismo": "I MUNICIPALIDAD DE INDEPENDENCIA",
       "unidad": "DIRECCION DE SECPLA",
       "tipo": "LE",
       "cierre": "2026-11-30T15:05:00",
-      "habiles_restantes": 2,
+      "habiles_restantes": 1,
       "nuevo": false,
       "visto_desde": "2026-11-20",
       "monto": "no informado",
@@ -380,7 +172,7 @@
       "unidad": "División de Bienestar Social",
       "tipo": "LE",
       "cierre": "2026-11-30T15:00:00",
-      "habiles_restantes": 2,
+      "habiles_restantes": 1,
       "nuevo": false,
       "visto_desde": "2026-11-20",
       "monto": "25.000.000 CLP",
@@ -408,7 +200,7 @@
       "unidad": "Unidad de Adquisiciones",
       "tipo": "LP",
       "cierre": "2026-11-30T15:00:00",
-      "habiles_restantes": 2,
+      "habiles_restantes": 1,
       "nuevo": false,
       "visto_desde": "2026-11-09",
       "monto": "no informado",
@@ -428,55 +220,83 @@
       ],
       "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5155-40-LP26",
       "descripcion": "El SERVEL requiere proveer la contratación por servicios para la mantención y soporte extendido de infraestructura TI y sistemas informáticos para las plataformas que actualmente administra SERVEL según detalle en bases de licitación.\r\nLa participación en el proceso de licitación implica la aceptación, por parte de los proponentes, de todos y cada uno de los términos y disposiciones contenidas en las Bases, sin necesidad de declaración expresa del oferente."
-    }
-  ],
-  "oportunidades": [
+    },
     {
-      "codigo": "5190-31-LE26",
-      "nombre": "ÁREA PERSONAL - SOFTWARE DE GESTION DEL PERSONAL",
-      "organismo": "POLICIA DE INVESTIGACIONES DE CHILE",
-      "unidad": "JENABIEN",
-      "tipo": "LE",
-      "cierre": "2026-12-07T17:00:00",
-      "habiles_restantes": 7,
-      "nuevo": true,
-      "visto_desde": "2026-11-26",
-      "monto": "25.500.000 CLP",
+      "codigo": "1469-406-L126",
+      "nombre": "SERVICIO DE VERIFICACIÓN FUNCIONAL Y RECONEXÓN DE INTEGRACIONES EN EL AMBIENTE DE QAS POST COPIA DE MANDANTE PARA ERP SAP DE LA UNIVERSIDAD DE TALCA",
+      "organismo": "UNIVERSIDAD DE TALCA",
+      "unidad": "Universidad de Talca",
+      "tipo": "L1",
+      "cierre": "2026-12-01T18:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-11-24",
+      "monto": "50 CLF",
       "precio": {
-        "nivel": "verde",
-        "etiqueta": "presupuesto razonable",
-        "detalle": "$25.5M contra ~$13M de costo estimado (6.3 meses-persona), $1.1M al mes por 24 meses.",
-        "monto_clp": 25500000,
-        "meses_contrato": 24.0,
-        "esfuerzo_mp": 6.3,
-        "mensual": 1062500
+        "nivel": "amarilla",
+        "etiqueta": "margen apretado",
+        "detalle": "$2.0M contra ~$11M de costo estimado (5.4 meses-persona). Se puede, pero sin espacio para imprevistos.",
+        "monto_clp": 2042500,
+        "meses_contrato": null,
+        "esfuerzo_mp": 5.4,
+        "mensual": null
       },
       "veredicto": "revisar",
       "puntaje": 16,
       "razones": [
-        "rubro ONU 43231505",
-        "«software» en el título",
-        "«software de gestion» en el título"
+        "rubro ONU 81111507",
+        "«erp» en el título"
       ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5190-31-LE26",
-      "descripcion": "Procurar la contratación del servicio de software financiero de emisión de documentos tributarios electrónicos para el Departamento de Contabilidad y Finanzas, dependiente de la Jefatura Nacional de Bienestar y Calidad de Vida."
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1469-406-L126",
+      "descripcion": "La Universidad de Talca, realizará una copia de mandante, y requiere realizar una verificación funcional de las integraciones y la reconexion de aquellas que no están operativas, garantizando el correcto funcionamiento del ambiente de SAP QAS."
     },
     {
-      "codigo": "2098-195-LE26",
-      "nombre": "ADQUISICIÓN DE SOFTWARES PARA AUTOCLAVES HRAV",
-      "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE C",
-      "unidad": "Hospital Curanilahue",
+      "codigo": "2020-26-LE26",
+      "nombre": "MIGRACIÓN ACTUALIZACIÓN DE PLATAFORMA TECNOLOGICA",
+      "organismo": "Biblioteca del Congreso Nacional",
+      "unidad": "Biblioteca del Congreso Nacional",
       "tipo": "LE",
-      "cierre": "2026-12-07T15:30:00",
-      "habiles_restantes": 7,
-      "nuevo": true,
-      "visto_desde": "2026-11-26",
-      "monto": "no informado",
+      "cierre": "2026-12-01T15:01:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-11-17",
+      "monto": "30.000.000 CLP",
       "precio": {
-        "nivel": "sin_monto",
-        "etiqueta": "monto no publicado",
-        "detalle": "El organismo no informó presupuesto. Estimo ~1.7 meses-persona, o sea del orden de $3M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
-        "monto_clp": null,
+        "nivel": "roja",
+        "etiqueta": "no paga ni una persona",
+        "detalle": "$30.0M repartidos en 120 meses son $0.2M al mes. No alcanza ni para tener a una persona dedicada.",
+        "monto_clp": 30000000,
+        "meses_contrato": 120.0,
+        "esfuerzo_mp": 25.5,
+        "mensual": 250000
+      },
+      "veredicto": "nogo",
+      "puntaje": 9,
+      "razones": [
+        "rubro ONU 81112202",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2020-26-LE26",
+      "descripcion": "SERVICIO DE MIGRACIÓN DE FUNCIONALIDADES DE GESTIÓN DE\r\nDATOS DEL SISTEMA HISTORIA DE LA LEY Y LABOR PARLAMENTARIA, PARA LA\r\nBIBLIOTECA DEL CONGRESO NACIONAL."
+    }
+  ],
+  "oportunidades": [
+    {
+      "codigo": "744835-19-L126",
+      "nombre": "SERVICIO DE ARRIENDO DE RELOJES CONTROL DE ASISTENCIA, MARCAJE Y SOFTWARE DE GESTIÓN",
+      "organismo": "I MUNICIPALIDAD DE LO ESPEJO",
+      "unidad": "Departamento de Adquisiciones",
+      "tipo": "L1",
+      "cierre": "2026-12-04T16:04:00",
+      "habiles_restantes": 5,
+      "nuevo": true,
+      "visto_desde": "2026-11-27",
+      "monto": "7.200.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$7.2M contra ~$3M de costo estimado (1.7 meses-persona).",
+        "monto_clp": 7200000,
         "meses_contrato": null,
         "esfuerzo_mp": 1.7,
         "mensual": null
@@ -484,99 +304,11 @@
       "veredicto": "revisar",
       "puntaje": 10,
       "razones": [
-        "rubro ONU 81111809"
+        "«software» en el título",
+        "«software de gestion» en el título"
       ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2098-195-LE26",
-      "descripcion": "Conforme a Ley de Compras Públicas Nº19.886, el reglamento, sus modificaciones y su modernización, el Hospital Dr. Rafael Avaria Valenzuela de Curanilahue a través del Departamento de Abastecimiento y Logística, invita a los oferentes, personas naturales o jurídicas y Uniones Temporales de Proveedores, a participar en la licitación pública para contar con una Empresa externa, que provea de bienes o servicios, para el Hospital de Curanilahue y la red del Servicio de Salud, determinado los requisitos administrativos mínimos para participar en la propuesta y garantizar con este mismo instrumento la calidad y entrega del servicio requerido."
-    },
-    {
-      "codigo": "1057402-209-LS26",
-      "nombre": "Contratación de Servicios Especializados para el Desarrollo de Sistemas Informáticos del Hospital Clínico de Magallanes",
-      "organismo": "HOSPITAL CLINICO DE MAGALLANES DR. LAUTARO NAVARRO AVARIA",
-      "unidad": "Bienes y Servicios",
-      "tipo": "LS",
-      "cierre": "2026-12-08T18:00:00",
-      "habiles_restantes": 7,
-      "nuevo": true,
-      "visto_desde": "2026-11-26",
-      "monto": "no informado",
-      "precio": {
-        "nivel": "sin_monto",
-        "etiqueta": "monto no publicado",
-        "detalle": "El organismo no informó presupuesto. Estimo ~6.3 meses-persona, o sea del orden de $13M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
-        "monto_clp": null,
-        "meses_contrato": 24.0,
-        "esfuerzo_mp": 6.3,
-        "mensual": null
-      },
-      "veredicto": "revisar",
-      "puntaje": 9,
-      "razones": [
-        "«integracion de sistemas» en el detalle",
-        "«desarrollo e implementacion» en el detalle"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057402-209-LS26",
-      "descripcion": "Seleccionar y contratar, mediante un procedimiento competitivo, transparente y sujeto a criterios objetivos de evaluación, la prestación de servicios especializados de desarrollo de sistemas informáticos para el Hospital Clínico de Magallanes “Dr. Lautaro Navarro Avaria”. La contratación comprende tres prestaciones profesionales durante el período comprendido entre el 1 de enero de 2027 y el 31 de diciembre de 2028, con sujeción a la disponibilidad presupuestaria, a las condiciones establecidas en estas Bases Administrativas y Técnicas y a las obligaciones de continuidad, confidencialidad y seguridad de la información."
-    },
-    {
-      "codigo": "552578-69-LE26",
-      "nombre": "ARRIENDO DE LICENCIAS DIGITALES",
-      "organismo": "I MUNICIPALIDAD DE SAN RAFAEL",
-      "unidad": "SECPLAN",
-      "tipo": "LE",
-      "cierre": "2026-12-10T16:00:00",
-      "habiles_restantes": 9,
-      "nuevo": true,
-      "visto_desde": "2026-11-26",
-      "monto": "10.900.000 CLP",
-      "precio": {
-        "nivel": "verde",
-        "etiqueta": "presupuesto razonable",
-        "detalle": "$10.9M contra ~$8M de costo estimado (3.9 meses-persona), $0.9M al mes por 12 meses.",
-        "monto_clp": 10900000,
-        "meses_contrato": 12.0,
-        "esfuerzo_mp": 3.9,
-        "mensual": 908333
-      },
-      "veredicto": "revisar",
-      "puntaje": 10,
-      "razones": [
-        "rubro ONU 43231512",
-        "«software» en el detalle",
-        "«software de gestion» en el detalle"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=552578-69-LE26",
-      "descripcion": "ARRIENDO DE LICENCIAS DIGITALES"
-    },
-    {
-      "codigo": "1514-147-LP26",
-      "nombre": "Convenio para la Implementación de un Sistema de Control de Asistencia y Gestión de Turnos SICA provisión e instalación de equipos biométricos integración con la red biométrica existente e interoperabilidad con SIRH",
-      "organismo": "SERVICIO DE SALUD CHILOE",
-      "unidad": "Hospital de Castro",
-      "tipo": "LP",
-      "cierre": "2026-12-16T13:00:00",
-      "habiles_restantes": 13,
-      "nuevo": true,
-      "visto_desde": "2026-11-26",
-      "monto": "no informado",
-      "precio": {
-        "nivel": "sin_monto",
-        "etiqueta": "monto no publicado",
-        "detalle": "El organismo no informó presupuesto. Estimo ~8.7 meses-persona, o sea del orden de $17M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
-        "monto_clp": null,
-        "meses_contrato": 36.0,
-        "esfuerzo_mp": 8.7,
-        "mensual": null
-      },
-      "veredicto": "revisar",
-      "puntaje": 10,
-      "razones": [
-        "rubro ONU 43231505",
-        "«software» en el detalle",
-        "«software de gestion» en el detalle"
-      ],
-      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1514-147-LP26",
-      "descripcion": "Que es necesario establecer Convenio para el normal funcionamiento del Hospital de Castro, según bases y requerimientos técnicos adjuntos."
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=744835-19-L126",
+      "descripcion": "EL OBJETIVO PRINCIPAL ES LA CONTRATACIÓN DEL SERVICIO DE ARRIENDO DE 8 EQUIPOS DE CONTROL DE ASISTENCIA, MARCAJE Y SUS SOFTWARE DE GESTIÓN MINIMO DE 350 FUNCIONARIOS Y FUNCIONARIAS POR UN MINIMO DE 6 MESES DE LA ILUSTRE MUNICIPALIDAD DE LO ESPEJO."
     }
   ]
 }

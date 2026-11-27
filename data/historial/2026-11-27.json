@@ -1,0 +1,314 @@
+{
+  "generado": "2026-11-27 15:47",
+  "fecha": "2026-11-27",
+  "horizonte": 20,
+  "fecha_hasta": "2026-12-29",
+  "primera_corrida": false,
+  "modo": "solo desarrollo",
+  "resumen": {
+    "activas_revisadas": 4899,
+    "detalles_consultados": 443,
+    "nuevas": 1,
+    "por_cerrar": 8,
+    "llamadas_api": 199
+  },
+  "nuevas": [
+    {
+      "codigo": "744835-19-L126",
+      "nombre": "SERVICIO DE ARRIENDO DE RELOJES CONTROL DE ASISTENCIA, MARCAJE Y SOFTWARE DE GESTIÓN",
+      "organismo": "I MUNICIPALIDAD DE LO ESPEJO",
+      "unidad": "Departamento de Adquisiciones",
+      "tipo": "L1",
+      "cierre": "2026-12-04T16:04:00",
+      "habiles_restantes": 5,
+      "nuevo": true,
+      "visto_desde": "2026-11-27",
+      "monto": "7.200.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$7.2M contra ~$3M de costo estimado (1.7 meses-persona).",
+        "monto_clp": 7200000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "«software» en el título",
+        "«software de gestion» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=744835-19-L126",
+      "descripcion": "EL OBJETIVO PRINCIPAL ES LA CONTRATACIÓN DEL SERVICIO DE ARRIENDO DE 8 EQUIPOS DE CONTROL DE ASISTENCIA, MARCAJE Y SUS SOFTWARE DE GESTIÓN MINIMO DE 350 FUNCIONARIOS Y FUNCIONARIAS POR UN MINIMO DE 6 MESES DE LA ILUSTRE MUNICIPALIDAD DE LO ESPEJO."
+    }
+  ],
+  "por_cerrar": [
+    {
+      "codigo": "1057547-482-LE26",
+      "nombre": "SUSCRIPCIÓN ANUAL A PLATAFORMA DE MODELACIÓN BIM",
+      "organismo": "SERVICIO DE SALUD VALDIVIA HOSPITAL BASE",
+      "unidad": "Bienes y Servicios",
+      "tipo": "LE",
+      "cierre": "2026-11-27T19:00:00",
+      "habiles_restantes": 0,
+      "nuevo": false,
+      "visto_desde": "2026-11-16",
+      "monto": "7.775.360 CLP",
+      "precio": {
+        "nivel": "roja",
+        "etiqueta": "no paga ni una persona",
+        "detalle": "$7.8M repartidos en 12 meses son $0.6M al mes. No alcanza ni para tener a una persona dedicada.",
+        "monto_clp": 7775360,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 3.9,
+        "mensual": 647947
+      },
+      "veredicto": "nogo",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 43231512",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057547-482-LE26",
+      "descripcion": "CONTRATACIÓN DE SUSCRIPCIÓN ANUAL A PLATAFORMA DE MODELACIÓN BIM EN LA NUBE PARA LA COORDINACIÓN DE PROYECTOS DE ARQUITECTURA Y ESPECIALIDADES DEL HOSPITAL BASE VALDIVIA"
+    },
+    {
+      "codigo": "1359575-10-LE26",
+      "nombre": "Servicio de mejoras de conectividad y red de datos",
+      "organismo": "UNIVERSIDAD DE VALPARAISO",
+      "unidad": "25 - Clínica Reproducción Humana",
+      "tipo": "LE",
+      "cierre": "2026-11-27T17:00:00",
+      "habiles_restantes": 0,
+      "nuevo": false,
+      "visto_desde": "2026-11-17",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~1.7 meses-persona, o sea del orden de $3M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 81111809"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1359575-10-LE26",
+      "descripcion": "La necesidad de contar con servicio integral de mejoras de conectividad y red de datos para el edificio Bruno Günther de la Universidad de Valparaíso, ubicado en Hontaneda N°2664, ciudad de Valparaíso, el que actualmente alberga a la clínica de reproducción humana y laboratorios de investigación de medicina."
+    },
+    {
+      "codigo": "4023-33-LE26",
+      "nombre": "Sistema Gestión Documental Municipal Putre",
+      "organismo": "ILUSTRE MUNICIPALIDAD DE PUTRE",
+      "unidad": "Secoplac",
+      "tipo": "LE",
+      "cierre": "2026-11-30T16:16:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-11-20",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~2.8 meses-persona, o sea del orden de $6M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": null,
+        "esfuerzo_mp": 2.8,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 19,
+      "razones": [
+        "rubro ONU 81111505",
+        "«programacion» en el detalle",
+        "«sistema de gestion» en el detalle",
+        "«gestion documental» en el título",
+        "ruido: «capacitacion»"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4023-33-LE26",
+      "descripcion": "Contratar una consultoría especializada para el diseño, desarrollo, implementación y puesta en marcha de un Sistema de Gestión Documental Municipal, incluyendo la capacitación de los funcionarios, con la finalidad de modernizar y optimizar los procesos administrativos internos, fortaleciendo la trazabilidad documental, los flujos de trabajo y el seguimiento de los tiempos de tramitación de la Ilustre Municipalidad de Putre, conforme a las Bases Administrativas Generales y Bases Técnicas de la licitación."
+    },
+    {
+      "codigo": "584264-51-LE26",
+      "nombre": "PLATAFORMA CRM MUNICIPAL DE ATENCIÓN AL VECINO APP",
+      "organismo": "I MUNICIPALIDAD DE INDEPENDENCIA",
+      "unidad": "DIRECCION DE SECPLA",
+      "tipo": "LE",
+      "cierre": "2026-11-30T15:05:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-11-20",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~3.9 meses-persona, o sea del orden de $8M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 3.9,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 15,
+      "razones": [
+        "rubro ONU 43232303",
+        "«aplicacion movil» en el detalle",
+        "«software» en el detalle",
+        "«software de gestion» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=584264-51-LE26",
+      "descripcion": "La presente licitación tiene por objetivo la contratación de una solución tecnológica integral para la gestión y atención ciudadana, compuesta por una plataforma CRM Municipal de Atención al Vecino y una aplicación móvil integrada, que permita centralizar la información de los vecinos, registrar y gestionar solicitudes y requerimientos, realizar su derivación y seguimiento, mantener trazabilidad de las atenciones y disponer de información e indicadores que fortalezcan la gestión municipal.\r\n\r\nLa solución deberá permitir, además, que los vecinos ingresen y realicen seguimiento de sus solicitudes a través de la aplicación móvil, manteniendo integración con la plataforma utilizada por los funcionarios."
+    },
+    {
+      "codigo": "2974-99-LE26",
+      "nombre": "ADQ. DE HARDWARE COMPUTACIONAL PARA LA D.B.S.",
+      "organismo": "FUERZA AEREA DE CHILE COMANDO LOGISTICO",
+      "unidad": "División de Bienestar Social",
+      "tipo": "LE",
+      "cierre": "2026-11-30T15:00:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-11-20",
+      "monto": "25.000.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$25.0M contra ~$3M de costo estimado (1.7 meses-persona).",
+        "monto_clp": 25000000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 81111812"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2974-99-LE26",
+      "descripcion": "ADQUISICIÓN DE HARDWARE COMPUTACIONAL PARA LA DIVISIÓN DE BIENESTAR SOCIAL (662/2026).  "
+    },
+    {
+      "codigo": "5155-40-LP26",
+      "nombre": "571 - Contratación servicos de soporte extendido de infraestructura TI y Sistemas informáticos",
+      "organismo": "SERVICIO ELECTORAL",
+      "unidad": "Unidad de Adquisiciones",
+      "tipo": "LP",
+      "cierre": "2026-11-30T15:00:00",
+      "habiles_restantes": 1,
+      "nuevo": false,
+      "visto_desde": "2026-11-09",
+      "monto": "no informado",
+      "precio": {
+        "nivel": "sin_monto",
+        "etiqueta": "monto no publicado",
+        "detalle": "El organismo no informó presupuesto. Estimo ~2.9 meses-persona, o sea del orden de $6M solo en costo tuyo. Pregunta por el monto antes de invertir tiempo.",
+        "monto_clp": null,
+        "meses_contrato": 12.0,
+        "esfuerzo_mp": 2.9,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "rubro ONU 81111812"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5155-40-LP26",
+      "descripcion": "El SERVEL requiere proveer la contratación por servicios para la mantención y soporte extendido de infraestructura TI y sistemas informáticos para las plataformas que actualmente administra SERVEL según detalle en bases de licitación.\r\nLa participación en el proceso de licitación implica la aceptación, por parte de los proponentes, de todos y cada uno de los términos y disposiciones contenidas en las Bases, sin necesidad de declaración expresa del oferente."
+    },
+    {
+      "codigo": "1469-406-L126",
+      "nombre": "SERVICIO DE VERIFICACIÓN FUNCIONAL Y RECONEXÓN DE INTEGRACIONES EN EL AMBIENTE DE QAS POST COPIA DE MANDANTE PARA ERP SAP DE LA UNIVERSIDAD DE TALCA",
+      "organismo": "UNIVERSIDAD DE TALCA",
+      "unidad": "Universidad de Talca",
+      "tipo": "L1",
+      "cierre": "2026-12-01T18:00:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-11-24",
+      "monto": "50 CLF",
+      "precio": {
+        "nivel": "amarilla",
+        "etiqueta": "margen apretado",
+        "detalle": "$2.0M contra ~$11M de costo estimado (5.4 meses-persona). Se puede, pero sin espacio para imprevistos.",
+        "monto_clp": 2042500,
+        "meses_contrato": null,
+        "esfuerzo_mp": 5.4,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 16,
+      "razones": [
+        "rubro ONU 81111507",
+        "«erp» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1469-406-L126",
+      "descripcion": "La Universidad de Talca, realizará una copia de mandante, y requiere realizar una verificación funcional de las integraciones y la reconexion de aquellas que no están operativas, garantizando el correcto funcionamiento del ambiente de SAP QAS."
+    },
+    {
+      "codigo": "2020-26-LE26",
+      "nombre": "MIGRACIÓN ACTUALIZACIÓN DE PLATAFORMA TECNOLOGICA",
+      "organismo": "Biblioteca del Congreso Nacional",
+      "unidad": "Biblioteca del Congreso Nacional",
+      "tipo": "LE",
+      "cierre": "2026-12-01T15:01:00",
+      "habiles_restantes": 2,
+      "nuevo": false,
+      "visto_desde": "2026-11-17",
+      "monto": "30.000.000 CLP",
+      "precio": {
+        "nivel": "roja",
+        "etiqueta": "no paga ni una persona",
+        "detalle": "$30.0M repartidos en 120 meses son $0.2M al mes. No alcanza ni para tener a una persona dedicada.",
+        "monto_clp": 30000000,
+        "meses_contrato": 120.0,
+        "esfuerzo_mp": 25.5,
+        "mensual": 250000
+      },
+      "veredicto": "nogo",
+      "puntaje": 9,
+      "razones": [
+        "rubro ONU 81112202",
+        "«software» en el detalle"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2020-26-LE26",
+      "descripcion": "SERVICIO DE MIGRACIÓN DE FUNCIONALIDADES DE GESTIÓN DE\r\nDATOS DEL SISTEMA HISTORIA DE LA LEY Y LABOR PARLAMENTARIA, PARA LA\r\nBIBLIOTECA DEL CONGRESO NACIONAL."
+    }
+  ],
+  "oportunidades": [
+    {
+      "codigo": "744835-19-L126",
+      "nombre": "SERVICIO DE ARRIENDO DE RELOJES CONTROL DE ASISTENCIA, MARCAJE Y SOFTWARE DE GESTIÓN",
+      "organismo": "I MUNICIPALIDAD DE LO ESPEJO",
+      "unidad": "Departamento de Adquisiciones",
+      "tipo": "L1",
+      "cierre": "2026-12-04T16:04:00",
+      "habiles_restantes": 5,
+      "nuevo": true,
+      "visto_desde": "2026-11-27",
+      "monto": "7.200.000 CLP",
+      "precio": {
+        "nivel": "verde",
+        "etiqueta": "presupuesto razonable",
+        "detalle": "$7.2M contra ~$3M de costo estimado (1.7 meses-persona).",
+        "monto_clp": 7200000,
+        "meses_contrato": null,
+        "esfuerzo_mp": 1.7,
+        "mensual": null
+      },
+      "veredicto": "revisar",
+      "puntaje": 10,
+      "razones": [
+        "«software» en el título",
+        "«software de gestion» en el título"
+      ],
+      "url": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=744835-19-L126",
+      "descripcion": "EL OBJETIVO PRINCIPAL ES LA CONTRATACIÓN DEL SERVICIO DE ARRIENDO DE 8 EQUIPOS DE CONTROL DE ASISTENCIA, MARCAJE Y SUS SOFTWARE DE GESTIÓN MINIMO DE 350 FUNCIONARIOS Y FUNCIONARIAS POR UN MINIMO DE 6 MESES DE LA ILUSTRE MUNICIPALIDAD DE LO ESPEJO."
+    }
+  ]
+}
